@@ -1,0 +1,7 @@
+outputs
+papers
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/pilot_samples_smoke/
+run.ipynb

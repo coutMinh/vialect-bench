@@ -1,0 +1,44 @@
+tasks:
+  sentiment:
+    selected_dataset: tridm/UIT-VSMEC
+    rationale: >
+      Publicly loadable now and contains short Vietnamese social-style utterances
+      with emotion labels. Treat as the runnable pilot for sentiment/emotion
+      robustness until a cleaner sentiment-only dataset is accessible.
+    candidates:
+      - id: uitnlp/vietnamese_students_feedback
+        status: candidate_blocked
+        note: Current Hugging Face package rejects its legacy dataset script.
+      - id: tridm/UIT-VSMEC
+        status: selected
+        split: train
+        text_fields: [Sentence]
+        label_field: Emotion
+      - id: hung20gg/NEU-ESC
+        status: candidate_blocked
+        note: Gated on Hugging Face; requires access approval.
+
+  nli:
+    selected_dataset: uitnlp/ViANLI
+    rationale: >
+      Publicly loadable Vietnamese NLI with balanced entailment, neutral, and
+      contradiction labels, suitable for meaning-preserving dialect stress tests.
+    candidates:
+      - id: uitnlp/ViANLI
+        status: selected
+        split: train
+        text_fields: [premise, hypothesis]
+        label_field: label
+
+  qa:
+    selected_dataset: taidng/UIT-ViQuAD2.0
+    rationale: >
+      Publicly loadable extractive QA benchmark. For the dialect pilot, keep
+      context unchanged and dialect-paraphrase only the question, so answer
+      spans remain valid.
+    candidates:
+      - id: taidng/UIT-ViQuAD2.0
+        status: selected
+        split: train
+        text_fields: [context, question]
+        label_field: answers

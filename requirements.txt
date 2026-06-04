@@ -1,0 +1,7 @@
+datasets>=3.0.0
+huggingface-hub>=0.24.0
+numpy>=1.24.0
+pyyaml>=6.0.0
+transformers>=4.45.0
+torch>=2.3.0
+tqdm>=4.66.0

@@ -1,0 +1,29 @@
+zero_shot_llms:
+  - name: Qwen 2.5 7B Instruct
+    model_id: Qwen/Qwen2.5-7B-Instruct
+    notes: Strong multilingual open instruct model; run zero-shot prompts.
+  - name: Gemma 2 9B IT
+    model_id: google/gemma-2-9b-it
+    notes: Open instruct family; may require accepting Google license on Hugging Face.
+  - name: Llama 3.1 8B Instruct
+    model_id: meta-llama/Llama-3.1-8B-Instruct
+    notes: Open instruct family; may require accepting Meta license on Hugging Face.
+  - name: Mistral 7B Instruct v0.3
+    model_id: mistralai/Mistral-7B-Instruct-v0.3
+    notes: Open instruct family; useful non-Asian multilingual baseline.
+  - name: Vistral 7B Chat
+    model_id: Viet-Mistral/Vistral-7B-Chat
+    notes: Vietnamese-oriented LLM candidate; verify availability before running.
+  - name: SeaLLM 7B Chat
+    model_id: SeaLLMs/SeaLLMs-v3-7B-Chat
+    notes: Southeast Asian multilingual LLM candidate; verify availability before running.
+
+pretrained_or_finetuned_task_models:
+  sentiment:
+    - name: PhoBERT sentiment checkpoint placeholder
+      model_id: null
+      notes: Fill with an evaluated Vietnamese sentiment checkpoint if used.
+  mt:
+    - name: ViDia2Std normalization or dialect-to-standard MT checkpoint
+      model_id: null
+      notes: Fill with the checkpoint/path from the existing dialect dataset paper.
