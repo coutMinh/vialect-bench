@@ -1,4 +1,10 @@
 zero_shot_llms:
+  - name: Qwen 2.5 0.5B Instruct
+    model_id: Qwen/Qwen2.5-0.5B-Instruct
+    notes: Small smoke-test model for checking the probing pipeline on Colab.
+  - name: Qwen 2.5 3B Instruct
+    model_id: Qwen/Qwen2.5-3B-Instruct
+    notes: Better Colab-scale probe model; use this before trying 7B.
   - name: Qwen 2.5 7B Instruct
     model_id: Qwen/Qwen2.5-7B-Instruct
     notes: Strong multilingual open instruct model; run zero-shot prompts.

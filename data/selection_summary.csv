@@ -1,0 +1,5 @@
+task,dataset,num_samples,num_candidates,selection_pool,seed,labels
+sentiment,tridm/UIT-VSMEC,100,4931,3000,42,"{""Disgust"": 22, ""Anger"": 6, ""Sadness"": 19, ""Enjoyment"": 32, ""Surprise"": 4, ""Fear"": 5, ""Other"": 12}"
+nli,uitnlp/ViANLI,100,8012,3000,42,"{""contradiction"": 44, ""entailment"": 24, ""neutral"": 32}"
+qa,taidng/UIT-ViQuAD2.0,100,13426,3000,42,"{""answerable"": 100}"
+mcqa,uitnlp/vimmrc2.0,100,306,306,42,"{""A"": 35, ""C"": 26, ""D"": 13, ""B"": 26}"

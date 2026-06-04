@@ -11,6 +11,7 @@ on standard/dialect testcase pairs.
 | Sentiment/emotion | `tridm/UIT-VSMEC` | Publicly loadable now; short social-style Vietnamese utterances are useful for dialect perturbation. |
 | NLI | `uitnlp/ViANLI` | Public Vietnamese NLI with entailment, neutral, contradiction labels. |
 | QA | `taidng/UIT-ViQuAD2.0` | Public extractive QA. For the pilot, keep context unchanged and dialect-paraphrase only the question. |
+| MCQA | `uitnlp/vimmrc2.0` | Public multiple-choice reading comprehension. For the pilot, keep context/options unchanged and dialect-paraphrase only the question. |
 
 Two sentiment candidates are not selected for the runnable pilot yet:
 `uitnlp/vietnamese_students_feedback` currently uses a legacy dataset script
@@ -31,21 +32,26 @@ Task strategies:
   then select by low similarity on `question` only. The context is not used for
   similarity because long contexts dominate the comparison and should not be
   dialect-paraphrased in the pilot.
+- MCQA: flatten ViMMRC topic/article rows into individual question rows. Keep
+  only grade 1-3 general topics, exclude named/historical/legend topics such as
+  `Bác Hồ` and `Chử Đồng Tử`, and select exactly 100 questions with no more than
+  2 questions from the same topic. Each question keeps the original context,
+  four A-D options, and answer letter.
 
 Run:
 
 ```bash
-python -m src.vialect_bench.select_samples --sample-size 100 --seed 42
+python src/select_samples.py --sample-size 100 --seed 42
 ```
 
 Smoke test:
 
 ```bash
-python -m src.vialect_bench.select_samples --sample-size 5 --max-source-rows 200
+python src/select_samples.py --sample-size 5 --max-source-rows 200
 ```
 
-Outputs are written to `data/pilot_samples/*.jsonl` plus
-`data/pilot_samples/selection_summary.csv`. Each selected row keeps the original
+Outputs are written to `data/*.jsonl` plus
+`data/selection_summary.csv`. Each selected row keeps the original
 Hugging Face columns directly, with only `_task`, `_source_dataset`, and
 `_source_index` added for provenance.
 
@@ -59,7 +65,7 @@ the ViDia2Std/sentiment model paths are confirmed.
 Run one model on dialect cases:
 
 ```bash
-python -m src.vialect_bench.probe_models --model-name "Qwen 2.5 7B Instruct"
+python src/probe_models.py --model-name "Qwen 2.5 7B Instruct"
 ```
 
 The probe records raw outputs for truthfulness/debugging instead of hiding

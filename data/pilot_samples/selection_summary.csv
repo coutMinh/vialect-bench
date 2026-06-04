@@ -1,4 +1,0 @@
-task,dataset,num_samples,num_candidates,seed,labels
-sentiment,tridm/UIT-VSMEC,100,4931,42,"{""Enjoyment"": 26, ""Disgust"": 23, ""Other"": 17, ""Fear"": 6, ""Anger"": 7, ""Surprise"": 6, ""Sadness"": 15}"
-nli,uitnlp/ViANLI,100,8012,42,"{""contradiction"": 40, ""entailment"": 29, ""neutral"": 31}"
-qa,taidng/UIT-ViQuAD2.0,100,13426,42,"{""answerable"": 100}"

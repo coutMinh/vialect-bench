@@ -42,3 +42,17 @@ tasks:
         split: train
         text_fields: [context, question]
         label_field: answers
+
+  mcqa:
+    selected_dataset: uitnlp/vimmrc2.0
+    rationale: >
+      Publicly loadable Vietnamese multiple-choice machine reading comprehension
+      dataset. Each topic/article contains several questions, each with four
+      answer options. For dialect robustness, keep article context and options
+      unchanged, and dialect-paraphrase only the question.
+    candidates:
+      - id: uitnlp/vimmrc2.0
+        status: selected
+        split: train
+        text_fields: [article, questions, options]
+        label_field: answers
