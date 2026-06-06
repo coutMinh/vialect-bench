@@ -40,6 +40,23 @@ DATASETS = {
 MAX_SELECTION_POOL = 3000
 MAX_MCQA_QUESTIONS_PER_TOPIC = 2
 TOKEN_RE = re.compile(r"\w+", flags=re.UNICODE)
+SENTIMENT_VULGAR_WORDS = [
+    "đéo", "đụ", "lồn", "địt", "đm", "dm", "dmm", "cc", "fuck", "shit",
+    "vãi", "vãi_chưởng", "chảnh chó", "con mẹ nó",
+]
+
+
+def is_vulgar(text: str) -> bool:
+    lower = text.lower()
+    for word in SENTIMENT_VULGAR_WORDS:
+        i = lower.find(word)
+        while i != -1:
+            before_ok = i == 0 or not lower[i - 1].isalnum()
+            after_ok = i + len(word) >= len(lower) or not lower[i + len(word)].isalnum()
+            if before_ok and after_ok:
+                return True
+            i = lower.find(word, i + 1)
+    return False
 MCQA_TITLE_EXCLUDE_KEYWORDS = {
     "bac",
     "chu dong tu",
@@ -162,7 +179,7 @@ def selection_text(task: str, row: dict[str, Any]) -> str:
 def passes_filter(task: str, row: dict[str, Any]) -> bool:
     if task == "sentiment":
         sentence = str(row.get("Sentence", ""))
-        return len(tokens(sentence)) >= 5
+        return len(tokens(sentence)) >= 5 and not is_vulgar(sentence)
 
     if task == "qa":
         question = str(row.get("question", ""))
