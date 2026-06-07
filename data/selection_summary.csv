@@ -1,5 +1,5 @@
-task,dataset,num_samples,num_candidates,selection_pool,seed,labels
-sentiment,tridm/UIT-VSMEC,100,4931,3000,42,"{""Disgust"": 22, ""Anger"": 6, ""Sadness"": 19, ""Enjoyment"": 32, ""Surprise"": 4, ""Fear"": 5, ""Other"": 12}"
-nli,uitnlp/ViANLI,100,8012,3000,42,"{""contradiction"": 44, ""entailment"": 24, ""neutral"": 32}"
-qa,taidng/UIT-ViQuAD2.0,100,13426,3000,42,"{""answerable"": 100}"
-mcqa,uitnlp/vimmrc2.0,100,306,306,42,"{""A"": 35, ""C"": 26, ""D"": 13, ""B"": 26}"
+task,dataset,num_samples,num_candidates,num_with_triggers,selection_pool,seed,labels,category_coverage,difficulty_dist,avg_dialect_score
+sentiment,tridm/UIT-VSMEC,100,3040,3040,3000,42,"{""Other"": 19, ""Disgust"": 22, ""Anger"": 18, ""Enjoyment"": 16, ""Fear"": 7, ""Sadness"": 12, ""Surprise"": 6}",88%,"{""hard"": 30, ""medium"": 40, ""easy"": 30}",13.1
+nli,uitnlp/ViANLI,100,4767,4767,3000,42,"{""neutral"": 40, ""entailment"": 34, ""contradiction"": 26}",100%,"{""hard"": 30, ""medium"": 40, ""easy"": 30}",10.9
+qa,taidng/UIT-ViQuAD2.0,100,10471,10471,3000,42,"{""answerable"": 100}",86%,"{""hard"": 43, ""medium"": 40, ""easy"": 17}",10.1
+mcqa,uitnlp/vimmrc2.0,100,286,286,286,42,"{""A"": 26, ""B"": 31, ""D"": 17, ""C"": 26}",100%,"{""hard"": 47, ""medium"": 52, ""easy"": 1}",9.6
