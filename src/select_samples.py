@@ -1,16 +1,21 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import argparse
 import csv
 import json
-import random
 import re
 import unicodedata
 from collections import Counter
 from pathlib import Path
 from typing import Any
 
+import openpyxl
 from datasets import load_dataset
+
+
+Row = dict[str, Any]
+Trigger = dict[str, str]
+TriggerIndex = dict[str, list[Row]]
 
 
 DATASETS = {
@@ -37,13 +42,40 @@ DATASETS = {
 }
 
 
-MAX_SELECTION_POOL = 3000
 MAX_MCQA_QUESTIONS_PER_TOPIC = 2
+LEXICON_CATEGORY_PREFIXES = {
+    "1. Interrogatives": "Interrogative",
+    "2. Demonstratives & Deixis": "Demonstrative",
+    "3. Negation & Function Words": "Negation/Function",
+    "4. Discourse Particles": "Particle",
+    "5. Connectives & Aspect Markers": "Connective/Aspect",
+    "6. Pronouns": "Pronoun",
+    "7. Kinship & Honorifics": "Kinship",
+    "8. Predicate Vocabulary": "Predicate",
+    "9. Templates & Idioms": "Template/Idiom",
+}
+TOTAL_LEXICON_CATEGORIES = len(LEXICON_CATEGORY_PREFIXES)
 TOKEN_RE = re.compile(r"\w+", flags=re.UNICODE)
 SENTIMENT_VULGAR_WORDS = [
     "đéo", "đụ", "lồn", "địt", "đm", "dm", "dmm", "cc", "fuck", "shit",
     "vãi", "vãi_chưởng", "chảnh chó", "con mẹ nó",
 ]
+EMOJI_RE = re.compile(
+    "["
+    "\U0001f300-\U0001f5ff"
+    "\U0001f600-\U0001f64f"
+    "\U0001f680-\U0001f6ff"
+    "\U0001f700-\U0001f77f"
+    "\U0001f780-\U0001f7ff"
+    "\U0001f800-\U0001f8ff"
+    "\U0001f900-\U0001f9ff"
+    "\U0001fa00-\U0001fa6f"
+    "\U0001fa70-\U0001faff"
+    "\u2600-\u27bf"
+    ":)"
+    ":("
+    "]"
+)
 
 
 def is_vulgar(text: str) -> bool:
@@ -57,6 +89,92 @@ def is_vulgar(text: str) -> bool:
                 return True
             i = lower.find(word, i + 1)
     return False
+
+
+def has_emoji(text: str) -> bool:
+    return bool(EMOJI_RE.search(text))
+
+
+def load_lexicon(xlsx_path: Path) -> list[Row]:
+    wb = openpyxl.load_workbook(xlsx_path, read_only=True)
+    ws = wb[wb.sheetnames[0]]
+    entries: list[Row] = []
+    current_category = None
+
+    for row in ws.iter_rows(min_row=3, values_only=True):
+        col_b = row[1]
+        if col_b is not None and isinstance(col_b, str):
+            for prefix, category in LEXICON_CATEGORY_PREFIXES.items():
+                if col_b.strip().startswith(prefix):
+                    current_category = category
+                    break
+            continue
+
+        standard = row[3]
+        if standard is None or current_category is None:
+            continue
+
+        entries.append({"standard": str(standard).strip(), "category": current_category})
+
+    wb.close()
+    return entries
+
+
+def build_trigger_index(entries: list[Row]) -> TriggerIndex:
+    index: TriggerIndex = {}
+    for entry in entries:
+        standard = str(entry["standard"]).lower()
+        forms = {standard, *(part.strip() for part in re.split(r"\s*/\s*", standard))}
+        for form in forms:
+            if len(form) >= 2:
+                index.setdefault(form, []).append(entry)
+    return index
+
+
+def find_lexicon_triggers(
+    text: str,
+    trigger_index: TriggerIndex,
+) -> list[Trigger]:
+    text_lower = normalize_for_match(text)
+    found: list[Trigger] = []
+    seen = set()
+
+    for key in sorted(trigger_index, key=len, reverse=True):
+        pattern = term_pattern(key) if len(key) <= 4 else re.compile(re.escape(key), flags=re.IGNORECASE)
+        if not pattern.search(text_lower):
+            continue
+
+        for entry in trigger_index[key]:
+            dedup_key = (entry["standard"], entry["category"])
+            if dedup_key in seen:
+                continue
+            seen.add(dedup_key)
+            found.append(
+                {
+                    "standard": str(entry["standard"]),
+                    "category": str(entry["category"]),
+                    "matched_word": key,
+                }
+            )
+
+    return found
+
+
+def lexicon_hits_by_category(triggers: list[Trigger]) -> dict[str, list[str]]:
+    hits: dict[str, list[str]] = {}
+    for trigger in triggers:
+        hits.setdefault(trigger["category"], []).append(trigger["matched_word"])
+    return hits
+
+
+def normalize_for_match(text: str) -> str:
+    return re.sub(r"\s+", " ", text.lower()).strip()
+
+
+def term_pattern(term: str) -> re.Pattern[str]:
+    return re.compile(rf"(?<!\w){re.escape(term.lower())}(?!\w)", flags=re.IGNORECASE)
+
+
 MCQA_TITLE_EXCLUDE_KEYWORDS = {
     "bac",
     "chu dong tu",
@@ -140,7 +258,7 @@ def to_builtin(value: Any) -> Any:
     return value
 
 
-def get_label(task: str, row: dict[str, Any]) -> str:
+def get_label(task: str, row: Row) -> str:
     if task == "qa":
         return "unanswerable" if row.get("is_impossible") else "answerable"
     if task == "mcqa":
@@ -152,19 +270,7 @@ def tokens(text: str) -> list[str]:
     return TOKEN_RE.findall(text.lower())
 
 
-def token_set(text: str) -> set[str]:
-    return set(tokens(text))
-
-
-def jaccard(left: set[str], right: set[str]) -> float:
-    if not left and not right:
-        return 1.0
-    if not left or not right:
-        return 0.0
-    return len(left & right) / len(left | right)
-
-
-def selection_text(task: str, row: dict[str, Any]) -> str:
+def sample_text(task: str, row: Row) -> str:
     if task == "sentiment":
         return str(row.get("Sentence", ""))
     if task == "nli":
@@ -172,14 +278,55 @@ def selection_text(task: str, row: dict[str, Any]) -> str:
     if task == "qa":
         return str(row.get("question", ""))
     if task == "mcqa":
-        return f"{row.get('title', '')}\n{row.get('question', '')}"
+        return str(row.get("question", ""))
     raise ValueError(f"Unsupported task: {task}")
 
 
-def passes_filter(task: str, row: dict[str, Any]) -> bool:
+def lexicon_score(
+    task: str,
+    row: Row,
+    trigger_index: TriggerIndex,
+) -> tuple[int, dict[str, Any]]:
+    text = sample_text(task, row)
+    triggers = find_lexicon_triggers(text, trigger_index)
+    hits = lexicon_hits_by_category(triggers)
+    category_count = len(hits)
+    trigger_count = len(triggers)
+    score = category_count
+
+    metadata = {
+        "lexicon_category_score": score,
+        "lexicon_trigger_count": trigger_count,
+        "lexicon_category_count": category_count,
+        "lexicon_hits": hits,
+        "dialect_triggers": triggers,
+        "dialect_categories": sorted(hits),
+    }
+    return score, metadata
+
+
+def passes_lexicon_filter(
+    task: str,
+    row: Row,
+    min_lexicon_categories: int,
+    min_tokens: int,
+    trigger_index: TriggerIndex,
+) -> bool:
+    text = sample_text(task, row)
+    _, metadata = lexicon_score(task, row, trigger_index)
+    if len(tokens(text)) <= min_tokens:
+        return False
+    if metadata["lexicon_category_count"] < min_lexicon_categories:
+        return False
+    if task == "sentiment" and (has_emoji(text) or is_vulgar(text)):
+        return False
+    return True
+
+
+def passes_filter(task: str, row: Row) -> bool:
     if task == "sentiment":
         sentence = str(row.get("Sentence", ""))
-        return len(tokens(sentence)) >= 5 and not is_vulgar(sentence)
+        return len(tokens(sentence)) >= 5 and not is_vulgar(sentence) and not has_emoji(sentence)
 
     if task == "qa":
         question = str(row.get("question", ""))
@@ -210,7 +357,7 @@ def normalized_title(title: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
-def is_general_mcqa_topic(row: dict[str, Any]) -> bool:
+def is_general_mcqa_topic(row: Row) -> bool:
     title = normalized_title(row.get("title", ""))
     topic_text = normalized_title(
         " ".join(
@@ -235,7 +382,7 @@ def mcqa_grade_ok(grade: Any) -> bool:
         return False
 
 
-def is_valid_mcqa_question(row: dict[str, Any]) -> bool:
+def is_valid_mcqa_question(row: Row) -> bool:
     return (
         is_general_mcqa_topic(row)
         and len(tokens(str(row.get("article", "")))) >= 40
@@ -246,64 +393,107 @@ def is_valid_mcqa_question(row: dict[str, Any]) -> bool:
     )
 
 
-def sample_key(row: dict[str, Any]) -> Any:
-    return row.get("_sample_id", row["_source_index"])
+def balanced_label_targets(rows: list[Row], task: str, sample_size: int) -> dict[str, int]:
+    labels = sorted({get_label(task, row) for row in rows})
+    label_pool_sizes = Counter(get_label(task, row) for row in rows)
+    if not labels:
+        return {}
+
+    base = sample_size // len(labels)
+    remainder = sample_size % len(labels)
+    targets = {label: base + (1 if i < remainder else 0) for i, label in enumerate(labels)}
+
+    overflow = 0
+    for label in labels:
+        if targets[label] > label_pool_sizes[label]:
+            overflow += targets[label] - label_pool_sizes[label]
+            targets[label] = label_pool_sizes[label]
+
+    while overflow > 0:
+        made_progress = False
+        for label in labels:
+            if targets[label] < label_pool_sizes[label]:
+                targets[label] += 1
+                overflow -= 1
+                made_progress = True
+                if overflow == 0:
+                    break
+        if not made_progress:
+            break
+
+    return targets
 
 
-def select_least_similar(
-    rows: list[dict[str, Any]],
+def select_high_lexicon_coverage(
+    rows: list[Row],
     task: str,
     sample_size: int,
-    seed: int,
+    min_lexicon_categories: int,
+    min_tokens: int,
+    trigger_index: TriggerIndex,
     max_per_topic: int | None = None,
-) -> list[Any]:
-    if sample_size > len(rows):
+) -> list[Row]:
+    candidates = []
+    for row in rows:
+        text = sample_text(task, row)
+        _, metadata = lexicon_score(task, row, trigger_index)
+        if (
+            len(tokens(text)) > min_tokens
+            and metadata["lexicon_category_count"] >= min_lexicon_categories
+            and not (task == "sentiment" and (has_emoji(text) or is_vulgar(text)))
+        ):
+            row["_lexicon_metadata"] = metadata
+            candidates.append(row)
+    if sample_size > len(candidates):
         raise SystemExit(
-            f"Task '{task}' has only {len(rows)} rows after filtering, "
+            f"Task '{task}' has only {len(candidates)} rows with enough lexicon categories, "
             f"but --sample-size is {sample_size}."
         )
 
-    rng = random.Random(seed)
-    row_features = [(sample_key(row), token_set(selection_text(task, row))) for row in rows]
-    first_position = rng.randrange(len(rows))
-    selected_positions = [first_position]
+    def ranking_key(row: Row) -> tuple[int, int, int]:
+        return (
+            row["_lexicon_metadata"]["lexicon_category_count"],
+            row["_lexicon_metadata"]["lexicon_trigger_count"],
+            len(tokens(sample_text(task, row))),
+        )
+
+    grouped: dict[str, list[Row]] = {}
+    for row in candidates:
+        grouped.setdefault(get_label(task, row), []).append(row)
+    for label_rows in grouped.values():
+        label_rows.sort(key=ranking_key, reverse=True)
+
+    selected: list[Row] = []
     topic_counts = Counter()
-    topic_counts[rows[first_position].get("_topic_source_index", rows[first_position]["_source_index"])] += 1
-    remaining_positions = set(range(len(rows)))
-    remaining_positions.remove(first_position)
+    label_targets = balanced_label_targets(candidates, task, sample_size)
 
-    while len(selected_positions) < sample_size:
-        best_position = None
-        best_similarity = float("inf")
-
-        for position in remaining_positions:
-            topic_key = rows[position].get("_topic_source_index", rows[position]["_source_index"])
+    for label in sorted(label_targets):
+        added = 0
+        for row in grouped.get(label, []):
+            if added >= label_targets[label]:
+                break
+            topic_key = row.get("_topic_source_index", row["_source_index"])
             if max_per_topic is not None and topic_counts[topic_key] >= max_per_topic:
                 continue
-            candidate_tokens = row_features[position][1]
-            max_similarity = max(
-                jaccard(candidate_tokens, row_features[selected_position][1])
-                for selected_position in selected_positions
-            )
-            if max_similarity < best_similarity:
-                best_similarity = max_similarity
-                best_position = position
+            selected.append(row)
+            topic_counts[topic_key] += 1
+            added += 1
 
-        assert best_position is not None
-        selected_positions.append(best_position)
-        topic_key = rows[best_position].get("_topic_source_index", rows[best_position]["_source_index"])
-        topic_counts[topic_key] += 1
-        remaining_positions.remove(best_position)
-
-    return [row_features[position][0] for position in selected_positions]
+    if len(selected) < sample_size:
+        raise SystemExit(
+            f"Task '{task}' could select only {len(selected)} rows after label/topic limits, "
+            f"but --sample-size is {sample_size}."
+        )
+    selected.sort(key=ranking_key, reverse=True)
+    return selected
 
 
-def normalize_row(task: str, dataset_id: str, source_index: int, row: dict[str, Any]) -> dict:
+def normalize_row(task: str, dataset_id: str, source_index: int, row: Row) -> Row:
     row = to_builtin(row)
     return {"_task": task, "_source_dataset": dataset_id, "_source_index": source_index, **row}
 
 
-def build_mcqa_question_rows(dataset, dataset_id: str) -> list[dict[str, Any]]:
+def build_mcqa_question_rows(dataset, dataset_id: str) -> list[Row]:
     rows = []
     for topic_index in range(len(dataset)):
         topic = to_builtin(dataset[topic_index])
@@ -338,14 +528,14 @@ def build_mcqa_question_rows(dataset, dataset_id: str) -> list[dict[str, Any]]:
     return rows
 
 
-def write_jsonl(path: Path, rows: list[dict]) -> None:
+def write_jsonl(path: Path, rows: list[Row]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as handle:
         for row in rows:
             handle.write(json.dumps(row, ensure_ascii=False) + "\n")
 
 
-def write_summary_csv(path: Path, summary_rows: list[dict]) -> None:
+def write_summary_csv(path: Path, summary_rows: list[Row]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(
@@ -355,9 +545,11 @@ def write_summary_csv(path: Path, summary_rows: list[dict]) -> None:
                 "dataset",
                 "num_samples",
                 "num_candidates",
-                "selection_pool",
-                "seed",
+                "num_eligible_candidates",
                 "labels",
+                "category_coverage",
+                "avg_lexicon_categories",
+                "avg_lexicon_triggers",
             ],
         )
         writer.writeheader()
@@ -370,8 +562,10 @@ def select_for_task(
     output_dir: Path,
     max_source_rows: int | None,
     split_override: str | None,
-    seed: int,
-) -> dict:
+    min_lexicon_categories: int,
+    min_tokens: int,
+    trigger_index: TriggerIndex,
+) -> Row:
     if task not in DATASETS:
         known = ", ".join(sorted(DATASETS))
         raise SystemExit(f"Unknown task '{task}'. Known tasks: {known}")
@@ -390,39 +584,62 @@ def select_for_task(
             for source_index in range(len(dataset))
             if passes_filter(task, dataset[source_index])
         ]
-    selection_pool = candidates
-    if len(selection_pool) > MAX_SELECTION_POOL:
-        rng = random.Random(seed)
-        selection_pool = rng.sample(selection_pool, MAX_SELECTION_POOL)
-
-    source_indices = select_least_similar(
-        selection_pool,
+    selected = select_high_lexicon_coverage(
+        candidates,
         task,
         sample_size,
-        seed,
+        min_lexicon_categories=min_lexicon_categories,
+        min_tokens=min_tokens,
+        trigger_index=trigger_index,
         max_per_topic=MAX_MCQA_QUESTIONS_PER_TOPIC if task == "mcqa" else None,
     )
-    selected = [row for row in candidates if sample_key(row) in set(source_indices)]
-    selected.sort(key=lambda row: source_indices.index(sample_key(row)))
+    for row in selected:
+        metadata = row.pop("_lexicon_metadata", None)
+        if metadata is None:
+            _, metadata = lexicon_score(task, row, trigger_index)
+        row["_lexicon_category_score"] = metadata["lexicon_category_score"]
+        row["_lexicon_hits"] = metadata["lexicon_hits"]
+        row["_dialect_triggers"] = metadata["dialect_triggers"]
+        row["_dialect_categories"] = metadata["dialect_categories"]
+        row["_num_dialect_triggers"] = metadata["lexicon_trigger_count"]
+        row["_num_dialect_categories"] = metadata["lexicon_category_count"]
 
     out_path = output_dir / f"{task}_{sample_size}.jsonl"
     write_jsonl(out_path, selected)
 
     labels = Counter(get_label(task, row) for row in selected)
+    selected_categories = Counter(
+        category
+        for row in selected
+        for category in row.get("_dialect_categories", [])
+    )
+    category_coverage = len(selected_categories) / TOTAL_LEXICON_CATEGORIES * 100
+    avg_lexicon_categories = sum(
+        row.get("_num_dialect_categories", 0) for row in selected
+    ) / max(len(selected), 1)
+    avg_lexicon_triggers = sum(
+        row.get("_num_dialect_triggers", 0) for row in selected
+    ) / max(len(selected), 1)
+    eligible_candidate_count = sum(
+        passes_lexicon_filter(task, row, min_lexicon_categories, min_tokens, trigger_index)
+        for row in candidates
+    )
     return {
         "task": task,
         "dataset": dataset_id,
         "num_samples": len(selected),
         "num_candidates": len(candidates),
-        "selection_pool": len(selection_pool),
-        "seed": seed,
+        "num_eligible_candidates": eligible_candidate_count,
         "labels": json.dumps(dict(labels), ensure_ascii=False),
+        "category_coverage": f"{category_coverage:.0f}%",
+        "avg_lexicon_categories": f"{avg_lexicon_categories:.1f}",
+        "avg_lexicon_triggers": f"{avg_lexicon_triggers:.1f}",
     }
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Select low-similarity pilot samples for Vialect-Bench tasks."
+        description="Select label-balanced samples with high dialect lexicon category coverage."
     )
     parser.add_argument(
         "--tasks",
@@ -430,8 +647,30 @@ def main() -> None:
         default=["sentiment", "nli", "qa", "mcqa"],
         help="Task names to sample: sentiment, nli, qa, mcqa.",
     )
-    parser.add_argument("--sample-size", type=int, default=100)
-    parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument(
+        "--sample-size",
+        type=int,
+        default=100,
+        help="Number of samples per task.",
+    )
+    parser.add_argument(
+        "--lexicon",
+        type=Path,
+        default=Path("data/DIALECT_LEXICON_v2.xlsx"),
+        help="Path to dialect lexicon Excel file.",
+    )
+    parser.add_argument(
+        "--min-lexicon-categories",
+        type=int,
+        default=1,
+        help="Minimum number of lexicon categories required for selected candidates.",
+    )
+    parser.add_argument(
+        "--min-tokens",
+        type=int,
+        default=5,
+        help="Minimum number of tokens required for selected candidate text.",
+    )
     parser.add_argument("--output-dir", type=Path, default=Path("data"))
     parser.add_argument(
         "--max-source-rows",
@@ -442,6 +681,13 @@ def main() -> None:
     parser.add_argument("--split", default=None, help="Override configured source split.")
     args = parser.parse_args()
 
+    if args.sample_size < 0:
+        raise SystemExit("sample size must be non-negative.")
+
+    entries = load_lexicon(args.lexicon)
+    trigger_index = build_trigger_index(entries)
+    print(f"Loaded {len(entries)} lexicon entries and {len(trigger_index)} trigger keys from {args.lexicon}")
+
     summaries = [
         select_for_task(
             task=task,
@@ -449,7 +695,9 @@ def main() -> None:
             output_dir=args.output_dir,
             max_source_rows=args.max_source_rows,
             split_override=args.split,
-            seed=args.seed,
+            min_lexicon_categories=args.min_lexicon_categories,
+            min_tokens=args.min_tokens,
+          trigger_index=trigger_index,
         )
         for task in args.tasks
     ]

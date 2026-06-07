@@ -94,7 +94,6 @@ def evaluate_case(
     for variant_name, variant in case_variants(case).items():
         if skip_empty_variants and is_empty_variant(variant):
             continue
-
         prompt = build_prompt(case, variant_name, variant)
         raw = generate(generator, prompt, max_new_tokens=max_new_tokens)
         parsed = parse_prediction(case["task"], raw)
