@@ -1,5 +1,5 @@
 task,dataset,num_samples,num_candidates,num_eligible_candidates,labels,category_coverage,avg_lexicon_categories,avg_lexicon_triggers
-sentiment,tridm/UIT-VSMEC,100,2846,2381,"{""Disgust"": 36, ""Anger"": 22, ""Sadness"": 17, ""Other"": 14, ""Fear"": 5, ""Enjoyment"": 6}",100%,5.7,8.7
-nli,uitnlp/ViANLI,100,8012,6650,"{""neutral"": 31, ""entailment"": 37, ""contradiction"": 32}",100%,5.3,7.0
-qa,taidng/UIT-ViQuAD2.0,100,13426,11633,"{""answerable"": 100}",89%,4.2,5.3
-mcqa,uitnlp/vimmrc2.0,100,306,294,"{""B"": 32, ""A"": 25, ""D"": 19, ""C"": 24}",100%,3.0,4.0
+sentiment,tridm/UIT-VSMEC,100,2789,1970,"{""Anger"": 15, ""Sadness"": 14, ""Other"": 14, ""Disgust"": 15, ""Fear"": 14, ""Enjoyment"": 14, ""Surprise"": 14}",100%,5.4,7.8
+nli,uitnlp/ViANLI,100,8012,6650,"{""neutral"": 33, ""entailment"": 33, ""contradiction"": 34}",100%,5.2,7.0
+qa,taidng/UIT-ViQuAD2.0,100,13426,11240,"{""answerable"": 100}",89%,4.2,5.3
+mcqa,uitnlp/vimmrc2.0,100,447,391,"{""B"": 25, ""A"": 25, ""C"": 25, ""D"": 25}",100%,3.2,4.1

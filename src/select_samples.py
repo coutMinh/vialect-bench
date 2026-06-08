@@ -58,7 +58,7 @@ TOTAL_LEXICON_CATEGORIES = len(LEXICON_CATEGORY_PREFIXES)
 TOKEN_RE = re.compile(r"\w+", flags=re.UNICODE)
 SENTIMENT_VULGAR_WORDS = [
     "đéo", "đụ", "lồn", "địt", "đm", "dm", "dmm", "cc", "fuck", "shit",
-    "vãi", "vãi_chưởng", "chảnh chó", "con mẹ nó",
+    "vãi", "vãi_chưởng", "chảnh chó", "con mẹ nó", "dume", "lol", "đũy", "lòn",
 ]
 EMOJI_RE = re.compile(
     "["
@@ -180,8 +180,6 @@ MCQA_TITLE_EXCLUDE_KEYWORDS = {
     "chu dong tu",
     "luom",
     "thanh giong",
-    "son tinh",
-    "thuy tinh",
     "y ec xanh",
     "mtao",
     "quan am",
@@ -191,8 +189,6 @@ MCQA_TITLE_EXCLUDE_KEYWORDS = {
     "nguyen",
     "tran dai nghia",
     "hai ba trung",
-    "con rong chau tien",
-    "bop nat qua cam",
     "ong trang",
     "trang",
 }
@@ -371,7 +367,6 @@ def is_general_mcqa_topic(row: Row) -> bool:
     return (
         mcqa_grade_ok(row.get("grade"))
         and not any(keyword in topic_text for keyword in MCQA_TITLE_EXCLUDE_KEYWORDS)
-        and any(keyword in title for keyword in MCQA_GENERAL_TITLE_KEYWORDS)
     )
 
 
@@ -385,7 +380,7 @@ def mcqa_grade_ok(grade: Any) -> bool:
 def is_valid_mcqa_question(row: Row) -> bool:
     return (
         is_general_mcqa_topic(row)
-        and len(tokens(str(row.get("article", "")))) >= 40
+        and len(tokens(str(row.get("article", "")))) >= 30
         and len(tokens(str(row.get("question", "")))) >= 5
         and isinstance(row.get("options"), list)
         and len(row.get("options") or []) == 4
@@ -668,7 +663,7 @@ def main() -> None:
     parser.add_argument(
         "--min-tokens",
         type=int,
-        default=5,
+        default=7,
         help="Minimum number of tokens required for selected candidate text.",
     )
     parser.add_argument("--output-dir", type=Path, default=Path("data"))

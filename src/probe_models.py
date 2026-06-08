@@ -2,12 +2,20 @@ from __future__ import annotations
 
 import argparse
 import json
+from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
 import yaml
 
 from .prompting import build_prompt, parse_prediction
+
+
+@dataclass(frozen=True)
+class ProbeItem:
+    case: dict
+    variant_name: str
+    prompt: str
 
 
 def load_jsonl(path: Path) -> list[dict]:
@@ -46,7 +54,37 @@ def generate(generator, prompt: str, max_new_tokens: int) -> str:
         do_sample=False,
         return_full_text=False,
     )
-    generated = result[0]["generated_text"]
+    return extract_generated_text(result[0])
+
+
+def generate_batch(
+    generator,
+    prompts: list[str],
+    max_new_tokens: int,
+    batch_size: int,
+) -> list[str]:
+    if batch_size <= 1:
+        return [
+            generate(generator, prompt, max_new_tokens=max_new_tokens)
+            for prompt in prompts
+        ]
+
+    chats = [[{"role": "user", "content": prompt}] for prompt in prompts]
+    results = generator(
+        chats,
+        max_new_tokens=max_new_tokens,
+        do_sample=False,
+        return_full_text=False,
+        batch_size=batch_size,
+    )
+    return [
+        extract_generated_text(result[0] if isinstance(result, list) else result)
+        for result in results
+    ]
+
+
+def extract_generated_text(result: Any) -> str:
+    generated = result["generated_text"] if isinstance(result, dict) else result
     if isinstance(generated, list):
         return str(generated[-1].get("content", ""))
     return str(generated)
@@ -82,35 +120,35 @@ def gold_value(case: dict) -> Any:
     return case.get("label") or case.get("reference") or case.get("answers")
 
 
-def evaluate_case(
-    generator,
-    model_name: str,
-    model_id: str,
-    case: dict,
-    max_new_tokens: int,
-    skip_empty_variants: bool,
-) -> list[dict]:
-    outputs = []
+def build_probe_items(case: dict, skip_empty_variants: bool) -> list[ProbeItem]:
+    items = []
     for variant_name, variant in case_variants(case).items():
         if skip_empty_variants and is_empty_variant(variant):
             continue
         prompt = build_prompt(case, variant_name, variant)
-        raw = generate(generator, prompt, max_new_tokens=max_new_tokens)
-        parsed = parse_prediction(case["task"], raw)
-        outputs.append(
-            {
-                "id": case.get("id"),
-                "task": case["task"],
-                "model_name": model_name,
-                "model_id": model_id,
-                "variant": variant_name,
-                "dialect_group": variant_name if variant_name != "standard" else "standard",
-                "gold": gold_value(case),
-                "prediction": parsed,
-                "raw_output": raw.strip(),
-            }
-        )
-    return outputs
+        items.append(ProbeItem(case=case, variant_name=variant_name, prompt=prompt))
+    return items
+
+
+def output_row(item: ProbeItem, model_name: str, model_id: str, raw: str) -> dict:
+    case = item.case
+    parsed = parse_prediction(case["task"], raw)
+    return {
+        "id": case.get("id"),
+        "task": case["task"],
+        "model_name": model_name,
+        "model_id": model_id,
+        "variant": item.variant_name,
+        "dialect_group": item.variant_name if item.variant_name != "standard" else "standard",
+        "gold": gold_value(case),
+        "prediction": parsed,
+        "raw_output": raw.strip(),
+    }
+
+
+def chunks(items: list[ProbeItem], size: int):
+    for start in range(0, len(items), size):
+        yield items[start : start + size]
 
 
 def find_model(models_path: Path, model_name: str) -> dict:
@@ -139,6 +177,7 @@ def main() -> None:
     parser.add_argument("--model-name")
     parser.add_argument("--output", type=Path)
     parser.add_argument("--max-new-tokens", type=int)
+    parser.add_argument("--batch-size", type=int)
     parser.add_argument("--include-empty-variants", action="store_true")
     args = parser.parse_args()
 
@@ -148,28 +187,40 @@ def main() -> None:
     model_name = args.model_name or run_config.get("model_name")
     output_path = args.output or Path(run_config.get("output", "outputs/model_probe.jsonl"))
     max_new_tokens = args.max_new_tokens or int(run_config.get("max_new_tokens", 64))
+    batch_size = (
+        args.batch_size
+        if args.batch_size is not None
+        else int(run_config.get("batch_size", 1))
+    )
     skip_empty_variants = not (
         args.include_empty_variants or bool(run_config.get("include_empty_variants", False))
     )
 
     if not model_name:
         raise SystemExit("Missing model_name. Set it in configs/probe.yaml or pass --model-name.")
+    if batch_size < 1:
+        raise SystemExit("batch_size must be at least 1.")
 
     model_spec = find_model(models_path, model_name)
     generator = load_text_generator(model_spec["model_id"])
     cases = load_jsonl(cases_path)
+    probe_items = [
+        item
+        for case in cases
+        for item in build_probe_items(case, skip_empty_variants=skip_empty_variants)
+    ]
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w", encoding="utf-8") as handle:
-        for case in cases:
-            for row in evaluate_case(
+        for batch in chunks(probe_items, batch_size):
+            raw_outputs = generate_batch(
                 generator,
-                model_spec["name"],
-                model_spec["model_id"],
-                case,
+                [item.prompt for item in batch],
                 max_new_tokens=max_new_tokens,
-                skip_empty_variants=skip_empty_variants,
-            ):
+                batch_size=batch_size,
+            )
+            for item, raw in zip(batch, raw_outputs, strict=True):
+                row = output_row(item, model_spec["name"], model_spec["model_id"], raw)
                 handle.write(json.dumps(row, ensure_ascii=False) + "\n")
 
 

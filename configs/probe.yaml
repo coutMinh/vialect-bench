@@ -3,4 +3,5 @@ model_name: Qwen 2.5 3B Instruct
 cases: examples/probe_cases_rule_based.jsonl
 output: outputs/qwen_3b_probe.jsonl
 max_new_tokens: 48
+batch_size: 1
 include_empty_variants: false
