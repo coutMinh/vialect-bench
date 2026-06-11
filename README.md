@@ -2,7 +2,7 @@
 
 This repository contains the ongoing research for the robustness of Large Language Models (LLMs) when prompted with meaning-preserving Vietnamese dialectal variations. 
 
-Authors: Minh Tran, Duc Hoang, Cuong Dang Cao, Luan Thanh Nguyen, Trinh Chau, haizznaam
+Authors: Minh Tran, Duc Hoang, Cuong Dang Cao, Luan Thanh Nguyen, Trinh Chau, Hai Nam
 
 <p align="left">
   <a href="https://github.com/coutMinh"><img src="https://github.com/coutMinh.png?size=64" width="64" height="64" style="border-radius: 50%; border: 2px solid #e1e4e8;" alt="coutMinh" /></a>
