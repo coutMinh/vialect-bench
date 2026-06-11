@@ -8,13 +8,14 @@ from typing import Any
 
 import yaml
 
-from .prompting import build_prompt, parse_prediction
+from .prompting import PROMPT_STRATEGIES, build_prompt, parse_prediction
 
 
 @dataclass(frozen=True)
 class ProbeItem:
     case: dict
     variant_name: str
+    prompt_strategy: str
     prompt: str
 
 
@@ -120,13 +121,24 @@ def gold_value(case: dict) -> Any:
     return case.get("label") or case.get("reference") or case.get("answers")
 
 
-def build_probe_items(case: dict, skip_empty_variants: bool) -> list[ProbeItem]:
+def build_probe_items(
+    case: dict,
+    skip_empty_variants: bool,
+    prompt_strategy: str,
+) -> list[ProbeItem]:
     items = []
     for variant_name, variant in case_variants(case).items():
         if skip_empty_variants and is_empty_variant(variant):
             continue
-        prompt = build_prompt(case, variant_name, variant)
-        items.append(ProbeItem(case=case, variant_name=variant_name, prompt=prompt))
+        prompt = build_prompt(case, variant_name, variant, prompt_strategy=prompt_strategy)
+        items.append(
+            ProbeItem(
+                case=case,
+                variant_name=variant_name,
+                prompt_strategy=prompt_strategy,
+                prompt=prompt,
+            )
+        )
     return items
 
 
@@ -138,6 +150,7 @@ def output_row(item: ProbeItem, model_name: str, model_id: str, raw: str) -> dic
         "task": case["task"],
         "model_name": model_name,
         "model_id": model_id,
+        "prompt_strategy": item.prompt_strategy,
         "variant": item.variant_name,
         "dialect_group": item.variant_name if item.variant_name != "standard" else "standard",
         "gold": gold_value(case),
@@ -178,6 +191,11 @@ def main() -> None:
     parser.add_argument("--output", type=Path)
     parser.add_argument("--max-new-tokens", type=int)
     parser.add_argument("--batch-size", type=int)
+    parser.add_argument(
+        "--prompt-strategy",
+        choices=sorted(PROMPT_STRATEGIES),
+        help="Prompt setting to use: direct, aware, or cot.",
+    )
     parser.add_argument("--include-empty-variants", action="store_true")
     args = parser.parse_args()
 
@@ -187,6 +205,7 @@ def main() -> None:
     model_name = args.model_name or run_config.get("model_name")
     output_path = args.output or Path(run_config.get("output", "outputs/model_probe.jsonl"))
     max_new_tokens = args.max_new_tokens or int(run_config.get("max_new_tokens", 64))
+    prompt_strategy = args.prompt_strategy or run_config.get("prompt_strategy", "direct")
     batch_size = (
         args.batch_size
         if args.batch_size is not None
@@ -198,6 +217,9 @@ def main() -> None:
 
     if not model_name:
         raise SystemExit("Missing model_name. Set it in configs/probe.yaml or pass --model-name.")
+    if prompt_strategy not in PROMPT_STRATEGIES:
+        known = ", ".join(sorted(PROMPT_STRATEGIES))
+        raise SystemExit(f"Unknown prompt_strategy '{prompt_strategy}'. Known: {known}")
     if batch_size < 1:
         raise SystemExit("batch_size must be at least 1.")
 
@@ -207,7 +229,11 @@ def main() -> None:
     probe_items = [
         item
         for case in cases
-        for item in build_probe_items(case, skip_empty_variants=skip_empty_variants)
+        for item in build_probe_items(
+            case,
+            skip_empty_variants=skip_empty_variants,
+            prompt_strategy=prompt_strategy,
+        )
     ]
 
     output_path.parent.mkdir(parents=True, exist_ok=True)

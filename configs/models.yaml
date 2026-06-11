@@ -24,12 +24,3 @@ zero_shot_llms:
     model_id: SeaLLMs/SeaLLMs-v3-7B-Chat
     notes: Southeast Asian multilingual LLM candidate; verify availability before running.
 
-pretrained_or_finetuned_task_models:
-  sentiment:
-    - name: PhoBERT sentiment checkpoint placeholder
-      model_id: null
-      notes: Fill with an evaluated Vietnamese sentiment checkpoint if used.
-  mt:
-    - name: ViDia2Std normalization or dialect-to-standard MT checkpoint
-      model_id: null
-      notes: Fill with the checkpoint/path from the existing dialect dataset paper.

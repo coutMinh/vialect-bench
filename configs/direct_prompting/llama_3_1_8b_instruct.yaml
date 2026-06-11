@@ -1,7 +1,7 @@
 models: configs/models.yaml
-model_name: Qwen 2.5 3B Instruct
+model_name: Llama 3.1 8B Instruct
 cases: examples/probe_cases_rule_based.jsonl
-output: outputs/qwen_3b_probe.jsonl
+output: outputs/direct_prompting/llama_3_1_8b_instruct.jsonl
 prompt_strategy: direct
 max_new_tokens: 48
 batch_size: 1

@@ -1,8 +1,8 @@
 models: configs/models.yaml
-model_name: Qwen 2.5 3B Instruct
+model_name: Vistral 7B Chat
 cases: examples/probe_cases_rule_based.jsonl
-output: outputs/qwen_3b_probe.jsonl
-prompt_strategy: direct
+output: outputs/aware_prompting/vistral_7b_chat.jsonl
+prompt_strategy: aware
 max_new_tokens: 48
 batch_size: 1
 include_empty_variants: false
