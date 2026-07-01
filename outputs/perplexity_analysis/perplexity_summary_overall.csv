@@ -1,0 +1,2 @@
+group,n,orig_ppl_mean,orig_ppl_median,para_ppl_mean,para_ppl_median,delta_ppl_mean,delta_ppl_median,ratio_ppl_mean,ratio_ppl_median,delta_nll_mean,delta_nll_median,delta_nll_bootstrap_ci_low,delta_nll_bootstrap_ci_high,orig_len_mean,para_len_mean,length_ratio_mean
+ALL,578,68.94234685540003,31.192395422788902,150.1963996238383,62.178320919605774,81.25405276843829,15.75895648866566,2.339040232900655,1.5680576047232677,0.5627125101518466,0.4498368501663208,0.5051400542465461,0.6188535784664452,35.089965397923876,31.918685121107266,0.9196814055306097
