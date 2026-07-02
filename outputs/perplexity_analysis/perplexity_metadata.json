@@ -1,0 +1,12 @@
+{
+  "input": "data/vialectbench_finalized.json",
+  "reference_model": "Qwen/Qwen2.5-0.5B",
+  "orig_col": "original_text",
+  "para_col": "dialect_text",
+  "max_length": 512,
+  "n_boot": 5000,
+  "n_samples": 578,
+  "summary_by_group": "target_dialect",
+  "summary_by_task": "task",
+  "note": "perplexity_summary_by_group.csv grouped by target_dialect; perplexity_summary_by_task.csv grouped by task"
+}
