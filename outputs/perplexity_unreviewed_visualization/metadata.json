@@ -1,0 +1,32 @@
+{
+  "input": "data/vialectbench_unreviewed.json",
+  "reference_model": "Qwen/Qwen2.5-0.5B",
+  "orig_col": "original_text",
+  "para_col": "dialect_text",
+  "dialect_col": "target_dialect",
+  "sample_id_col": "sample_id",
+  "task_col": "task",
+  "hypothesis_col": "hypothesis",
+  "nli_orig_text_resolution": "No NLI rows present, or task/hypothesis columns missing; orig_col used as-is.",
+  "dialects": [
+    "PNB",
+    "PNN",
+    "PNT1",
+    "PNT2",
+    "PNT3",
+    "PNT4"
+  ],
+  "sample_group_mode": "exact",
+  "sample_group_rule": "exact sample_id",
+  "n_input_rows": 1000,
+  "n_complete_group_rows": 180,
+  "n_complete_sample_groups": 30,
+  "outputs": [
+    "sample_group_coverage.csv",
+    "filtered_complete_sample_groups.csv",
+    "perplexity_pairwise_filtered.csv",
+    "perplexity_summary_by_dialect.csv",
+    "perplexity_clustered_bar.svg",
+    "delta_nll_by_dialect.svg"
+  ]
+}

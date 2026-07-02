@@ -1,0 +1,1434 @@
+sample_id,task,original_text,hypothesis,dialect_text,label,target_dialect,domain,confidence,annotator_id,review_count,final_status,annotation_type,sample_group,orig_text_eval,orig_n_tokens,orig_nll,orig_ppl,para_n_tokens,para_nll,para_ppl,delta_nll,delta_ppl,ratio_ppl,orig_len,para_len,length_ratio
+SENT_0018,SENT,"thời buổi bây chừ chuyện gì cũng có thể xảy ra , vậy nên thôi trất , đừng nên tin ai",,"thời buổi bây giờ chuyện gì cũng có thể xảy ra, vậy nên thôi nghỉ, đừng nên tin ai",Fear,PNN,Daily Conversation,high,e04e5ca5-c8e8-4484-a0aa-f9dc978b200c,0,finalized,qualification,SENT_0018,"thời buổi bây chừ chuyện gì cũng có thể xảy ra , vậy nên thôi trất , đừng nên tin ai",24,4.696091175079346,109.51824704776799,22,4.162221431732178,64.21401131925474,-0.533869743347168,-45.30423572851325,0.5863316209877506,21,19,0.9047619047619048
+SENT_0070,SENT,xem cái này mới biết vốn tiếng anh của mình cũng khá !,,xem cái này mới biết vốn tiếng anh của mình cũng khá !,Surprise,PNN,Daily Conversation,high,e04e5ca5-c8e8-4484-a0aa-f9dc978b200c,0,finalized,qualification,SENT_0070,xem cái này mới biết vốn tiếng anh của mình cũng khá !,15,5.505312919616699,245.99542042897426,15,5.505312919616699,245.99542042897426,0.0,0.0,1.0,13,13,1.0
+SENT_0018,SENT,"thời buổi bây chừ chuyện gì cũng có thể xảy ra , vậy nên thôi trất , đừng nên tin ai",,"thời buổi bây giờ chuyện gì cũng có thể xảy ra, vậy nên thôi chứ, đừng nên tin ai",Fear,PNT1,Daily Conversation,high,6b0ccea8-04fe-4c9c-82c8-309e147936f4,0,finalized,qualification,SENT_0018,"thời buổi bây chừ chuyện gì cũng có thể xảy ra , vậy nên thôi trất , đừng nên tin ai",24,4.696091175079346,109.51824704776799,22,4.143782615661621,63.04083024932754,-0.5523085594177246,-46.477416798440444,0.5756194236913905,21,19,0.9047619047619048
+SENT_0192,SENT,may mình đi làm rồi chứ 10 năm trước chắc sẽ phát khổ với bố mẹ vì mấy tin con nhà người ta như thế nào,,may mình đi làm rồi chứ 10 năm trước chắc sẽ mệt với ba má vì họ tin con nhà người ta như vậy,Enjoyment,PNN,Daily Conversation,high,e04e5ca5-c8e8-4484-a0aa-f9dc978b200c,0,finalized,qualification,SENT_0192,may mình đi làm rồi chứ 10 năm trước chắc sẽ phát khổ với bố mẹ vì mấy tin con nhà người ta như thế nào,28,4.938327312469482,139.5366530278945,27,4.900528907775879,134.36082538028606,-0.037798404693603516,-5.175827647608429,0.9629070388654533,26,24,0.9230769230769231
+SENT_0070,SENT,xem cái này mới biết vốn tiếng anh của mình cũng khá !,,coi cái ni mới biết vốn tiếng anh của tau cũng khá!,Surprise,PNT1,Daily Conversation,high,6b0ccea8-04fe-4c9c-82c8-309e147936f4,0,finalized,qualification,SENT_0070,xem cái này mới biết vốn tiếng anh của mình cũng khá !,15,5.505312919616699,245.99542042897426,15,7.067990779876709,1173.7872663961239,1.5626778602600098,927.7918459671496,4.771581781275595,13,12,0.9230769230769231
+SENT_0237,SENT,"có ai nhìn thấy hình như người đàn ông này đang rất đau khổ không nhỉ ? mình nhận thấy hình như ông ấy đang rất đau khổ , mà không thể or không muốn nói ra .",,"có ai nhìn thấy hình như ông này đang đau khổ lắm không ? mình thấy hình như ổng đang rất đau , mà không thể or không muốn nói .",Sadness,PNN,Daily Conversation,high,e04e5ca5-c8e8-4484-a0aa-f9dc978b200c,0,finalized,qualification,SENT_0237,"có ai nhìn thấy hình như người đàn ông này đang rất đau khổ không nhỉ ? mình nhận thấy hình như ông ấy đang rất đau khổ , mà không thể or không muốn nói ra .",39,3.525766372680664,33.979804834285595,32,4.293212890625,73.20127879011612,0.7674465179443359,39.221473955830525,2.15425836455235,38,31,0.8157894736842105
+SENT_0192,SENT,may mình đi làm rồi chứ 10 năm trước chắc sẽ phát khổ với bố mẹ vì mấy tin con nhà người ta như thế nào,,May mà tau đi làm rồi chứ 10 năm trước chắc sẽ phát khổ với bố mẹ vì mấy tin con nhà người ta thế này,Enjoyment,PNT1,Daily Conversation,high,6b0ccea8-04fe-4c9c-82c8-309e147936f4,0,finalized,qualification,SENT_0192,may mình đi làm rồi chứ 10 năm trước chắc sẽ phát khổ với bố mẹ vì mấy tin con nhà người ta như thế nào,28,4.938327312469482,139.5366530278945,28,5.472904205322266,238.15082830509607,0.5345768928527832,98.61417527720158,1.7067259615112584,26,26,1.0
+MCQA_0025_10,MCQA,"Mai đã nói gì khi biết cô cũng quyết định cho mình viết bút mực?
+A. Thôi cô ạ, em không thích viết bút mực.
+B. Thôi cô ạ, cứ để bạn Lan viết trước.
+C. Thôi cô ạ, thế thì em không cho Lan mượn bút nữa.
+D. Thôi cô ạ, em nhường bạn Lan viết bút mực.","Thôi cô ạ, cứ để bạn Lan viết trước.","Mai đã nói chi khi biết cô cũng quyết định cho mình viết bút mực?
+A. Thôi cô ạ, em không thích viết bút mực.
+B. Thôi cô ạ, cứ để bạn Lan viết trước.
+C. Thôi cô ạ, rứa thì em không cho Lan mượn bút nữa.
+D. Thôi cô ạ, em nhường bạn Lan viết bút mực.",B,PNT4,Daily Conversation,high,5ea76d15-516d-4285-a781-7b1c6a04a627,0,unknown,rewrite,MCQA_0025_10,"Mai đã nói gì khi biết cô cũng quyết định cho mình viết bút mực?
+A. Thôi cô ạ, em không thích viết bút mực.
+B. Thôi cô ạ, cứ để bạn Lan viết trước.
+C. Thôi cô ạ, thế thì em không cho Lan mượn bút nữa.
+D. Thôi cô ạ, em nhường bạn Lan viết bút mực.",91,2.4825801849365234,11.972114871245452,93,2.6426048278808594,14.04975317318864,0.16002464294433594,2.077638301943187,1.1735397901112063,59,59,1.0
+MCQA_0025_10,MCQA,"Mai đã nói gì khi biết cô cũng quyết định cho mình viết bút mực?
+A. Thôi cô ạ, em không thích viết bút mực.
+B. Thôi cô ạ, cứ để bạn Lan viết trước.
+C. Thôi cô ạ, thế thì em không cho Lan mượn bút nữa.
+D. Thôi cô ạ, em nhường bạn Lan viết bút mực.","Thôi cô ạ, cứ để bạn Lan viết trước.","Mai đã nói gì khi cô cũng quyết định cho mình viết viết mực?
+A. Dạ thôi cô, con không thích viết viết mực.
+B. Dạ thôi cô, để bạn Lan viết trước.
+C. Dạ thôi cô, vậy con không cho Lan mượn viết nữa.
+D. Dạ thôi cô, con nhường bạn Lan viết viết mực.",B,PNN,Daily Conversation,high,e04e5ca5-c8e8-4484-a0aa-f9dc978b200c,0,finalized,qualification,MCQA_0025_10,"Mai đã nói gì khi biết cô cũng quyết định cho mình viết bút mực?
+A. Thôi cô ạ, em không thích viết bút mực.
+B. Thôi cô ạ, cứ để bạn Lan viết trước.
+C. Thôi cô ạ, thế thì em không cho Lan mượn bút nữa.
+D. Thôi cô ạ, em nhường bạn Lan viết bút mực.",91,2.4825801849365234,11.972114871245452,80,2.9906983375549316,19.89957426046144,0.5081181526184082,7.927459389215986,1.6621603179114248,59,56,0.9491525423728814
+QA_0268,QA,Các toán hạng được chứa trong chỉ thị như thế nào thì được gọi là giá trị tức thời?,các chỉ thị thực (như cộng hay so sánh),Các toán hạng được chứa trong chỉ thị ra sao thì được gọi là giá trị tức thời?,các chỉ thị thực (như cộng hay so sánh),PNN,Daily Conversation,high,e04e5ca5-c8e8-4484-a0aa-f9dc978b200c,0,finalized,qualification,QA_0268,Các toán hạng được chứa trong chỉ thị như thế nào thì được gọi là giá trị tức thời?,21,4.642796039581299,103.83426680146997,21,4.79886531829834,121.37262006432486,0.15606927871704102,17.538353262854898,1.1689071806746423,19,18,0.9473684210526315
+SENT_0343,SENT,"móa , thiệt chứ tụi này nuôi làm gì vậy nhỉ ?",,"má, thiệt chứ tụi này nuôi làm gì vậy ta ?",Anger,PNN,Daily Conversation,high,e04e5ca5-c8e8-4484-a0aa-f9dc978b200c,0,finalized,qualification,SENT_0343,"móa , thiệt chứ tụi này nuôi làm gì vậy nhỉ ?",15,6.055375576019287,426.39902063181165,14,6.8516645431518555,945.4533455040273,0.7962889671325684,519.0543248722156,2.2172971788328995,12,11,0.9166666666666666
+SENT_0462,SENT,tao đã từng viết như thế này . bây giờ không muốn ai đọc chỉ có đốt mà lười đốt,,tao đã từng viết như thế này . bây giờ không muốn ai đọc chỉ có đốt mà làm biếng đốt,Sadness,PNN,Daily Conversation,high,e04e5ca5-c8e8-4484-a0aa-f9dc978b200c,0,finalized,qualification,SENT_0462,tao đã từng viết như thế này . bây giờ không muốn ai đọc chỉ có đốt mà lười đốt,24,4.8982319831848145,134.05256285980548,26,4.758652210235596,116.58868292406656,-0.13957977294921875,-17.463879935738916,0.8697236400172151,20,21,1.05
+MCQA_0025_10,MCQA,"Mai đã nói gì khi biết cô cũng quyết định cho mình viết bút mực?
+A. Thôi cô ạ, em không thích viết bút mực.
+B. Thôi cô ạ, cứ để bạn Lan viết trước.
+C. Thôi cô ạ, thế thì em không cho Lan mượn bút nữa.
+D. Thôi cô ạ, em nhường bạn Lan viết bút mực.","Thôi cô ạ, cứ để bạn Lan viết trước.","Mai đã nói chi khi biết cô cũng quyết định cho mình viết bút mực?
+A. Thôi cô ạ, em không thích viết bút mực.
+B. Thôi cô ạ, cứ để bạn Lan viết trước.
+C. Thôi cô ạ, thế thì em không chua Lan mượn bút nữa.
+D. Thôi cô ạ, em nhường bạn Lan viết bút mực.",B,PNT1,Daily Conversation,high,56164f4c-6810-404e-94aa-34d47c343da0,0,finalized,qualification,MCQA_0025_10,"Mai đã nói gì khi biết cô cũng quyết định cho mình viết bút mực?
+A. Thôi cô ạ, em không thích viết bút mực.
+B. Thôi cô ạ, cứ để bạn Lan viết trước.
+C. Thôi cô ạ, thế thì em không cho Lan mượn bút nữa.
+D. Thôi cô ạ, em nhường bạn Lan viết bút mực.",91,2.4825801849365234,11.972114871245452,92,2.7365472316741943,15.433604333472724,0.2539670467376709,3.461489462227272,1.2891293225511105,59,59,1.0
+QA_0268,QA,Các toán hạng được chứa trong chỉ thị như thế nào thì được gọi là giá trị tức thời?,các chỉ thị thực (như cộng hay so sánh),Các toán hạng được chứa trong chỉ thị như thế nào thì được gọi là giá trị tức thời?,các chỉ thị thực (như cộng hay so sánh),PNT1,Daily Conversation,high,56164f4c-6810-404e-94aa-34d47c343da0,0,finalized,qualification,QA_0268,Các toán hạng được chứa trong chỉ thị như thế nào thì được gọi là giá trị tức thời?,21,4.642796039581299,103.83426680146997,21,4.642796039581299,103.83426680146997,0.0,0.0,1.0,19,19,1.0
+SENT_0018,SENT,"thời buổi bây chừ chuyện gì cũng có thể xảy ra , vậy nên thôi trất , đừng nên tin ai",,"Thời buổi bây chừ chuyện chi cũng có thể xảy ra, vậy nên thôi trớt, đừng nên tin ai",Fear,PNT4,Daily Conversation,high,79761839-4e36-4d46-bc8f-bfd4e0af851a,0,unknown,qualification,SENT_0018,"thời buổi bây chừ chuyện gì cũng có thể xảy ra , vậy nên thôi trất , đừng nên tin ai",24,4.696091175079346,109.51824704776799,24,4.647101402282715,104.28227470712116,-0.04898977279663086,-5.235972340646825,0.9521908678983596,21,19,0.9047619047619048
+SENT_0070,SENT,xem cái này mới biết vốn tiếng anh của mình cũng khá !,,xem cái ni mới biết vốn tiếng anh của mình cũng khá !,Surprise,PNT4,Daily Conversation,high,79761839-4e36-4d46-bc8f-bfd4e0af851a,0,unknown,qualification,SENT_0070,xem cái này mới biết vốn tiếng anh của mình cũng khá !,15,5.505312919616699,245.99542042897426,15,6.203869342803955,494.65934948518316,0.6985564231872559,248.6639290562089,2.0108477979898214,13,13,1.0
+SENT_0192,SENT,may mình đi làm rồi chứ 10 năm trước chắc sẽ phát khổ với bố mẹ vì mấy tin con nhà người ta như thế nào,,"may chừ mình đi làm rồi, chứ 10 năm trước chắc phát khổ với ba mẹ vì mấy tin con nhà người ta như ri",Enjoyment,PNT4,Daily Conversation,high,79761839-4e36-4d46-bc8f-bfd4e0af851a,0,unknown,qualification,SENT_0192,may mình đi làm rồi chứ 10 năm trước chắc sẽ phát khổ với bố mẹ vì mấy tin con nhà người ta như thế nào,28,4.938327312469482,139.5366530278945,29,5.572239398956299,263.0224524210863,0.6339120864868164,123.48579939319183,1.8849703408645329,26,25,0.9615384615384616
+SENT_0237,SENT,"có ai nhìn thấy hình như người đàn ông này đang rất đau khổ không nhỉ ? mình nhận thấy hình như ông ấy đang rất đau khổ , mà không thể or không muốn nói ra .",,"có ai nhìn thấy hình như ông nớ đang rất đau khổ không ? Mình thấy hình như ông nớ đang rất đau khổ, mà không thể hay không muốn nói ra",Sadness,PNT4,Daily Conversation,high,79761839-4e36-4d46-bc8f-bfd4e0af851a,0,unknown,qualification,SENT_0237,"có ai nhìn thấy hình như người đàn ông này đang rất đau khổ không nhỉ ? mình nhận thấy hình như ông ấy đang rất đau khổ , mà không thể or không muốn nói ra .",39,3.525766372680664,33.979804834285595,36,3.6123709678649902,37.05380212242943,0.08660459518432617,3.073997288143836,1.090465419184579,38,32,0.8421052631578947
+SENT_0343,SENT,"móa , thiệt chứ tụi này nuôi làm gì vậy nhỉ ?",,"Móa, thiệt chớ tụi ni nuôi làm chi ri bây ?",Anger,PNT4,Daily Conversation,high,79761839-4e36-4d46-bc8f-bfd4e0af851a,0,unknown,qualification,SENT_0343,"móa , thiệt chứ tụi này nuôi làm gì vậy nhỉ ?",15,6.055375576019287,426.39902063181165,15,7.74323034286499,2305.909242321014,1.6878547668457031,1879.5102216892024,5.407867116824661,12,11,0.9166666666666666
+SENT_0462,SENT,tao đã từng viết như thế này . bây giờ không muốn ai đọc chỉ có đốt mà lười đốt,,"Ta đã từng viết như ri, bây chừ không muốn ai đọc chỉ có đốt mà ta lười đốt",Sadness,PNT4,Daily Conversation,high,79761839-4e36-4d46-bc8f-bfd4e0af851a,0,unknown,qualification,SENT_0462,tao đã từng viết như thế này . bây giờ không muốn ai đọc chỉ có đốt mà lười đốt,24,4.8982319831848145,134.05256285980548,24,5.59412145614624,268.84135738854343,0.6958894729614258,134.78879452873795,2.0054921118494575,20,19,0.95
+MCQA_0048_5,MCQA,"Để có giấc ngủ ngon trong đêm cho con, người mẹ đã làm gì?
+A. Người mẹ đã tạo gió làm dịu đi cái hè oi bức.
+B. Người mẹ đã thức trắng đêm để đắp chăn cho con.
+C. Người mẹ nấu cháo cho con ăn.
+D. Người mẹ đã đi mua thuốc về cho con.",Người mẹ đã tạo gió làm dịu đi cái hè oi bức.,"Để có giấc ngủ ngon trong đêm cho con, người mẹ đã làm gì?
+A. Người mẹ đã tạo gió làm dịu đi cái nóng hè oi bức.
+B. Người mẹ đã thức trắng đêm để đắp chăn cho con.
+C. Người mẹ nấu cháo cho con ăn.
+D. Người mẹ đã đi mua thuốc về cho con.",A,PNB,Daily Conversation,high,7e49e369-5b4e-4441-ba22-55eb0d6e2bdf,0,unknown,rewrite,MCQA_0048_5,"Để có giấc ngủ ngon trong đêm cho con, người mẹ đã làm gì?
+A. Người mẹ đã tạo gió làm dịu đi cái hè oi bức.
+B. Người mẹ đã thức trắng đêm để đắp chăn cho con.
+C. Người mẹ nấu cháo cho con ăn.
+D. Người mẹ đã đi mua thuốc về cho con.",74,2.6129088401794434,13.638665906349102,75,2.5832676887512207,13.240332834512246,-0.029641151428222656,-0.3983330718368556,0.9707938390329348,57,58,1.0175438596491229
+MCQA_0002_4,MCQA,"Mùa nào, chúng ta chỉ thấy những cành cây trơ trịu lá?
+A. Mùa xuân.
+B. Mùa hạ.
+C. Mùa thu.
+D. Mùa đông.",Mùa đông.,"Mùa nào, chúng ta chỉ thấy những cành cây trơ trụi lá?
+A. Mùa xuân
+B. Mùa hè
+C. Mùa thu
+D. Mùa đông",D,PNT4,Daily Conversation,high,79761839-4e36-4d46-bc8f-bfd4e0af851a,0,unknown,qualification,MCQA_0002_4,"Mùa nào, chúng ta chỉ thấy những cành cây trơ trịu lá?
+A. Mùa xuân.
+B. Mùa hạ.
+C. Mùa thu.
+D. Mùa đông.",47,2.523056745529175,12.46664584456814,46,1.9669222831726074,7.1486411033860735,-0.5561344623565674,-5.318004741182066,0.5734213671033912,24,24,1.0
+MCQA_0004_3,MCQA,"Sau khi ngưng hót, bầy chim sơn ca đã làm gì?
+A. Nhảy thẳng lên trời xanh.
+B. Bay thẳng lên bầu trời.
+C. Luyện xuống đất kiếm ăn.
+D. Tiếp tục hót vang xa hơn nữa.",Bay thẳng lên bầu trời.,"Sau khi ngưng hót, bầy chim sơn ca đã làm chi?
+A. Nhảy thẳng lên trời xanh.
+B. Bay thẳng lên bầu trời.
+C. Liệng xuống đất kiếm ăn.
+D. Tiếp tục hót vang xa hơn nữa.",B,PNT4,Daily Conversation,high,79761839-4e36-4d46-bc8f-bfd4e0af851a,0,unknown,qualification,MCQA_0004_3,"Sau khi ngưng hót, bầy chim sơn ca đã làm gì?
+A. Nhảy thẳng lên trời xanh.
+B. Bay thẳng lên bầu trời.
+C. Luyện xuống đất kiếm ăn.
+D. Tiếp tục hót vang xa hơn nữa.",57,3.323922872543335,27.769071698423964,58,3.4594051837921143,31.79805688875874,0.1354823112487793,4.028985190334776,1.1450889404618967,37,37,1.0
+QA_10332,QA,Vimara Peres đã thành lập một trong các thành phố đầu tiên vào thời gian này với tên gọi là gì?,Vimaranes,"Vimara Peres đã thành lập một trong các thành phố đầu tiên vào thời gian ni với tên gọi là chi?
+
+",Vimaranes,PNT4,Daily Conversation,high,79761839-4e36-4d46-bc8f-bfd4e0af851a,0,unknown,qualification,QA_10332,Vimara Peres đã thành lập một trong các thành phố đầu tiên vào thời gian này với tên gọi là gì?,26,4.169768810272217,64.70049228899177,26,5.050785064697266,156.14500030822407,0.8810162544250488,91.4445080192323,2.4133510392901725,21,21,1.0
+QA_10377,QA,"Khi tham gia cuộc chiến Tám mươi Năm, Bồ Đào Nha đã làm mất cái gì tại vùng vịnh Ba Tư?",cảng mậu dịch chiến lược Hormuz,"Khi tham gia cuộc chiến Tám mươi Năm, Bồ Đào Nha đã làm mất cái chi tại vùng vịnh Ba Tư?
+
+",cảng mậu dịch chiến lược Hormuz,PNT4,Daily Conversation,high,79761839-4e36-4d46-bc8f-bfd4e0af851a,0,unknown,qualification,QA_10377,"Khi tham gia cuộc chiến Tám mươi Năm, Bồ Đào Nha đã làm mất cái gì tại vùng vịnh Ba Tư?",31,3.1572325229644775,23.50545502567375,31,3.544461965560913,34.62105301145488,0.38722944259643555,11.115597985781132,1.4728943972214177,21,21,1.0
+MCQA_0043_3,MCQA,"Theo lời người cha đã mất, hai người con đã làm gì?
+A. Hai người con rời bỏ mảnh đất quê hương, theo đuổi điều hão huyền.
+B. Hai người con đào bới cả đám ruộng mà chẳng thấy kho báu đâu.
+C. Hai người con thay phiên nhau cấy cày, làm giàu từ mảnh ruộng.
+D. Hai người con bán mảnh ruộng, lên thành phố kiếm sống.",Hai người con đào bới cả đám ruộng mà chẳng thấy kho báu đâu.,"Theo lời người cha đã mất, hai người con đã làm gì?
+A. Hai người con rời bỏ mảnh đất quê hương, theo đuổi điều hão huyền.
+B. Hai người con đào bới cả đám ruộng mà chẳng thấy kho báu mô.
+C. Hai người con thay phiên nhau cấy cày, làm giàu từ mảnh ruộng.
+D. Hai người con bán mảnh ruộng, lên thành phố kiếm sống.",B,PNT4,Daily Conversation,high,5ea76d15-516d-4285-a781-7b1c6a04a627,0,unknown,rewrite,MCQA_0043_3,"Theo lời người cha đã mất, hai người con đã làm gì?
+A. Hai người con rời bỏ mảnh đất quê hương, theo đuổi điều hão huyền.
+B. Hai người con đào bới cả đám ruộng mà chẳng thấy kho báu đâu.
+C. Hai người con thay phiên nhau cấy cày, làm giàu từ mảnh ruộng.
+D. Hai người con bán mảnh ruộng, lên thành phố kiếm sống.",98,3.020037889480591,20.492068103300454,98,3.1300148963928223,22.874320284763392,0.10997700691223145,2.3822521814629383,1.116252404074299,68,68,1.0
+MCQA_0092_2,MCQA,"Khi đã hiểu hoàn cảnh gia đình Lan, cô và các bạn đã làm gì?
+A. Mua bánh giúp gia đình Lan.
+B. Hàng ngày đến nhà giúp Lan cắt lá để gói bánh.
+C. Góp tiền mua tặng Lan một tấm áo mới.
+D. Góp sách cho Lan đến trường.",Góp tiền mua tặng Lan một tấm áo mới.,"Khi đã hiểu hoàn cảnh gia đình Lan, cô với các bạn đã mần chi?
+A. Mua bánh giúp gia đình Lan.
+B. Hàng ngày đến nhà giúp Lan cắt lá để gói bánh.
+C. Góp tiền mua tặng Lan một cấy áo mới.
+D. Góp sách cho Lan đến trường.",C,PNT3,Daily Conversation,high,88346002-a7b4-4be1-aec6-e1e3625416ee,0,rewrite_completed,rewrite,MCQA_0092_2,"Khi đã hiểu hoàn cảnh gia đình Lan, cô và các bạn đã làm gì?
+A. Mua bánh giúp gia đình Lan.
+B. Hàng ngày đến nhà giúp Lan cắt lá để gói bánh.
+C. Góp tiền mua tặng Lan một tấm áo mới.
+D. Góp sách cho Lan đến trường.",68,3.199390172958374,24.51757415755782,70,3.7116305828094482,40.92047638220179,0.5122404098510742,16.40290222464397,1.6690263122784352,51,51,1.0
+MCQA_0012_0,MCQA,"An đã xin làm gì sau khi bà mất?
+A. An xin nghỉ học hẳn luôn.
+B. Xin bố mẹ cho đi du lịch.
+C. Nghỉ học mấy ngày liền.
+D. Xin được đi học để đỡ buồn.",Nghỉ học mấy ngày liền.,"An đạ xin mần chi sau khi bà mất? 
+A. An xin nghỉ học hẳn luôn. 
+B. Xin bố mẹ cho đi du lịch. 
+C. Nghỉ học mấy ngày liên tục. 
+D. Xin được đi học cho đỡ buồn.",C,PNT2,Daily Conversation,high,7d958013-3acc-4719-a459-b3a565d57865,0,unknown,rewrite,MCQA_0012_0,"An đã xin làm gì sau khi bà mất?
+A. An xin nghỉ học hẳn luôn.
+B. Xin bố mẹ cho đi du lịch.
+C. Nghỉ học mấy ngày liền.
+D. Xin được đi học để đỡ buồn.",50,3.7448387145996094,42.302183943930494,57,3.868378162384033,47.86469433440232,0.12353944778442383,5.562510390471829,1.131494638618296,38,39,1.0263157894736843
+MCQA_0002_4,MCQA,"Mùa nào, chúng ta chỉ thấy những cành cây trơ trịu lá?
+A. Mùa xuân.
+B. Mùa hạ.
+C. Mùa thu.
+D. Mùa đông.",Mùa đông.,"Mùa nào, chúng ta chỉ thấy những cành cây trơ trịu lá?
+A. Mùa xuân.
+B. Mùa hạ.
+C. Mùa thu.
+D. Mùa đông.",D,PNN,Daily Conversation,high,d873b729-a53d-4068-8b04-cbab8be13616,0,finalized,qualification,MCQA_0002_4,"Mùa nào, chúng ta chỉ thấy những cành cây trơ trịu lá?
+A. Mùa xuân.
+B. Mùa hạ.
+C. Mùa thu.
+D. Mùa đông.",47,2.523056745529175,12.46664584456814,47,2.523056745529175,12.46664584456814,0.0,0.0,1.0,24,24,1.0
+MCQA_0004_3,MCQA,"Sau khi ngưng hót, bầy chim sơn ca đã làm gì?
+A. Nhảy thẳng lên trời xanh.
+B. Bay thẳng lên bầu trời.
+C. Luyện xuống đất kiếm ăn.
+D. Tiếp tục hót vang xa hơn nữa.",Bay thẳng lên bầu trời.,"Sau khi ngưng hót, bầy chim sơn ca đã làm gì?
+A. Nhảy thẳng lên trời xanh.
+B. Bay thẳng lên bầu trời.
+C. Luyện xuống đất kiếm ăn.
+D. Tiếp tục hót vang xa hơn nữa.",B,PNN,Daily Conversation,high,d873b729-a53d-4068-8b04-cbab8be13616,0,finalized,qualification,MCQA_0004_3,"Sau khi ngưng hót, bầy chim sơn ca đã làm gì?
+A. Nhảy thẳng lên trời xanh.
+B. Bay thẳng lên bầu trời.
+C. Luyện xuống đất kiếm ăn.
+D. Tiếp tục hót vang xa hơn nữa.",57,3.323922872543335,27.769071698423964,57,3.323922872543335,27.769071698423964,0.0,0.0,1.0,37,37,1.0
+QA_10332,QA,Vimara Peres đã thành lập một trong các thành phố đầu tiên vào thời gian này với tên gọi là gì?,Vimaranes,Vimara Peres đã thành lập một trong các thành phố đầu tiên vào thời gian này với tên gọi là gì?,Vimaranes,PNN,Daily Conversation,high,d873b729-a53d-4068-8b04-cbab8be13616,0,finalized,qualification,QA_10332,Vimara Peres đã thành lập một trong các thành phố đầu tiên vào thời gian này với tên gọi là gì?,26,4.169768810272217,64.70049228899177,26,4.169768810272217,64.70049228899177,0.0,0.0,1.0,21,21,1.0
+QA_10377,QA,"Khi tham gia cuộc chiến Tám mươi Năm, Bồ Đào Nha đã làm mất cái gì tại vùng vịnh Ba Tư?",cảng mậu dịch chiến lược Hormuz,"Khi tham gia cuộc chiến Tám mươi Năm, Bồ Đào Nha đã làm mất cái gì tại vùng vịnh Ba Tư?",cảng mậu dịch chiến lược Hormuz,PNN,Daily Conversation,high,d873b729-a53d-4068-8b04-cbab8be13616,0,finalized,qualification,QA_10377,"Khi tham gia cuộc chiến Tám mươi Năm, Bồ Đào Nha đã làm mất cái gì tại vùng vịnh Ba Tư?",31,3.1572325229644775,23.50545502567375,31,3.1572325229644775,23.50545502567375,0.0,0.0,1.0,21,21,1.0
+SENT_0018,SENT,"thời buổi bây chừ chuyện gì cũng có thể xảy ra , vậy nên thôi trất , đừng nên tin ai",,"thời buổi ni chuyện chi cụng có thể xảy ra, vậy nên thôi dẹp, đừng nên tin ai",Fear,PNT2,Daily Conversation,high,9bd8c7fb-25fa-4b2d-9c1d-ab9f97e7731e,0,unknown,qualification,SENT_0018,"thời buổi bây chừ chuyện gì cũng có thể xảy ra , vậy nên thôi trất , đừng nên tin ai",24,4.696091175079346,109.51824704776799,24,5.412939548492432,224.28993071855612,0.7168483734130859,114.77168367078814,2.0479685966917347,21,18,0.8571428571428571
+SENT_0070,SENT,xem cái này mới biết vốn tiếng anh của mình cũng khá !,,xem cái ni mới biết vốn tiếng anh của mình cụng được !,Surprise,PNT2,Daily Conversation,high,9bd8c7fb-25fa-4b2d-9c1d-ab9f97e7731e,0,unknown,qualification,SENT_0070,xem cái này mới biết vốn tiếng anh của mình cũng khá !,15,5.505312919616699,245.99542042897426,16,6.1067047119140625,448.85716177818165,0.6013917922973633,202.8617413492074,1.8246565769210294,13,13,1.0
+SENT_0192,SENT,may mình đi làm rồi chứ 10 năm trước chắc sẽ phát khổ với bố mẹ vì mấy tin con nhà người ta như thế nào,,may mà đi mần rồi chứ không 10 năm trước chắc có lẹ phát khổ với mấy cấy tin con nhà người ta ni ,Enjoyment,PNT2,Daily Conversation,high,9bd8c7fb-25fa-4b2d-9c1d-ab9f97e7731e,0,unknown,qualification,SENT_0192,may mình đi làm rồi chứ 10 năm trước chắc sẽ phát khổ với bố mẹ vì mấy tin con nhà người ta như thế nào,28,4.938327312469482,139.5366530278945,29,5.759900093078613,317.31662520703753,0.8215727806091309,177.77997217914304,2.274073645321014,26,24,0.9230769230769231
+MCQA_0072_2,MCQA,"Việc lặp đi lặp lại nhiều lần những cụm từ ""Ai trồng cây"", ""Người đó có"", ""Em trồng cây"" có tác dụng gì?
+A. Tạo nên thông điệp nhắc nhở mọi người có ý thức trồng cây xanh.
+B. Tạo thành điệp khúc khiến bài thơ có vẫn điệu, dễ nhớ, dễ thuộc.
+C. Tạo điệp khúc khiến bài thơ có nhịp điệu và gửi gắm thông điệp: mọi người hãy có ý thức trồng cây xanh để bảo vệ môi trường sống.
+D. Tất cả các ý trên.",Tạo điệp khúc khiến bài thơ có nhịp điệu và gửi gắm thông điệp: mọi người hãy có ý thức trồng cây xanh để bảo vệ môi trường sống.,"Việc lặp đi lặp lại nhiều lần mấy cụm từ ""Ai trồng cây"", ""Người đó có"", ""Em trồng cây"" có tác dụng như nào?
+A. Tạo nên thông điệp nhắc nhở mọi người có ý thức trồng cây xanh.
+B. Tạo thành điệp khúc khiến bài thơ có vần điệu, dễ nhớ, dễ thuộc.
+C. Tạo điệp khúc khiến bài thơ có nhịp điệu và gửi gắm thông điệp: mọi người hãy có ý thức trồng cây xanh để bảo vệ môi trường sống.
+D. Tất cả các ý trên.",C,PNN,Daily Conversation,high,9d0d5c61-1083-4b35-8c02-c2c597f8212f,0,finalized,rewrite,MCQA_0072_2,"Việc lặp đi lặp lại nhiều lần những cụm từ ""Ai trồng cây"", ""Người đó có"", ""Em trồng cây"" có tác dụng gì?
+A. Tạo nên thông điệp nhắc nhở mọi người có ý thức trồng cây xanh.
+B. Tạo thành điệp khúc khiến bài thơ có vẫn điệu, dễ nhớ, dễ thuộc.
+C. Tạo điệp khúc khiến bài thơ có nhịp điệu và gửi gắm thông điệp: mọi người hãy có ý thức trồng cây xanh để bảo vệ môi trường sống.
+D. Tất cả các ý trên.",126,2.4474406242370605,11.558725707316775,128,2.4320945739746094,11.382699033264556,-0.015346050262451172,-0.17602667405221872,0.9847711003349796,89,90,1.0112359550561798
+MCQA_0002_4,MCQA,"Mùa nào, chúng ta chỉ thấy những cành cây trơ trịu lá?
+A. Mùa xuân.
+B. Mùa hạ.
+C. Mùa thu.
+D. Mùa đông.",Mùa đông.,"Mùa mô mà ta chỉ thấy mấy cấy cành cây trơ trọi lá?
+A. Mùa xuân.
+B. Mùa hè.
+C. Mùa thu.
+D. Mùa đông.",D,PNT2,Daily Conversation,high,9bd8c7fb-25fa-4b2d-9c1d-ab9f97e7731e,0,unknown,qualification,MCQA_0002_4,"Mùa nào, chúng ta chỉ thấy những cành cây trơ trịu lá?
+A. Mùa xuân.
+B. Mùa hạ.
+C. Mùa thu.
+D. Mùa đông.",47,2.523056745529175,12.46664584456814,48,2.766752243041992,15.906888319345653,0.24369549751281738,3.440242474777513,1.275955739632763,24,25,1.0416666666666667
+MCQA_0004_3,MCQA,"Sau khi ngưng hót, bầy chim sơn ca đã làm gì?
+A. Nhảy thẳng lên trời xanh.
+B. Bay thẳng lên bầu trời.
+C. Luyện xuống đất kiếm ăn.
+D. Tiếp tục hót vang xa hơn nữa.",Bay thẳng lên bầu trời.,"Sau khi ngưng hót, bầy chim sơn ca đạ mần chi?
+A. Nhảy thẳng lên trời xanh.
+B. Bay thẳng lên bầu trời.
+C. Liệng xuống đất kiếm ăn.
+D. Tiếp tục hót vang xa hơn nựa.",B,PNT2,Daily Conversation,high,9bd8c7fb-25fa-4b2d-9c1d-ab9f97e7731e,0,unknown,qualification,MCQA_0004_3,"Sau khi ngưng hót, bầy chim sơn ca đã làm gì?
+A. Nhảy thẳng lên trời xanh.
+B. Bay thẳng lên bầu trời.
+C. Luyện xuống đất kiếm ăn.
+D. Tiếp tục hót vang xa hơn nữa.",57,3.323922872543335,27.769071698423964,61,3.9269866943359375,50.75381027104152,0.6030638217926025,22.98473857261756,1.8277100085388183,37,37,1.0
+QA_10332,QA,Vimara Peres đã thành lập một trong các thành phố đầu tiên vào thời gian này với tên gọi là gì?,Vimaranes,Vimara Peres đạ thành lập một trong các thành phố đầu tiên vào thời gian ni với tên gọi là chi?,Vimaranes,PNT2,Daily Conversation,high,9bd8c7fb-25fa-4b2d-9c1d-ab9f97e7731e,0,unknown,qualification,QA_10332,Vimara Peres đã thành lập một trong các thành phố đầu tiên vào thời gian này với tên gọi là gì?,26,4.169768810272217,64.70049228899177,27,5.255000114440918,191.521507772273,1.0852313041687012,126.82101548328123,2.9601244286801003,21,21,1.0
+QA_10377,QA,"Khi tham gia cuộc chiến Tám mươi Năm, Bồ Đào Nha đã làm mất cái gì tại vùng vịnh Ba Tư?",cảng mậu dịch chiến lược Hormuz,"Khi tham gia cuộc chiến tám mưới năm, Bồ Đào Nha đạ làm mất cái chi tại vùng vinh Ba Tư?",cảng mậu dịch chiến lược Hormuz,PNT2,Daily Conversation,high,9bd8c7fb-25fa-4b2d-9c1d-ab9f97e7731e,0,unknown,qualification,QA_10377,"Khi tham gia cuộc chiến Tám mươi Năm, Bồ Đào Nha đã làm mất cái gì tại vùng vịnh Ba Tư?",31,3.1572325229644775,23.50545502567375,32,4.637889385223389,103.32603582029631,1.4806568622589111,79.82058079462256,4.395832189057341,21,21,1.0
+SENT_0237,SENT,"có ai nhìn thấy hình như người đàn ông này đang rất đau khổ không nhỉ ? mình nhận thấy hình như ông ấy đang rất đau khổ , mà không thể or không muốn nói ra .",,"cóa ai nhìn thấy người đàn ông ni đang rất đau khổ không nhỉ? mình nhận thấy hình như ông nứ đang rất đau khổ, mà không thể hoặc không muốn nuối ra",Sadness,PNT1,Daily Conversation,high,a4432712-749b-4d01-8b03-4cb9d0f81348,0,finalized,qualification,SENT_0237,"có ai nhìn thấy hình như người đàn ông này đang rất đau khổ không nhỉ ? mình nhận thấy hình như ông ấy đang rất đau khổ , mà không thể or không muốn nói ra .",39,3.525766372680664,33.979804834285595,39,4.623498916625977,101.84977327738187,1.0977325439453125,67.86996844309627,2.997361926417409,38,33,0.868421052631579
+SENT_0343,SENT,"móa , thiệt chứ tụi này nuôi làm gì vậy nhỉ ?",,"móa, thặc chứ tụi ni nuôi mằn chi vậy nhỉ?",Anger,PNT1,Daily Conversation,high,a4432712-749b-4d01-8b03-4cb9d0f81348,0,finalized,qualification,SENT_0343,"móa , thiệt chứ tụi này nuôi làm gì vậy nhỉ ?",15,6.055375576019287,426.39902063181165,18,5.713263988494873,302.85798173749777,-0.34211158752441406,-123.54103889431389,0.7102689431339255,12,10,0.8333333333333334
+SENT_0462,SENT,tao đã từng viết như thế này . bây giờ không muốn ai đọc chỉ có đốt mà lười đốt,,tau đã từng vít như ri . bây chừ không mún ai đuộc chỉ cóa đốt mà lười đốt,Sadness,PNT1,Daily Conversation,high,a4432712-749b-4d01-8b03-4cb9d0f81348,0,finalized,qualification,SENT_0462,tao đã từng viết như thế này . bây giờ không muốn ai đọc chỉ có đốt mà lười đốt,24,4.8982319831848145,134.05256285980548,26,6.7851972579956055,884.6545749232121,1.886965274810791,750.6020120634066,6.599311166086391,20,19,0.95
+MCQA_0012_0,MCQA,"An đã xin làm gì sau khi bà mất?
+A. An xin nghỉ học hẳn luôn.
+B. Xin bố mẹ cho đi du lịch.
+C. Nghỉ học mấy ngày liền.
+D. Xin được đi học để đỡ buồn.",Nghỉ học mấy ngày liền.,"An đã xin làm gì sau khi bà mất?
+A. An xin nghỉ học hẳn luôn.
+B. Xin bố mẹ cho đi du lịch.
+C. Nghỉ học mấy ngày liền.
+D. Xin được đi học để đỡ buồn.",C,PNT1,Daily Conversation,high,6b0ccea8-04fe-4c9c-82c8-309e147936f4,0,finalized,qualification,MCQA_0012_0,"An đã xin làm gì sau khi bà mất?
+A. An xin nghỉ học hẳn luôn.
+B. Xin bố mẹ cho đi du lịch.
+C. Nghỉ học mấy ngày liền.
+D. Xin được đi học để đỡ buồn.",50,3.7448387145996094,42.302183943930494,50,3.7448387145996094,42.302183943930494,0.0,0.0,1.0,38,38,1.0
+MCQA_0010_1,MCQA,"Vì sao cha muốn cho bớt chó con đi?
+A. Vì cha không thích chó con.
+B. Vì bố thích đem cho người khác.
+C. Vì nhà hàng xóm xin từ trước.
+D. Vì nhiều quá, nuôi không xuể.","Vì nhiều quá, nuôi không xuể.","VÌ răng bố muốn cho bớt chóa coan đi?
+A. Vì bố không thích chóa coan.
+B. Vì bố thích đem cho người khác.
+C. Vì nhà hàng xóm xin từ tước.
+D. Vì nhiều quớ, nuôi không xuể.",D,PNT1,Daily Conversation,high,a4432712-749b-4d01-8b03-4cb9d0f81348,0,finalized,qualification,MCQA_0010_1,"Vì sao cha muốn cho bớt chó con đi?
+A. Vì cha không thích chó con.
+B. Vì bố thích đem cho người khác.
+C. Vì nhà hàng xóm xin từ trước.
+D. Vì nhiều quá, nuôi không xuể.",55,3.6045453548431396,36.76496504366911,60,4.260953426361084,70.8775277532708,0.6564080715179443,34.11256270960169,1.9278551650758564,39,39,1.0
+MCQA_0010_3,MCQA,"Giang đã đưa ra ý kiến gì với chị khi bố bảo phải cho bớt đi?
+A. Giữ chó con lại nuôi.
+B. Bán chó con.
+C. Nuôi thêm mèo.
+D. Cho chó con.",Bán chó con.,"Giang đã đưa ra ý kiến chi với chị khi bố bảo phải cho bớt đi?
+A. Giữ chó coan lại nui
+B. Bán chóa coan
+C. Nui thêm mèo
+D. Choa chóa coan",B,PNT1,Daily Conversation,high,a4432712-749b-4d01-8b03-4cb9d0f81348,0,finalized,qualification,MCQA_0010_3,"Giang đã đưa ra ý kiến gì với chị khi bố bảo phải cho bớt đi?
+A. Giữ chó con lại nuôi.
+B. Bán chó con.
+C. Nuôi thêm mèo.
+D. Cho chó con.",50,3.8307950496673584,46.099174801930914,56,4.227218151092529,68.52633686066495,0.3964231014251709,22.42716205873404,1.4864981239923334,34,34,1.0
+QA_10332,QA,Vimara Peres đã thành lập một trong các thành phố đầu tiên vào thời gian này với tên gọi là gì?,Vimaranes,Vimara Peres đã thành lập một troong các thành phố đầu tin vào thời gian ni với tên gọai là chi?,Vimaranes,PNT1,Daily Conversation,high,a4432712-749b-4d01-8b03-4cb9d0f81348,0,finalized,qualification,QA_10332,Vimara Peres đã thành lập một trong các thành phố đầu tiên vào thời gian này với tên gọi là gì?,26,4.169768810272217,64.70049228899177,29,6.439385890960693,626.0222358276368,2.2696170806884766,561.321743538645,9.675695094118304,21,21,1.0
+QA_10377,QA,"Khi tham gia cuộc chiến Tám mươi Năm, Bồ Đào Nha đã làm mất cái gì tại vùng vịnh Ba Tư?",cảng mậu dịch chiến lược Hormuz,"Khi tham gia cuộc chín Tám mưi Năm, Bồ Đào Nha đã làm mất cái chi tại vùng vịnh Ba Tư?
+
+",cảng mậu dịch chiến lược Hormuz,PNT1,Daily Conversation,high,a4432712-749b-4d01-8b03-4cb9d0f81348,0,finalized,qualification,QA_10377,"Khi tham gia cuộc chiến Tám mươi Năm, Bồ Đào Nha đã làm mất cái gì tại vùng vịnh Ba Tư?",31,3.1572325229644775,23.50545502567375,33,4.420204162597656,83.11325224376088,1.2629716396331787,59.60779721808713,3.5359133508787948,21,21,1.0
+SENT_0018,SENT,"thời buổi bây chừ chuyện gì cũng có thể xảy ra , vậy nên thôi trất , đừng nên tin ai",,"thời buổi ni chuyện chi cũng xảy ra được, vậy nên dẹp đi, đừng nên tin ai",Fear,PNT3,Daily Conversation,high,a535cb14-6f28-47fa-8989-505a99f839db,0,finalized,qualification,SENT_0018,"thời buổi bây chừ chuyện gì cũng có thể xảy ra , vậy nên thôi trất , đừng nên tin ai",24,4.696091175079346,109.51824704776799,22,5.3418169021606445,208.89190185561716,0.6457257270812988,99.37365480784918,1.9073707577195416,21,17,0.8095238095238095
+SENT_0070,SENT,xem cái này mới biết vốn tiếng anh của mình cũng khá !,,coi cái ni mới biết vốn tiếng anh của tau cũng khá !,Surprise,PNT3,Daily Conversation,high,a535cb14-6f28-47fa-8989-505a99f839db,0,finalized,qualification,SENT_0070,xem cái này mới biết vốn tiếng anh của mình cũng khá !,15,5.505312919616699,245.99542042897426,15,7.299863338470459,1480.0976413549497,1.7945504188537598,1234.1022209259754,6.016769087708668,13,13,1.0
+SENT_0192,SENT,may mình đi làm rồi chứ 10 năm trước chắc sẽ phát khổ với bố mẹ vì mấy tin con nhà người ta như thế nào,,may mà tau đi làm 10 năm rồi chơ 10 năm trước chắc sẽ phải khổi với ba mẹ vì mấy cì tin con nhà người ta như răng,Enjoyment,PNT3,Daily Conversation,high,a535cb14-6f28-47fa-8989-505a99f839db,0,finalized,qualification,SENT_0192,may mình đi làm rồi chứ 10 năm trước chắc sẽ phát khổ với bố mẹ vì mấy tin con nhà người ta như thế nào,28,4.938327312469482,139.5366530278945,36,5.326756000518799,205.7693745300011,0.3884286880493164,66.23272150210661,1.4746618187041234,26,29,1.1153846153846154
+MCQA_0025_10,MCQA,"Mai đã nói gì khi biết cô cũng quyết định cho mình viết bút mực?
+A. Thôi cô ạ, em không thích viết bút mực.
+B. Thôi cô ạ, cứ để bạn Lan viết trước.
+C. Thôi cô ạ, thế thì em không cho Lan mượn bút nữa.
+D. Thôi cô ạ, em nhường bạn Lan viết bút mực.","Thôi cô ạ, cứ để bạn Lan viết trước.","Mai đã nói gì khi biết cô cũng quyết định cho mình viết bút mực?
+A. Thôi cô ạ, em không thích viết bút mực đâu.
+B. Thôi cô ạ, cứ để bạn Lan viết trước đi ạ.
+C. Thôi cô ạ, thế thì em không cho Lan mượn bút nữa ạ.
+D. Thôi cô ạ, em nhường bạn Lan viết bút mực ạ.",B,PNB,Daily Conversation,high,7e49e369-5b4e-4441-ba22-55eb0d6e2bdf,0,unknown,rewrite,MCQA_0025_10,"Mai đã nói gì khi biết cô cũng quyết định cho mình viết bút mực?
+A. Thôi cô ạ, em không thích viết bút mực.
+B. Thôi cô ạ, cứ để bạn Lan viết trước.
+C. Thôi cô ạ, thế thì em không cho Lan mượn bút nữa.
+D. Thôi cô ạ, em nhường bạn Lan viết bút mực.",91,2.4825801849365234,11.972114871245452,99,2.4083311557769775,11.115395793977234,-0.0742490291595459,-0.8567190772682185,0.9284404563035157,59,64,1.0847457627118644
+MCQA_0002_4,MCQA,"Mùa nào, chúng ta chỉ thấy những cành cây trơ trịu lá?
+A. Mùa xuân.
+B. Mùa hạ.
+C. Mùa thu.
+D. Mùa đông.",Mùa đông.,"Mùa mô, chúng ta chỉ chộ mấy cành cây trơ trụi lá?
+A. Mùa xun.
+B. Mùa hè.
+C. Mùa thu.
+D. Mùa đông.",D,PNT3,Daily Conversation,high,a535cb14-6f28-47fa-8989-505a99f839db,0,finalized,qualification,MCQA_0002_4,"Mùa nào, chúng ta chỉ thấy những cành cây trơ trịu lá?
+A. Mùa xuân.
+B. Mùa hạ.
+C. Mùa thu.
+D. Mùa đông.",47,2.523056745529175,12.46664584456814,49,3.1443183422088623,23.20385299396112,0.6212615966796875,10.737207149392981,1.8612747392732991,24,24,1.0
+MCQA_0004_3,MCQA,"Sau khi ngưng hót, bầy chim sơn ca đã làm gì?
+A. Nhảy thẳng lên trời xanh.
+B. Bay thẳng lên bầu trời.
+C. Luyện xuống đất kiếm ăn.
+D. Tiếp tục hót vang xa hơn nữa.",Bay thẳng lên bầu trời.,"Sau khi ngưng hót, bầy chim sơn ca đã làm chi?
+A. Nhảy thẳng lên trời xanh.
+B. Bay thẳng lên bầu trời.
+C. Lượn xuống đất kiếm ăn.
+D. Tiếp tục hót vang xa hơn nữa.",B,PNT3,Daily Conversation,high,a535cb14-6f28-47fa-8989-505a99f839db,0,finalized,qualification,MCQA_0004_3,"Sau khi ngưng hót, bầy chim sơn ca đã làm gì?
+A. Nhảy thẳng lên trời xanh.
+B. Bay thẳng lên bầu trời.
+C. Luyện xuống đất kiếm ăn.
+D. Tiếp tục hót vang xa hơn nữa.",57,3.323922872543335,27.769071698423964,58,3.4057397842407227,30.13658204783399,0.0818169116973877,2.3675103494100256,1.0852570937596158,37,37,1.0
+QA_10332,QA,Vimara Peres đã thành lập một trong các thành phố đầu tiên vào thời gian này với tên gọi là gì?,Vimaranes,"Vimara Peres đã thành lập một trong các thành phố đầu tiên trong thời gian ni với tên gọi là chi?
+",Vimaranes,PNT3,Daily Conversation,high,a535cb14-6f28-47fa-8989-505a99f839db,0,finalized,qualification,QA_10332,Vimara Peres đã thành lập một trong các thành phố đầu tiên vào thời gian này với tên gọi là gì?,26,4.169768810272217,64.70049228899177,26,4.958699703216553,142.40850213739193,0.7889308929443359,77.70800984840017,2.2010420183714974,21,21,1.0
+QA_10377,QA,"Khi tham gia cuộc chiến Tám mươi Năm, Bồ Đào Nha đã làm mất cái gì tại vùng vịnh Ba Tư?",cảng mậu dịch chiến lược Hormuz,"Khi tham gia cuộc chiến Tám mươi Nam, Bồ Đào Nha đã làm mất cái chi ở cì chỗ vùng vịnh Ba Tư?",cảng mậu dịch chiến lược Hormuz,PNT3,Daily Conversation,high,a535cb14-6f28-47fa-8989-505a99f839db,0,finalized,qualification,QA_10377,"Khi tham gia cuộc chiến Tám mươi Năm, Bồ Đào Nha đã làm mất cái gì tại vùng vịnh Ba Tư?",31,3.1572325229644775,23.50545502567375,34,4.12007474899292,61.5638439277754,0.9628422260284424,38.058388902101655,2.619130064086507,21,23,1.0952380952380953
+SENT_0343,SENT,"móa , thiệt chứ tụi này nuôi làm gì vậy nhỉ ?",,"Mé, thật sự  bọn này  nuôi để làm gì nhỉ?",Anger,PNB,Daily Conversation,high,291aae44-1453-4283-9067-782588cd28ff,0,unknown,qualification,SENT_0343,"móa , thiệt chứ tụi này nuôi làm gì vậy nhỉ ?",15,6.055375576019287,426.39902063181165,16,5.888569355010986,360.88861138912773,-0.16680622100830078,-65.51040924268392,0.8463636029331993,12,10,0.8333333333333334
+MCQA_0012_5,MCQA,"Tại sao thầy giáo không trách An khi biết bạn chưa làm bài tập?
+A. Vì đây là lần đầu tiên An mắc lỗi.
+B. Vì cả lớp đã kể cho thầy nghe.
+C. Vì thầy hiểu và thông cảm hoàn cảnh của An. An cũng đã thành thực nhận lỗi.
+D. Vì An đã mắc lỗi quá nhiều lần.",Vì thầy hiểu và thông cảm hoàn cảnh của An. An cũng đã thành thực nhận lỗi.,"Tại sao thầy giáo không trách An khi biết bạn chưa làm bài tập?
+A. Vì đây là lần đầu tiên An mắc lỗi.
+B. Vì cả lớp đã kể cho thầy nghe.
+C. Vì thầy hiểu và thông cảm hoàn cảnh của An. An cũng đã thành thực nhận lỗi.
+D. Vì An đã mắc lỗi quá nhiều lần.",C,PNT1,Daily Conversation,high,6b0ccea8-04fe-4c9c-82c8-309e147936f4,0,finalized,qualification,MCQA_0012_5,"Tại sao thầy giáo không trách An khi biết bạn chưa làm bài tập?
+A. Vì đây là lần đầu tiên An mắc lỗi.
+B. Vì cả lớp đã kể cho thầy nghe.
+C. Vì thầy hiểu và thông cảm hoàn cảnh của An. An cũng đã thành thực nhận lỗi.
+D. Vì An đã mắc lỗi quá nhiều lần.",73,3.113865375518799,22.507877870747663,73,3.113865375518799,22.507877870747663,0.0,0.0,1.0,60,60,1.0
+QA_10410,QA,"Trrong gia đoạn mất mát lãnh thổ, Bồ Đào Nha đã tập trung vào làm những việc gì?",bành trướng các tiền đồn của họ tại châu Phi,"Trong giai đoạn mất mát lãnh thổ, Bồ Đào Nha đã tập trung vào làm những việc gì?",bành trướng các tiền đồn của họ tại châu Phi,PNT1,Daily Conversation,high,6b0ccea8-04fe-4c9c-82c8-309e147936f4,0,finalized,qualification,QA_10410,"Trrong gia đoạn mất mát lãnh thổ, Bồ Đào Nha đã tập trung vào làm những việc gì?",26,3.954017400741577,52.144431683523266,26,2.5427026748657227,12.71398634964037,-1.4113147258758545,-39.43044533388289,0.2438225125705564,18,18,1.0
+MCQA_0002_4,MCQA,"Mùa nào, chúng ta chỉ thấy những cành cây trơ trịu lá?
+A. Mùa xuân.
+B. Mùa hạ.
+C. Mùa thu.
+D. Mùa đông.",Mùa đông.,"Mùa mô, chúng ta chỉ thấy những cành cây trơ trọi lá?
+A. Mùa xuân.
+B. Mùa hạ.
+C. Mùa thu.
+D. Mùa đông.",D,PNT1,Daily Conversation,high,dca4b218-67a4-43d1-a513-8134e12f4b19,0,finalized,qualification,MCQA_0002_4,"Mùa nào, chúng ta chỉ thấy những cành cây trơ trịu lá?
+A. Mùa xuân.
+B. Mùa hạ.
+C. Mùa thu.
+D. Mùa đông.",47,2.523056745529175,12.46664584456814,47,2.4191527366638184,11.236335145909827,-0.10390400886535645,-1.2303106986583128,0.9013118112122859,24,24,1.0
+MCQA_0004_3,MCQA,"Sau khi ngưng hót, bầy chim sơn ca đã làm gì?
+A. Nhảy thẳng lên trời xanh.
+B. Bay thẳng lên bầu trời.
+C. Luyện xuống đất kiếm ăn.
+D. Tiếp tục hót vang xa hơn nữa.",Bay thẳng lên bầu trời.,"Sau khi ngưng hót, bầy chim sơn ca đả làm chi?
+A. Nhảy thẳng lên trời xanh.
+B. Bay thẳng lên bầu trời.
+C. Liệng xuống đất kiếm ăn.
+D. Tiếp tục hót vang xa hơn nửa.",B,PNT1,Daily Conversation,high,dca4b218-67a4-43d1-a513-8134e12f4b19,0,finalized,qualification,MCQA_0004_3,"Sau khi ngưng hót, bầy chim sơn ca đã làm gì?
+A. Nhảy thẳng lên trời xanh.
+B. Bay thẳng lên bầu trời.
+C. Luyện xuống đất kiếm ăn.
+D. Tiếp tục hót vang xa hơn nữa.",57,3.323922872543335,27.769071698423964,58,3.874227523803711,48.145492675672216,0.550304651260376,20.37642097724825,1.7337811360256856,37,37,1.0
+MCQA_0010_1,MCQA,"Vì sao cha muốn cho bớt chó con đi?
+A. Vì cha không thích chó con.
+B. Vì bố thích đem cho người khác.
+C. Vì nhà hàng xóm xin từ trước.
+D. Vì nhiều quá, nuôi không xuể.","Vì nhiều quá, nuôi không xuể.","Vì răng cha muốn cho bớt chó con đi?
+
+A. Vì cha nỏ thích chó con.
+B. Vì bố thích đem cho người khác.
+C. Vì nhà hàng xóm xin từ trước.
+D. Vì nhiều quá, nuôi nỏ xuể.",D,PNT3,Daily Conversation,high,eb02b7a5-f3df-407d-8da3-21f0b73659ef,0,unknown,qualification,MCQA_0010_1,"Vì sao cha muốn cho bớt chó con đi?
+A. Vì cha không thích chó con.
+B. Vì bố thích đem cho người khác.
+C. Vì nhà hàng xóm xin từ trước.
+D. Vì nhiều quá, nuôi không xuể.",55,3.6045453548431396,36.76496504366911,56,4.24331521987915,69.63833597062994,0.6387698650360107,32.87337092696083,1.8941493861863903,39,39,1.0
+SENT_0534,SENT,"cái công ty thực phẩm cung cấp cho các trường mầm non thật quá độc ác . vì lợi ích cá nhân mà ảnh hưởng khủng khiếp tới các em . quá dã man . các người gây nên hoạ thì mai này đời con đời cháu sẽ phải gánh nghiệp đó thôi . gieo nhân nào gặt quả ấy , đừng tưởng bây giờ sống nhé nhỉ thế là không sao . đời còn dài lắm",,"cái công ty thực phẩm cung cấp cho các trường mầm non thật quá độc ác . vì lợi ích cá nhân mà ảnh hưởng khủng khiếp tới các em . quá dã man . các người gây nên hoạ thì mai ni đời con đời cháu sẽ phải gánh nghiệp đó thôi . gieo nhân nào gặt quả nấy , đừng tưởng bây giờ sống nghe nhỉ thế là không răng . đời còn dài lắm",Other,PNT4,Daily Conversation,high,eb3805e3-c095-4a6c-8697-9f6079168a64,0,finalized,qualification,SENT_0534,"cái công ty thực phẩm cung cấp cho các trường mầm non thật quá độc ác . vì lợi ích cá nhân mà ảnh hưởng khủng khiếp tới các em . quá dã man . các người gây nên hoạ thì mai này đời con đời cháu sẽ phải gánh nghiệp đó thôi . gieo nhân nào gặt quả ấy , đừng tưởng bây giờ sống nhé nhỉ thế là không sao . đời còn dài lắm",90,4.527426242828369,92.52013003372527,91,4.648451328277588,104.42314312012705,0.12102508544921875,11.903013086401785,1.1286532247853838,77,77,1.0
+SENT_0572,SENT,em cũng thắc mắc tại răng khúc xương tư tao nhỉ ? xong nó lại tự to lên được nó nhờ lực gì rứa,,em cũng thắc mắc tại răng khúc xương tư tao rứa ? xong nó lại tự to lên được nó nhờ lực chi rứa,Surprise,PNT4,Daily Conversation,high,eb3805e3-c095-4a6c-8697-9f6079168a64,0,finalized,qualification,SENT_0572,em cũng thắc mắc tại răng khúc xương tư tao nhỉ ? xong nó lại tự to lên được nó nhờ lực gì rứa,30,5.573439121246338,263.3381956842804,31,5.618952751159668,275.6006096334316,0.04551362991333008,12.26241394915121,1.0465652691106488,24,24,1.0
+SENT_0626,SENT,"năm nào cũng đi cho có không khí xuân vậy , không đi thì thấy thiếu thiếu . nhà tao cách chợ 10km",,"năm nào cũng đi cho có không khí xuân vậy , không đi thì thấy thiếu thiếu . nhà ta cách chợ 10km",Enjoyment,PNT4,Daily Conversation,high,eb3805e3-c095-4a6c-8697-9f6079168a64,0,finalized,qualification,SENT_0626,"năm nào cũng đi cho có không khí xuân vậy , không đi thì thấy thiếu thiếu . nhà tao cách chợ 10km",28,4.888733386993408,132.78527992937808,27,4.8008809089660645,121.61750429492307,-0.08785247802734375,-11.167775634455012,0.9158959815395608,23,23,1.0
+MCQA_0010_1,MCQA,"Vì sao cha muốn cho bớt chó con đi?
+A. Vì cha không thích chó con.
+B. Vì bố thích đem cho người khác.
+C. Vì nhà hàng xóm xin từ trước.
+D. Vì nhiều quá, nuôi không xuể.","Vì nhiều quá, nuôi không xuể.","Vì răng ba muốn cho bớt chó con đi?
+A. Vì ba không thích chó con.
+B. Vì ba thích đem cho người khác.
+C. Vì nhà hàng xóm xin từ trước.
+D. Vì nhiều quá, nuôi không xuể.",D,PNT4,Daily Conversation,high,eb3805e3-c095-4a6c-8697-9f6079168a64,0,finalized,qualification,MCQA_0010_1,"Vì sao cha muốn cho bớt chó con đi?
+A. Vì cha không thích chó con.
+B. Vì bố thích đem cho người khác.
+C. Vì nhà hàng xóm xin từ trước.
+D. Vì nhiều quá, nuôi không xuể.",55,3.6045453548431396,36.76496504366911,54,4.036140441894531,56.607440937463075,0.4315950870513916,19.842475893793967,1.5397115397831942,39,39,1.0
+MCQA_0010_3,MCQA,"Giang đã đưa ra ý kiến gì với chị khi bố bảo phải cho bớt đi?
+A. Giữ chó con lại nuôi.
+B. Bán chó con.
+C. Nuôi thêm mèo.
+D. Cho chó con.",Bán chó con.,"Giang đã đưa ra ý kiến chi với chị khi ba nói phải cho bớt đi?
+A. Giữ chó con lại nuôi.
+B. Bán chó con.
+C. Nuôi thêm mèo.
+D. Cho chó con.",B,PNT4,Daily Conversation,high,eb3805e3-c095-4a6c-8697-9f6079168a64,0,finalized,qualification,MCQA_0010_3,"Giang đã đưa ra ý kiến gì với chị khi bố bảo phải cho bớt đi?
+A. Giữ chó con lại nuôi.
+B. Bán chó con.
+C. Nuôi thêm mèo.
+D. Cho chó con.",50,3.8307950496673584,46.099174801930914,50,4.032896518707275,56.424108266553915,0.202101469039917,10.324933464623001,1.2239721970943074,34,34,1.0
+QA_0268,QA,Các toán hạng được chứa trong chỉ thị như thế nào thì được gọi là giá trị tức thời?,các chỉ thị thực (như cộng hay so sánh),Các toán hạng được chứa trong chỉ thị như thế nào thì được gọi là giá trị tức thời?,các chỉ thị thực (như cộng hay so sánh),PNT4,Daily Conversation,high,eb3805e3-c095-4a6c-8697-9f6079168a64,0,finalized,qualification,QA_0268,Các toán hạng được chứa trong chỉ thị như thế nào thì được gọi là giá trị tức thời?,21,4.642796039581299,103.83426680146997,21,4.642796039581299,103.83426680146997,0.0,0.0,1.0,19,19,1.0
+SENT_0237,SENT,"có ai nhìn thấy hình như người đàn ông này đang rất đau khổ không nhỉ ? mình nhận thấy hình như ông ấy đang rất đau khổ , mà không thể or không muốn nói ra .",,"có ai chộ hình như ông ni đang rất đau khổ không hè ? tao thấy là hình như ông ơ đang rất đau khổ, mà không nói ra được",Sadness,PNT3,Daily Conversation,high,2fdf203d-4d50-4041-9bef-98014b83a48a,0,unknown,qualification,SENT_0237,"có ai nhìn thấy hình như người đàn ông này đang rất đau khổ không nhỉ ? mình nhận thấy hình như ông ấy đang rất đau khổ , mà không thể or không muốn nói ra .",39,3.525766372680664,33.979804834285595,34,4.791135311126709,120.43802570506875,1.265368938446045,86.45822087078315,3.544400160401948,38,30,0.7894736842105263
+SENT_0343,SENT,"móa , thiệt chứ tụi này nuôi làm gì vậy nhỉ ?",,"mẹ, thiệt chơ tụi ni nuôi làm chi rứa he ?",Anger,PNT3,Daily Conversation,high,2fdf203d-4d50-4041-9bef-98014b83a48a,0,unknown,qualification,SENT_0343,"móa , thiệt chứ tụi này nuôi làm gì vậy nhỉ ?",15,6.055375576019287,426.39902063181165,17,6.38383674621582,592.1954581681374,0.3284611701965332,165.79643753632575,1.3888293113118761,12,11,0.9166666666666666
+SENT_0462,SENT,tao đã từng viết như thế này . bây giờ không muốn ai đọc chỉ có đốt mà lười đốt,,tao đã từng viết như ri . chừ không muốn ai đọc chỉ có đốt mà lười đốt,Sadness,PNT3,Daily Conversation,high,2fdf203d-4d50-4041-9bef-98014b83a48a,0,unknown,qualification,SENT_0462,tao đã từng viết như thế này . bây giờ không muốn ai đọc chỉ có đốt mà lười đốt,24,4.8982319831848145,134.05256285980548,23,5.973451137542725,392.8591448376592,1.0752191543579102,258.80658197785374,2.9306350916134156,20,18,0.9
+SENT_0534,SENT,"cái công ty thực phẩm cung cấp cho các trường mầm non thật quá độc ác . vì lợi ích cá nhân mà ảnh hưởng khủng khiếp tới các em . quá dã man . các người gây nên hoạ thì mai này đời con đời cháu sẽ phải gánh nghiệp đó thôi . gieo nhân nào gặt quả ấy , đừng tưởng bây giờ sống nhé nhỉ thế là không sao . đời còn dài lắm",,"cái công ty thực phẩm cung cấp cho các trường mầm non thật quá độc ác, vì lợi ích cá nhân mà ãnh hưỡng khũng khiếp tới các em, quá dã man. Các người gây nên họa thì mai ni đơì con cháu sẽ phải gánh nghiệp đó thôi, gieo nhân nào gặt quả nấy, đừng tưởng bây chừ sống như thế là không răng, đời còn dài lắm",Other,PNT1,Daily Conversation,high,dca4b218-67a4-43d1-a513-8134e12f4b19,0,finalized,qualification,SENT_0534,"cái công ty thực phẩm cung cấp cho các trường mầm non thật quá độc ác . vì lợi ích cá nhân mà ảnh hưởng khủng khiếp tới các em . quá dã man . các người gây nên hoạ thì mai này đời con đời cháu sẽ phải gánh nghiệp đó thôi . gieo nhân nào gặt quả ấy , đừng tưởng bây giờ sống nhé nhỉ thế là không sao . đời còn dài lắm",90,4.527426242828369,92.52013003372527,94,4.737527370452881,114.15159782319098,0.21010112762451172,21.631467789465717,1.233802825196859,77,69,0.8961038961038961
+SENT_0572,SENT,em cũng thắc mắc tại răng khúc xương tư tao nhỉ ? xong nó lại tự to lên được nó nhờ lực gì rứa,,"em  củng thắc mắc tại sao khúc xương tự tạo nhỉ ? xong nó lại tự to lên được, nó nhờ lực chi rứa",Surprise,PNT1,Daily Conversation,high,dca4b218-67a4-43d1-a513-8134e12f4b19,0,finalized,qualification,SENT_0572,em cũng thắc mắc tại răng khúc xương tư tao nhỉ ? xong nó lại tự to lên được nó nhờ lực gì rứa,30,5.573439121246338,263.3381956842804,33,5.45576810836792,234.1046197447965,-0.11767101287841797,-29.23357593948387,0.8889884702691121,24,24,1.0
+SENT_0626,SENT,"năm nào cũng đi cho có không khí xuân vậy , không đi thì thấy thiếu thiếu . nhà tao cách chợ 10km",,"năm mô củng đi cho có không khí xuân vậy, chả đi thì thấy thíu thíu. Nhà tau cách chợ 10km",Enjoyment,PNT1,Daily Conversation,high,dca4b218-67a4-43d1-a513-8134e12f4b19,0,finalized,qualification,SENT_0626,"năm nào cũng đi cho có không khí xuân vậy , không đi thì thấy thiếu thiếu . nhà tao cách chợ 10km",28,4.888733386993408,132.78527992937808,31,6.071703910827637,433.41855933314736,1.1829705238342285,300.6332794037693,3.2640557715709244,23,21,0.9130434782608695
+MCQA_0092_2,MCQA,"Khi đã hiểu hoàn cảnh gia đình Lan, cô và các bạn đã làm gì?
+A. Mua bánh giúp gia đình Lan.
+B. Hàng ngày đến nhà giúp Lan cắt lá để gói bánh.
+C. Góp tiền mua tặng Lan một tấm áo mới.
+D. Góp sách cho Lan đến trường.",Góp tiền mua tặng Lan một tấm áo mới.,"Khi đã hiểu hoàn cảnh gia đình Lan, cô và mấy bạn đã làm gì?
+A. Mua bánh giúp gia đình Lan.
+B. Hàng ngày tới nhà giúp Lan cắt lá để gói bánh.
+C. Góp tiền mua tặng Lan một cái áo mới.
+D. Góp sách cho Lan tới trường.",C,PNN,Daily Conversation,high,9d0d5c61-1083-4b35-8c02-c2c597f8212f,0,unknown,rewrite,MCQA_0092_2,"Khi đã hiểu hoàn cảnh gia đình Lan, cô và các bạn đã làm gì?
+A. Mua bánh giúp gia đình Lan.
+B. Hàng ngày đến nhà giúp Lan cắt lá để gói bánh.
+C. Góp tiền mua tặng Lan một tấm áo mới.
+D. Góp sách cho Lan đến trường.",68,3.199390172958374,24.51757415755782,68,3.291826009750366,26.8919237651491,0.09243583679199219,2.374349607591281,1.0968427623521375,51,51,1.0
+MCQA_0072_2,MCQA,"Việc lặp đi lặp lại nhiều lần những cụm từ ""Ai trồng cây"", ""Người đó có"", ""Em trồng cây"" có tác dụng gì?
+A. Tạo nên thông điệp nhắc nhở mọi người có ý thức trồng cây xanh.
+B. Tạo thành điệp khúc khiến bài thơ có vẫn điệu, dễ nhớ, dễ thuộc.
+C. Tạo điệp khúc khiến bài thơ có nhịp điệu và gửi gắm thông điệp: mọi người hãy có ý thức trồng cây xanh để bảo vệ môi trường sống.
+D. Tất cả các ý trên.",Tạo điệp khúc khiến bài thơ có nhịp điệu và gửi gắm thông điệp: mọi người hãy có ý thức trồng cây xanh để bảo vệ môi trường sống.,"Việc lặp đi lặp lại nhiều lần mấy cụm từ ""Ai trồng cây"", ""Người đó có"", ""Em trồng cây"" có tác dụng chi?
+A. Tạo nên thông điệp nhắc nhở mọi người có ý thức trồng cây xanh.
+B. Tạo thành điệp khúc làm bài thơ có vẫn điệu, dễ nhớ, dễ thuộc.
+C. Tạo điệp khúc làm bài thơ có nhịp điệu với gửi gắm thông điệp: mọi người hãy có ý thức trồng cây xanh để bảo vệ môi trường sống.
+D. Tất cả các ý trên.",C,PNT3,Daily Conversation,high,88346002-a7b4-4be1-aec6-e1e3625416ee,0,unknown,rewrite,MCQA_0072_2,"Việc lặp đi lặp lại nhiều lần những cụm từ ""Ai trồng cây"", ""Người đó có"", ""Em trồng cây"" có tác dụng gì?
+A. Tạo nên thông điệp nhắc nhở mọi người có ý thức trồng cây xanh.
+B. Tạo thành điệp khúc khiến bài thơ có vẫn điệu, dễ nhớ, dễ thuộc.
+C. Tạo điệp khúc khiến bài thơ có nhịp điệu và gửi gắm thông điệp: mọi người hãy có ý thức trồng cây xanh để bảo vệ môi trường sống.
+D. Tất cả các ý trên.",126,2.4474406242370605,11.558725707316775,126,2.702639579772949,14.919059845782451,0.25519895553588867,3.360334138465676,1.2907183908982764,89,89,1.0
+SENT_0534,SENT,"cái công ty thực phẩm cung cấp cho các trường mầm non thật quá độc ác . vì lợi ích cá nhân mà ảnh hưởng khủng khiếp tới các em . quá dã man . các người gây nên hoạ thì mai này đời con đời cháu sẽ phải gánh nghiệp đó thôi . gieo nhân nào gặt quả ấy , đừng tưởng bây giờ sống nhé nhỉ thế là không sao . đời còn dài lắm",,"Cái công ty thực phẩm cung cấp cho các trường mầm non thiệt độc ác dữ. Vì lợi ích cá nhân mà ảnh hưởng khủng khiếp tới các em, quá dã man. Tụi mầy gây nên hoạ thì mai này đời con đời cháu sẽ phải gánh nghiệp đó thôi. Gieo nhân nào gặt quả nấy, đừng tưởng bây giờ sống như thế là không sao, đời còn dài lắm.",Other,PNN,Daily Conversation,high,88759523-55db-4c51-872d-a8b43438fa82,0,finalized,qualification,SENT_0534,"cái công ty thực phẩm cung cấp cho các trường mầm non thật quá độc ác . vì lợi ích cá nhân mà ảnh hưởng khủng khiếp tới các em . quá dã man . các người gây nên hoạ thì mai này đời con đời cháu sẽ phải gánh nghiệp đó thôi . gieo nhân nào gặt quả ấy , đừng tưởng bây giờ sống nhé nhỉ thế là không sao . đời còn dài lắm",90,4.527426242828369,92.52013003372527,93,4.192184925079346,66.16720352004849,-0.33524131774902344,-26.352926513676778,0.7151654834026859,77,70,0.9090909090909091
+SENT_0572,SENT,em cũng thắc mắc tại răng khúc xương tư tao nhỉ ? xong nó lại tự to lên được nó nhờ lực gì rứa,,Em cũng thắc mắc tại sao khúc xương tự teo nhỉ? Xong nó lại tự to lên được nhờ lực gì vậy?,Surprise,PNN,Daily Conversation,high,88759523-55db-4c51-872d-a8b43438fa82,0,finalized,qualification,SENT_0572,em cũng thắc mắc tại răng khúc xương tư tao nhỉ ? xong nó lại tự to lên được nó nhờ lực gì rứa,30,5.573439121246338,263.3381956842804,29,4.924374103546143,137.60318933621448,-0.6490650177001953,-125.7350063480659,0.522534108577203,24,22,0.9166666666666666
+SENT_0626,SENT,"năm nào cũng đi cho có không khí xuân vậy , không đi thì thấy thiếu thiếu . nhà tao cách chợ 10km",,"Năm nào cũng đi cho có không khí xuân vậy, không đi thì thấy thiếu thiếu. Nhà tao cách chợ 10km.",Enjoyment,PNN,Daily Conversation,high,88759523-55db-4c51-872d-a8b43438fa82,0,finalized,qualification,SENT_0626,"năm nào cũng đi cho có không khí xuân vậy , không đi thì thấy thiếu thiếu . nhà tao cách chợ 10km",28,4.888733386993408,132.78527992937808,29,4.750437259674072,115.63483592500633,-0.13829612731933594,-17.15044400437175,0.8708407738154921,23,21,0.9130434782608695
+SENT_0237,SENT,"có ai nhìn thấy hình như người đàn ông này đang rất đau khổ không nhỉ ? mình nhận thấy hình như ông ấy đang rất đau khổ , mà không thể or không muốn nói ra .",,"có ai chộ hình như ngài đàn ông ni đang rất đau khổ không hè? tui chộ hình như ông ni đang rất đau khổ, mà nỏ thể hoặc nỏ muốn nói ra.",Sadness,PNT2,Daily Conversation,high,7d958013-3acc-4719-a459-b3a565d57865,0,unknown,qualification,SENT_0237,"có ai nhìn thấy hình như người đàn ông này đang rất đau khổ không nhỉ ? mình nhận thấy hình như ông ấy đang rất đau khổ , mà không thể or không muốn nói ra .",39,3.525766372680664,33.979804834285595,42,4.664765357971191,106.14067723601347,1.1389989852905273,72.16087240172789,3.123639990095459,38,33,0.868421052631579
+SENT_0343,SENT,"móa , thiệt chứ tụi này nuôi làm gì vậy nhỉ ?",,"moá, thật chư bọn ni nuôi mần chi rứa hè?",Anger,PNT2,Daily Conversation,high,7d958013-3acc-4719-a459-b3a565d57865,0,unknown,qualification,SENT_0343,"móa , thiệt chứ tụi này nuôi làm gì vậy nhỉ ?",15,6.055375576019287,426.39902063181165,17,7.452226638793945,1723.6969260140768,1.3968510627746582,1297.297905382265,4.042450480913416,12,10,0.8333333333333334
+SENT_0462,SENT,tao đã từng viết như thế này . bây giờ không muốn ai đọc chỉ có đốt mà lười đốt,,tau đạ từng viết a ri. chừ nỏ muốn ai đọc chỉ có đốt mà nhác đốt,Sadness,PNT2,Daily Conversation,high,7d958013-3acc-4719-a459-b3a565d57865,0,unknown,qualification,SENT_0462,tao đã từng viết như thế này . bây giờ không muốn ai đọc chỉ có đốt mà lười đốt,24,4.8982319831848145,134.05256285980548,24,6.297439098358154,543.179099214256,1.3992071151733398,409.12653635445054,4.0519859346689415,20,17,0.85
+MCQA_0048_5,MCQA,"Để có giấc ngủ ngon trong đêm cho con, người mẹ đã làm gì?
+A. Người mẹ đã tạo gió làm dịu đi cái hè oi bức.
+B. Người mẹ đã thức trắng đêm để đắp chăn cho con.
+C. Người mẹ nấu cháo cho con ăn.
+D. Người mẹ đã đi mua thuốc về cho con.",Người mẹ đã tạo gió làm dịu đi cái hè oi bức.,"Để có giấc ngủ ngon trong đêm cho con, người mẹ đã mần chi?
+A. Người mẹ đã tạo gió làm dịu đi kì hè oi bức.
+B. Người mẹ đã thức thâu đêm để đắp chăn cho con.
+C. Người mẹ nấu cháo cho con ăn.
+D. Người mẹ đã đi mua thuốc về cho con.",A,PNT3,Daily Conversation,high,88346002-a7b4-4be1-aec6-e1e3625416ee,0,unknown,rewrite,MCQA_0048_5,"Để có giấc ngủ ngon trong đêm cho con, người mẹ đã làm gì?
+A. Người mẹ đã tạo gió làm dịu đi cái hè oi bức.
+B. Người mẹ đã thức trắng đêm để đắp chăn cho con.
+C. Người mẹ nấu cháo cho con ăn.
+D. Người mẹ đã đi mua thuốc về cho con.",74,2.6129088401794434,13.638665906349102,76,3.129533529281616,22.86331198901544,0.5166246891021729,9.224646082666338,1.6763598541094888,57,57,1.0
+MCQA_0010_1,MCQA,"Vì sao cha muốn cho bớt chó con đi?
+A. Vì cha không thích chó con.
+B. Vì bố thích đem cho người khác.
+C. Vì nhà hàng xóm xin từ trước.
+D. Vì nhiều quá, nuôi không xuể.","Vì nhiều quá, nuôi không xuể.","Tại răng bố muốn cho bớt chó con đi? 
+A. Tại bố nỏ thích chó con. 
+B. Tại bố thích đem cho ngài khác. 
+C. Tại nhà hàng xóm xin từ trước. 
+D. Tại nhiều quá, nuôi nỏ xuể.",D,PNT2,Daily Conversation,high,7d958013-3acc-4719-a459-b3a565d57865,0,unknown,qualification,MCQA_0010_1,"Vì sao cha muốn cho bớt chó con đi?
+A. Vì cha không thích chó con.
+B. Vì bố thích đem cho người khác.
+C. Vì nhà hàng xóm xin từ trước.
+D. Vì nhiều quá, nuôi không xuể.",55,3.6045453548431396,36.76496504366911,61,4.243833065032959,69.67440718427713,0.6392877101898193,32.90944214060802,1.8951305162814236,39,39,1.0
+MCQA_0010_3,MCQA,"Giang đã đưa ra ý kiến gì với chị khi bố bảo phải cho bớt đi?
+A. Giữ chó con lại nuôi.
+B. Bán chó con.
+C. Nuôi thêm mèo.
+D. Cho chó con.",Bán chó con.,"Giang đạ đưa ra ý kiến chi với chị khi bố bảo phải cho bớt đi? 
+A. Giự chó con lại nuôi. 
+B. Bán chó con. 
+C. Nuôi thêm mèo. 
+D. Cho chó con.",B,PNT2,Daily Conversation,high,7d958013-3acc-4719-a459-b3a565d57865,0,unknown,qualification,MCQA_0010_3,"Giang đã đưa ra ý kiến gì với chị khi bố bảo phải cho bớt đi?
+A. Giữ chó con lại nuôi.
+B. Bán chó con.
+C. Nuôi thêm mèo.
+D. Cho chó con.",50,3.8307950496673584,46.099174801930914,55,4.382123947143555,80.0077853763748,0.5513288974761963,33.908610574443884,1.7355578645417225,34,34,1.0
+QA_10410,QA,"Trrong gia đoạn mất mát lãnh thổ, Bồ Đào Nha đã tập trung vào làm những việc gì?",bành trướng các tiền đồn của họ tại châu Phi,"Trrong gia đoạn mất mát lãnh thổ, Bồ Đào Nha đạ tập trung vô mần nhửng việc chi?",bành trướng các tiền đồn của họ tại châu Phi,PNT2,Daily Conversation,high,7d958013-3acc-4719-a459-b3a565d57865,0,unknown,qualification,QA_10410,"Trrong gia đoạn mất mát lãnh thổ, Bồ Đào Nha đã tập trung vào làm những việc gì?",26,3.954017400741577,52.144431683523266,30,5.4243550300598145,226.86497802747039,1.4703376293182373,174.72054634394712,4.350703818278563,18,18,1.0
+MCQA_0010_1,MCQA,"Vì sao cha muốn cho bớt chó con đi?
+A. Vì cha không thích chó con.
+B. Vì bố thích đem cho người khác.
+C. Vì nhà hàng xóm xin từ trước.
+D. Vì nhiều quá, nuôi không xuể.","Vì nhiều quá, nuôi không xuể.","Sao ba muốn cho bớt mấy con chó con đi?
+A. Tại ba hổng thích chó con.
+B. Tại ba thích đem cho người ta.
+C. Tại nhà hàng xóm xin hồi trước rồi.
+D. Tại nhiều quá chừng, nuôi hổng xuể.",D,PNN,Daily Conversation,high,88759523-55db-4c51-872d-a8b43438fa82,0,finalized,qualification,MCQA_0010_1,"Vì sao cha muốn cho bớt chó con đi?
+A. Vì cha không thích chó con.
+B. Vì bố thích đem cho người khác.
+C. Vì nhà hàng xóm xin từ trước.
+D. Vì nhiều quá, nuôi không xuể.",55,3.6045453548431396,36.76496504366911,62,4.319826126098633,75.17555608837397,0.7152807712554932,38.41059104470486,2.0447607117015094,39,42,1.0769230769230769
+MCQA_0010_3,MCQA,"Giang đã đưa ra ý kiến gì với chị khi bố bảo phải cho bớt đi?
+A. Giữ chó con lại nuôi.
+B. Bán chó con.
+C. Nuôi thêm mèo.
+D. Cho chó con.",Bán chó con.,"Giang nói gì với chị lúc ba kêu phải cho bớt đi?
+A. Giữ chó con lại nuôi.
+B. Bán chó con.
+C. Nuôi thêm mèo.
+D. Cho chó con.",B,PNN,Daily Conversation,high,88759523-55db-4c51-872d-a8b43438fa82,0,finalized,qualification,MCQA_0010_3,"Giang đã đưa ra ý kiến gì với chị khi bố bảo phải cho bớt đi?
+A. Giữ chó con lại nuôi.
+B. Bán chó con.
+C. Nuôi thêm mèo.
+D. Cho chó con.",50,3.8307950496673584,46.099174801930914,47,3.7861275672912598,44.085351744697036,-0.04466748237609863,-2.0138230572338784,0.9563154207014237,34,30,0.8823529411764706
+MCQA_0036_5,MCQA,"Lần thứ hai, cậu bé lại quay về hỏi bà điều gì?
+A. Bát nào là bát tương, bát nào là bát mắm.
+B. Bát nào đựng mắm, bát nào đựng tương.
+C. Đồng nào mua mắm, đồng nào mua tương.
+D. Chọn mắm và tương như thế nào là ngon.","Đồng nào mua mắm, đồng nào mua tương.","Lần thứ hai, cậu bé lại quay về huổi bà điều chi?
+A. Bát mô là bát tương, bát mô là bát mắm.
+B. Bát mô đựng mắm, bát mô đựng tương.
+C. Đồng mô mua mắm, đồng mô mua tương.
+D. Chọn mắm và tương răng là ngon.",C,PNT1,Daily Conversation,high,a4432712-749b-4d01-8b03-4cb9d0f81348,0,finalized,rewrite,MCQA_0036_5,"Lần thứ hai, cậu bé lại quay về hỏi bà điều gì?
+A. Bát nào là bát tương, bát nào là bát mắm.
+B. Bát nào đựng mắm, bát nào đựng tương.
+C. Đồng nào mua mắm, đồng nào mua tương.
+D. Chọn mắm và tương như thế nào là ngon.",80,2.469477891921997,11.81627586774381,79,3.2018229961395264,24.577293694395934,0.7323451042175293,12.761017826652123,2.0799525983890814,51,49,0.9607843137254902
+MCQA_0043_3,MCQA,"Theo lời người cha đã mất, hai người con đã làm gì?
+A. Hai người con rời bỏ mảnh đất quê hương, theo đuổi điều hão huyền.
+B. Hai người con đào bới cả đám ruộng mà chẳng thấy kho báu đâu.
+C. Hai người con thay phiên nhau cấy cày, làm giàu từ mảnh ruộng.
+D. Hai người con bán mảnh ruộng, lên thành phố kiếm sống.",Hai người con đào bới cả đám ruộng mà chẳng thấy kho báu đâu.,"Theo lời người cha đã mất, hai người coan đã làm chi?
+A. Hai người coan rời bỏ mảnh đất quê hưng, theo đủi điều hão huyền.
+B. Hai người coan đào bới cả đám ruộng mà chẳng thấy kho báu mô.
+C. Hai người coan thay phin nhau cấy cày, làm giàu từ mảnh ruộng.
+D. Hai người coan bán mảnh ruộng, lên thành phố kiếm sống.",B,PNT1,Daily Conversation,high,a4432712-749b-4d01-8b03-4cb9d0f81348,0,finalized,rewrite,MCQA_0043_3,"Theo lời người cha đã mất, hai người con đã làm gì?
+A. Hai người con rời bỏ mảnh đất quê hương, theo đuổi điều hão huyền.
+B. Hai người con đào bới cả đám ruộng mà chẳng thấy kho báu đâu.
+C. Hai người con thay phiên nhau cấy cày, làm giàu từ mảnh ruộng.
+D. Hai người con bán mảnh ruộng, lên thành phố kiếm sống.",98,3.020037889480591,20.492068103300454,106,3.672393321990967,39.3459608167897,0.652355432510376,18.853892713489245,1.9200580741019808,68,68,1.0
+SENT_0534,SENT,"cái công ty thực phẩm cung cấp cho các trường mầm non thật quá độc ác . vì lợi ích cá nhân mà ảnh hưởng khủng khiếp tới các em . quá dã man . các người gây nên hoạ thì mai này đời con đời cháu sẽ phải gánh nghiệp đó thôi . gieo nhân nào gặt quả ấy , đừng tưởng bây giờ sống nhé nhỉ thế là không sao . đời còn dài lắm",,"kì công ty thực phẩm cung cấp cho mấy trường mầm non thiệt quá độc ác . vì lợi ích cá nhân mà ảnh hưởng tới các em . quá dã man . mấy người gây nên họa thì mai rồi đời con đời cháu cũng phải gánh nghiệp nớ thôi . gieo nhân nào gặt quả nấy , đừng tưởng chừ sống nhé nhỉ rứa là không răng . đời còn dài lắm",Other,PNT3,Daily Conversation,high,88346002-a7b4-4be1-aec6-e1e3625416ee,0,unknown,qualification,SENT_0534,"cái công ty thực phẩm cung cấp cho các trường mầm non thật quá độc ác . vì lợi ích cá nhân mà ảnh hưởng khủng khiếp tới các em . quá dã man . các người gây nên hoạ thì mai này đời con đời cháu sẽ phải gánh nghiệp đó thôi . gieo nhân nào gặt quả ấy , đừng tưởng bây giờ sống nhé nhỉ thế là không sao . đời còn dài lắm",90,4.527426242828369,92.52013003372527,90,4.941568851470947,139.9897004195106,0.4141426086425781,47.46957038578533,1.5130728887700635,77,74,0.961038961038961
+SENT_0572,SENT,em cũng thắc mắc tại răng khúc xương tư tao nhỉ ? xong nó lại tự to lên được nó nhờ lực gì rứa,,em cũng thắc mắc vì răng khúc xương tư tao hè? xong hắn lại tự to lên được nhờ lực chi rứa,Surprise,PNT3,Daily Conversation,high,88346002-a7b4-4be1-aec6-e1e3625416ee,0,unknown,qualification,SENT_0572,em cũng thắc mắc tại răng khúc xương tư tao nhỉ ? xong nó lại tự to lên được nó nhờ lực gì rứa,30,5.573439121246338,263.3381956842804,28,6.469554901123047,645.1964868129749,0.896115779876709,381.8582911286945,2.450068001477877,24,22,0.9166666666666666
+SENT_0626,SENT,"năm nào cũng đi cho có không khí xuân vậy , không đi thì thấy thiếu thiếu . nhà tao cách chợ 10km",,"năm mô cũng đi cho có không khí xuân cũng được, không đi thì thấy thiếu thiếu . nhà tau cách chợ 10km",Enjoyment,PNT3,Daily Conversation,high,88346002-a7b4-4be1-aec6-e1e3625416ee,0,unknown,qualification,SENT_0626,"năm nào cũng đi cho có không khí xuân vậy , không đi thì thấy thiếu thiếu . nhà tao cách chợ 10km",28,4.888733386993408,132.78527992937808,28,5.736833572387695,310.08100580356717,0.8481001853942871,177.2957258741891,2.335206176230407,23,23,1.0
+MCQA_0010_3,MCQA,"Giang đã đưa ra ý kiến gì với chị khi bố bảo phải cho bớt đi?
+A. Giữ chó con lại nuôi.
+B. Bán chó con.
+C. Nuôi thêm mèo.
+D. Cho chó con.",Bán chó con.,"Giang đã nói ý kiến chi với chị khi ba bảo phải cho bớt chó con đi?
+
+A. Giữ chó con lại nuôi.
+B. Bán chó con.
+C. Nuôi thêm mèo.
+D. Cho chó con.",B,PNT3,Daily Conversation,high,eb02b7a5-f3df-407d-8da3-21f0b73659ef,0,unknown,qualification,MCQA_0010_3,"Giang đã đưa ra ý kiến gì với chị khi bố bảo phải cho bớt đi?
+A. Giữ chó con lại nuôi.
+B. Bán chó con.
+C. Nuôi thêm mèo.
+D. Cho chó con.",50,3.8307950496673584,46.099174801930914,51,3.996248245239258,54.39369493634111,0.16545319557189941,8.294520134410199,1.1799277355841686,34,35,1.0294117647058822
+MCQA_0025_10,MCQA,"Mai đã nói gì khi biết cô cũng quyết định cho mình viết bút mực?
+A. Thôi cô ạ, em không thích viết bút mực.
+B. Thôi cô ạ, cứ để bạn Lan viết trước.
+C. Thôi cô ạ, thế thì em không cho Lan mượn bút nữa.
+D. Thôi cô ạ, em nhường bạn Lan viết bút mực.","Thôi cô ạ, cứ để bạn Lan viết trước.","Mai đã nói chi khi biết cô cũng quyết định cho miềng viết bút mực?
+A. Dạ thôi cô, em không thích viết bút mực.
+B. Dạ thôi cô, cứ để bạn Lan viết trước.
+C. Dạ thôi cô, rứa thì em không cho Lan mượn bút nữa.
+D. Dạ thôi cô, em nhường bạn Lan viết bút mực.",B,PNT3,Daily Conversation,high,88346002-a7b4-4be1-aec6-e1e3625416ee,0,unknown,qualification,MCQA_0025_10,"Mai đã nói gì khi biết cô cũng quyết định cho mình viết bút mực?
+A. Thôi cô ạ, em không thích viết bút mực.
+B. Thôi cô ạ, cứ để bạn Lan viết trước.
+C. Thôi cô ạ, thế thì em không cho Lan mượn bút nữa.
+D. Thôi cô ạ, em nhường bạn Lan viết bút mực.",91,2.4825801849365234,11.972114871245452,91,3.02223539352417,20.53714902042619,0.5396552085876465,8.56503414918074,1.7154152997439227,59,59,1.0
+QA_10410,QA,"Trrong gia đoạn mất mát lãnh thổ, Bồ Đào Nha đã tập trung vào làm những việc gì?",bành trướng các tiền đồn của họ tại châu Phi,"Trong giai đoạn mất mát lãnh thổ, Bồ Đào Nha đã tập trung vô làm những việc chi?",bành trướng các tiền đồn của họ tại châu Phi,PNT3,Daily Conversation,high,88346002-a7b4-4be1-aec6-e1e3625416ee,0,unknown,qualification,QA_10410,"Trrong gia đoạn mất mát lãnh thổ, Bồ Đào Nha đã tập trung vào làm những việc gì?",26,3.954017400741577,52.144431683523266,26,3.563077926635742,35.271593618818535,-0.39093947410583496,-16.87283806470473,0.676421095791974,18,18,1.0
+MCQA_0048_5,MCQA,"Để có giấc ngủ ngon trong đêm cho con, người mẹ đã làm gì?
+A. Người mẹ đã tạo gió làm dịu đi cái hè oi bức.
+B. Người mẹ đã thức trắng đêm để đắp chăn cho con.
+C. Người mẹ nấu cháo cho con ăn.
+D. Người mẹ đã đi mua thuốc về cho con.",Người mẹ đã tạo gió làm dịu đi cái hè oi bức.,"Để con có giấc ngủ ngon trong đêm, người mẹ đã mằn chi?
+
+A. Người mẹ đã tạo gió làm dịu đi cái nắng hè oi bức.
+B. Người mẹ đã thức trắng đêm để đắp chăn cho con.
+C. Người mẹ nấu cháo cho con ăn.
+D. Người mẹ đã đi mua thuốc về cho con.
+",A,PNT1,Daily Conversation,high,a4432712-749b-4d01-8b03-4cb9d0f81348,0,finalized,rewrite,MCQA_0048_5,"Để có giấc ngủ ngon trong đêm cho con, người mẹ đã làm gì?
+A. Người mẹ đã tạo gió làm dịu đi cái hè oi bức.
+B. Người mẹ đã thức trắng đêm để đắp chăn cho con.
+C. Người mẹ nấu cháo cho con ăn.
+D. Người mẹ đã đi mua thuốc về cho con.",74,2.6129088401794434,13.638665906349102,76,3.097864866256714,22.15060624860376,0.4849560260772705,8.51194034225466,1.6241035890682065,57,57,1.0
+MCQA_0055_0,MCQA,"Khi thấy Vịt con kêu khóc, Gà con đã làm gì?
+A. Gà con sợ quá khóc ầm lên.
+B. Gà con vội vàng nằm giả vờ chết.
+C. Gà con bay lên cành cây để bỏ trốn, bỏ mặc Vịt con.
+D. ","Gà con bay lên cành cây để bỏ trốn, bỏ mặc Vịt con.","Khi thấy Vịt con kêu khốc, Gà con đã mằn chi?
+
+A. Gà con sợ quá khốc ầm lên.
+B. Gà con vội vàng nằm giả bộ chết.
+C. Gà con bay lên cành cây để trốn, bỏ mặc Vịt con.
+D.
+",C,PNT1,Daily Conversation,high,a4432712-749b-4d01-8b03-4cb9d0f81348,0,rewrite_completed,rewrite,MCQA_0055_0,"Khi thấy Vịt con kêu khóc, Gà con đã làm gì?
+A. Gà con sợ quá khóc ầm lên.
+B. Gà con vội vàng nằm giả vờ chết.
+C. Gà con bay lên cành cây để bỏ trốn, bỏ mặc Vịt con.
+D. ",70,2.8729588985443115,17.689281630278067,70,3.618288040161133,37.27370208884466,0.7453291416168213,19.58442045856659,2.107134866632723,43,42,0.9767441860465116
+MCQA_0056_1,MCQA,"Câu văn “Tâm hồn cô cũng bay ra biển cả, bay đến với chim seo cờ.” ý nói gì ?
+A. Bạn gái mơ ước mình biết bay.
+B. Bạn gái luôn nghĩ về biển cả và chim seo cờ, mơ ước được ra biển và nhìn thấy chim seo cờ.
+C. Bạn gái mơ ước được bay ra biển cả.
+D. ","Bạn gái luôn nghĩ về biển cả và chim seo cờ, mơ ước được ra biển và nhìn thấy chim seo cờ.","Câu văn “Tâm hồn cô cũng bay ra biển cả, bay đến với chim seo cờ.” ý nói chi?
+
+A. Bạn gái mơ ước mình biết bay.
+B. Bạn gái cứ nghĩ về biển cả và chim seo cờ, mơ ước được ra biển và nhìn thấy chim seo cờ.
+C. Bạn gái mơ ước được bay ra biển cả.
+D.
+",B,PNT1,Daily Conversation,high,a4432712-749b-4d01-8b03-4cb9d0f81348,0,rewrite_completed,rewrite,MCQA_0056_1,"Câu văn “Tâm hồn cô cũng bay ra biển cả, bay đến với chim seo cờ.” ý nói gì ?
+A. Bạn gái mơ ước mình biết bay.
+B. Bạn gái luôn nghĩ về biển cả và chim seo cờ, mơ ước được ra biển và nhìn thấy chim seo cờ.
+C. Bạn gái mơ ước được bay ra biển cả.
+D. ",82,2.8207216262817383,16.7889616577869,82,2.987920045852661,19.84436416879811,0.16719841957092285,3.0554025110112093,1.1819887717471844,62,61,0.9838709677419355
+MCQA_0072_2,MCQA,"Việc lặp đi lặp lại nhiều lần những cụm từ ""Ai trồng cây"", ""Người đó có"", ""Em trồng cây"" có tác dụng gì?
+A. Tạo nên thông điệp nhắc nhở mọi người có ý thức trồng cây xanh.
+B. Tạo thành điệp khúc khiến bài thơ có vẫn điệu, dễ nhớ, dễ thuộc.
+C. Tạo điệp khúc khiến bài thơ có nhịp điệu và gửi gắm thông điệp: mọi người hãy có ý thức trồng cây xanh để bảo vệ môi trường sống.
+D. Tất cả các ý trên.",Tạo điệp khúc khiến bài thơ có nhịp điệu và gửi gắm thông điệp: mọi người hãy có ý thức trồng cây xanh để bảo vệ môi trường sống.,"Việc lặp đi lặp lại nhiều lần mấy cụm từ “Ai trồng cây”, “Người đó có”, “Em trồng cây” có tác dụng chi?
+
+A. Tạo nên thông điệp nhắc nhở mọi người có ý thức trồng cây xanh.
+B. Tạo thành điệp khúc khiến bài thơ có vần điệu, dễ nhớ, dễ thuộc.
+C. Tạo điệp khúc khiến bài thơ có nhịp điệu và gửi gắm thông điệp: mọi người hãy có ý thức trồng cây xanh để bảo vệ môi trường sống.
+D. Tất cả các ý trên.
+",C,PNT1,Daily Conversation,high,a4432712-749b-4d01-8b03-4cb9d0f81348,0,rewrite_completed,rewrite,MCQA_0072_2,"Việc lặp đi lặp lại nhiều lần những cụm từ ""Ai trồng cây"", ""Người đó có"", ""Em trồng cây"" có tác dụng gì?
+A. Tạo nên thông điệp nhắc nhở mọi người có ý thức trồng cây xanh.
+B. Tạo thành điệp khúc khiến bài thơ có vẫn điệu, dễ nhớ, dễ thuộc.
+C. Tạo điệp khúc khiến bài thơ có nhịp điệu và gửi gắm thông điệp: mọi người hãy có ý thức trồng cây xanh để bảo vệ môi trường sống.
+D. Tất cả các ý trên.",126,2.4474406242370605,11.558725707316775,127,2.6366820335388184,13.966785317898397,0.1892414093017578,2.4080596105816223,1.2083326200099462,89,89,1.0
+MCQA_0081_4,MCQA,"Vì sao bà lão trong bài thơ này vui?
+A. Vì đàn con đi lính mới về.
+B. Vì có cơm ăn áo mặt.
+C. Vì làng xôn xao.
+D. Vì nồi cơm nấu dở.",Vì làng xôn xao.,"Vì răng bà lão trong bài thơ ni vui?
+
+A. Vì đàn con đi lính mới về.
+B. Vì có cơm ăn áo mặc.
+C. Vì làng xôn xao.
+D. Vì nồi cơm nấu dở.
+",C,PNT1,Daily Conversation,high,a4432712-749b-4d01-8b03-4cb9d0f81348,0,rewrite_completed,rewrite,MCQA_0081_4,"Vì sao bà lão trong bài thơ này vui?
+A. Vì đàn con đi lính mới về.
+B. Vì có cơm ăn áo mặt.
+C. Vì làng xôn xao.
+D. Vì nồi cơm nấu dở.",56,3.2816503047943115,26.619667034526348,55,3.8942856788635254,49.12095269284896,0.6126353740692139,22.50128565832261,1.8452880206629896,35,35,1.0
+MCQA_0091_1,MCQA,"Thấy ông lão đang trú mưa trước cửa nhà mình, Hoa đã làm gì?
+A. Mời ông lão vào trong nhà trú mưa.
+B. Vào nhà lấy cho ông lão áo mưa.
+C. Mặc kệ ông lão đứng đó.
+D. Đưa cho ông lão một cái bánh.",Vào nhà lấy cho ông lão áo mưa.,"Thấy ông lão đang trú mưa trước cửa nhà mình, Hoa đã mằn chi?
+
+A. Mời ông lão vô trong nhà trú mưa.
+B. Vô nhà lấy cho ông lão áo mưa.
+C. Mặc kệ ông lão đứng đó.
+D. Đưa cho ông lão một cái bánh.
+",B,PNT1,Daily Conversation,high,a4432712-749b-4d01-8b03-4cb9d0f81348,0,rewrite_completed,rewrite,MCQA_0091_1,"Thấy ông lão đang trú mưa trước cửa nhà mình, Hoa đã làm gì?
+A. Mời ông lão vào trong nhà trú mưa.
+B. Vào nhà lấy cho ông lão áo mưa.
+C. Mặc kệ ông lão đứng đó.
+D. Đưa cho ông lão một cái bánh.",68,2.7225825786590576,15.21957728902255,70,3.4587790966033936,31.77815476359738,0.7361965179443359,16.558577474574832,2.0879788025727932,47,47,1.0
+MCQA_0092_2,MCQA,"Khi đã hiểu hoàn cảnh gia đình Lan, cô và các bạn đã làm gì?
+A. Mua bánh giúp gia đình Lan.
+B. Hàng ngày đến nhà giúp Lan cắt lá để gói bánh.
+C. Góp tiền mua tặng Lan một tấm áo mới.
+D. Góp sách cho Lan đến trường.",Góp tiền mua tặng Lan một tấm áo mới.,"Khi đã hiểu hoàn cảnh gia đình Lan, cô và các bạn đã mằn chi?
+
+A. Mua bánh giúp gia đình Lan.
+B. Hàng ngày đến nhà giúp Lan cắt lá để gói bánh.
+C. Góp tiền mua tặng Lan một tấm áo mới.
+D. Góp sách cho Lan đến trường.
+",C,PNT1,Daily Conversation,high,a4432712-749b-4d01-8b03-4cb9d0f81348,0,rewrite_completed,rewrite,MCQA_0092_2,"Khi đã hiểu hoàn cảnh gia đình Lan, cô và các bạn đã làm gì?
+A. Mua bánh giúp gia đình Lan.
+B. Hàng ngày đến nhà giúp Lan cắt lá để gói bánh.
+C. Góp tiền mua tặng Lan một tấm áo mới.
+D. Góp sách cho Lan đến trường.",68,3.199390172958374,24.51757415755782,70,3.6909072399139404,40.08119372592059,0.4915170669555664,15.563619568362771,1.6347944322854269,51,51,1.0
+QA_10410,QA,"Trrong gia đoạn mất mát lãnh thổ, Bồ Đào Nha đã tập trung vào làm những việc gì?",bành trướng các tiền đồn của họ tại châu Phi,"Trong giai đoạn mất mát lãnh thổ, Bồ Đào Nha đã tập trung vô làm những việc chi?",bành trướng các tiền đồn của họ tại châu Phi,PNT4,Daily Conversation,high,5ea76d15-516d-4285-a781-7b1c6a04a627,0,unknown,qualification,QA_10410,"Trrong gia đoạn mất mát lãnh thổ, Bồ Đào Nha đã tập trung vào làm những việc gì?",26,3.954017400741577,52.144431683523266,26,3.563077926635742,35.271593618818535,-0.39093947410583496,-16.87283806470473,0.676421095791974,18,18,1.0
+MCQA_0012_0,MCQA,"An đã xin làm gì sau khi bà mất?
+A. An xin nghỉ học hẳn luôn.
+B. Xin bố mẹ cho đi du lịch.
+C. Nghỉ học mấy ngày liền.
+D. Xin được đi học để đỡ buồn.",Nghỉ học mấy ngày liền.,"An đã xin làm gì sau khi bà mất?
+A. An xin nghỉ học luôn.
+B. Xin ba mẹ cho đi du lịch.
+C. Nghỉ học mấy ngày liền.
+D. Xin được đi học để đỡ buồn.",C,PNN,Daily Conversation,high,9d0d5c61-1083-4b35-8c02-c2c597f8212f,0,finalized,qualification,MCQA_0012_0,"An đã xin làm gì sau khi bà mất?
+A. An xin nghỉ học hẳn luôn.
+B. Xin bố mẹ cho đi du lịch.
+C. Nghỉ học mấy ngày liền.
+D. Xin được đi học để đỡ buồn.",50,3.7448387145996094,42.302183943930494,49,3.7666759490966797,43.23610668680881,0.021837234497070312,0.9339227428783161,1.02207741198696,38,37,0.9736842105263158
+MCQA_0012_5,MCQA,"Tại sao thầy giáo không trách An khi biết bạn chưa làm bài tập?
+A. Vì đây là lần đầu tiên An mắc lỗi.
+B. Vì cả lớp đã kể cho thầy nghe.
+C. Vì thầy hiểu và thông cảm hoàn cảnh của An. An cũng đã thành thực nhận lỗi.
+D. Vì An đã mắc lỗi quá nhiều lần.",Vì thầy hiểu và thông cảm hoàn cảnh của An. An cũng đã thành thực nhận lỗi.,"Tại sao thầy giáo hông trách An khi biết bạn chưa làm bài tập?
+A. Vì đây là lần đầu tiên An mắc lỗi.
+B. Vì cả lớp đã kể cho thầy nghe.
+C. Vì thầy hiểu và thông cảm với hoàn cảnh của An. An cũng đã thành thật nhận lỗi.
+D. Vì An đã mắc lỗi quá nhiều lần.",C,PNN,Daily Conversation,high,9d0d5c61-1083-4b35-8c02-c2c597f8212f,0,finalized,qualification,MCQA_0012_5,"Tại sao thầy giáo không trách An khi biết bạn chưa làm bài tập?
+A. Vì đây là lần đầu tiên An mắc lỗi.
+B. Vì cả lớp đã kể cho thầy nghe.
+C. Vì thầy hiểu và thông cảm hoàn cảnh của An. An cũng đã thành thực nhận lỗi.
+D. Vì An đã mắc lỗi quá nhiều lần.",73,3.113865375518799,22.507877870747663,75,3.094111919403076,22.067631996943557,-0.019753456115722656,-0.4402458738041055,0.9804403650876269,60,61,1.0166666666666666
+MCQA_0012_0,MCQA,"An đã xin làm gì sau khi bà mất?
+A. An xin nghỉ học hẳn luôn.
+B. Xin bố mẹ cho đi du lịch.
+C. Nghỉ học mấy ngày liền.
+D. Xin được đi học để đỡ buồn.",Nghỉ học mấy ngày liền.,"An đã làm chi sau khi bà mất?
+A. An xin nghỉ học hẳn luôn.
+B. Xin ba mẹ cho đi du lịch.
+C. Nghỉ học mấy ngày liền.
+D. Xin được đi học để đỡ buồn.",C,PNT3,Daily Conversation,high,e99ab2ee-5e8e-4d70-ac05-869071c9a49c,0,finalized,qualification,MCQA_0012_0,"An đã xin làm gì sau khi bà mất?
+A. An xin nghỉ học hẳn luôn.
+B. Xin bố mẹ cho đi du lịch.
+C. Nghỉ học mấy ngày liền.
+D. Xin được đi học để đỡ buồn.",50,3.7448387145996094,42.302183943930494,48,4.093371391296387,59.9416381470924,0.34853267669677734,17.639454203161904,1.416986844616395,38,37,0.9736842105263158
+MCQA_0012_5,MCQA,"Tại sao thầy giáo không trách An khi biết bạn chưa làm bài tập?
+A. Vì đây là lần đầu tiên An mắc lỗi.
+B. Vì cả lớp đã kể cho thầy nghe.
+C. Vì thầy hiểu và thông cảm hoàn cảnh của An. An cũng đã thành thực nhận lỗi.
+D. Vì An đã mắc lỗi quá nhiều lần.",Vì thầy hiểu và thông cảm hoàn cảnh của An. An cũng đã thành thực nhận lỗi.,"Tại răng thầy giáo không trách An khi biết bạn chưa làm bài tập?
+A. Vì đây là lần đầu An mắc lỗi.
+B. Vì cả lớp đã kể cho thầy nghe.
+C. Vì thầy hiểu với thông cảm hoàn cảnh của An. An cũng đã thành thực nhận lỗi.
+D. Vì An đã mắc lỗi quá nhiều lần.",C,PNT3,Daily Conversation,high,e99ab2ee-5e8e-4d70-ac05-869071c9a49c,0,finalized,qualification,MCQA_0012_5,"Tại sao thầy giáo không trách An khi biết bạn chưa làm bài tập?
+A. Vì đây là lần đầu tiên An mắc lỗi.
+B. Vì cả lớp đã kể cho thầy nghe.
+C. Vì thầy hiểu và thông cảm hoàn cảnh của An. An cũng đã thành thực nhận lỗi.
+D. Vì An đã mắc lỗi quá nhiều lần.",73,3.113865375518799,22.507877870747663,71,3.837989568710327,46.4320321313521,0.7241241931915283,23.92415426060444,2.062923586043509,60,59,0.9833333333333333
+MCQA_0144_3,MCQA,"Khi mẹ đi vắng, hai chị em đã làm những việc gì?
+A. Hai chị em giúp bố nấu cơm.
+B. Hai chị em giúp bố nấu cơm và chăm đàn ngan.
+C. Chị hái lá cho thỏ, em thì chăm đàn ngan.
+D. Chi và em ra vườn chăm cây cối.","Chị hái lá cho thỏ, em thì chăm đàn ngan.","Khi mẹ đi vắng, hai chị em đã làm những việc gì?
+A. Hai chị em giúp bố nấu cơm.
+B. Hai chị em giúp bố nấu cơm và chăm đàn ngan.
+C. Chị hái lá cho thỏ, em thì chăm đàn ngan.
+D. Chi và em ra vườn chăm cây cối.",C,PNT1,Daily Conversation,high,6b0ccea8-04fe-4c9c-82c8-309e147936f4,0,rewrite_completed,rewrite,MCQA_0144_3,"Khi mẹ đi vắng, hai chị em đã làm những việc gì?
+A. Hai chị em giúp bố nấu cơm.
+B. Hai chị em giúp bố nấu cơm và chăm đàn ngan.
+C. Chị hái lá cho thỏ, em thì chăm đàn ngan.
+D. Chi và em ra vườn chăm cây cối.",71,3.1856536865234375,24.183091401123818,71,3.1856536865234375,24.183091401123818,0.0,0.0,1.0,52,52,1.0
+MCQA_0144_3,MCQA,"Khi mẹ đi vắng, hai chị em đã làm những việc gì?
+A. Hai chị em giúp bố nấu cơm.
+B. Hai chị em giúp bố nấu cơm và chăm đàn ngan.
+C. Chị hái lá cho thỏ, em thì chăm đàn ngan.
+D. Chi và em ra vườn chăm cây cối.","Chị hái lá cho thỏ, em thì chăm đàn ngan.","Lúc má đi vắng, hai chị em làm mấy việc gì?
+A. Hai chị em phụ ba nấu cơm.
+B. Hai chị em phụ ba nấu cơm với chăm bầy vịt xiêm.
+C. Chị hái lá cho thỏ, em thì chăm bầy vịt xiêm.
+D. Chi với em ra vườn chăm cây cối.",C,PNN,Daily Conversation,high,88759523-55db-4c51-872d-a8b43438fa82,0,finalized,rewrite,MCQA_0144_3,"Khi mẹ đi vắng, hai chị em đã làm những việc gì?
+A. Hai chị em giúp bố nấu cơm.
+B. Hai chị em giúp bố nấu cơm và chăm đàn ngan.
+C. Chị hái lá cho thỏ, em thì chăm đàn ngan.
+D. Chi và em ra vườn chăm cây cối.",71,3.1856536865234375,24.183091401123818,76,3.420034885406494,30.570481466121084,0.23438119888305664,6.387390064997266,1.2641262839001814,52,53,1.0192307692307692
+MCQA_0036_5,MCQA,"Lần thứ hai, cậu bé lại quay về hỏi bà điều gì?
+A. Bát nào là bát tương, bát nào là bát mắm.
+B. Bát nào đựng mắm, bát nào đựng tương.
+C. Đồng nào mua mắm, đồng nào mua tương.
+D. Chọn mắm và tương như thế nào là ngon.","Đồng nào mua mắm, đồng nào mua tương.","Lần thứ hai, thằng nhỏ lại quay về hỏi bà điều gì?
+A. Chén nào là chén tương, chén nào là chén mắm.
+B. Chén nào đựng mắm, chén nào đựng tương.
+C. Đồng nào mua mắm, đồng nào mua tương.
+D. Chọn mắm và tương như thế nào là ngon.",C,PNN,Daily Conversation,high,e04e5ca5-c8e8-4484-a0aa-f9dc978b200c,0,rewrite_completed,rewrite,MCQA_0036_5,"Lần thứ hai, cậu bé lại quay về hỏi bà điều gì?
+A. Bát nào là bát tương, bát nào là bát mắm.
+B. Bát nào đựng mắm, bát nào đựng tương.
+C. Đồng nào mua mắm, đồng nào mua tương.
+D. Chọn mắm và tương như thế nào là ngon.",80,2.469477891921997,11.81627586774381,81,2.5253512859344482,12.495283910211361,0.05587339401245117,0.6790080424675509,1.0574637940132317,51,51,1.0
+MCQA_0043_3,MCQA,"Theo lời người cha đã mất, hai người con đã làm gì?
+A. Hai người con rời bỏ mảnh đất quê hương, theo đuổi điều hão huyền.
+B. Hai người con đào bới cả đám ruộng mà chẳng thấy kho báu đâu.
+C. Hai người con thay phiên nhau cấy cày, làm giàu từ mảnh ruộng.
+D. Hai người con bán mảnh ruộng, lên thành phố kiếm sống.",Hai người con đào bới cả đám ruộng mà chẳng thấy kho báu đâu.,"Theo lời người ba đã mất, hai người con đã làm gì?
+A. Hai người con rời bỏ miếng đất quê hương, theo đuổi điều hão huyền.
+B. Hai người con đào bới cả đám ruộng mà chẳng thấy kho báu đâu.
+C. Hai người con thay phiên nhau cấy cày, làm giàu từ miếng ruộng.
+D. Hai người con bán miếng ruộng, lên thành phố kiếm sống.",B,PNN,Daily Conversation,high,e04e5ca5-c8e8-4484-a0aa-f9dc978b200c,0,unknown,rewrite,MCQA_0043_3,"Theo lời người cha đã mất, hai người con đã làm gì?
+A. Hai người con rời bỏ mảnh đất quê hương, theo đuổi điều hão huyền.
+B. Hai người con đào bới cả đám ruộng mà chẳng thấy kho báu đâu.
+C. Hai người con thay phiên nhau cấy cày, làm giàu từ mảnh ruộng.
+D. Hai người con bán mảnh ruộng, lên thành phố kiếm sống.",98,3.020037889480591,20.492068103300454,101,3.131772518157959,22.91456004073489,0.11173462867736816,2.4224919374344367,1.1182160787882738,68,68,1.0
+MCQA_0055_0,MCQA,"Khi thấy Vịt con kêu khóc, Gà con đã làm gì?
+A. Gà con sợ quá khóc ầm lên.
+B. Gà con vội vàng nằm giả vờ chết.
+C. Gà con bay lên cành cây để bỏ trốn, bỏ mặc Vịt con.
+D. ","Gà con bay lên cành cây để bỏ trốn, bỏ mặc Vịt con.","Khi thấy Vịt con kêu khóc, Gà con đã làm gì?
+A. Gà con sợ quá khóc váng lên.
+B. Gà con vội vàng nằm giả bộ chết.
+C. Gà con bay lên cành cây để bỏ trốn, kệ Vịt con.
+D. ",C,PNN,Daily Conversation,high,e04e5ca5-c8e8-4484-a0aa-f9dc978b200c,0,rewrite_completed,rewrite,MCQA_0055_0,"Khi thấy Vịt con kêu khóc, Gà con đã làm gì?
+A. Gà con sợ quá khóc ầm lên.
+B. Gà con vội vàng nằm giả vờ chết.
+C. Gà con bay lên cành cây để bỏ trốn, bỏ mặc Vịt con.
+D. ",70,2.8729588985443115,17.689281630278067,69,3.179755210876465,24.040867888741193,0.3067963123321533,6.351586258463126,1.3590641152770928,43,42,0.9767441860465116
+MCQA_0081_4,MCQA,"Vì sao bà lão trong bài thơ này vui?
+A. Vì đàn con đi lính mới về.
+B. Vì có cơm ăn áo mặt.
+C. Vì làng xôn xao.
+D. Vì nồi cơm nấu dở.",Vì làng xôn xao.,"Vì sao bà lão trong bài thơ này vui?
+A. Vì đàn con đi lính mới về.
+B. Vì có cơm ăn áo mặc.
+C. Vì làng xôn xao.
+D. Vì nồi cơm nấu dở.",C,PNN,Daily Conversation,high,e04e5ca5-c8e8-4484-a0aa-f9dc978b200c,0,unknown,rewrite,MCQA_0081_4,"Vì sao bà lão trong bài thơ này vui?
+A. Vì đàn con đi lính mới về.
+B. Vì có cơm ăn áo mặt.
+C. Vì làng xôn xao.
+D. Vì nồi cơm nấu dở.",56,3.2816503047943115,26.619667034526348,56,3.118009328842163,22.601342989846213,-0.16364097595214844,-4.018324044680135,0.8490467953837186,35,35,1.0
+MCQA_0091_1,MCQA,"Thấy ông lão đang trú mưa trước cửa nhà mình, Hoa đã làm gì?
+A. Mời ông lão vào trong nhà trú mưa.
+B. Vào nhà lấy cho ông lão áo mưa.
+C. Mặc kệ ông lão đứng đó.
+D. Đưa cho ông lão một cái bánh.",Vào nhà lấy cho ông lão áo mưa.,"Thấy ông lão đang đục mưa trước cửa nhà mình, Hoa đã làm gì?
+A. Mời ông lão vào trong nhà đục mưa.
+B. Vào nhà lấy cho ông lão áo mưa.
+C. Mặc kệ ông lão đứng đó.
+D. Đưa cho ông lão một cái bánh.",B,PNN,Daily Conversation,high,e04e5ca5-c8e8-4484-a0aa-f9dc978b200c,0,rewrite_completed,rewrite,MCQA_0091_1,"Thấy ông lão đang trú mưa trước cửa nhà mình, Hoa đã làm gì?
+A. Mời ông lão vào trong nhà trú mưa.
+B. Vào nhà lấy cho ông lão áo mưa.
+C. Mặc kệ ông lão đứng đó.
+D. Đưa cho ông lão một cái bánh.",68,2.7225825786590576,15.21957728902255,70,2.7306265830993652,15.342497358301731,0.008044004440307617,0.12292006927918209,1.0080764443679944,47,47,1.0
+QA_0268,QA,Các toán hạng được chứa trong chỉ thị như thế nào thì được gọi là giá trị tức thời?,các chỉ thị thực (như cộng hay so sánh),Mấy toán hạng được chứa trong chỉ thị như răng thì được gọi là giá trị tức thời?,các chỉ thị thực (như cộng hay so sánh),PNT3,Daily Conversation,high,60eb0c6c-808a-4dce-b64c-457d29ee614d,0,unknown,qualification,QA_0268,Các toán hạng được chứa trong chỉ thị như thế nào thì được gọi là giá trị tức thời?,21,4.642796039581299,103.83426680146997,20,5.8924713134765625,362.29953465331374,1.2496752738952637,258.4652678518438,3.489209735992326,19,18,0.9473684210526315
+MCQA_0048_5,MCQA,"Để có giấc ngủ ngon trong đêm cho con, người mẹ đã làm gì?
+A. Người mẹ đã tạo gió làm dịu đi cái hè oi bức.
+B. Người mẹ đã thức trắng đêm để đắp chăn cho con.
+C. Người mẹ nấu cháo cho con ăn.
+D. Người mẹ đã đi mua thuốc về cho con.",Người mẹ đã tạo gió làm dịu đi cái hè oi bức.,"Để có giấc ngủ ngon trong đêm cho con, má đã làm gì?
+A. Má đã tạo gió làm dịu đi cái hè nóng nực.
+B. Má đã thức trắng đêm để đắp mền cho con.
+C. Má nấu cháo cho con ăn.
+D. Má đã đi mua thuốc về cho con.",A,PNN,Daily Conversation,high,88759523-55db-4c51-872d-a8b43438fa82,0,finalized,rewrite,MCQA_0048_5,"Để có giấc ngủ ngon trong đêm cho con, người mẹ đã làm gì?
+A. Người mẹ đã tạo gió làm dịu đi cái hè oi bức.
+B. Người mẹ đã thức trắng đêm để đắp chăn cho con.
+C. Người mẹ nấu cháo cho con ăn.
+D. Người mẹ đã đi mua thuốc về cho con.",74,2.6129088401794434,13.638665906349102,70,2.9223194122314453,18.584342260281513,0.30941057205200195,4.945676353932411,1.3626217100625722,57,52,0.9122807017543859
+SENT_0534,SENT,"cái công ty thực phẩm cung cấp cho các trường mầm non thật quá độc ác . vì lợi ích cá nhân mà ảnh hưởng khủng khiếp tới các em . quá dã man . các người gây nên hoạ thì mai này đời con đời cháu sẽ phải gánh nghiệp đó thôi . gieo nhân nào gặt quả ấy , đừng tưởng bây giờ sống nhé nhỉ thế là không sao . đời còn dài lắm",,"ci công ty thực phẩm cung cấp cho các nhà trường mầm non ni thật quá độc ác. vì lợi ích cá nhân mà hấn làm ảnh hưởng khủng khiếp tới các em. quá dạ man. các người gây nên họa thì sau ni đời con cháu cũng sẽ phải gánh ci nghiệp nớ thôi. gieo nhân mô gặt quả nớ, đừng có mà tưởng giừ sống nhé nhỉ rứa là không can chi. đời còn dài lắm. ",Other,PNT2,Daily Conversation,high,7fc87026-860f-4cf9-bb3d-46d0d55f71d9,0,unknown,qualification,SENT_0534,"cái công ty thực phẩm cung cấp cho các trường mầm non thật quá độc ác . vì lợi ích cá nhân mà ảnh hưởng khủng khiếp tới các em . quá dã man . các người gây nên hoạ thì mai này đời con đời cháu sẽ phải gánh nghiệp đó thôi . gieo nhân nào gặt quả ấy , đừng tưởng bây giờ sống nhé nhỉ thế là không sao . đời còn dài lắm",90,4.527426242828369,92.52013003372527,101,4.9575886726379395,142.25036979806143,0.4301624298095703,49.73023976433616,1.5375072402752632,77,78,1.0129870129870129
+SENT_0572,SENT,em cũng thắc mắc tại răng khúc xương tư tao nhỉ ? xong nó lại tự to lên được nó nhờ lực gì rứa,,em cũng thắc mắc tại răng khúc xương tư tao hè? xong hấn lại tự to lên được hấn nhờ lực chi rứa,Surprise,PNT2,Daily Conversation,high,7fc87026-860f-4cf9-bb3d-46d0d55f71d9,0,unknown,qualification,SENT_0572,em cũng thắc mắc tại răng khúc xương tư tao nhỉ ? xong nó lại tự to lên được nó nhờ lực gì rứa,30,5.573439121246338,263.3381956842804,31,6.3110575675964355,550.6269662336223,0.7376184463500977,287.2887705493419,2.090949870765334,24,23,0.9583333333333334
+SENT_0626,SENT,"năm nào cũng đi cho có không khí xuân vậy , không đi thì thấy thiếu thiếu . nhà tao cách chợ 10km",,"năm mô cũng đi cho có ci không khí xuân,  khung đi thì thấy thiếu thiếu . nhà tau cách chợ có 10km",Enjoyment,PNT2,Daily Conversation,high,7fc87026-860f-4cf9-bb3d-46d0d55f71d9,0,unknown,qualification,SENT_0626,"năm nào cũng đi cho có không khí xuân vậy , không đi thì thấy thiếu thiếu . nhà tao cách chợ 10km",28,4.888733386993408,132.78527992937808,30,6.711521148681641,821.8197992350327,1.8227877616882324,689.0345193056546,6.189088125371412,23,23,1.0
+MCQA_0025_10,MCQA,"Mai đã nói gì khi biết cô cũng quyết định cho mình viết bút mực?
+A. Thôi cô ạ, em không thích viết bút mực.
+B. Thôi cô ạ, cứ để bạn Lan viết trước.
+C. Thôi cô ạ, thế thì em không cho Lan mượn bút nữa.
+D. Thôi cô ạ, em nhường bạn Lan viết bút mực.","Thôi cô ạ, cứ để bạn Lan viết trước.","Mai đã nói chi khi biết cô cũng quyết định cho mình viết bút mực?
+A. Thôi cô ạ, em không thích viết bút mực.
+B. Thôi cô ạ, cứ để bạn Lan viết trước.
+C. Thôi cô ạ, rứa thì em không cho Lan mượn bút nữa.
+D. Thôi cô ạ, em nhường bạn Lan viết bút mực đó.",B,PNT2,Daily Conversation,high,7fc87026-860f-4cf9-bb3d-46d0d55f71d9,0,unknown,qualification,MCQA_0025_10,"Mai đã nói gì khi biết cô cũng quyết định cho mình viết bút mực?
+A. Thôi cô ạ, em không thích viết bút mực.
+B. Thôi cô ạ, cứ để bạn Lan viết trước.
+C. Thôi cô ạ, thế thì em không cho Lan mượn bút nữa.
+D. Thôi cô ạ, em nhường bạn Lan viết bút mực.",91,2.4825801849365234,11.972114871245452,94,2.6742067337036133,14.500842246478129,0.19162654876708984,2.528727375232677,1.2112181015992554,59,60,1.0169491525423728
+QA_0268,QA,Các toán hạng được chứa trong chỉ thị như thế nào thì được gọi là giá trị tức thời?,các chỉ thị thực (như cộng hay so sánh),Các toán hạng được chứa trong chỉ thị a răng thì được gọi là giá trị tức thời?,các chỉ thị thực (như cộng hay so sánh),PNT2,Daily Conversation,high,7fc87026-860f-4cf9-bb3d-46d0d55f71d9,0,unknown,qualification,QA_0268,Các toán hạng được chứa trong chỉ thị như thế nào thì được gọi là giá trị tức thời?,21,4.642796039581299,103.83426680146997,20,5.798736572265625,329.8825137942971,1.1559405326843262,226.04824699282713,3.177010094606138,19,18,0.9473684210526315
+MCQA_0036_5,MCQA,"Lần thứ hai, cậu bé lại quay về hỏi bà điều gì?
+A. Bát nào là bát tương, bát nào là bát mắm.
+B. Bát nào đựng mắm, bát nào đựng tương.
+C. Đồng nào mua mắm, đồng nào mua tương.
+D. Chọn mắm và tương như thế nào là ngon.","Đồng nào mua mắm, đồng nào mua tương.","Lần thứ hai, thằng bé lại quay về hỏi bà cấy chi?
+A. Chén mô là chén tương, chén mô là chén mắm.
+B. Chén mô đựng mắm, Chén mô đựng tương.
+C. Đồng mô mua mắm, đồng mô mua tương.
+D. Chọn mắm với tương như răng là ngon.",C,PNT3,Daily Conversation,high,88346002-a7b4-4be1-aec6-e1e3625416ee,0,send_to_expert,rewrite,MCQA_0036_5,"Lần thứ hai, cậu bé lại quay về hỏi bà điều gì?
+A. Bát nào là bát tương, bát nào là bát mắm.
+B. Bát nào đựng mắm, bát nào đựng tương.
+C. Đồng nào mua mắm, đồng nào mua tương.
+D. Chọn mắm và tương như thế nào là ngon.",80,2.469477891921997,11.81627586774381,81,3.1480553150177,23.290727384177035,0.6785774230957031,11.474451516433225,1.9710717357028114,51,50,0.9803921568627451
+MCQA_0056_1,MCQA,"Câu văn “Tâm hồn cô cũng bay ra biển cả, bay đến với chim seo cờ.” ý nói gì ?
+A. Bạn gái mơ ước mình biết bay.
+B. Bạn gái luôn nghĩ về biển cả và chim seo cờ, mơ ước được ra biển và nhìn thấy chim seo cờ.
+C. Bạn gái mơ ước được bay ra biển cả.
+D. ","Bạn gái luôn nghĩ về biển cả và chim seo cờ, mơ ước được ra biển và nhìn thấy chim seo cờ.","Câu văn “Tâm hồn cô cũng bay ra biển cả, bay đến với chim seo cờ.” ý nói răng ?
+A. Bạn gái mơ ước mình biết bay.
+B. Bạn gái luôn nghĩ về biển cả và chim seo cờ, mơ ước được ra biển với nhìn thấy chim seo cờ.
+C. Bạn gái mơ ước được bay ra biển cả.
+D.",B,PNT3,Daily Conversation,high,88346002-a7b4-4be1-aec6-e1e3625416ee,0,send_to_expert,rewrite,MCQA_0056_1,"Câu văn “Tâm hồn cô cũng bay ra biển cả, bay đến với chim seo cờ.” ý nói gì ?
+A. Bạn gái mơ ước mình biết bay.
+B. Bạn gái luôn nghĩ về biển cả và chim seo cờ, mơ ước được ra biển và nhìn thấy chim seo cờ.
+C. Bạn gái mơ ước được bay ra biển cả.
+D. ",82,2.8207216262817383,16.7889616577869,82,3.133340835571289,22.950525539552824,0.3126192092895508,6.161563881765925,1.3670008906660482,62,62,1.0
+SENT_0070,SENT,xem cái này mới biết vốn tiếng anh của mình cũng khá !,,xem cái này mới biết trình độ tiếng anh của mình cũng khá !,Surprise,PNB,Daily Conversation,high,7e49e369-5b4e-4441-ba22-55eb0d6e2bdf,0,unknown,qualification,SENT_0070,xem cái này mới biết vốn tiếng anh của mình cũng khá !,15,5.505312919616699,245.99542042897426,16,4.616192817687988,101.10836047264989,-0.8891201019287109,-144.88705995632438,0.4110172469728667,13,14,1.0769230769230769
+MCQA_0055_0,MCQA,"Khi thấy Vịt con kêu khóc, Gà con đã làm gì?
+A. Gà con sợ quá khóc ầm lên.
+B. Gà con vội vàng nằm giả vờ chết.
+C. Gà con bay lên cành cây để bỏ trốn, bỏ mặc Vịt con.
+D. ","Gà con bay lên cành cây để bỏ trốn, bỏ mặc Vịt con.","Khi thấy Vịt con kêu khóc, Gà con đã làm chi?
+A. Gà con sợ quá khóc ầm lên.
+B. Gà con quíu quắn nằm giả đò chết.
+C. Gà con bay lên cành cây để bỏ trốn, bỏ lơ Vịt con.
+D.",C,PNT4,Daily Conversation,high,caa27aaf-592f-49ce-b541-02f33da2b90f,0,finalized,rewrite,MCQA_0055_0,"Khi thấy Vịt con kêu khóc, Gà con đã làm gì?
+A. Gà con sợ quá khóc ầm lên.
+B. Gà con vội vàng nằm giả vờ chết.
+C. Gà con bay lên cành cây để bỏ trốn, bỏ mặc Vịt con.
+D. ",70,2.8729588985443115,17.689281630278067,72,3.545238733291626,34.64795597556197,0.6722798347473145,16.958674345283903,1.9586977413631308,43,43,1.0
+QA_10410,QA,"Trrong gia đoạn mất mát lãnh thổ, Bồ Đào Nha đã tập trung vào làm những việc gì?",bành trướng các tiền đồn của họ tại châu Phi,"Hồi lúc mất mát lãnh thổ, Bồ Đào Nha tập trung làm mấy chuyện gì?",bành trướng các tiền đồn của họ tại châu Phi,PNN,Daily Conversation,high,88759523-55db-4c51-872d-a8b43438fa82,0,rewrite_completed,rewrite,QA_10410,"Trrong gia đoạn mất mát lãnh thổ, Bồ Đào Nha đã tập trung vào làm những việc gì?",26,3.954017400741577,52.144431683523266,22,3.713667392730713,41.00390855337308,-0.24035000801086426,-11.140523130150186,0.7863525831911522,18,15,0.8333333333333334
+MCQA_0048_5,MCQA,"Để có giấc ngủ ngon trong đêm cho con, người mẹ đã làm gì?
+A. Người mẹ đã tạo gió làm dịu đi cái hè oi bức.
+B. Người mẹ đã thức trắng đêm để đắp chăn cho con.
+C. Người mẹ nấu cháo cho con ăn.
+D. Người mẹ đã đi mua thuốc về cho con.",Người mẹ đã tạo gió làm dịu đi cái hè oi bức.,"Để có giấc ngủ ngon trong đêm cho con, người mẹ đạ mần chi?
+A. Người mẹ đạ tạo gió mần dịu đi cái hè oi bức.
+B. Người mẹ đạ thức trắng đêm để đắp chăn cho con.
+C. Người mẹ nấu cháo cho con ăn.
+D. Người mẹ đạ đi mua thuốc về cho con.",A,PNT2,Daily Conversation,high,7d958013-3acc-4719-a459-b3a565d57865,0,unknown,rewrite,MCQA_0048_5,"Để có giấc ngủ ngon trong đêm cho con, người mẹ đã làm gì?
+A. Người mẹ đã tạo gió làm dịu đi cái hè oi bức.
+B. Người mẹ đã thức trắng đêm để đắp chăn cho con.
+C. Người mẹ nấu cháo cho con ăn.
+D. Người mẹ đã đi mua thuốc về cho con.",74,2.6129088401794434,13.638665906349102,80,3.1268649101257324,22.802379855165228,0.5139560699462891,9.163713948816126,1.6718922519064137,57,57,1.0
+SENT_0018,SENT,"thời buổi bây chừ chuyện gì cũng có thể xảy ra , vậy nên thôi trất , đừng nên tin ai",,"thời buổi bây giờ chuyện gì cũng có thể xảy ra, nên thôi, đừng nên tin ai
+",Fear,PNB,Daily Conversation,high,7e49e369-5b4e-4441-ba22-55eb0d6e2bdf,0,unknown,qualification,SENT_0018,"thời buổi bây chừ chuyện gì cũng có thể xảy ra , vậy nên thôi trất , đừng nên tin ai",24,4.696091175079346,109.51824704776799,20,4.088876247406006,59.67279655211407,-0.6072149276733398,-49.845450495653914,0.5448662497865484,21,17,0.8095238095238095
+MCQA_0055_0,MCQA,"Khi thấy Vịt con kêu khóc, Gà con đã làm gì?
+A. Gà con sợ quá khóc ầm lên.
+B. Gà con vội vàng nằm giả vờ chết.
+C. Gà con bay lên cành cây để bỏ trốn, bỏ mặc Vịt con.
+D. ","Gà con bay lên cành cây để bỏ trốn, bỏ mặc Vịt con.","Khi thấy Vịt con kêu khóc, Gà con đạ mần chi?
+A. Gà con sợ quá khóc ầm lên.
+B. Gà con vội vàng nằm giả vờ chết.
+C. Gà con bay lên cí cành cây để bỏ trốn, bỏ mặc Vịt con.
+D. ",C,PNT2,Daily Conversation,high,7d958013-3acc-4719-a459-b3a565d57865,0,unknown,rewrite,MCQA_0055_0,"Khi thấy Vịt con kêu khóc, Gà con đã làm gì?
+A. Gà con sợ quá khóc ầm lên.
+B. Gà con vội vàng nằm giả vờ chết.
+C. Gà con bay lên cành cây để bỏ trốn, bỏ mặc Vịt con.
+D. ",70,2.8729588985443115,17.689281630278067,74,3.434150457382202,31.005061252929593,0.5611915588378906,13.315779622651526,1.7527597728931748,43,44,1.0232558139534884
+MCQA_0091_1,MCQA,"Thấy ông lão đang trú mưa trước cửa nhà mình, Hoa đã làm gì?
+A. Mời ông lão vào trong nhà trú mưa.
+B. Vào nhà lấy cho ông lão áo mưa.
+C. Mặc kệ ông lão đứng đó.
+D. Đưa cho ông lão một cái bánh.",Vào nhà lấy cho ông lão áo mưa.,"Chộ ông lão đang trú mưa trước cửa nhà mình, Hoa đạ mần chi?
+A. Mời ông lão vô trong nhà trú mưa.
+B. Vô nhà lấy cho ông lão cí áo mưa.
+C. Mặc kệ ông lão đứng đó.
+D. Đưa cho ông lão một cấy bánh.",B,PNT2,Daily Conversation,high,7d958013-3acc-4719-a459-b3a565d57865,0,unknown,rewrite,MCQA_0091_1,"Thấy ông lão đang trú mưa trước cửa nhà mình, Hoa đã làm gì?
+A. Mời ông lão vào trong nhà trú mưa.
+B. Vào nhà lấy cho ông lão áo mưa.
+C. Mặc kệ ông lão đứng đó.
+D. Đưa cho ông lão một cái bánh.",68,2.7225825786590576,15.21957728902255,73,3.8086352348327637,45.08886114918805,1.086052656173706,29.8692838601655,2.9625567315663472,47,48,1.0212765957446808
+MCQA_0036_5,MCQA,"Lần thứ hai, cậu bé lại quay về hỏi bà điều gì?
+A. Bát nào là bát tương, bát nào là bát mắm.
+B. Bát nào đựng mắm, bát nào đựng tương.
+C. Đồng nào mua mắm, đồng nào mua tương.
+D. Chọn mắm và tương như thế nào là ngon.","Đồng nào mua mắm, đồng nào mua tương.","Lần thứ hai, cậu bé lại quay về hỏi bà điều gì?
+A. Bát nào là bát tương, bát nào là bát mắm.
+B. Bát nào đựng mắm, bát nào đựng tương.
+C. Đồng nào mua mắm, đồng nào mua tương.
+D. Chọn mắm và tương như thế nào là ngon.",C,PNB,Daily Conversation,high,7e49e369-5b4e-4441-ba22-55eb0d6e2bdf,0,unknown,rewrite,MCQA_0036_5,"Lần thứ hai, cậu bé lại quay về hỏi bà điều gì?
+A. Bát nào là bát tương, bát nào là bát mắm.
+B. Bát nào đựng mắm, bát nào đựng tương.
+C. Đồng nào mua mắm, đồng nào mua tương.
+D. Chọn mắm và tương như thế nào là ngon.",80,2.469477891921997,11.81627586774381,80,2.469477891921997,11.81627586774381,0.0,0.0,1.0,51,51,1.0
+MCQA_0081_4,MCQA,"Vì sao bà lão trong bài thơ này vui?
+A. Vì đàn con đi lính mới về.
+B. Vì có cơm ăn áo mặt.
+C. Vì làng xôn xao.
+D. Vì nồi cơm nấu dở.",Vì làng xôn xao.,"Vì răng bà lão trong bài thơ ni vui?
+A. Vì đàn con đi lính mới về.
+B. Vì có cơm ăn áo mặt.
+C. Vì làng xôn xao.
+D. Vì nồi cơm nấu dở.",C,PNT3,Daily Conversation,high,88346002-a7b4-4be1-aec6-e1e3625416ee,0,rewrite_completed,rewrite,MCQA_0081_4,"Vì sao bà lão trong bài thơ này vui?
+A. Vì đàn con đi lính mới về.
+B. Vì có cơm ăn áo mặt.
+C. Vì làng xôn xao.
+D. Vì nồi cơm nấu dở.",56,3.2816503047943115,26.619667034526348,55,3.9685494899749756,52.90773195876061,0.6868991851806641,26.28806492423426,1.9875429655126042,35,35,1.0
+MCQA_0072_2,MCQA,"Việc lặp đi lặp lại nhiều lần những cụm từ ""Ai trồng cây"", ""Người đó có"", ""Em trồng cây"" có tác dụng gì?
+A. Tạo nên thông điệp nhắc nhở mọi người có ý thức trồng cây xanh.
+B. Tạo thành điệp khúc khiến bài thơ có vẫn điệu, dễ nhớ, dễ thuộc.
+C. Tạo điệp khúc khiến bài thơ có nhịp điệu và gửi gắm thông điệp: mọi người hãy có ý thức trồng cây xanh để bảo vệ môi trường sống.
+D. Tất cả các ý trên.",Tạo điệp khúc khiến bài thơ có nhịp điệu và gửi gắm thông điệp: mọi người hãy có ý thức trồng cây xanh để bảo vệ môi trường sống.,"Việc lặp đi lặp lại nhiều lần những cụm từ ""Ai trồng cây"", ""Người đó có"", ""Em trồng cây"" có tác dụng chi?
+A. Tạo nên thông điệp nhắc nhở mọi người có ý thức trồng cây xanh.
+B. Tạo thành điệp khúc khiến bài thơ có vẫn điệu, dễ nhớ, dễ thuộc.
+C. Tạo điệp khúc khiến bài thơ có nhịp điệu và gửi gắm thông điệp: mọi người hãy có ý thức trồng cây xanh để bảo vệ môi trường sống.
+D. Tất cả các ý trên.",C,PNT2,Daily Conversation,high,e686d659-713a-4b20-a76a-7bb2177c8cfb,0,unknown,rewrite,MCQA_0072_2,"Việc lặp đi lặp lại nhiều lần những cụm từ ""Ai trồng cây"", ""Người đó có"", ""Em trồng cây"" có tác dụng gì?
+A. Tạo nên thông điệp nhắc nhở mọi người có ý thức trồng cây xanh.
+B. Tạo thành điệp khúc khiến bài thơ có vẫn điệu, dễ nhớ, dễ thuộc.
+C. Tạo điệp khúc khiến bài thơ có nhịp điệu và gửi gắm thông điệp: mọi người hãy có ý thức trồng cây xanh để bảo vệ môi trường sống.
+D. Tất cả các ý trên.",126,2.4474406242370605,11.558725707316775,126,2.6078715324401855,13.57013649579902,0.160430908203125,2.0114107884822445,1.1740166554180798,89,89,1.0
+MCQA_0144_3,MCQA,"Khi mẹ đi vắng, hai chị em đã làm những việc gì?
+A. Hai chị em giúp bố nấu cơm.
+B. Hai chị em giúp bố nấu cơm và chăm đàn ngan.
+C. Chị hái lá cho thỏ, em thì chăm đàn ngan.
+D. Chi và em ra vườn chăm cây cối.","Chị hái lá cho thỏ, em thì chăm đàn ngan.","Khi mẹ đi vắng, hai chị em đã làm những việc gì?
+A. Hai chị em giúp bố nấu cơm.
+B. Hai chị em giúp bố nấu cơm và chăm đàn ngan.
+C. Chị hái lá cho thỏ, em thì chăm đàn ngan.
+D. Chị và em ra vườn chăm cây cối.",C,PNB,Daily Conversation,high,c3131d4f-ec3f-4359-bd03-240a3bd2c1e1,0,unknown,rewrite,MCQA_0144_3,"Khi mẹ đi vắng, hai chị em đã làm những việc gì?
+A. Hai chị em giúp bố nấu cơm.
+B. Hai chị em giúp bố nấu cơm và chăm đàn ngan.
+C. Chị hái lá cho thỏ, em thì chăm đàn ngan.
+D. Chi và em ra vườn chăm cây cối.",71,3.1856536865234375,24.183091401123818,71,3.091032028198242,21.9997706476739,-0.09462165832519531,-2.1833207534499195,0.9097170532404117,52,52,1.0
+MCQA_0012_0,MCQA,"An đã xin làm gì sau khi bà mất?
+A. An xin nghỉ học hẳn luôn.
+B. Xin bố mẹ cho đi du lịch.
+C. Nghỉ học mấy ngày liền.
+D. Xin được đi học để đỡ buồn.",Nghỉ học mấy ngày liền.,"An đã xin làm gì sau khi bà mất?
+A. An xin nghỉ học hẳn luôn.
+B. Xin bố mẹ cho đi du lịch.
+C. Nghỉ học mấy ngày liền.
+D. Xin được đi học để đỡ buồn.",C,PNB,Daily Conversation,high,c6ebf7db-5dbe-4587-9564-a75d61cbc2e3,0,unknown,qualification,MCQA_0012_0,"An đã xin làm gì sau khi bà mất?
+A. An xin nghỉ học hẳn luôn.
+B. Xin bố mẹ cho đi du lịch.
+C. Nghỉ học mấy ngày liền.
+D. Xin được đi học để đỡ buồn.",50,3.7448387145996094,42.302183943930494,50,3.7448387145996094,42.302183943930494,0.0,0.0,1.0,38,38,1.0
+MCQA_0012_5,MCQA,"Tại sao thầy giáo không trách An khi biết bạn chưa làm bài tập?
+A. Vì đây là lần đầu tiên An mắc lỗi.
+B. Vì cả lớp đã kể cho thầy nghe.
+C. Vì thầy hiểu và thông cảm hoàn cảnh của An. An cũng đã thành thực nhận lỗi.
+D. Vì An đã mắc lỗi quá nhiều lần.",Vì thầy hiểu và thông cảm hoàn cảnh của An. An cũng đã thành thực nhận lỗi.,"Tại sao thầy giáo không trách An khi biết bạn chưa làm bài tập?
+A. Vì đây là lần đầu tiên An mắc lỗi.
+B. Vì cả lớp đã kể cho thầy nghe.
+C. Vì thầy hiểu và thông cảm hoàn cảnh của An. An cũng đã thành thực nhận lỗi.
+D. Vì An đã mắc lỗi quá nhiều lần.",C,PNB,Daily Conversation,high,c6ebf7db-5dbe-4587-9564-a75d61cbc2e3,0,unknown,qualification,MCQA_0012_5,"Tại sao thầy giáo không trách An khi biết bạn chưa làm bài tập?
+A. Vì đây là lần đầu tiên An mắc lỗi.
+B. Vì cả lớp đã kể cho thầy nghe.
+C. Vì thầy hiểu và thông cảm hoàn cảnh của An. An cũng đã thành thực nhận lỗi.
+D. Vì An đã mắc lỗi quá nhiều lần.",73,3.113865375518799,22.507877870747663,73,3.113865375518799,22.507877870747663,0.0,0.0,1.0,60,60,1.0
+QA_0268,QA,Các toán hạng được chứa trong chỉ thị như thế nào thì được gọi là giá trị tức thời?,các chỉ thị thực (như cộng hay so sánh),Các toán hạng được chứa trong chỉ thị như thế nào thì được gọi là giá trị tức thời?,các chỉ thị thực (như cộng hay so sánh),PNB,Daily Conversation,high,291aae44-1453-4283-9067-782588cd28ff,0,unknown,rewrite,QA_0268,Các toán hạng được chứa trong chỉ thị như thế nào thì được gọi là giá trị tức thời?,21,4.642796039581299,103.83426680146997,21,4.642796039581299,103.83426680146997,0.0,0.0,1.0,19,19,1.0
+MCQA_0055_0,MCQA,"Khi thấy Vịt con kêu khóc, Gà con đã làm gì?
+A. Gà con sợ quá khóc ầm lên.
+B. Gà con vội vàng nằm giả vờ chết.
+C. Gà con bay lên cành cây để bỏ trốn, bỏ mặc Vịt con.
+D. ","Gà con bay lên cành cây để bỏ trốn, bỏ mặc Vịt con.","Khi thấy Vịt con khóoc , Gà con đạ mần chi?
+A. Gà con sợ quá khóoc ầm lên.
+B. Gà con vội vàng nằm giả vờ chết.
+C. Gà con bay lên cành cây để bỏ trốn, bỏ mặc Vịt con.
+D. ",C,PNT3,Daily Conversation,high,60eb0c6c-808a-4dce-b64c-457d29ee614d,0,unknown,rewrite,MCQA_0055_0,"Khi thấy Vịt con kêu khóc, Gà con đã làm gì?
+A. Gà con sợ quá khóc ầm lên.
+B. Gà con vội vàng nằm giả vờ chết.
+C. Gà con bay lên cành cây để bỏ trốn, bỏ mặc Vịt con.
+D. ",70,2.8729588985443115,17.689281630278067,70,3.7429840564727783,42.22380056435046,0.8700251579284668,24.534518934072395,2.386970904012156,43,43,1.0
+MCQA_0043_3,MCQA,"Theo lời người cha đã mất, hai người con đã làm gì?
+A. Hai người con rời bỏ mảnh đất quê hương, theo đuổi điều hão huyền.
+B. Hai người con đào bới cả đám ruộng mà chẳng thấy kho báu đâu.
+C. Hai người con thay phiên nhau cấy cày, làm giàu từ mảnh ruộng.
+D. Hai người con bán mảnh ruộng, lên thành phố kiếm sống.",Hai người con đào bới cả đám ruộng mà chẳng thấy kho báu đâu.,"Theo lời người cha đã mất, hai người con đã làm gì?
+A. Hai người con rời bỏ mảnh đất quê hương, theo đuổi điều viển vông.
+B. Hai người con đào bới cả mảnh ruộng mà chẳng thấy kho báu đâu.
+C. Hai người con thay phiên nhau cấy cày, làm giàu từ mảnh ruộng.
+D. Hai người con bán mảnh ruộng, lên thành phố kiếm sống.",B,PNB,Daily Conversation,high,7e49e369-5b4e-4441-ba22-55eb0d6e2bdf,0,unknown,rewrite,MCQA_0043_3,"Theo lời người cha đã mất, hai người con đã làm gì?
+A. Hai người con rời bỏ mảnh đất quê hương, theo đuổi điều hão huyền.
+B. Hai người con đào bới cả đám ruộng mà chẳng thấy kho báu đâu.
+C. Hai người con thay phiên nhau cấy cày, làm giàu từ mảnh ruộng.
+D. Hai người con bán mảnh ruộng, lên thành phố kiếm sống.",98,3.020037889480591,20.492068103300454,99,2.9317526817321777,18.760482853984758,-0.08828520774841309,-1.731585249315696,0.915499731867629,68,68,1.0
+MCQA_0056_1,MCQA,"Câu văn “Tâm hồn cô cũng bay ra biển cả, bay đến với chim seo cờ.” ý nói gì ?
+A. Bạn gái mơ ước mình biết bay.
+B. Bạn gái luôn nghĩ về biển cả và chim seo cờ, mơ ước được ra biển và nhìn thấy chim seo cờ.
+C. Bạn gái mơ ước được bay ra biển cả.
+D. ","Bạn gái luôn nghĩ về biển cả và chim seo cờ, mơ ước được ra biển và nhìn thấy chim seo cờ.","Câu văn “Tâm hồn cô cũng bay ra biển cả, bay tới với chim seo cờ.” ý là gì ?
+A. Bạn gái mơ ước mình biết bay.
+B. Bạn gái luôn nghĩ về biển cả và chim seo cờ, mơ ước được ra biển và nhìn thấy chim seo cờ.
+C. Bạn gái mơ ước được bay ra biển cả.",B,PNN,Daily Conversation,high,9d0d5c61-1083-4b35-8c02-c2c597f8212f,0,finalized,rewrite,MCQA_0056_1,"Câu văn “Tâm hồn cô cũng bay ra biển cả, bay đến với chim seo cờ.” ý nói gì ?
+A. Bạn gái mơ ước mình biết bay.
+B. Bạn gái luôn nghĩ về biển cả và chim seo cờ, mơ ước được ra biển và nhìn thấy chim seo cờ.
+C. Bạn gái mơ ước được bay ra biển cả.
+D. ",82,2.8207216262817383,16.7889616577869,80,2.9850096702575684,19.786693577868498,0.16428804397583008,2.9977319200815984,1.178553741510942,62,61,0.9838709677419355
+MCQA_0036_5,MCQA,"Lần thứ hai, cậu bé lại quay về hỏi bà điều gì?
+A. Bát nào là bát tương, bát nào là bát mắm.
+B. Bát nào đựng mắm, bát nào đựng tương.
+C. Đồng nào mua mắm, đồng nào mua tương.
+D. Chọn mắm và tương như thế nào là ngon.","Đồng nào mua mắm, đồng nào mua tương.","Lần thứ hai, cậu bé lại quay về hỏi bà điều chi?
+A. Bát mô là bát tương, bát mô là bát mắm.
+B. Bát mô đựng mắm, bát mô đựng tương.
+C. Đồng mô mua mắm, đồng mô mua tương.
+D. Chọn mắm và tương như răng là ngon.",C,PNT4,Daily Conversation,high,eb3805e3-c095-4a6c-8697-9f6079168a64,0,finalized,rewrite,MCQA_0036_5,"Lần thứ hai, cậu bé lại quay về hỏi bà điều gì?
+A. Bát nào là bát tương, bát nào là bát mắm.
+B. Bát nào đựng mắm, bát nào đựng tương.
+C. Đồng nào mua mắm, đồng nào mua tương.
+D. Chọn mắm và tương như thế nào là ngon.",80,2.469477891921997,11.81627586774381,79,2.991647243499756,19.918466046623212,0.5221693515777588,8.102190178879402,1.6856805197817735,51,50,0.9803921568627451
+MCQA_0056_1,MCQA,"Câu văn “Tâm hồn cô cũng bay ra biển cả, bay đến với chim seo cờ.” ý nói gì ?
+A. Bạn gái mơ ước mình biết bay.
+B. Bạn gái luôn nghĩ về biển cả và chim seo cờ, mơ ước được ra biển và nhìn thấy chim seo cờ.
+C. Bạn gái mơ ước được bay ra biển cả.
+D. ","Bạn gái luôn nghĩ về biển cả và chim seo cờ, mơ ước được ra biển và nhìn thấy chim seo cờ.","Câu văn “Tâm hồn cô cũng bay ra biển cả, bay đến với chim seo cờ.” ý nói gì ?
+A. Bạn gái mơ ước mình biết bay.
+B. Bạn gái luôn nghĩ về biển cả và chim seo cờ, mơ ước được ra biển và nhìn thấy chim seo cờ.
+C. Bạn gái mơ ước được bay ra biển cả.
+D.",B,PNT4,Daily Conversation,high,eb3805e3-c095-4a6c-8697-9f6079168a64,0,rewrite_completed,rewrite,MCQA_0056_1,"Câu văn “Tâm hồn cô cũng bay ra biển cả, bay đến với chim seo cờ.” ý nói gì ?
+A. Bạn gái mơ ước mình biết bay.
+B. Bạn gái luôn nghĩ về biển cả và chim seo cờ, mơ ước được ra biển và nhìn thấy chim seo cờ.
+C. Bạn gái mơ ước được bay ra biển cả.
+D. ",82,2.8207216262817383,16.7889616577869,82,2.8207216262817383,16.7889616577869,0.0,0.0,1.0,62,62,1.0
+MCQA_0072_2,MCQA,"Việc lặp đi lặp lại nhiều lần những cụm từ ""Ai trồng cây"", ""Người đó có"", ""Em trồng cây"" có tác dụng gì?
+A. Tạo nên thông điệp nhắc nhở mọi người có ý thức trồng cây xanh.
+B. Tạo thành điệp khúc khiến bài thơ có vẫn điệu, dễ nhớ, dễ thuộc.
+C. Tạo điệp khúc khiến bài thơ có nhịp điệu và gửi gắm thông điệp: mọi người hãy có ý thức trồng cây xanh để bảo vệ môi trường sống.
+D. Tất cả các ý trên.",Tạo điệp khúc khiến bài thơ có nhịp điệu và gửi gắm thông điệp: mọi người hãy có ý thức trồng cây xanh để bảo vệ môi trường sống.,"Việc lặp đi lặp lại nhiều lần những cụm từ ""Ai trồng cây"", ""Người đó có"", ""Em trồng cây"" có tác dụng chi?
+A. Tạo nên thông điệp nhắc nhở mọi người có ý thức trồng cây xanh.
+B. Tạo thành điệp khúc khiến bài thơ có vẫn điệu, dễ nhớ, dễ thuộc.
+C. Tạo điệp khúc khiến bài thơ có nhịp điệu và gửi gắm thông điệp: mọi người hãy có ý thức trồng cây xanh để bảo vệ môi trường sống.
+D. Tất cả các ý trên.",C,PNT4,Daily Conversation,high,eb3805e3-c095-4a6c-8697-9f6079168a64,0,unknown,rewrite,MCQA_0072_2,"Việc lặp đi lặp lại nhiều lần những cụm từ ""Ai trồng cây"", ""Người đó có"", ""Em trồng cây"" có tác dụng gì?
+A. Tạo nên thông điệp nhắc nhở mọi người có ý thức trồng cây xanh.
+B. Tạo thành điệp khúc khiến bài thơ có vẫn điệu, dễ nhớ, dễ thuộc.
+C. Tạo điệp khúc khiến bài thơ có nhịp điệu và gửi gắm thông điệp: mọi người hãy có ý thức trồng cây xanh để bảo vệ môi trường sống.
+D. Tất cả các ý trên.",126,2.4474406242370605,11.558725707316775,126,2.6078715324401855,13.57013649579902,0.160430908203125,2.0114107884822445,1.1740166554180798,89,89,1.0
+MCQA_0081_4,MCQA,"Vì sao bà lão trong bài thơ này vui?
+A. Vì đàn con đi lính mới về.
+B. Vì có cơm ăn áo mặt.
+C. Vì làng xôn xao.
+D. Vì nồi cơm nấu dở.",Vì làng xôn xao.,"Vì răng bà lão trong bài thơ này vui?
+A. Vì đàn con đi lính mới về.
+B. Vì có cơm ăn áo mặt.
+C. Vì làng xôn xao.
+D. Vì nồi cơm nấu dở.",C,PNT4,Daily Conversation,high,eb3805e3-c095-4a6c-8697-9f6079168a64,0,unknown,rewrite,MCQA_0081_4,"Vì sao bà lão trong bài thơ này vui?
+A. Vì đàn con đi lính mới về.
+B. Vì có cơm ăn áo mặt.
+C. Vì làng xôn xao.
+D. Vì nồi cơm nấu dở.",56,3.2816503047943115,26.619667034526348,55,3.8172595500946045,45.4794033614476,0.535609245300293,18.859736326921254,1.7084888140208412,35,35,1.0
+SENT_0192,SENT,may mình đi làm rồi chứ 10 năm trước chắc sẽ phát khổ với bố mẹ vì mấy tin con nhà người ta như thế nào,,"may mình đi làm rồi chứ 10 năm trước chắc sẽ phát khổ với bố mẹ vì mấy cái tin con nhà người ta như thế nào
+",Enjoyment,PNB,Daily Conversation,high,7e49e369-5b4e-4441-ba22-55eb0d6e2bdf,0,unknown,qualification,SENT_0192,may mình đi làm rồi chứ 10 năm trước chắc sẽ phát khổ với bố mẹ vì mấy tin con nhà người ta như thế nào,28,4.938327312469482,139.5366530278945,29,4.786463260650635,119.87664558900786,-0.15186405181884766,-19.660007438886623,0.8591050665737523,26,27,1.0384615384615385
+MCQA_0092_2,MCQA,"Khi đã hiểu hoàn cảnh gia đình Lan, cô và các bạn đã làm gì?
+A. Mua bánh giúp gia đình Lan.
+B. Hàng ngày đến nhà giúp Lan cắt lá để gói bánh.
+C. Góp tiền mua tặng Lan một tấm áo mới.
+D. Góp sách cho Lan đến trường.",Góp tiền mua tặng Lan một tấm áo mới.,"Khi đã hiểu hoàn cảnh gia đình Lan, cô và mấy bạn đã làm chi?
+A. Mua bánh giùm gia đình Lan.
+B. Hằng ngày tới nhà phụ Lan cắt lá để gói bánh.
+C. Góp tiền mua tặng Lan một tấm áo mới.
+D. Góp sách cho Lan tới trường.",C,PNT4,Daily Conversation,high,caa27aaf-592f-49ce-b541-02f33da2b90f,0,unknown,rewrite,MCQA_0092_2,"Khi đã hiểu hoàn cảnh gia đình Lan, cô và các bạn đã làm gì?
+A. Mua bánh giúp gia đình Lan.
+B. Hàng ngày đến nhà giúp Lan cắt lá để gói bánh.
+C. Góp tiền mua tặng Lan một tấm áo mới.
+D. Góp sách cho Lan đến trường.",68,3.199390172958374,24.51757415755782,71,3.568265676498413,35.45504927335291,0.36887550354003906,10.937475115795092,1.446107557195804,51,51,1.0
+MCQA_0056_1,MCQA,"Câu văn “Tâm hồn cô cũng bay ra biển cả, bay đến với chim seo cờ.” ý nói gì ?
+A. Bạn gái mơ ước mình biết bay.
+B. Bạn gái luôn nghĩ về biển cả và chim seo cờ, mơ ước được ra biển và nhìn thấy chim seo cờ.
+C. Bạn gái mơ ước được bay ra biển cả.
+D. ","Bạn gái luôn nghĩ về biển cả và chim seo cờ, mơ ước được ra biển và nhìn thấy chim seo cờ.","Câu văn “Tâm hồn cô cũng bay ra biển cả, bay đến với chim seo cờ.” ý nói chi ?
+A. Bạn gấy mơ ước mình biết bay.
+B. Bạn gấy luôn nghĩ về biển cả và chim seo cờ, mơ ước được ra biển và nhìn thấy chim seo cờ.
+C. Bạn gấy mơ ước được bay ra biển cả.
+D. ",B,PNT2,Daily Conversation,high,7d958013-3acc-4719-a459-b3a565d57865,0,unknown,rewrite,MCQA_0056_1,"Câu văn “Tâm hồn cô cũng bay ra biển cả, bay đến với chim seo cờ.” ý nói gì ?
+A. Bạn gái mơ ước mình biết bay.
+B. Bạn gái luôn nghĩ về biển cả và chim seo cờ, mơ ước được ra biển và nhìn thấy chim seo cờ.
+C. Bạn gái mơ ước được bay ra biển cả.
+D. ",82,2.8207216262817383,16.7889616577869,85,3.040384531021118,20.91328349538635,0.21966290473937988,4.1243218375994495,1.2456567548170285,62,62,1.0
+MCQA_0002_4,MCQA,"Mùa nào, chúng ta chỉ thấy những cành cây trơ trịu lá?
+A. Mùa xuân.
+B. Mùa hạ.
+C. Mùa thu.
+D. Mùa đông.",Mùa đông.,"Mùa nào, chúng ta chỉ thấy những cành cây trơ trụi lá?
+A. Mùa xuân.
+B. Mùa hạ.
+C. Mùa thu.
+D. Mùa đông.",D,PNB,Daily Conversation,high,7e49e369-5b4e-4441-ba22-55eb0d6e2bdf,0,unknown,qualification,MCQA_0002_4,"Mùa nào, chúng ta chỉ thấy những cành cây trơ trịu lá?
+A. Mùa xuân.
+B. Mùa hạ.
+C. Mùa thu.
+D. Mùa đông.",47,2.523056745529175,12.46664584456814,47,2.1402487754821777,8.50155234361417,-0.38280797004699707,-3.9650935009539694,0.6819438403568987,24,24,1.0
+MCQA_0004_3,MCQA,"Sau khi ngưng hót, bầy chim sơn ca đã làm gì?
+A. Nhảy thẳng lên trời xanh.
+B. Bay thẳng lên bầu trời.
+C. Luyện xuống đất kiếm ăn.
+D. Tiếp tục hót vang xa hơn nữa.",Bay thẳng lên bầu trời.,"Sau khi ngừng hót, bầy chim sơn ca đã làm gì?
+A. Lao thẳng lên trời xanh.
+B. Bay thẳng lên bầu trời.
+C.Lượn xuống đất kiếm ăn.
+D. Tiếp tục hót vang xa hơn nữa.",B,PNB,Daily Conversation,high,7e49e369-5b4e-4441-ba22-55eb0d6e2bdf,0,unknown,qualification,MCQA_0004_3,"Sau khi ngưng hót, bầy chim sơn ca đã làm gì?
+A. Nhảy thẳng lên trời xanh.
+B. Bay thẳng lên bầu trời.
+C. Luyện xuống đất kiếm ăn.
+D. Tiếp tục hót vang xa hơn nữa.",57,3.323922872543335,27.769071698423964,56,3.679367780685425,39.62133677817402,0.35544490814208984,11.852265079750055,1.4268153148390168,37,36,0.972972972972973
+QA_10332,QA,Vimara Peres đã thành lập một trong các thành phố đầu tiên vào thời gian này với tên gọi là gì?,Vimaranes,Vimara Peres đã thành lập một trong các thành phố đầu tiên vào thời gian này với tên gọi là gì?,Vimaranes,PNB,Daily Conversation,high,7e49e369-5b4e-4441-ba22-55eb0d6e2bdf,0,unknown,qualification,QA_10332,Vimara Peres đã thành lập một trong các thành phố đầu tiên vào thời gian này với tên gọi là gì?,26,4.169768810272217,64.70049228899177,26,4.169768810272217,64.70049228899177,0.0,0.0,1.0,21,21,1.0
+QA_10377,QA,"Khi tham gia cuộc chiến Tám mươi Năm, Bồ Đào Nha đã làm mất cái gì tại vùng vịnh Ba Tư?",cảng mậu dịch chiến lược Hormuz,"Khi tham gia cuộc chiến Tám mươi Năm, Bồ Đào Nha đã làm mất thứ gì tại vùng vịnh Ba Tư?",cảng mậu dịch chiến lược Hormuz,PNB,Daily Conversation,high,7e49e369-5b4e-4441-ba22-55eb0d6e2bdf,0,unknown,qualification,QA_10377,"Khi tham gia cuộc chiến Tám mươi Năm, Bồ Đào Nha đã làm mất cái gì tại vùng vịnh Ba Tư?",31,3.1572325229644775,23.50545502567375,31,3.195725440979004,24.427888257254903,0.03849291801452637,0.9224332315811523,1.0392433684254836,21,21,1.0
+MCQA_0012_0,MCQA,"An đã xin làm gì sau khi bà mất?
+A. An xin nghỉ học hẳn luôn.
+B. Xin bố mẹ cho đi du lịch.
+C. Nghỉ học mấy ngày liền.
+D. Xin được đi học để đỡ buồn.",Nghỉ học mấy ngày liền.,"An đã xin làm gì sau khi bà mất?
+A. An xin nghỉ học hẳn luôn.
+B. Xin bố mẹ cho đi du lịch.
+C. Nghỉ học mấy ngày liền.
+D. Xin được đi học để đỡ buồn.",C,PNT4,Daily Conversation,high,7f4cabf8-9403-4778-a98e-b3191bcfcaab,0,unknown,qualification,MCQA_0012_0,"An đã xin làm gì sau khi bà mất?
+A. An xin nghỉ học hẳn luôn.
+B. Xin bố mẹ cho đi du lịch.
+C. Nghỉ học mấy ngày liền.
+D. Xin được đi học để đỡ buồn.",50,3.7448387145996094,42.302183943930494,50,3.7448387145996094,42.302183943930494,0.0,0.0,1.0,38,38,1.0
+MCQA_0012_5,MCQA,"Tại sao thầy giáo không trách An khi biết bạn chưa làm bài tập?
+A. Vì đây là lần đầu tiên An mắc lỗi.
+B. Vì cả lớp đã kể cho thầy nghe.
+C. Vì thầy hiểu và thông cảm hoàn cảnh của An. An cũng đã thành thực nhận lỗi.
+D. Vì An đã mắc lỗi quá nhiều lần.",Vì thầy hiểu và thông cảm hoàn cảnh của An. An cũng đã thành thực nhận lỗi.,"Tại sao thầy giáo không trách An khi biết bạn chưa làm bài tập?
+A. Tại/Do  đây là lần đầu tiên An mắc lỗi.
+B. Tại/Do cả lớp đã kể cho thầy nghe.
+C. Tại/Do thầy hiểu và thông cảm hoàn cảnh của An. An cũng đã thành thực nhận lỗi.
+D. Tại/Do An đã mắc lỗi quá nhiều lần.",C,PNT4,Daily Conversation,high,7f4cabf8-9403-4778-a98e-b3191bcfcaab,0,unknown,qualification,MCQA_0012_5,"Tại sao thầy giáo không trách An khi biết bạn chưa làm bài tập?
+A. Vì đây là lần đầu tiên An mắc lỗi.
+B. Vì cả lớp đã kể cho thầy nghe.
+C. Vì thầy hiểu và thông cảm hoàn cảnh của An. An cũng đã thành thực nhận lỗi.
+D. Vì An đã mắc lỗi quá nhiều lần.",73,3.113865375518799,22.507877870747663,82,3.169481039047241,23.7951324070312,0.05561566352844238,1.2872545362835375,1.0571912884757793,60,60,1.0
+SENT_0237,SENT,"có ai nhìn thấy hình như người đàn ông này đang rất đau khổ không nhỉ ? mình nhận thấy hình như ông ấy đang rất đau khổ , mà không thể or không muốn nói ra .",,"có ai nhìn thấy hình như người đàn ông này đang rất đau khổ không nhỉ ? mình nhận thấy hình như ông ấy đang rất đau khổ , mà không thể or không muốn nói ra .",Sadness,PNB,Daily Conversation,high,291aae44-1453-4283-9067-782588cd28ff,0,unknown,qualification,SENT_0237,"có ai nhìn thấy hình như người đàn ông này đang rất đau khổ không nhỉ ? mình nhận thấy hình như ông ấy đang rất đau khổ , mà không thể or không muốn nói ra .",39,3.525766372680664,33.979804834285595,39,3.525766372680664,33.979804834285595,0.0,0.0,1.0,38,38,1.0
+SENT_0462,SENT,tao đã từng viết như thế này . bây giờ không muốn ai đọc chỉ có đốt mà lười đốt,,"Tao đã từng viết thế này. Giờ không muốn ai đọc nữa, chỉ có đem đốt đi thôi mà lười quá",Sadness,PNB,Daily Conversation,high,291aae44-1453-4283-9067-782588cd28ff,0,unknown,qualification,SENT_0462,tao đã từng viết như thế này . bây giờ không muốn ai đọc chỉ có đốt mà lười đốt,24,4.8982319831848145,134.05256285980548,27,4.631401538848877,102.65784228571427,-0.2668304443359375,-31.39472057409121,0.7658029066782979,20,21,1.05
+MCQA_0010_1,MCQA,"Vì sao cha muốn cho bớt chó con đi?
+A. Vì cha không thích chó con.
+B. Vì bố thích đem cho người khác.
+C. Vì nhà hàng xóm xin từ trước.
+D. Vì nhiều quá, nuôi không xuể.","Vì nhiều quá, nuôi không xuể.","Vì sao bố muốn cho bớt chó con đi?
+A. Vì bơ không thích chó con.
+B. Vì bố thích đem cho người khác.
+C. Vì nhà hàng xóm xin từ trước.
+D. Vì nhiều quá, nuôi không hết.",D,PNB,Daily Conversation,high,291aae44-1453-4283-9067-782588cd28ff,0,unknown,qualification,MCQA_0010_1,"Vì sao cha muốn cho bớt chó con đi?
+A. Vì cha không thích chó con.
+B. Vì bố thích đem cho người khác.
+C. Vì nhà hàng xóm xin từ trước.
+D. Vì nhiều quá, nuôi không xuể.",55,3.6045453548431396,36.76496504366911,55,3.6051723957061768,36.78802540821949,0.0006270408630371094,0.023060364550381962,1.0006272374942555,39,39,1.0
+MCQA_0010_3,MCQA,"Giang đã đưa ra ý kiến gì với chị khi bố bảo phải cho bớt đi?
+A. Giữ chó con lại nuôi.
+B. Bán chó con.
+C. Nuôi thêm mèo.
+D. Cho chó con.",Bán chó con.,"Giang đã đưa ra ý kiến gì với chị khi bố bảo phải cho bớt đi?
+A. Giữ chó con lại nuôi.
+B. Bán chó con.
+C. Nuôi thêm mèo.
+D. Cho chó con.",B,PNB,Daily Conversation,high,291aae44-1453-4283-9067-782588cd28ff,0,unknown,qualification,MCQA_0010_3,"Giang đã đưa ra ý kiến gì với chị khi bố bảo phải cho bớt đi?
+A. Giữ chó con lại nuôi.
+B. Bán chó con.
+C. Nuôi thêm mèo.
+D. Cho chó con.",50,3.8307950496673584,46.099174801930914,50,3.8307950496673584,46.099174801930914,0.0,0.0,1.0,34,34,1.0
+QA_10410,QA,"Trrong gia đoạn mất mát lãnh thổ, Bồ Đào Nha đã tập trung vào làm những việc gì?",bành trướng các tiền đồn của họ tại châu Phi,"Trong gia đoạn mất mát lãnh thổ, Bồ Đào Nha đã tập trung vào làm những việc gì?
+
+",bành trướng các tiền đồn của họ tại châu Phi,PNB,Daily Conversation,high,291aae44-1453-4283-9067-782588cd28ff,0,unknown,qualification,QA_10410,"Trrong gia đoạn mất mát lãnh thổ, Bồ Đào Nha đã tập trung vào làm những việc gì?",26,3.954017400741577,52.144431683523266,25,2.891555070877075,18.021312240695085,-1.062462329864502,-34.123119442828184,0.3456037712726574,18,18,1.0
+MCQA_0144_3,MCQA,"Khi mẹ đi vắng, hai chị em đã làm những việc gì?
+A. Hai chị em giúp bố nấu cơm.
+B. Hai chị em giúp bố nấu cơm và chăm đàn ngan.
+C. Chị hái lá cho thỏ, em thì chăm đàn ngan.
+D. Chi và em ra vườn chăm cây cối.","Chị hái lá cho thỏ, em thì chăm đàn ngan.","Khi mẹ đi vắng, hai chị em đạ mần những việc chi?
+A. Hai chị em giúp bố nấu cơm.
+B. Hai chị em giúp bố nấu cơm và chăm đàn ngan.
+C. Chị hái lá cho thỏ, em thì chăm đàn ngan.
+D. Chi và em ra vườn chăm cây cối.",C,PNT2,Daily Conversation,high,7d958013-3acc-4719-a459-b3a565d57865,0,unknown,rewrite,MCQA_0144_3,"Khi mẹ đi vắng, hai chị em đã làm những việc gì?
+A. Hai chị em giúp bố nấu cơm.
+B. Hai chị em giúp bố nấu cơm và chăm đàn ngan.
+C. Chị hái lá cho thỏ, em thì chăm đàn ngan.
+D. Chi và em ra vườn chăm cây cối.",71,3.1856536865234375,24.183091401123818,73,3.5616655349731445,35.221811478280564,0.37601184844970703,11.038720077156746,1.4564643905139343,52,52,1.0
+MCQA_0055_0,MCQA,"Khi thấy Vịt con kêu khóc, Gà con đã làm gì?
+A. Gà con sợ quá khóc ầm lên.
+B. Gà con vội vàng nằm giả vờ chết.
+C. Gà con bay lên cành cây để bỏ trốn, bỏ mặc Vịt con.
+D. ","Gà con bay lên cành cây để bỏ trốn, bỏ mặc Vịt con.","Khi thấy Vịt con kêu khóc, Gà con đã làm gì?
+A. Gà con sợ quá khóc ầm lên.
+B. Gà con vội vàng nằm giả vờ chết.
+C. Gà con bay lên cành cây để bỏ trốn, bỏ lại Vịt con.
+D. ",C,PNB,Daily Conversation,high,7e49e369-5b4e-4441-ba22-55eb0d6e2bdf,0,unknown,rewrite,MCQA_0055_0,"Khi thấy Vịt con kêu khóc, Gà con đã làm gì?
+A. Gà con sợ quá khóc ầm lên.
+B. Gà con vội vàng nằm giả vờ chết.
+C. Gà con bay lên cành cây để bỏ trốn, bỏ mặc Vịt con.
+D. ",70,2.8729588985443115,17.689281630278067,70,2.883477210998535,17.876324987335067,0.010518312454223633,0.18704335705700004,1.0105738243624798,43,43,1.0
+MCQA_0012_5,MCQA,"Tại sao thầy giáo không trách An khi biết bạn chưa làm bài tập?
+A. Vì đây là lần đầu tiên An mắc lỗi.
+B. Vì cả lớp đã kể cho thầy nghe.
+C. Vì thầy hiểu và thông cảm hoàn cảnh của An. An cũng đã thành thực nhận lỗi.
+D. Vì An đã mắc lỗi quá nhiều lần.",Vì thầy hiểu và thông cảm hoàn cảnh của An. An cũng đã thành thực nhận lỗi.,"Vì răng thầy giáo nỏ trách An khi biết bạn chưa làm bài tập?
+A. Vì đây là lần đầu tiên An mắc lỗi.
+B. Vì cả lớp đã kể cho thầy nghe.
+C. Vì thầy hiểu và thông cảm hoàn cảnh của An. An cũng đã thành thực nhận lỗi.
+D. Vì An đã mắc lỗi quá nhiều lần.",C,PNT2,Daily Conversation,high,7fc87026-860f-4cf9-bb3d-46d0d55f71d9,0,finalized,rewrite,MCQA_0012_5,"Tại sao thầy giáo không trách An khi biết bạn chưa làm bài tập?
+A. Vì đây là lần đầu tiên An mắc lỗi.
+B. Vì cả lớp đã kể cho thầy nghe.
+C. Vì thầy hiểu và thông cảm hoàn cảnh của An. An cũng đã thành thực nhận lỗi.
+D. Vì An đã mắc lỗi quá nhiều lần.",73,3.113865375518799,22.507877870747663,73,3.6345510482788086,37.88484061418023,0.5206856727600098,15.376962743432564,1.6831813657304946,60,60,1.0
+MCQA_0048_5,MCQA,"Để có giấc ngủ ngon trong đêm cho con, người mẹ đã làm gì?
+A. Người mẹ đã tạo gió làm dịu đi cái hè oi bức.
+B. Người mẹ đã thức trắng đêm để đắp chăn cho con.
+C. Người mẹ nấu cháo cho con ăn.
+D. Người mẹ đã đi mua thuốc về cho con.",Người mẹ đã tạo gió làm dịu đi cái hè oi bức.,"Để có giấc ngủ ngon trong đêm cho con, người mẹ đã làm chi?
+A. Người mẹ đã tạo gió làm dịu đi cái hè oi bức.
+B. Người mẹ đã thức trắng đêm để đắp mền cho con.
+C. Người mẹ nấu cháo cho con ăn.
+D. Người mẹ đã đi mua thuốc về cho con.",A,PNT4,Daily Conversation,high,eb3805e3-c095-4a6c-8697-9f6079168a64,0,rewrite_completed,rewrite,MCQA_0048_5,"Để có giấc ngủ ngon trong đêm cho con, người mẹ đã làm gì?
+A. Người mẹ đã tạo gió làm dịu đi cái hè oi bức.
+B. Người mẹ đã thức trắng đêm để đắp chăn cho con.
+C. Người mẹ nấu cháo cho con ăn.
+D. Người mẹ đã đi mua thuốc về cho con.",74,2.6129088401794434,13.638665906349102,74,2.829329013824463,16.93409446835003,0.21642017364501953,3.295428562000927,1.241623967082208,57,57,1.0
+MCQA_0056_1,MCQA,"Câu văn “Tâm hồn cô cũng bay ra biển cả, bay đến với chim seo cờ.” ý nói gì ?
+A. Bạn gái mơ ước mình biết bay.
+B. Bạn gái luôn nghĩ về biển cả và chim seo cờ, mơ ước được ra biển và nhìn thấy chim seo cờ.
+C. Bạn gái mơ ước được bay ra biển cả.
+D. ","Bạn gái luôn nghĩ về biển cả và chim seo cờ, mơ ước được ra biển và nhìn thấy chim seo cờ.","Câu văn “Tâm hồn cô cũng bay ra biển cả, bay đến với chim seo cờ.” ý nói gì ?
+A.Cô gái mơ ước mình biết bay.
+B.Cô gái luôn nghĩ về biển cả và chim seo cờ, mơ ước được ra biển và nhìn thấy chim seo cờ.
+C.Cô gái mơ ước được bay ra biển cả.
+D. ",B,PNB,Daily Conversation,high,7e49e369-5b4e-4441-ba22-55eb0d6e2bdf,0,unknown,rewrite,MCQA_0056_1,"Câu văn “Tâm hồn cô cũng bay ra biển cả, bay đến với chim seo cờ.” ý nói gì ?
+A. Bạn gái mơ ước mình biết bay.
+B. Bạn gái luôn nghĩ về biển cả và chim seo cờ, mơ ước được ra biển và nhìn thấy chim seo cờ.
+C. Bạn gái mơ ước được bay ra biển cả.
+D. ",82,2.8207216262817383,16.7889616577869,82,2.998383045196533,20.053085760881306,0.17766141891479492,3.2641241030944066,1.1944208444588633,62,59,0.9516129032258065
+MCQA_0091_1,MCQA,"Thấy ông lão đang trú mưa trước cửa nhà mình, Hoa đã làm gì?
+A. Mời ông lão vào trong nhà trú mưa.
+B. Vào nhà lấy cho ông lão áo mưa.
+C. Mặc kệ ông lão đứng đó.
+D. Đưa cho ông lão một cái bánh.",Vào nhà lấy cho ông lão áo mưa.,"Thấy ông lão đang trú mưa trước cửa nhà mình, Hoa đã làm gì?
+A. Mời ông lão vào trong nhà trú mưa.
+B. Vào nhà lấy cho ông lão áo mưa.
+C. Mặc kệ ông lão đứng đó.
+D. Đưa cho ông lão một cái bánh.",B,PNB,Daily Conversation,high,7e49e369-5b4e-4441-ba22-55eb0d6e2bdf,0,unknown,rewrite,MCQA_0091_1,"Thấy ông lão đang trú mưa trước cửa nhà mình, Hoa đã làm gì?
+A. Mời ông lão vào trong nhà trú mưa.
+B. Vào nhà lấy cho ông lão áo mưa.
+C. Mặc kệ ông lão đứng đó.
+D. Đưa cho ông lão một cái bánh.",68,2.7225825786590576,15.21957728902255,68,2.7225825786590576,15.21957728902255,0.0,0.0,1.0,47,47,1.0
+MCQA_0092_2,MCQA,"Khi đã hiểu hoàn cảnh gia đình Lan, cô và các bạn đã làm gì?
+A. Mua bánh giúp gia đình Lan.
+B. Hàng ngày đến nhà giúp Lan cắt lá để gói bánh.
+C. Góp tiền mua tặng Lan một tấm áo mới.
+D. Góp sách cho Lan đến trường.",Góp tiền mua tặng Lan một tấm áo mới.,"Khi đã hiểu hoàn cảnh gia đình Lan, cô và các bạn đã làm gì?
+A. Mua bánh giúp gia đình Lan.
+B. Hàng ngày đến nhà giúp Lan cắt lá để gói bánh.
+C. Góp tiền mua tặng Lan một chiếc áo mới.
+D. Tặng sách cho Lan đến trường.",C,PNB,Daily Conversation,high,7e49e369-5b4e-4441-ba22-55eb0d6e2bdf,0,unknown,rewrite,MCQA_0092_2,"Khi đã hiểu hoàn cảnh gia đình Lan, cô và các bạn đã làm gì?
+A. Mua bánh giúp gia đình Lan.
+B. Hàng ngày đến nhà giúp Lan cắt lá để gói bánh.
+C. Góp tiền mua tặng Lan một tấm áo mới.
+D. Góp sách cho Lan đến trường.",68,3.199390172958374,24.51757415755782,67,3.1597368717193604,23.56439465458878,-0.03965330123901367,-0.9531795029690393,0.9611226014105799,51,51,1.0
+MCQA_0144_3,MCQA,"Khi mẹ đi vắng, hai chị em đã làm những việc gì?
+A. Hai chị em giúp bố nấu cơm.
+B. Hai chị em giúp bố nấu cơm và chăm đàn ngan.
+C. Chị hái lá cho thỏ, em thì chăm đàn ngan.
+D. Chi và em ra vườn chăm cây cối.","Chị hái lá cho thỏ, em thì chăm đàn ngan.","Khi mẹ đi vắng, hai chị em đã làm những việc chi?
+A. Hai chị em giúp ba nấu cơm.
+B. Hai chị em giúp ba nấu cơm và giữ đàn ngan.
+C. Chị hái lá cho thỏ, em thì giữ đàn ngan.
+D. Chi và em ra vườn chăm cây cối.",C,PNT4,Daily Conversation,high,5ea76d15-516d-4285-a781-7b1c6a04a627,0,finalized,rewrite,MCQA_0144_3,"Khi mẹ đi vắng, hai chị em đã làm những việc gì?
+A. Hai chị em giúp bố nấu cơm.
+B. Hai chị em giúp bố nấu cơm và chăm đàn ngan.
+C. Chị hái lá cho thỏ, em thì chăm đàn ngan.
+D. Chi và em ra vườn chăm cây cối.",71,3.1856536865234375,24.183091401123818,71,3.419797658920288,30.563230198351643,0.23414397239685059,6.380138797227826,1.2638264352311603,52,52,1.0
+MCQA_0091_1,MCQA,"Thấy ông lão đang trú mưa trước cửa nhà mình, Hoa đã làm gì?
+A. Mời ông lão vào trong nhà trú mưa.
+B. Vào nhà lấy cho ông lão áo mưa.
+C. Mặc kệ ông lão đứng đó.
+D. Đưa cho ông lão một cái bánh.",Vào nhà lấy cho ông lão áo mưa.,"Thấy ông già đang trú mưa trước cửa nhà mình, Hoa đã làm chi?
+A. Mời ông già vô trong nhà trú mưa.
+B. Vô nhà lấy cho ông già áo mưa.
+C. Mặc kệ ông già đứng đó.
+D. Đưa cho ông già một cái bánh.",B,PNT4,Daily Conversation,high,5ea76d15-516d-4285-a781-7b1c6a04a627,0,unknown,rewrite,MCQA_0091_1,"Thấy ông lão đang trú mưa trước cửa nhà mình, Hoa đã làm gì?
+A. Mời ông lão vào trong nhà trú mưa.
+B. Vào nhà lấy cho ông lão áo mưa.
+C. Mặc kệ ông lão đứng đó.
+D. Đưa cho ông lão một cái bánh.",68,2.7225825786590576,15.21957728902255,63,3.4022459983825684,30.031475001334574,0.6796634197235107,14.811897712312025,1.9732134757116695,47,47,1.0
+SENT_0534,SENT,"cái công ty thực phẩm cung cấp cho các trường mầm non thật quá độc ác . vì lợi ích cá nhân mà ảnh hưởng khủng khiếp tới các em . quá dã man . các người gây nên hoạ thì mai này đời con đời cháu sẽ phải gánh nghiệp đó thôi . gieo nhân nào gặt quả ấy , đừng tưởng bây giờ sống nhé nhỉ thế là không sao . đời còn dài lắm",,"Cái công ty thực phẩm cung cấp cho các trường mầm non độc ác thật sự. Vì tư lợi mà gây ảnh hưởng nặng nề tới các em. Thật dã man hết sức. Các người gây nên họa thì mai này đời con đời cháu sẽ phải gánh cái nghiệp đó thôi. Gieo nhân nào gặt quả nấy, đừng tưởng bây giờ sống thế là không sao. Đời còn dài lắm.",Other,PNB,Daily Conversation,high,c3131d4f-ec3f-4359-bd03-240a3bd2c1e1,0,unknown,qualification,SENT_0534,"cái công ty thực phẩm cung cấp cho các trường mầm non thật quá độc ác . vì lợi ích cá nhân mà ảnh hưởng khủng khiếp tới các em . quá dã man . các người gây nên hoạ thì mai này đời con đời cháu sẽ phải gánh nghiệp đó thôi . gieo nhân nào gặt quả ấy , đừng tưởng bây giờ sống nhé nhỉ thế là không sao . đời còn dài lắm",90,4.527426242828369,92.52013003372527,93,4.171311855316162,64.80040512814048,-0.35611438751220703,-27.719724905584783,0.7003924994973478,77,71,0.922077922077922
+MCQA_0072_2,MCQA,"Việc lặp đi lặp lại nhiều lần những cụm từ ""Ai trồng cây"", ""Người đó có"", ""Em trồng cây"" có tác dụng gì?
+A. Tạo nên thông điệp nhắc nhở mọi người có ý thức trồng cây xanh.
+B. Tạo thành điệp khúc khiến bài thơ có vẫn điệu, dễ nhớ, dễ thuộc.
+C. Tạo điệp khúc khiến bài thơ có nhịp điệu và gửi gắm thông điệp: mọi người hãy có ý thức trồng cây xanh để bảo vệ môi trường sống.
+D. Tất cả các ý trên.",Tạo điệp khúc khiến bài thơ có nhịp điệu và gửi gắm thông điệp: mọi người hãy có ý thức trồng cây xanh để bảo vệ môi trường sống.,"Việc lặp đi lặp lại nhiều lần những cụm từ ""Ai trồng cây"", ""Người đó có"", ""Em trồng cây"" có tác dụng gì?
+A. Tạo nên thông điệp nhắc nhở mọi người có ý thức trồng cây xanh.
+B. Tạo thành điệp khúc khiến bài thơ có vần điệu, dễ nhớ, dễ thuộc.
+C. Tạo điệp khúc khiến bài thơ có nhịp điệu và gửi gắm thông điệp: mọi người hãy có ý thức trồng cây xanh để bảo vệ môi trường sống.
+D. Tất cả các ý trên.",C,PNB,Daily Conversation,high,7e49e369-5b4e-4441-ba22-55eb0d6e2bdf,0,unknown,rewrite,MCQA_0072_2,"Việc lặp đi lặp lại nhiều lần những cụm từ ""Ai trồng cây"", ""Người đó có"", ""Em trồng cây"" có tác dụng gì?
+A. Tạo nên thông điệp nhắc nhở mọi người có ý thức trồng cây xanh.
+B. Tạo thành điệp khúc khiến bài thơ có vẫn điệu, dễ nhớ, dễ thuộc.
+C. Tạo điệp khúc khiến bài thơ có nhịp điệu và gửi gắm thông điệp: mọi người hãy có ý thức trồng cây xanh để bảo vệ môi trường sống.
+D. Tất cả các ý trên.",126,2.4474406242370605,11.558725707316775,127,2.359433650970459,10.584954975566488,-0.08800697326660156,-0.973770731750287,0.9157544909008541,89,89,1.0
+MCQA_0043_3,MCQA,"Theo lời người cha đã mất, hai người con đã làm gì?
+A. Hai người con rời bỏ mảnh đất quê hương, theo đuổi điều hão huyền.
+B. Hai người con đào bới cả đám ruộng mà chẳng thấy kho báu đâu.
+C. Hai người con thay phiên nhau cấy cày, làm giàu từ mảnh ruộng.
+D. Hai người con bán mảnh ruộng, lên thành phố kiếm sống.",Hai người con đào bới cả đám ruộng mà chẳng thấy kho báu đâu.,"Theo lời người ba đã mất, hai người con đã làm chi?
+A. Hai người con rời bỏ mảnh đất quê hương, theo đuổi điều hão huyền.
+B. Hai người con đào bới cả đám ruộng mà chẳng thấy kho báu mô.
+C. Hai người con thay phiên nhau cấy cày, làm giàu từ mảnh ruộng.
+D. Hai người con bán mảnh ruộng, lên thành phố kiếm sống.",B,PNT3,Daily Conversation,high,e99ab2ee-5e8e-4d70-ac05-869071c9a49c,0,rewrite_completed,rewrite,MCQA_0043_3,"Theo lời người cha đã mất, hai người con đã làm gì?
+A. Hai người con rời bỏ mảnh đất quê hương, theo đuổi điều hão huyền.
+B. Hai người con đào bới cả đám ruộng mà chẳng thấy kho báu đâu.
+C. Hai người con thay phiên nhau cấy cày, làm giàu từ mảnh ruộng.
+D. Hai người con bán mảnh ruộng, lên thành phố kiếm sống.",98,3.020037889480591,20.492068103300454,98,3.3844192028045654,29.500853726387472,0.3643813133239746,9.008785623087018,1.4396230569639803,68,68,1.0
+MCQA_0091_1,MCQA,"Thấy ông lão đang trú mưa trước cửa nhà mình, Hoa đã làm gì?
+A. Mời ông lão vào trong nhà trú mưa.
+B. Vào nhà lấy cho ông lão áo mưa.
+C. Mặc kệ ông lão đứng đó.
+D. Đưa cho ông lão một cái bánh.",Vào nhà lấy cho ông lão áo mưa.,"Thấy ông lão đang trú mưa trước cửa nhà mình, Hoa đã làm chi?
+A. Mời ông lão vô trong nhà trú mưa.
+B. Vô nhà lấy cho ông lão áo mưa.
+C. Mặc kệ ông lão đứng đó.
+D. Đưa cho ông lão một cái bánh.",B,PNT3,Daily Conversation,high,e99ab2ee-5e8e-4d70-ac05-869071c9a49c,0,rewrite_completed,rewrite,MCQA_0091_1,"Thấy ông lão đang trú mưa trước cửa nhà mình, Hoa đã làm gì?
+A. Mời ông lão vào trong nhà trú mưa.
+B. Vào nhà lấy cho ông lão áo mưa.
+C. Mặc kệ ông lão đứng đó.
+D. Đưa cho ông lão một cái bánh.",68,2.7225825786590576,15.21957728902255,68,3.1799144744873047,24.044697029082144,0.45733189582824707,8.825119740059595,1.5798531439125385,47,47,1.0
+MCQA_0144_3,MCQA,"Khi mẹ đi vắng, hai chị em đã làm những việc gì?
+A. Hai chị em giúp bố nấu cơm.
+B. Hai chị em giúp bố nấu cơm và chăm đàn ngan.
+C. Chị hái lá cho thỏ, em thì chăm đàn ngan.
+D. Chi và em ra vườn chăm cây cối.","Chị hái lá cho thỏ, em thì chăm đàn ngan.","Khi mẹ đi vắng, hai chị em đã làm chi?
+A. Hai chị em giúp ba nấu cơm.
+B. Hai chị em giúp ba nấu cơm với chăm đàn ngan.
+C. Chị hái lá cho thỏ, em thì chăm đàn ngan.
+D. Chi với em ra vườn chăm cây cối.",C,PNT3,Daily Conversation,high,e99ab2ee-5e8e-4d70-ac05-869071c9a49c,0,rewrite_completed,rewrite,MCQA_0144_3,"Khi mẹ đi vắng, hai chị em đã làm những việc gì?
+A. Hai chị em giúp bố nấu cơm.
+B. Hai chị em giúp bố nấu cơm và chăm đàn ngan.
+C. Chị hái lá cho thỏ, em thì chăm đàn ngan.
+D. Chi và em ra vườn chăm cây cối.",71,3.1856536865234375,24.183091401123818,69,3.5943801403045654,36.393134357660394,0.40872645378112793,12.210042956536576,1.5049000044704441,52,50,0.9615384615384616
+SENT_0572,SENT,em cũng thắc mắc tại răng khúc xương tư tao nhỉ ? xong nó lại tự to lên được nó nhờ lực gì rứa,,"Em cũng thắc mắc, tại sao khúc xương tư tao nhỉ? Xong nó lại tự to lên được, nó nhờ lực gì thế?
+",Surprise,PNB,Daily Conversation,high,c3131d4f-ec3f-4359-bd03-240a3bd2c1e1,0,unknown,qualification,SENT_0572,em cũng thắc mắc tại răng khúc xương tư tao nhỉ ? xong nó lại tự to lên được nó nhờ lực gì rứa,30,5.573439121246338,263.3381956842804,32,4.923101902008057,137.42824165504598,-0.6503372192382812,-125.9099540292344,0.5218697625611839,24,23,0.9583333333333334
+MCQA_0081_4,MCQA,"Vì sao bà lão trong bài thơ này vui?
+A. Vì đàn con đi lính mới về.
+B. Vì có cơm ăn áo mặt.
+C. Vì làng xôn xao.
+D. Vì nồi cơm nấu dở.",Vì làng xôn xao.,"Vì răng bà lão trong bài thơ ni vui?
+A. Vì đàn con đi lính mới về.
+B. Vì có cơm ăn áo mặt.
+C. Vì làng xôn xao.
+D. Vì nồi cơm nấu dở.",C,PNT2,Daily Conversation,high,7d958013-3acc-4719-a459-b3a565d57865,0,unknown,rewrite,MCQA_0081_4,"Vì sao bà lão trong bài thơ này vui?
+A. Vì đàn con đi lính mới về.
+B. Vì có cơm ăn áo mặt.
+C. Vì làng xôn xao.
+D. Vì nồi cơm nấu dở.",56,3.2816503047943115,26.619667034526348,55,3.9685494899749756,52.90773195876061,0.6868991851806641,26.28806492423426,1.9875429655126042,35,35,1.0
+SENT_0626,SENT,"năm nào cũng đi cho có không khí xuân vậy , không đi thì thấy thiếu thiếu . nhà tao cách chợ 10km",,"Năm nào cũng đi cho có không khí xuân vậy, không đi thì thấy thiếu thiếu. Nhà tao cách chợ 10km.
+
+",Enjoyment,PNB,Daily Conversation,high,c3131d4f-ec3f-4359-bd03-240a3bd2c1e1,0,unknown,qualification,SENT_0626,"năm nào cũng đi cho có không khí xuân vậy , không đi thì thấy thiếu thiếu . nhà tao cách chợ 10km",28,4.888733386993408,132.78527992937808,29,4.750437259674072,115.63483592500633,-0.13829612731933594,-17.15044400437175,0.8708407738154921,23,21,0.9130434782608695
+MCQA_0036_5,MCQA,"Lần thứ hai, cậu bé lại quay về hỏi bà điều gì?
+A. Bát nào là bát tương, bát nào là bát mắm.
+B. Bát nào đựng mắm, bát nào đựng tương.
+C. Đồng nào mua mắm, đồng nào mua tương.
+D. Chọn mắm và tương như thế nào là ngon.","Đồng nào mua mắm, đồng nào mua tương.","Lần thứ hai, cậu bé lại quay về hỏi bà điều chi?
+A. Bát mô là bát tương, bát mô là bát mắm.
+B. Bát mô đựng mắm, bát mô đựng tương.
+C. Đồng mô mua mắm, đồng mô mua tương.
+D. Chọn mắm và tương a răng là ngon.",C,PNT2,Daily Conversation,high,7d958013-3acc-4719-a459-b3a565d57865,0,unknown,rewrite,MCQA_0036_5,"Lần thứ hai, cậu bé lại quay về hỏi bà điều gì?
+A. Bát nào là bát tương, bát nào là bát mắm.
+B. Bát nào đựng mắm, bát nào đựng tương.
+C. Đồng nào mua mắm, đồng nào mua tương.
+D. Chọn mắm và tương như thế nào là ngon.",80,2.469477891921997,11.81627586774381,79,3.0542027950286865,21.204274633932414,0.5847249031066895,9.387998766188604,1.794497257110936,51,50,0.9803921568627451
+MCQA_0043_3,MCQA,"Theo lời người cha đã mất, hai người con đã làm gì?
+A. Hai người con rời bỏ mảnh đất quê hương, theo đuổi điều hão huyền.
+B. Hai người con đào bới cả đám ruộng mà chẳng thấy kho báu đâu.
+C. Hai người con thay phiên nhau cấy cày, làm giàu từ mảnh ruộng.
+D. Hai người con bán mảnh ruộng, lên thành phố kiếm sống.",Hai người con đào bới cả đám ruộng mà chẳng thấy kho báu đâu.,"Theo lời người cha đạ mất, hai người con đạ mần chi?
+A. Hai người con rời bỏ mảnh đất quê hương, theo đuổi điều hão huyền.
+B. Hai người con đào bới cả đám ruộng mà chẳng thấy kho báu mô.
+C. Hai người con thay phiên nhau cấy cày, làm giàu từ mảnh ruộng.
+D. Hai người con bán mảnh ruộng, lên thành phố kiếm sống.",B,PNT2,Daily Conversation,high,7d958013-3acc-4719-a459-b3a565d57865,0,unknown,rewrite,MCQA_0043_3,"Theo lời người cha đã mất, hai người con đã làm gì?
+A. Hai người con rời bỏ mảnh đất quê hương, theo đuổi điều hão huyền.
+B. Hai người con đào bới cả đám ruộng mà chẳng thấy kho báu đâu.
+C. Hai người con thay phiên nhau cấy cày, làm giàu từ mảnh ruộng.
+D. Hai người con bán mảnh ruộng, lên thành phố kiếm sống.",98,3.020037889480591,20.492068103300454,101,3.4821865558624268,32.53077472344436,0.46214866638183594,12.038706620143905,1.5874812907831861,68,68,1.0
+MCQA_0092_2,MCQA,"Khi đã hiểu hoàn cảnh gia đình Lan, cô và các bạn đã làm gì?
+A. Mua bánh giúp gia đình Lan.
+B. Hàng ngày đến nhà giúp Lan cắt lá để gói bánh.
+C. Góp tiền mua tặng Lan một tấm áo mới.
+D. Góp sách cho Lan đến trường.",Góp tiền mua tặng Lan một tấm áo mới.,"Khi đạ hiểu hoàn cảnh gia đình Lan, cô và các bạn đạ mần chi?
+A. Mua bánh giúp gia đình Lan.
+B. Hàng ngày đến nhà giúp Lan cắt lá để gói bánh.
+C. Góp tiền mua tặng Lan một tấm áo mới.
+D. Góp sách cho Lan đến trường.",C,PNT2,Daily Conversation,high,7d958013-3acc-4719-a459-b3a565d57865,0,unknown,rewrite,MCQA_0092_2,"Khi đã hiểu hoàn cảnh gia đình Lan, cô và các bạn đã làm gì?
+A. Mua bánh giúp gia đình Lan.
+B. Hàng ngày đến nhà giúp Lan cắt lá để gói bánh.
+C. Góp tiền mua tặng Lan một tấm áo mới.
+D. Góp sách cho Lan đến trường.",68,3.199390172958374,24.51757415755782,71,3.7668492794036865,43.24360146397186,0.5674591064453125,18.726027306414043,1.7637797763381713,51,51,1.0
+MCQA_0081_4,MCQA,"Vì sao bà lão trong bài thơ này vui?
+A. Vì đàn con đi lính mới về.
+B. Vì có cơm ăn áo mặt.
+C. Vì làng xôn xao.
+D. Vì nồi cơm nấu dở.",Vì làng xôn xao.,"Vì sao bà lão trong bài thơ này vui?
+A. Vì các con đi lính mới về.
+B. Vì có cơm ăn áo mặc.
+C. Vì làng xôn xao.
+D. Vì nồi cơm nấu dở.",C,PNB,Daily Conversation,high,7e49e369-5b4e-4441-ba22-55eb0d6e2bdf,0,unknown,rewrite,MCQA_0081_4,"Vì sao bà lão trong bài thơ này vui?
+A. Vì đàn con đi lính mới về.
+B. Vì có cơm ăn áo mặt.
+C. Vì làng xôn xao.
+D. Vì nồi cơm nấu dở.",56,3.2816503047943115,26.619667034526348,56,3.055556535720825,21.232999161745987,-0.22609376907348633,-5.386667872780361,0.7976433038852919,35,35,1.0

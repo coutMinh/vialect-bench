@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="560" viewBox="0 0 980 560">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="490.00" y="30.00" text-anchor="middle" font-size="22" font-weight="700" fill="#1f2937">Original vs. Dialect Paraphrase Perplexity</text>
+<text x="490.00" y="52.00" text-anchor="middle" font-size="13" fill="#6b7280">Filtered to sample groups containing all six dialects</text>
+<line x1="86" y1="464" x2="946" y2="464" stroke="#374151" stroke-width="1"/>
+<line x1="86" y1="60" x2="86" y2="464" stroke="#374151" stroke-width="1"/>
+<line x1="86" y1="464.00" x2="946" y2="464.00" stroke="#e5e7eb"/>
+<text x="76.00" y="468.00" text-anchor="end" font-size="12" fill="#4b5563">0</text>
+<line x1="86" y1="383.20" x2="946" y2="383.20" stroke="#e5e7eb"/>
+<text x="76.00" y="387.20" text-anchor="end" font-size="12" fill="#4b5563">50</text>
+<line x1="86" y1="302.40" x2="946" y2="302.40" stroke="#e5e7eb"/>
+<text x="76.00" y="306.40" text-anchor="end" font-size="12" fill="#4b5563">100</text>
+<line x1="86" y1="221.60" x2="946" y2="221.60" stroke="#e5e7eb"/>
+<text x="76.00" y="225.60" text-anchor="end" font-size="12" fill="#4b5563">150</text>
+<line x1="86" y1="140.80" x2="946" y2="140.80" stroke="#e5e7eb"/>
+<text x="76.00" y="144.80" text-anchor="end" font-size="12" fill="#4b5563">200</text>
+<line x1="86" y1="60.00" x2="946" y2="60.00" stroke="#e5e7eb"/>
+<text x="76.00" y="64.00" text-anchor="end" font-size="12" fill="#4b5563">250</text>
+<rect x="114.53" y="345.41" width="40.13" height="118.59" fill="#4C78A8" rx="2"/>
+<text x="134.60" y="339.41" text-anchor="middle" font-size="11" fill="#111827">73.5</text>
+<rect x="160.67" y="373.18" width="40.13" height="90.82" fill="#F58518" rx="2"/>
+<text x="180.73" y="367.18" text-anchor="middle" font-size="11" fill="#111827">56.3</text>
+<text x="157.67" y="492.00" text-anchor="middle" font-size="13" font-weight="700" fill="#111827">PNB</text>
+<rect x="257.87" y="345.41" width="40.13" height="118.59" fill="#4C78A8" rx="2"/>
+<text x="277.93" y="339.41" text-anchor="middle" font-size="11" fill="#111827">73.5</text>
+<rect x="304.00" y="324.19" width="40.13" height="139.81" fill="#F58518" rx="2"/>
+<text x="324.07" y="318.19" text-anchor="middle" font-size="11" fill="#111827">86.6</text>
+<text x="301.00" y="492.00" text-anchor="middle" font-size="13" font-weight="700" fill="#111827">PNN</text>
+<rect x="401.20" y="345.41" width="40.13" height="118.59" fill="#4C78A8" rx="2"/>
+<text x="421.27" y="339.41" text-anchor="middle" font-size="11" fill="#111827">73.5</text>
+<rect x="447.33" y="197.57" width="40.13" height="266.43" fill="#F58518" rx="2"/>
+<text x="467.40" y="191.57" text-anchor="middle" font-size="11" fill="#111827">165.1</text>
+<text x="444.33" y="492.00" text-anchor="middle" font-size="13" font-weight="700" fill="#111827">PNT1</text>
+<rect x="544.53" y="345.41" width="40.13" height="118.59" fill="#4C78A8" rx="2"/>
+<text x="564.60" y="339.41" text-anchor="middle" font-size="11" fill="#111827">73.5</text>
+<rect x="590.67" y="121.63" width="40.13" height="342.37" fill="#F58518" rx="2"/>
+<text x="610.73" y="115.63" text-anchor="middle" font-size="11" fill="#111827">212.2</text>
+<text x="587.67" y="492.00" text-anchor="middle" font-size="13" font-weight="700" fill="#111827">PNT2</text>
+<rect x="687.87" y="345.41" width="40.13" height="118.59" fill="#4C78A8" rx="2"/>
+<text x="707.93" y="339.41" text-anchor="middle" font-size="11" fill="#111827">73.5</text>
+<rect x="734.00" y="178.30" width="40.13" height="285.70" fill="#F58518" rx="2"/>
+<text x="754.07" y="172.30" text-anchor="middle" font-size="11" fill="#111827">177.0</text>
+<text x="731.00" y="492.00" text-anchor="middle" font-size="13" font-weight="700" fill="#111827">PNT3</text>
+<rect x="831.20" y="345.41" width="40.13" height="118.59" fill="#4C78A8" rx="2"/>
+<text x="851.27" y="339.41" text-anchor="middle" font-size="11" fill="#111827">73.5</text>
+<rect x="877.33" y="205.61" width="40.13" height="258.39" fill="#F58518" rx="2"/>
+<text x="897.40" y="199.61" text-anchor="middle" font-size="11" fill="#111827">160.1</text>
+<text x="874.33" y="492.00" text-anchor="middle" font-size="13" font-weight="700" fill="#111827">PNT4</text>
+<rect x="696" y="26" width="14" height="14" fill="#4C78A8"/>
+<text x="718.00" y="38.00" font-size="13" fill="#111827">Original PPL</text>
+<rect x="820" y="26" width="14" height="14" fill="#F58518"/>
+<text x="842.00" y="38.00" font-size="13" fill="#111827">Dialect PPL</text>
+<text x="24.00" y="262.00" transform="rotate(-90 24 262.0)" text-anchor="middle" font-size="14" fill="#374151">Mean PPL</text>
+</svg>
