@@ -140,17 +140,6 @@ def build_prompt(
             "JSON:"
         )
 
-    if task == "mt":
-        text = _variant_text(variant)
-        return (
-            prefix
-            + "Chuyển câu tiếng Việt phương ngữ sau sang tiếng Việt phổ thông, "
-            "giữ nguyên nghĩa.\n"
-            f"{json_instruction}"
-            'Định dạng: {"standard":"<câu phổ thông>"}\n'
-            f"Phương ngữ: {text}\n"
-            "JSON:"
-        )
 
     raise ValueError(f"Unsupported task: {task}")
 

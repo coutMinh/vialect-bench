@@ -58,7 +58,7 @@ TOTAL_LEXICON_CATEGORIES = len(LEXICON_CATEGORY_PREFIXES)
 TOKEN_RE = re.compile(r"\w+", flags=re.UNICODE)
 SENTIMENT_VULGAR_WORDS = [
     "đéo", "đụ", "lồn", "địt", "đm", "dm", "dmm", "cc", "fuck", "shit",
-    "vãi", "vãi_chưởng", "chảnh chó", "con mẹ nó", "dume", "lol", "đũy", "lòn",
+    "vãi", "vãi_chưởng", "chảnh chó", "con mẹ nó", "dume", "lol", "đũy", "lòn", "xoạc",
 ]
 EMOJI_RE = re.compile(
     "["
