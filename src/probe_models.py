@@ -48,6 +48,33 @@ class LocalModelRunner:
     device: Any
 
 
+def load_existing_keys(path: Path) -> set[tuple[str, str]]:
+    if not path.exists():
+        return set()
+
+    keys = set()
+    with path.open(encoding="utf-8") as handle:
+        for line in handle:
+            if not line.strip():
+                continue
+            try:
+                row = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            if row.get("id") and row.get("variant"):
+                keys.add((str(row["id"]), str(row["variant"])))
+    return keys
+
+
+def ensure_jsonl_append_newline(path: Path) -> None:
+    if not path.exists() or path.stat().st_size == 0:
+        return
+    with path.open("rb+") as handle:
+        handle.seek(-1, 2)
+        if handle.read(1) != b"\n":
+            handle.write(b"\n")
+
+
 def load_cases(path: Path) -> list[dict]:
     if path.suffix == ".jsonl":
         with path.open(encoding="utf-8") as handle:
@@ -376,6 +403,11 @@ def main() -> None:
         action="store_true",
         help="Disable fixed-label probability scoring for MCQA, NLI, and sentiment.",
     )
+    parser.add_argument(
+        "--overwrite",
+        action="store_true",
+        help="Ignore existing output rows and replace the output JSONL.",
+    )
     args = parser.parse_args()
 
     run_config = load_run_config(args.config)
@@ -413,7 +445,6 @@ def main() -> None:
         raise SystemExit("batch_size must be at least 1.")
 
     model_spec = find_model(models_path, model_name)
-    generator = load_text_generator(model_spec["model_id"])
     cases = load_cases(cases_path)
     probe_items = [
         item
@@ -426,8 +457,34 @@ def main() -> None:
     ]
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    with output_path.open("w", encoding="utf-8") as handle:
-        for batch in chunks(probe_items, batch_size):
+    completed = set() if args.overwrite else load_existing_keys(output_path)
+    pending_items = [
+        item
+        for item in probe_items
+        if (str(item.case.get("id")), str(item.variant_name)) not in completed
+    ]
+
+    print(
+        f"Loaded {len(cases)} cases -> {len(probe_items)} probe items; "
+        f"{len(completed)} existing rows; {len(pending_items)} pending for {model_name}.",
+        flush=True,
+    )
+    if not pending_items:
+        return
+
+    generator = load_text_generator(model_spec["model_id"])
+    if args.overwrite:
+        output_mode = "w"
+    else:
+        ensure_jsonl_append_newline(output_path)
+        output_mode = "a"
+
+    with output_path.open(output_mode, encoding="utf-8") as handle:
+        for batch_index, batch in enumerate(chunks(pending_items, batch_size), start=1):
+            print(
+                f"Batch {batch_index}: {batch[0].case.get('id')} {batch[0].variant_name}",
+                flush=True,
+            )
             raw_outputs = generate_batch(
                 generator,
                 [item.prompt for item in batch],
@@ -449,6 +506,7 @@ def main() -> None:
                     label_distribution=label_distribution,
                 )
                 handle.write(json.dumps(row, ensure_ascii=False) + "\n")
+                handle.flush()
 
 
 if __name__ == "__main__":
