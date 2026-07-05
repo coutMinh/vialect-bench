@@ -23,4 +23,8 @@ zero_shot_llms:
   - name: SeaLLM 7B Chat
     model_id: SeaLLMs/SeaLLMs-v3-7B-Chat
     notes: Southeast Asian multilingual LLM candidate; verify availability before running.
+  - name: GPT-4o
+    provider: openai
+    model_id: gpt-4o
+    notes: Closed-source OpenAI API model; requires OPENAI_API_KEY and an API runner.
 

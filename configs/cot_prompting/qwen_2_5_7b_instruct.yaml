@@ -1,8 +1,0 @@
-models: configs/models.yaml
-model_name: Qwen 2.5 7B Instruct
-cases: examples/probe_cases_rule_based.jsonl
-output: outputs/cot_prompting/qwen_2_5_7b_instruct.jsonl
-prompt_strategy: cot
-max_new_tokens: 160
-batch_size: 1
-include_empty_variants: false

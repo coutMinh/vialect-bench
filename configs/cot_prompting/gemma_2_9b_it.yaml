@@ -1,8 +1,0 @@
-models: configs/models.yaml
-model_name: Gemma 2 9B IT
-cases: examples/probe_cases_rule_based.jsonl
-output: outputs/cot_prompting/gemma_2_9b_it.jsonl
-prompt_strategy: cot
-max_new_tokens: 160
-batch_size: 1
-include_empty_variants: false

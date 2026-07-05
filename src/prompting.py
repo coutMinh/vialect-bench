@@ -5,7 +5,9 @@ import re
 from typing import Any
 
 
-PROMPT_STRATEGIES = {"direct", "aware", "cot"}
+# `normalized_direct` uses the same task prompt as `direct`; the difference is
+# that variants have already been rewritten by a ViDia2Std-style normalizer.
+PROMPT_STRATEGIES = {"direct", "normalized_direct"}
 
 
 def _variant_text(variant: Any) -> str:
@@ -27,29 +29,7 @@ def _validate_prompt_strategy(prompt_strategy: str) -> str:
     return normalized
 
 
-def _strategy_prefix(prompt_strategy: str) -> str:
-    if prompt_strategy == "direct":
-        return ""
-    if prompt_strategy == "aware":
-        return (
-            "Lưu ý: đầu vào có thể chứa biến thể phương ngữ hoặc cách diễn đạt "
-            "không chuẩn của tiếng Việt. Hãy hiểu theo nghĩa tương đương trong "
-            "tiếng Việt phổ thông trước khi trả lời.\n"
-        )
-    if prompt_strategy == "cot":
-        return (
-            "Hãy suy nghĩ từng bước để xử lý biến thể phương ngữ nếu có, rồi đưa "
-            "ra đáp án cuối cùng.\n"
-        )
-    raise ValueError(f"Unsupported prompt_strategy: {prompt_strategy}")
-
-
-def _json_instruction(prompt_strategy: str) -> str:
-    if prompt_strategy == "cot":
-        return (
-            "Bạn có thể giải thích ngắn gọn trước, nhưng dòng cuối cùng bắt buộc "
-            "phải là JSON hợp lệ theo đúng định dạng.\n"
-        )
+def _json_instruction() -> str:
     return "Chỉ trả lời JSON hợp lệ, không giải thích.\n"
 
 
@@ -60,15 +40,13 @@ def build_prompt(
     prompt_strategy: str = "direct",
 ) -> str:
     task = case["task"]
-    prompt_strategy = _validate_prompt_strategy(prompt_strategy)
-    prefix = _strategy_prefix(prompt_strategy)
-    json_instruction = _json_instruction(prompt_strategy)
+    _validate_prompt_strategy(prompt_strategy)
+    json_instruction = _json_instruction()
 
     if task == "sentiment":
         text = _variant_text(variant)
         return (
-            prefix
-            + "Bạn là hệ thống phân loại cảm xúc tiếng Việt.\n"
+            "Bạn là hệ thống phân loại cảm xúc tiếng Việt.\n"
             "Chọn đúng một nhãn trong danh sách sau: Anger, Disgust, Enjoyment, "
             "Fear, Sadness, Surprise, Other.\n"
             f"{json_instruction}"
@@ -88,12 +66,12 @@ def build_prompt(
             or ""
         )
         return (
-            prefix
-            + "Xác định quan hệ NLI giữa tiền đề và giả thuyết.\n"
+            "Xác định quan hệ NLI giữa tiền đề và giả thuyết.\n"
             "Chọn đúng một nhãn: entailment, neutral, contradiction.\n"
             f"{json_instruction}"
             'Định dạng: {"label":"<nhãn>"}\n'
-            f"Tiền đề: {premise}\nGiả thuyết: {hypothesis}\n"
+            f"Tiền đề: {premise}\n"
+            f"Giả thuyết: {hypothesis}\n"
             "JSON:"
         )
 
@@ -108,13 +86,13 @@ def build_prompt(
             or ""
         )
         return (
-            prefix
-            + "Trả lời câu hỏi dựa trên ngữ cảnh.\n"
+            "Trả lời câu hỏi dựa trên ngữ cảnh.\n"
             "Câu trả lời phải là một cụm ngắn được tìm thấy trong ngữ cảnh. "
             "Nếu không có câu trả lời, dùng unanswerable.\n"
             f"{json_instruction}"
             'Định dạng: {"answer":"<câu trả lời>"}\n'
-            f"Ngữ cảnh: {context}\nCâu hỏi: {question}\n"
+            f"Ngữ cảnh: {context}\n"
+            f"Câu hỏi: {question}\n"
             "JSON:"
         )
 
@@ -130,8 +108,7 @@ def build_prompt(
         )
         options = variant.get("options") or standard.get("options") or case.get("options") or []
         return (
-            prefix
-            + "Đọc ngữ cảnh và chọn một đáp án đúng nhất trong bốn lựa chọn A, B, C, D.\n"
+            "Đọc ngữ cảnh và chọn một đáp án đúng nhất trong bốn lựa chọn A, B, C, D.\n"
             f"{json_instruction}"
             'Định dạng: {"answer":"A"}\n'
             f"Ngữ cảnh: {context}\n"
@@ -139,7 +116,6 @@ def build_prompt(
             f"Lựa chọn:\n{_format_mcqa_options(options)}\n"
             "JSON:"
         )
-
 
     raise ValueError(f"Unsupported task: {task}")
 

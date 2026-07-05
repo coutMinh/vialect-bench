@@ -1,2 +1,0 @@
-{"id":"sent_demo_001","task":"sentiment","label":"negative","standard":"Sao tự nhiên ngứa cực kì luôn?","dialect":"Răng tự nhiên ngá cực kì luôn?","dialect_group":"north_central","source":"paper_figure_manual_demo"}
-{"id":"mt_demo_001","task":"mt","reference":"Sao tự nhiên ngứa cực kì luôn?","standard":"Sao tự nhiên ngứa cực kì luôn?","dialect":"Răng tự nhiên ngá cực kì luôn?","dialect_group":"north_central","source":"paper_figure_manual_demo"}

@@ -53,12 +53,10 @@ The probing script reads YAML configs and runs one model with one prompt setting
 python -m src.probe_models --config configs/probe.yaml
 ```
 
-Prompt-setting configs are organized by folder:
+The active prompt configs are organized by folder:
 
 ```text
 configs/direct_prompting/
-configs/aware_prompting/
-configs/cot_prompting/
 ```
 
 Run direct prompting:
@@ -67,18 +65,15 @@ Run direct prompting:
 python -m src.probe_models --config configs/direct_prompting/qwen_2_5_3b_instruct.yaml
 ```
 
-Run dialect-aware prompting:
-
-```bash
-python -m src.probe_models --config configs/aware_prompting/qwen_2_5_3b_instruct.yaml
-```
-
-Run CoT prompting:
-
-```bash
-python -m src.probe_models --config configs/cot_prompting/qwen_2_5_3b_instruct.yaml
-```
+The benchmark now focuses on two inference settings: direct dialect input and
+direct prompting after a ViDia2Std-style normalizer rewrites each dialect variant.
+The normalized setting should use `prompt_strategy: normalized_direct` with a
+normalized case file once that file is produced.
 
 Each config writes results to a separate JSONL file under `outputs/<prompt_setting>/`. The output rows include `prompt_strategy`, `variant`, `dialect_group`, `gold`, `prediction`, and `raw_output`.
+For MCQA, NLI, and sentiment, probing also stores fixed-candidate confidence
+signals by default: `label_candidates`, `label_logprobs`, `label_probs`,
+`confidence`, `prob_prediction`, and `gold_prob`. Use
+`--no-collect-probabilities` to disable this extra scoring pass.
 
 To run another model, choose the matching config file in the same prompt-setting folder. Some Hugging Face models may require login or license acceptance before they can be downloaded.

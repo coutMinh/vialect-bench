@@ -1,8 +1,10 @@
 models: configs/models.yaml
+dataset_part: finalized
 model_name: Qwen 2.5 3B Instruct
-cases: examples/probe_cases_rule_based.jsonl
+cases: data/Finalized/probe_dialects.jsonl
 output: outputs/direct_prompting/qwen_2_5_3b_instruct.jsonl
 prompt_strategy: direct
+collect_probabilities: true
 max_new_tokens: 48
 batch_size: 1
 include_empty_variants: false

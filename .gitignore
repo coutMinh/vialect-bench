@@ -1,5 +1,5 @@
 papers
-outputs
+#outputs
 .venv/
 .cache/
 .DS_Store
@@ -10,10 +10,13 @@ data/pilot_samples_smoke/
 run.ipynb
 test.py
 examples
-# model_output
-notebooks
+model_output
 INCLINE
 AAAI_2027_Anonymous_Submission
 AuthorKit27
 Dialectal_Robustness_of_LLMs_under_Meaning_Preserving_Vietnamese_Variation
 .env
+scripts
+paper_artifacts
+ui
+main.tex

@@ -1,10 +1,10 @@
 models: configs/models.yaml
 dataset_part: finalized
-model_name: Mistral 7B Instruct v0.3
+model_name: GPT-4o
 cases: data/Finalized/probe_dialects.jsonl
-output: outputs/direct_prompting/mistral_7b_instruct_v0_3.jsonl
+output: outputs/direct_prompting/gpt_4o.jsonl
 prompt_strategy: direct
-collect_probabilities: true
+collect_probabilities: false
 max_new_tokens: 48
 batch_size: 1
 include_empty_variants: false

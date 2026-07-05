@@ -1,8 +1,0 @@
-models: configs/models.yaml
-model_name: Qwen 2.5 3B Instruct
-cases: examples/probe_cases_rule_based.jsonl
-output: outputs/aware_prompting/qwen_2_5_3b_instruct.jsonl
-prompt_strategy: aware
-max_new_tokens: 48
-batch_size: 1
-include_empty_variants: false
