@@ -1,8 +1,8 @@
 models: configs/models.yaml
 dataset_part: finalized
-model_name: Gemma 3 12B IT
+model_name: Gemma 3 4B IT
 cases: data/Finalized/probe_dialects.jsonl
-output: outputs/direct_prompting/gemma_3_12b_it.jsonl
+output: outputs/direct_prompting/gemma_3_4b_it.jsonl
 prompt_strategy: direct
 collect_probabilities: true
 max_new_tokens: 48
