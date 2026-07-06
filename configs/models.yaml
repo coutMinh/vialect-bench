@@ -11,6 +11,9 @@ zero_shot_llms:
   - name: Gemma 2 9B IT
     model_id: google/gemma-2-9b-it
     notes: Open instruct family; may require accepting Google license on Hugging Face.
+  - name: Gemma 3 12B IT
+    model_id: google/gemma-3-12b-it
+    notes: Newer Gemma instruction-tuned model near the 10B scale; requires accepting Google's Gemma license on Hugging Face.
   - name: Llama 3.1 8B Instruct
     model_id: meta-llama/Llama-3.1-8B-Instruct
     notes: Open instruct family; may require accepting Meta license on Hugging Face.
