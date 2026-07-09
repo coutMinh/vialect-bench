@@ -17,6 +17,8 @@ AuthorKit27
 Dialectal_Robustness_of_LLMs_under_Meaning_Preserving_Vietnamese_Variation
 .env
 scripts
+!scripts/
+!scripts/analyze_vialectbench_data.py
 paper_artifacts
 ui
 main.tex
