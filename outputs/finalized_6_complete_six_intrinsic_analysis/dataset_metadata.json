@@ -1,0 +1,32 @@
+{
+  "input": "data/vialectbench_finalized_6.json",
+  "n_rows": 2400,
+  "n_rows_before_filtering": 2400,
+  "n_unique_samples": 400,
+  "n_unique_samples_before_filtering": 400,
+  "n_complete_six_dialect_samples": 400,
+  "complete_six_dialects_only": true,
+  "n_duplicate_sample_dialect_pairs": 0,
+  "dialects": [
+    "PNB",
+    "PNN",
+    "PNT1",
+    "PNT2",
+    "PNT3",
+    "PNT4"
+  ],
+  "tasks": [
+    "MCQA",
+    "NLI",
+    "QA",
+    "SENT"
+  ],
+  "baseline_rule": "NLI uses 'hypothesis' as baseline; other tasks use 'original_text'.",
+  "para_col": "dialect_text",
+  "reference_model": "Qwen/Qwen2.5-0.5B",
+  "trust_remote_code": false,
+  "max_length": 512,
+  "n_boot": 5000,
+  "skip_perplexity": false,
+  "n_unique_texts_scored": 2284
+}
