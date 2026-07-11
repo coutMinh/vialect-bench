@@ -1,0 +1,41 @@
+Model,Task,Standard,Dialect mean,Drop,Dialect n
+Qwen2.5 0.5B,MCQA,68.0,60.5,7.5,600
+Qwen2.5 0.5B,NLI,33.0,33.0,0.0,600
+Qwen2.5 0.5B,QA,38.9,29.8,9.2,600
+Qwen2.5 0.5B,Sentiment,24.0,22.5,1.5,600
+Qwen2.5 3B,MCQA,92.0,88.0,4.0,600
+Qwen2.5 3B,NLI,55.0,54.3,0.7,600
+Qwen2.5 3B,QA,69.2,62.7,6.4,600
+Qwen2.5 3B,Sentiment,51.0,44.7,6.3,600
+Qwen2.5 7B,MCQA,91.0,87.8,3.2,600
+Qwen2.5 7B,NLI,64.0,61.2,2.8,600
+Qwen2.5 7B,QA,74.7,69.8,4.9,600
+Qwen2.5 7B,Sentiment,38.0,38.2,-0.2,600
+Llama 3.1 8B,MCQA,87.0,83.2,3.8,600
+Llama 3.1 8B,NLI,48.0,45.5,2.5,600
+Llama 3.1 8B,QA,79.4,76.5,2.9,600
+Llama 3.1 8B,Sentiment,43.0,39.8,3.2,600
+Mistral 7B,MCQA,73.0,70.7,2.3,600
+Mistral 7B,NLI,47.0,47.8,-0.8,600
+Mistral 7B,QA,54.3,42.0,12.2,600
+Mistral 7B,Sentiment,37.0,35.7,1.3,600
+Gemma 2 9B,MCQA,94.0,94.2,-0.2,600
+Gemma 2 9B,NLI,63.0,61.0,2.0,600
+Gemma 2 9B,QA,84.1,81.8,2.3,600
+Gemma 2 9B,Sentiment,49.0,43.2,5.8,600
+Gemma 3 4B,MCQA,89.0,87.8,1.2,600
+Gemma 3 4B,NLI,55.0,52.2,2.8,600
+Gemma 3 4B,QA,79.6,75.6,3.9,600
+Gemma 3 4B,Sentiment,43.0,41.7,1.3,600
+Vistral 7B,MCQA,88.0,87.2,0.8,600
+Vistral 7B,NLI,19.0,18.5,0.5,600
+Vistral 7B,QA,66.2,61.5,4.7,600
+Vistral 7B,Sentiment,32.0,32.0,0.0,600
+SeaLLM 7B,MCQA,91.0,88.3,2.7,600
+SeaLLM 7B,NLI,46.0,44.8,1.2,600
+SeaLLM 7B,QA,74.3,68.2,6.0,600
+SeaLLM 7B,Sentiment,37.0,37.0,0.0,600
+GPT-4o,MCQA,94.0,93.8,0.2,600
+GPT-4o,NLI,74.0,71.2,2.8,600
+GPT-4o,QA,83.2,83.8,-0.5,600
+GPT-4o,Sentiment,60.0,58.5,1.5,600

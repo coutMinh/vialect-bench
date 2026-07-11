@@ -1,0 +1,31 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2.6pt}
+\renewcommand{\arraystretch}{1.08}
+\caption{Task-level direct prompting performance on VialectBench. Standard and Dial. denote performance on Standard Vietnamese and the mean over dialect variants, respectively. $\Delta$ is the paired Standard-minus-Dialect performance drop. QA uses token-level F1; the other tasks use accuracy.}
+\label{tab:task-performance-matrix}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llccccccccccccccc}
+\toprule
+\textbf{Model} & \textbf{Setting} & \multicolumn{3}{c}{\textbf{MCQA}} & \multicolumn{3}{c}{\textbf{NLI}} & \multicolumn{3}{c}{\textbf{QA}} & \multicolumn{3}{c}{\textbf{Sent.}} & \multicolumn{3}{c}{\textbf{All}} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}\cmidrule(lr){9-11}\cmidrule(lr){12-14}\cmidrule(lr){15-17}
+ & & Std. & Dial. & $\Delta$ & Std. & Dial. & $\Delta$ & Std. & Dial. & $\Delta$ & Std. & Dial. & $\Delta$ & Std. & Dial. & $\Delta$ \\
+\midrule
+Qwen2.5 0.5B & Direct & 68.0 & 60.5 & \textbf{7.5} & 33.0 & 33.0 & 0.0 & 38.9 & 29.8 & \textbf{9.2} & 24.0 & 22.5 & \textbf{1.5} & 41.0 & 36.4 & \textbf{4.5} \\
+Qwen2.5 3B & Direct & 92.0 & 88.0 & \textbf{4.0} & 55.0 & 54.3 & \textbf{0.7} & 69.2 & 62.7 & \textbf{6.4} & 51.0 & 44.7 & \textbf{6.3} & 66.8 & 62.4 & \textbf{4.4} \\
+Qwen2.5 7B & Direct & 91.0 & 87.8 & \textbf{3.2} & 64.0 & 61.2 & \textbf{2.8} & 74.7 & 69.8 & \textbf{4.9} & 38.0 & 38.2 & -0.2 & 66.9 & 64.2 & \textbf{2.7} \\
+\midrule
+Llama 3.1 8B & Direct & 87.0 & 83.2 & \textbf{3.8} & 48.0 & 45.5 & \textbf{2.5} & 79.4 & 76.5 & \textbf{2.9} & 43.0 & 39.8 & \textbf{3.2} & 64.3 & 61.2 & \textbf{3.1} \\
+Mistral 7B & Direct & 73.0 & 70.7 & \textbf{2.3} & 47.0 & 47.8 & -0.8 & 54.3 & 42.0 & \textbf{12.2} & 37.0 & 35.7 & \textbf{1.3} & 52.8 & 49.1 & \textbf{3.8} \\
+\midrule
+Gemma 2 9B & Direct & 94.0 & 94.2 & -0.2 & 63.0 & 61.0 & \textbf{2.0} & 84.1 & 81.8 & \textbf{2.3} & 49.0 & 43.2 & \textbf{5.8} & 72.5 & 70.0 & \textbf{2.5} \\
+Gemma 3 4B & Direct & 89.0 & 87.8 & \textbf{1.2} & 55.0 & 52.2 & \textbf{2.8} & 79.6 & 75.6 & \textbf{3.9} & 43.0 & 41.7 & \textbf{1.3} & 66.6 & 64.3 & \textbf{2.3} \\
+Vistral 7B & Direct & 88.0 & 87.2 & \textbf{0.8} & 19.0 & 18.5 & \textbf{0.5} & 66.2 & 61.5 & \textbf{4.7} & 32.0 & 32.0 & 0.0 & 51.3 & 49.8 & \textbf{1.5} \\
+\midrule
+SeaLLM 7B & Direct & 91.0 & 88.3 & \textbf{2.7} & 46.0 & 44.8 & \textbf{1.2} & 74.3 & 68.2 & \textbf{6.0} & 37.0 & 37.0 & 0.0 & 62.1 & 59.6 & \textbf{2.5} \\
+GPT-4o & Direct & 94.0 & 93.8 & \textbf{0.2} & 74.0 & 71.2 & \textbf{2.8} & 83.2 & 83.8 & -0.5 & 60.0 & 58.5 & \textbf{1.5} & 77.8 & 76.8 & \textbf{1.0} \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}

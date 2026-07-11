@@ -1,0 +1,11 @@
+Model,Hard failed rows,Normalized rows,Normalized performance,Rescue rate
+Qwen2.5 0.5B,83,-,-,-
+Qwen2.5 3B,85,-,-,-
+Qwen2.5 7B,84,-,-,-
+Llama 3.1 8B,72,-,-,-
+Mistral 7B,116,-,-,-
+Gemma 2 9B,80,-,-,-
+Gemma 3 4B,67,-,-,-
+Vistral 7B,36,-,-,-
+SeaLLM 7B,83,-,-,-
+GPT-4o,47,-,-,-
