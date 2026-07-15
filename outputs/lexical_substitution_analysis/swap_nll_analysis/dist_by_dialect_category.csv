@@ -1,0 +1,55 @@
+target_dialect,category,n,pct_within_dialect
+PNB,Connectives/Aspect markers,10,5.9171597633136095
+PNB,Demonstratives/Deixis,11,6.508875739644971
+PNB,Discourse particles,4,2.366863905325444
+PNB,Idiomatic expressions,19,11.242603550295858
+PNB,Interrogatives,8,4.733727810650888
+PNB,Kinship/Honorific terms,22,13.017751479289942
+PNB,Negation/Function words,11,6.508875739644971
+PNB,Predicate vocabulary,75,44.37869822485207
+PNB,Pronouns,9,5.325443786982248
+PNN,Connectives/Aspect markers,160,15.779092702169626
+PNN,Demonstratives/Deixis,33,3.2544378698224854
+PNN,Discourse particles,16,1.5779092702169626
+PNN,Idiomatic expressions,13,1.2820512820512822
+PNN,Interrogatives,54,5.325443786982248
+PNN,Kinship/Honorific terms,90,8.875739644970414
+PNN,Negation/Function words,239,23.570019723865876
+PNN,Predicate vocabulary,330,32.544378698224854
+PNN,Pronouns,79,7.790927021696253
+PNT1,Connectives/Aspect markers,20,4.576659038901602
+PNT1,Demonstratives/Deixis,56,12.814645308924485
+PNT1,Discourse particles,4,0.9153318077803204
+PNT1,Idiomatic expressions,2,0.4576659038901602
+PNT1,Interrogatives,127,29.06178489702517
+PNT1,Kinship/Honorific terms,5,1.1441647597254005
+PNT1,Negation/Function words,57,13.043478260869565
+PNT1,Predicate vocabulary,98,22.42562929061785
+PNT1,Pronouns,68,15.560640732265446
+PNT2,Connectives/Aspect markers,123,14.419695193434935
+PNT2,Demonstratives/Deixis,134,15.70926143024619
+PNT2,Discourse particles,11,1.2895662368112544
+PNT2,Idiomatic expressions,5,0.5861664712778429
+PNT2,Interrogatives,236,27.667057444314185
+PNT2,Kinship/Honorific terms,14,1.64126611957796
+PNT2,Negation/Function words,131,15.357561547479484
+PNT2,Predicate vocabulary,85,9.964830011723329
+PNT2,Pronouns,114,13.364595545134819
+PNT3,Connectives/Aspect markers,168,14.117647058823529
+PNT3,Demonstratives/Deixis,139,11.680672268907562
+PNT3,Discourse particles,21,1.7647058823529411
+PNT3,Idiomatic expressions,11,0.9243697478991597
+PNT3,Interrogatives,259,21.764705882352942
+PNT3,Kinship/Honorific terms,62,5.2100840336134455
+PNT3,Negation/Function words,147,12.352941176470589
+PNT3,Predicate vocabulary,197,16.554621848739497
+PNT3,Pronouns,186,15.630252100840336
+PNT4,Connectives/Aspect markers,57,6.976744186046512
+PNT4,Demonstratives/Deixis,116,14.19828641370869
+PNT4,Discourse particles,29,3.5495716034271725
+PNT4,Idiomatic expressions,6,0.7343941248470012
+PNT4,Interrogatives,264,32.313341493268055
+PNT4,Kinship/Honorific terms,46,5.630354957160343
+PNT4,Negation/Function words,36,4.406364749082007
+PNT4,Predicate vocabulary,176,21.542227662178703
+PNT4,Pronouns,87,10.648714810281518

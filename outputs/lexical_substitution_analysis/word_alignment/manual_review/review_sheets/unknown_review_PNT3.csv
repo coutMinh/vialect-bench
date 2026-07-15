@@ -1,0 +1,430 @@
+﻿standard_span,dialect_span,n_occurrences,is_shared_across_dialects,tasks,sample_ids,dialect,CATEGORY,NOTES
+vào,vô,54,True,"MCQA, NLI, QA, SENT",MCQA_0016_0; MCQA_0041_5; MCQA_0047_2; MCQA_0091_1; MCQA_0095_1,PNT3,Predicate vocabulary,
+và,với,29,True,"MCQA, NLI, QA, SENT",MCQA_0012_5; MCQA_0013_3; MCQA_0013_4; MCQA_0036_5; MCQA_0048_2,PNT3,Connectives/Aspect markers,
+các,mấy,26,True,"MCQA, NLI, QA, SENT",MCQA_0062_0; MCQA_0062_2; MCQA_0065_5; MCQA_0077_0; MCQA_0092_1,PNT3,Pronouns,
+những,mấy,14,True,"MCQA, NLI, QA, SENT",MCQA_0064_1; MCQA_0072_2; MCQA_0116_5; MCQA_0126_2; MCQA_0137_1,PNT3,Pronouns,
+mình,miềng,8,False,"MCQA, NLI, QA, SENT",MCQA_0025_10; MCQA_0042_7; MCQA_0048_2; NLI_0521; QA_5750,PNT3,Pronouns,
+và,rồi,7,True,"MCQA, NLI",MCQA_0037_2; MCQA_0060_2; MCQA_0095_1; MCQA_0138_5; NLI_0511,PNT3,Connectives/Aspect markers,
+bát nào,chén mô,4,False,MCQA,MCQA_0036_5,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+rằng,là,4,True,"NLI, QA",NLI_1921; NLI_7826; QA_13818; QA_15627,PNT3,Connectives/Aspect markers,
+đến,tới,4,True,"MCQA, NLI",MCQA_0064_1; MCQA_0087_0; MCQA_0126_2; NLI_0959,PNT3,Predicate vocabulary,
+chúng,bọn,4,True,MCQA,MCQA_0062_0; MCQA_0148_3,PNT3,Pronouns,
+nước,nác,3,True,MCQA,MCQA_0116_5; MCQA_0151_1; MCQA_0151_3,PNT3,Orthographic variant,
+bảo,nói,3,False,MCQA,MCQA_0025_9; MCQA_0074_5; MCQA_0128_2,PNT3,Predicate vocabulary,
+đường,đàng,3,False,"QA, SENT",QA_6664; SENT_3243; SENT_5456,PNT3,Orthographic variant,
+cậu,thằng,3,True,MCQA,MCQA_0036_5; MCQA_0120_3; MCQA_0120_7,PNT3,Pronouns,
+mới,mì,3,False,NLI,NLI_3269; NLI_3719; NLI_5704,PNT3,Orthographic variant,
+muốn,ưng,3,False,SENT,SENT_1222; SENT_4809; SENT_4885,PNT3,Predicate vocabulary,
+quá,quái,3,False,"MCQA, SENT",MCQA_0010_1; MCQA_0016_0; SENT_3023,PNT3,Orthographic variant,
+điều gì,cấy chi,3,True,"MCQA, NLI",MCQA_0036_5; MCQA_0051_4; NLI_6854,PNT3,Interrogatives,
+mình,mềng,3,False,"MCQA, SENT",MCQA_0152_3; SENT_4745; SENT_5315,PNT3,Pronouns,
+tại,ở,3,True,QA,QA_14184; QA_22620; QA_8137,PNT3,Connectives/Aspect markers,
+cây,cơn,3,False,MCQA,MCQA_0020_2; MCQA_0072_2,PNT3,Predicate vocabulary,
+không thích,nỏ ưng,3,False,"MCQA, SENT",MCQA_0025_10; SENT_4003; SENT_4959,PNT3,Negation/Function words,[reclassified from Multi-word idiom -> Negation/Function words]
+bà mong mình,mệ trông mềng,3,False,MCQA,MCQA_0152_3,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+mẹ già,mạ tra,2,False,"MCQA, SENT",MCQA_0081_3; SENT_5315,PNT3,Kinship/Honorific terms,
+đàn,bầy,2,False,MCQA,MCQA_0151_1,PNT3,Predicate vocabulary,
+chơi,rượng,2,False,SENT,SENT_1894; SENT_5456,PNT3,Predicate vocabulary,
+ông,ổng,2,False,MCQA,MCQA_0098_8,PNT3,Orthographic variant,
+không muốn,nỏ ưng,2,False,"MCQA, SENT",MCQA_0056_1; SENT_5315,PNT3,Negation/Function words,[reclassified from Multi-word idiom -> Negation/Function words]
+bát,chén,2,True,MCQA,MCQA_0036_5,PNT3,Predicate vocabulary,
+mẩu,méng,2,False,MCQA,MCQA_0047_4,PNT3,Predicate vocabulary,
+vợ chồng,cấy dông,2,False,MCQA,MCQA_0030_3,PNT3,Kinship/Honorific terms,
+các con,mấy đứa,2,False,MCQA,MCQA_0039_4,PNT3,Pronouns,
+mình,chắc,2,True,"MCQA, NLI",MCQA_0077_0; NLI_6110,PNT3,Pronouns,
+"cây""","cơn""",2,False,MCQA,MCQA_0072_2,PNT3,Predicate vocabulary,
+vào,ở,2,True,QA,QA_14176; QA_5051,PNT3,Predicate vocabulary,
+vào,vô kì,2,False,"QA, SENT",QA_25984; SENT_1410,PNT3,Predicate vocabulary,
+dỗi,lẫy,2,False,MCQA,MCQA_0090_6,PNT3,Predicate vocabulary,
+người ta,họ,2,False,"QA, SENT",QA_4833; SENT_4003,PNT3,Pronouns,
+gì đã,chi đạ,2,True,"MCQA, NLI",MCQA_0020_1; NLI_7469,PNT3,Interrogatives,
+này không,ni khung,2,False,"NLI, SENT",NLI_3048; SENT_1915,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+nào làm,mô mần,2,True,NLI,NLI_3269; NLI_6155,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+bố mẹ,bọ mạ,2,False,SENT,SENT_5017; SENT_5360,PNT3,Kinship/Honorific terms,
+đỗ,đậu,2,True,SENT,SENT_3243,PNT3,Orthographic variant,
+bố mình,bọ tau,2,False,SENT,SENT_4428,PNT3,Kinship/Honorific terms,
+sử dụng,dùng,2,True,"MCQA, QA",MCQA_0104_4; QA_7517,PNT3,Predicate vocabulary,
+đó không,nớ nỏ,2,True,NLI,NLI_3172; NLI_6129,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+nào cũng,mô cụng,2,False,SENT,SENT_3469; SENT_4445,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+ruột,rọt,1,True,NLI,NLI_2198,PNT3,Orthographic variant,
+"thân""","thân tau""",1,False,NLI,NLI_7176,PNT3,Pronouns,
+thấy chế,ngó chộ chị,1,False,SENT,SENT_3814,PNT3,Predicate vocabulary,[reclassified from Multi-word idiom -> Predicate vocabulary]
+sao nó không,răng hắn khung,1,False,SENT,SENT_2816,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+thấy những,chộ mấy,1,False,MCQA,MCQA_0002_4,PNT3,Predicate vocabulary,[reclassified from Multi-word idiom -> Predicate vocabulary]
+thôi trất,dẹp đi,1,False,SENT,SENT_0018,PNT3,Idiomatic expressions,
+thật chẳng,thiệt nỏ,1,False,SENT,SENT_4733,PNT3,Negation/Function words,[reclassified from Multi-word idiom -> Negation/Function words]
+qua,bằng,1,False,MCQA,MCQA_0098_4,PNT3,Predicate vocabulary,
+tao vậy,tau ri,1,True,SENT,SENT_1098,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+thai,bầu,1,False,NLI,NLI_4217,PNT3,Predicate vocabulary,
+phục,phúc,1,True,NLI,NLI_0521,PNT3,Orthographic variant,
+tháng,thắng,1,True,NLI,NLI_7681,PNT3,Orthographic variant,
+tao quá vậy,tau rứa he,1,False,SENT,SENT_4084,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+tao không mắc ói,tau nỏ buồn oẹ,1,False,SENT,SENT_1579,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+rơi,rớt,1,True,MCQA,MCQA_0095_1,PNT3,Orthographic variant,
+sự việc gì,kì vụ chi đạ,1,False,QA,QA_9483,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+phải,phại,1,False,SENT,SENT_3814,PNT3,Orthographic variant,
+sao không,răng nỏ,1,True,SENT,SENT_4035,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+sao cha muốn,răng bọ ưng,1,False,MCQA,MCQA_0010_1,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+sao ấy,răng á,1,False,SENT,SENT_1971,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+soán,soát,1,True,NLI,NLI_4572,PNT3,Orthographic variant,
+sẽ,cũng,1,False,SENT,SENT_0534,PNT3,Connectives/Aspect markers,
+sang,qua,1,False,NLI,NLI_3048,PNT3,Predicate vocabulary,
+rừng,rú,1,False,MCQA,MCQA_0014_1,PNT3,Predicate vocabulary,
+sao này,mài bựa,1,False,SENT,SENT_4160,PNT3,Idiomatic expressions,
+ta,mình,1,True,MCQA,MCQA_0042_2,PNT3,Pronouns,
+tai họa nấp,nguy hiểm trốn,1,False,MCQA,MCQA_0039_4,PNT3,Predicate vocabulary,
+tao ghét,tau két,1,False,SENT,SENT_5315,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+rất lâu,khi mô đến chừ,1,False,NLI,NLI_3340,PNT3,Idiomatic expressions,
+rược suốt,rượt cả,1,False,SENT,SENT_2938,PNT3,Predicate vocabulary,
+tao không,tau nỏ,1,True,SENT,SENT_1410,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+rơi vào,rớt vô,1,True,MCQA,MCQA_0058_0,PNT3,Predicate vocabulary,
+sao bắt nhanh thế,răng tóm lẹ rứa,1,False,SENT,SENT_1485,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+nơi nào đã,lộ mô đạ,1,False,QA,QA_8086,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+phát khổ,phải khổi,1,False,SENT,SENT_0192,PNT3,Predicate vocabulary,
+nào chứ,mô chơ,1,False,SENT,SENT_4733,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+này sao,ni răng,1,False,SENT,SENT_4084,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+này nọ,ni kêu tê,1,False,SENT,SENT_4733,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+này nên không mệt mỏi gì,ni bơ nỏ dọc chi,1,False,NLI,NLI_4266,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+này có vẻ ngoài không được,ni trông nỏ,1,False,NLI,NLI_5704,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+này chúng ta,ni bọn miềng,1,False,SENT,SENT_2308,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+nào vào,chi vô,1,False,QA,QA_22617,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+nào thì,mô là,1,False,QA,QA_3137,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+nào tao nhìn,mô tau chộ,1,False,SENT,SENT_1579,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+nào mẹ làm,mô mạ mần,1,False,SENT,SENT_1915,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+nào cho ta,mô làm miềng,1,False,MCQA,MCQA_0062_2,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+nữa sẽ,nựa là,1,False,QA,QA_18652,PNT3,Connectives/Aspect markers,
+những mẩu,mớ,1,False,MCQA,MCQA_0047_2,PNT3,Predicate vocabulary,
+những gì,mấy cấy,1,False,NLI,NLI_4572,PNT3,Interrogatives,
+nhờ vào,do,1,False,QA,QA_18828,PNT3,Connectives/Aspect markers,
+nhờ,ngờ,1,True,MCQA,MCQA_0065_2,PNT3,Orthographic variant,
+nhỉ sao,rứa răng,1,True,SENT,SENT_1172,PNT3,Discourse particles,
+nhỉ mình nhận,hè tao,1,False,SENT,SENT_0237,PNT3,Predicate vocabulary,[reclassified from Multi-word idiom -> Predicate vocabulary]
+nhằm,để,1,True,QA,QA_21489,PNT3,Connectives/Aspect markers,
+nhưng làm,chơ mần,1,False,SENT,SENT_4768,PNT3,Predicate vocabulary,[reclassified from Multi-word idiom -> Predicate vocabulary]
+nhưng không,mà nỏ,1,False,NLI,NLI_5263,PNT3,Negation/Function words,[reclassified from Multi-word idiom -> Negation/Function words]
+này tuyết,ni tuyệt,1,True,NLI,NLI_0337,PNT3,Orthographic variant,
+này vào,ni vô,1,True,SENT,SENT_2727,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+này vào đĩa,ni vô dịa,1,False,SENT,SENT_4519,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+này đâu,ni mô,1,False,SENT,SENT_3243,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+nữa chứ,nựa chớ,1,False,SENT,SENT_3750,PNT3,Orthographic variant,
+nữa chắc,nựa e,1,False,SENT,SENT_3469,PNT3,Predicate vocabulary,[reclassified from Multi-word idiom -> Predicate vocabulary]
+nữa,nựa,1,True,MCQA,MCQA_0056_1,PNT3,Orthographic variant,
+nếu tôi,tau mà,1,False,SENT,SENT_4494,PNT3,Pronouns,
+nặn,nạn,1,True,SENT,SENT_4964,PNT3,Orthographic variant,
+thật giờ,thiệt chừ,1,False,SENT,SENT_1626,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+nơi nào,từng mô,1,False,QA,QA_3410,PNT3,Interrogatives,
+nũa,nữa,1,True,SENT,SENT_3273,PNT3,Orthographic variant,
+năm,nam,1,False,QA,QA_10377,PNT3,Orthographic variant,
+nói chuyện,gọi,1,False,MCQA,MCQA_0037_4,PNT3,Predicate vocabulary,
+nó đỗ mình thích,hắn đậu miềng ưng,1,False,SENT,SENT_1546,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+nó đã,hắn đạ,1,False,QA,QA_7713,PNT3,Pronouns,
+nó yêu nhâu,hắn ưng chắc,1,False,SENT,SENT_3249,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+nó vừa,hắn bưa bưa,1,False,SENT,SENT_3243,PNT3,Pronouns,
+nó vả không,hắn bả nỏ,1,False,SENT,SENT_4733,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+nó vương,hắn vươn,1,False,SENT,SENT_1222,PNT3,Pronouns,
+nó thấy nó,hắn chộ hắn,1,False,SENT,SENT_1222,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+nó thích đỗ đâu,hắn ưng đậu mô,1,False,SENT,SENT_1546,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+nó không,hắn nỏ,1,False,SENT,SENT_4745,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+thật chớ,thiệt chơ,1,False,SENT,SENT_5315,PNT3,Predicate vocabulary,[reclassified from Multi-word idiom -> Predicate vocabulary]
+trong giai,ở kì,1,False,QA,QA_7442,PNT3,Predicate vocabulary,
+thật đấy,thiệt á,1,False,SENT,SENT_1626,PNT3,Predicate vocabulary,[reclassified from Multi-word idiom -> Predicate vocabulary]
+đó dắt,nớ đắc,1,False,SENT,SENT_1894,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+đó cha mẹ,nớ bọ mạ,1,False,SENT,SENT_3555,PNT3,Kinship/Honorific terms,
+đã sao,đạ răng,1,False,SENT,SENT_4003,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+đã làm gì khi,mần chi lúc,1,False,QA,QA_17769,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+đã làm gì,đạ mần chi,1,True,MCQA,MCQA_0055_0,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+đã không,đạ khung,1,False,QA,QA_9483,PNT3,Negation/Function words,[reclassified from Multi-word idiom -> Negation/Function words]
+đâu nhỉ,mô hè,1,False,SENT,SENT_4550,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+đâu không,mô ra rựa nỏ,1,False,SENT,SENT_4989,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+đám,chỗ,1,False,SENT,SENT_1192,PNT3,Predicate vocabulary,
+điều đó,cấy nớ,1,False,NLI,NLI_6155,PNT3,Demonstratives/Deixis,
+điều này đã,chuyện ni đạ,1,False,QA,QA_18041,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+điều gì qua,cấy chi trong,1,False,MCQA,MCQA_0137_3,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+z đó,rứa,1,False,SENT,SENT_4768,PNT3,Noise/Non-linguistic,
+xơi,ăn,1,True,SENT,SENT_1192,PNT3,Predicate vocabulary,
+xuân,xun,1,False,MCQA,MCQA_0002_4,PNT3,Orthographic variant,
+xem những,coi mấy,1,False,NLI,NLI_2899,PNT3,Predicate vocabulary,[reclassified from Multi-word idiom -> Predicate vocabulary]
+xem cái này,ngó cấy ni,1,False,SENT,SENT_4790,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+vợ chồng tôi không hiểu,cấy dông tau nỏ khỏi nghi ngờ,1,False,NLI,NLI_4801,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+vờ,đò,1,True,MCQA,MCQA_0055_1,PNT3,Orthographic variant,
+vội vàng,lật đật,1,False,MCQA,MCQA_0055_1,PNT3,Predicate vocabulary,
+vậy tôi,rứa tau,1,False,NLI,NLI_5746,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+vậy nên,rứa bơ,1,False,SENT,SENT_4428,PNT3,Connectives/Aspect markers,
+đó chẳng,nớ nỏ,1,True,MCQA,MCQA_0114_6,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+đó gọi,nớ kêu,1,False,SENT,SENT_5315,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+thế chân,rứa cẳng,1,False,SENT,SENT_1908,PNT3,Predicate vocabulary,
+đó nhìn,nớ nhòm,1,False,MCQA,MCQA_0114_6,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+ấy đã,nớ đạ,1,False,NLI,NLI_3340,PNT3,Demonstratives/Deixis,
+ấy giờ,nớ chừ,1,False,SENT,SENT_2308,PNT3,Demonstratives/Deixis,
+ấy của,ấu cụa,1,False,MCQA,MCQA_0020_1,PNT3,Orthographic variant,
+ấy chứ,đó chơ,1,False,SENT,SENT_1655,PNT3,Predicate vocabulary,[reclassified from Multi-word idiom -> Predicate vocabulary]
+ạ thế,rứa,1,True,MCQA,MCQA_0025_10,PNT3,Demonstratives/Deixis,
+ư,à,1,True,SENT,SENT_2515,PNT3,Discourse particles,
+đức,bức,1,True,NLI,NLI_1077,PNT3,Orthographic variant,
+đợi lớn,chơ mài bựa nậy,1,False,SENT,SENT_5360,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+đợi,chờ,1,False,MCQA,MCQA_0104_4,PNT3,Predicate vocabulary,
+đột,tự,1,True,NLI,NLI_6129,PNT3,Orthographic variant,
+đển,đến,1,True,NLI,NLI_3107,PNT3,Orthographic variant,
+để,mà,1,False,MCQA,MCQA_0137_1,PNT3,Connectives/Aspect markers,
+đến tận rốn,thấu lộ tún,1,False,SENT,SENT_2217,PNT3,Predicate vocabulary,
+đầy,toàn,1,False,MCQA,MCQA_0095_1,PNT3,Predicate vocabulary,
+đường đến,đàng tới,1,False,MCQA,MCQA_0127_3,PNT3,Predicate vocabulary,[reclassified from Multi-word idiom -> Predicate vocabulary]
+đường không,đàng nỏ,1,False,SENT,SENT_2473,PNT3,Negation/Function words,[reclassified from Multi-word idiom -> Negation/Function words]
+đưa ra,nói,1,False,MCQA,MCQA_0010_3,PNT3,Predicate vocabulary,
+đúi,đuối,1,True,SENT,SENT_3910,PNT3,Orthographic variant,
+đóng,nộp,1,False,NLI,NLI_0240,PNT3,Predicate vocabulary,
+đó vậy ta,nớ hè,1,False,SENT,SENT_1172,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+đó tao,nớ tau,1,True,SENT,SENT_1579,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+vậy không,cũng được nỏ,1,False,SENT,SENT_0626,PNT3,Negation/Function words,[reclassified from Multi-word idiom -> Negation/Function words]
+vất vả,khổ,1,False,MCQA,MCQA_0144_0,PNT3,Predicate vocabulary,
+vấn đề,cấy chi,1,False,SENT,SENT_4733,PNT3,Interrogatives,
+vấn đề,chuyện,1,False,NLI,NLI_6637,PNT3,Predicate vocabulary,
+trắng,thâu,1,False,MCQA,MCQA_0048_5,PNT3,Predicate vocabulary,
+trước tao,bựa tau,1,False,SENT,SENT_5456,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+trước mẹ,bựa mạ,1,False,SENT,SENT_4445,PNT3,Kinship/Honorific terms,[reclassified from Multi-word idiom -> Kinship/Honorific terms]
+trước,bựa,1,False,MCQA,MCQA_0010_1,PNT3,Demonstratives/Deixis,
+trêu đùa quái,chọc đại,1,False,SENT,SENT_3023,PNT3,Predicate vocabulary,
+trèo,leo,1,True,SENT,SENT_4745,PNT3,Predicate vocabulary,
+tránh,tréng,1,False,SENT,SENT_1192,PNT3,Orthographic variant,
+trrong gia,trong kì giai,1,False,QA,QA_10410,PNT3,Noise/Non-linguistic,
+trong tương lai,sau ni,1,True,NLI,NLI_0959,PNT3,Idiomatic expressions,
+nhưng,mà,1,False,NLI,NLI_5518,PNT3,Connectives/Aspect markers,
+to vậy,bà là rứa,1,False,SENT,SENT_2473,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+thời gian,tỉ,1,False,SENT,SENT_0958,PNT3,Predicate vocabulary,
+thể sử dụng,dùng,1,False,NLI,NLI_0028,PNT3,Predicate vocabulary,
+thể sẽ,khi đã,1,False,NLI,NLI_1069,PNT3,Connectives/Aspect markers,
+thế này cơ mà,như ri chơ đều,1,False,SENT,SENT_0814,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+thế này bây giờ không muốn,ri chừ nỏ ưng,1,False,SENT,SENT_0462,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+thế nào vào,răng vô,1,False,QA,QA_22836,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+thế kia không,in rứa nỏ,1,False,SENT,SENT_3094,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+thế kia,rứa,1,True,SENT,SENT_0814,PNT3,Demonstratives/Deixis,
+thế không,rứa nỏ,1,True,SENT,SENT_4885,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+thế cũng,rứa cụng,1,False,SENT,SENT_3023,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+trịu,trụi,1,True,MCQA,MCQA_0002_4,PNT3,Orthographic variant,
+tính,định,1,True,SENT,SENT_1410,PNT3,Predicate vocabulary,
+tôi không,tau khung,1,False,NLI,NLI_5143,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+và,nên,1,False,MCQA,MCQA_0138_5,PNT3,Connectives/Aspect markers,
+vương,dương,1,False,SENT,SENT_1410,PNT3,Orthographic variant,
+vào túi ni lông và,vô bao xì dầu rồi,1,False,MCQA,MCQA_0091_0,PNT3,Connectives/Aspect markers,[reclassified from Multi-word idiom -> Connectives/Aspect markers]
+vào nó,vô hắn,1,False,NLI,NLI_0647,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+vào làm,vô mần,1,False,QA,QA_10410,PNT3,Predicate vocabulary,[reclassified from Multi-word idiom -> Predicate vocabulary]
+vào,đoạn,1,False,QA,QA_18041,PNT3,Connectives/Aspect markers,
+vào,trong,1,False,QA,QA_10332,PNT3,Predicate vocabulary,
+vào,lên,1,False,MCQA,MCQA_0100_2,PNT3,Predicate vocabulary,
+vào,hồi,1,True,NLI,NLI_3108,PNT3,Connectives/Aspect markers,
+và làm theo,rồi mần dọi,1,False,MCQA,MCQA_0030_3,PNT3,Connectives/Aspect markers,[reclassified from Multi-word idiom -> Connectives/Aspect markers]
+việc,chuyện,1,True,QA,QA_27033,PNT3,Predicate vocabulary,
+tôi đã,tui đạ,1,False,NLI,NLI_7691,PNT3,Pronouns,
+vay,sự xác đáng của mạn tiền,1,False,NLI,NLI_4801,PNT3,Noise/Non-linguistic,
+tối,túi,1,False,MCQA,MCQA_0148_3,PNT3,Orthographic variant,
+tấm,tờ,1,False,NLI,NLI_0511,PNT3,Predicate vocabulary,
+tại đó,chỗ nớ,1,False,MCQA,MCQA_0062_2,PNT3,Demonstratives/Deixis,
+tại đâu,chỗ mô,1,False,QA,QA_9520,PNT3,Interrogatives,
+tại sao,vì răng,1,False,MCQA,MCQA_0037_4,PNT3,Interrogatives,
+tại 1,ở một,1,False,NLI,NLI_0516,PNT3,Predicate vocabulary,
+tại,vì,1,False,SENT,SENT_0572,PNT3,Connectives/Aspect markers,
+tý vào,một tỉ vô,1,False,SENT,SENT_4733,PNT3,Predicate vocabulary,
+nhưng không,chơ đều nỏ,1,False,NLI,NLI_0729,PNT3,Negation/Function words,[reclassified from Multi-word idiom -> Negation/Function words]
+""" nghìn mét ""","""ngàn mét""",1,False,SENT,SENT_1222,PNT3,Orthographic variant,
+nhưng,chơ đều,1,False,SENT,SENT_3763,PNT3,Connectives/Aspect markers,
+cãi lộn mệt,cại chắc dọc,1,False,SENT,SENT_3618,PNT3,Predicate vocabulary,[reclassified from Multi-word idiom -> Predicate vocabulary]
+cả,với,1,True,SENT,SENT_0895,PNT3,Connectives/Aspect markers,
+cũng,cụng,1,False,SENT,SENT_4861,PNT3,Orthographic variant,
+cũ,cộ,1,False,MCQA,MCQA_0051_0,PNT3,Orthographic variant,
+cùng bố,với bọ,1,False,MCQA,MCQA_0014_1,PNT3,Kinship/Honorific terms,
+cùng,với,1,True,MCQA,MCQA_0077_0,PNT3,Connectives/Aspect markers,
+cô ấy tôi,ả tau,1,False,SENT,SENT_4494,PNT3,Pronouns,
+cô gái cưới chồng,ả nớ lấy dông,1,False,NLI,NLI_0716,PNT3,Kinship/Honorific terms,[reclassified from Multi-word idiom -> Kinship/Honorific terms]
+cô bé,ả nớ,1,False,NLI,NLI_7901,PNT3,Pronouns,
+cô,ả,1,False,NLI,NLI_5263,PNT3,Pronouns,
+cô,lạo,1,False,NLI,NLI_6637,PNT3,Pronouns,
+cáu,đóa,1,False,MCQA,MCQA_0018_6,PNT3,Predicate vocabulary,
+chứa,bỏ,1,False,QA,QA_0268,PNT3,Predicate vocabulary,
+cái này luôn thế,cấy ni rứa,1,False,SENT,SENT_1771,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+cái này,cấy ni,1,True,SENT,SENT_5531,PNT3,Demonstratives/Deixis,
+cái lũ,cấy bọn,1,False,SENT,SENT_4964,PNT3,Pronouns,
+các vị,mấy người,1,False,MCQA,MCQA_0018_6,PNT3,Pronouns,
+các nẻo đường,mấy lộ,1,False,MCQA,MCQA_0137_1,PNT3,Predicate vocabulary,
+các chế ơi,mấy ả nở,1,False,SENT,SENT_3249,PNT3,Kinship/Honorific terms,[reclassified from Multi-word idiom -> Kinship/Honorific terms]
+các bà đâu,mấy mệ mô,1,False,SENT,SENT_3243,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+các,những,1,False,QA,QA_18041,PNT3,Pronouns,
+các,mấy cì,1,False,NLI,NLI_0157,PNT3,Pronouns,
+các,mấy cái,1,True,NLI,NLI_1019,PNT3,Pronouns,
+cậu,cu,1,False,MCQA,MCQA_0152_3,PNT3,Pronouns,
+cậu,cu nớ,1,False,NLI,NLI_5451,PNT3,Pronouns,
+cậu bé,thằng cu,1,False,NLI,NLI_4654,PNT3,Pronouns,
+cậu không thích,hắn nỏ ưng,1,False,MCQA,MCQA_0077_0,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+gì đâu giờ,chi mô chừ,1,False,SENT,SENT_2507,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+gì vậy nhỉ,chi rứa he,1,False,SENT,SENT_0343,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+gì tại,chi ở cì chỗ,1,False,QA,QA_10377,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+gì cái,chi cấy,1,False,SENT,SENT_4150,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+gì chúng tôi,chi choa,1,False,NLI,NLI_2948,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+gái mình,cấy mềng,1,False,SENT,SENT_5441,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+giữa,trữa,1,False,MCQA,MCQA_0123_0,PNT3,Orthographic variant,
+giờ đây chúng ta,chừ bọn miềng,1,False,SENT,SENT_2308,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+giờ mới,chừ mì,1,False,SENT,SENT_3469,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+giờ,bựa chừ,1,False,SENT,SENT_3023,PNT3,Demonstratives/Deixis,
+giống tao nhưng,y tau mà,1,False,SENT,SENT_1146,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+giành,treng,1,False,NLI,NLI_3719,PNT3,Predicate vocabulary,
+gia đình,kì nhà,1,False,NLI,NLI_1405,PNT3,Kinship/Honorific terms,
+ghen tị,èng neng,1,False,MCQA,MCQA_0090_10,PNT3,Predicate vocabulary,
+dắt,đắc,1,False,SENT,SENT_0814,PNT3,Predicate vocabulary,
+dẫn gấu,đắc bồ,1,False,SENT,SENT_1192,PNT3,Predicate vocabulary,
+dơ,dớp,1,False,SENT,SENT_4768,PNT3,Predicate vocabulary,
+dàn,dần,1,True,QA,QA_24045,PNT3,Orthographic variant,
+du,ru,1,True,SENT,SENT_5441,PNT3,Orthographic variant,
+của,cụa,1,False,NLI,NLI_3276,PNT3,Orthographic variant,
+cậu ấy,thằng cu nớ,1,False,NLI,NLI_4654,PNT3,Pronouns,
+con ấy chứ,em đó chơ,1,False,SENT,SENT_3023,PNT3,Predicate vocabulary,[reclassified from Multi-word idiom -> Predicate vocabulary]
+chứ đường,chơ đàng,1,False,SENT,SENT_3243,PNT3,Predicate vocabulary,[reclassified from Multi-word idiom -> Predicate vocabulary]
+như thế nào đối với,chi tới,1,False,QA,QA_4380,PNT3,Interrogatives,
+bạn nhỉ mình cũng không,mi hè mềng cụng nỏ,1,False,SENT,SENT_4745,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+bởi vậy,vì rứa nên,1,False,SENT,SENT_3618,PNT3,Connectives/Aspect markers,
+bởi vì,tại,1,False,NLI,NLI_3201,PNT3,Connectives/Aspect markers,
+bố điều gì,bọ cấy chi,1,False,MCQA,MCQA_0051_0,PNT3,Kinship/Honorific terms,
+bố vào thời điểm nào,ba khi mô,1,False,MCQA,MCQA_0013_4,PNT3,Kinship/Honorific terms,
+bố thích,bọ ưng,1,False,MCQA,MCQA_0010_1,PNT3,Kinship/Honorific terms,
+bố quát,bọ nạt,1,False,SENT,SENT_5441,PNT3,Kinship/Honorific terms,
+bố mẹ chửi mắng,bọ mạ chưởi,1,False,SENT,SENT_4861,PNT3,Kinship/Honorific terms,
+bắt,tóm,1,False,SENT,SENT_1485,PNT3,Predicate vocabulary,
+bận,mắc,1,True,MCQA,MCQA_0152_0,PNT3,Predicate vocabulary,
+bả,bã,1,True,MCQA,MCQA_0065_2,PNT3,Orthographic variant,
+bước,đoạn,1,False,SENT,SENT_1161,PNT3,Predicate vocabulary,
+chứ đâu,chơ mô,1,True,SENT,SENT_4003,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+bão vắng mẹ,bạo thiếu mạ,1,False,MCQA,MCQA_0144_0,PNT3,Kinship/Honorific terms,
+bãi,bại,1,False,NLI,NLI_1677,PNT3,Orthographic variant,
+bây giờ nó,bựa chừ hắn,1,False,SENT,SENT_5360,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+bà đấy thế nào,mệ nớ ra răng,1,False,SENT,SENT_4519,PNT3,Kinship/Honorific terms,
+bà đã tuyên bố,lạo xưng,1,False,QA,QA_26462,PNT3,Kinship/Honorific terms,
+bà nó,mẹ kì,1,False,SENT,SENT_3469,PNT3,Kinship/Honorific terms,
+bà cha,mệ bọ,1,False,NLI,NLI_5735,PNT3,Kinship/Honorific terms,
+bao giờ bảo,từng nói,1,False,MCQA,MCQA_0074_5,PNT3,Idiomatic expressions,[reclassified from Multi-word idiom -> Idiomatic expressions]
+bao giờ bảo,từng kêu,1,False,MCQA,MCQA_0074_5,PNT3,Idiomatic expressions,[reclassified from Multi-word idiom -> Idiomatic expressions]
+bao giờ,lần mô,1,False,MCQA,MCQA_0074_5,PNT3,Interrogatives,
+bữa,bựa,1,False,SENT,SENT_5251,PNT3,Orthographic variant,
+bữa không,bựa nỏ,1,False,SENT,SENT_5441,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+cha không thích,bọ nỏ ưng,1,False,MCQA,MCQA_0010_1,PNT3,Kinship/Honorific terms,
+chay,chạy,1,True,SENT,SENT_1222,PNT3,Orthographic variant,
+chứ sau này,chơ mài bựa,1,False,SENT,SENT_4733,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+chứ mình không,chơ miềng nỏ,1,False,SENT,SENT_1546,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+chứ làm gì,cho rồi chơ mần chi,1,False,SENT,SENT_0814,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+chứ không,chơ khung,1,False,SENT,SENT_4057,PNT3,Negation/Function words,[reclassified from Multi-word idiom -> Negation/Function words]
+chỗ,lộ,1,False,MCQA,MCQA_0137_1,PNT3,Predicate vocabulary,
+chồng,dông,1,False,NLI,NLI_6960,PNT3,Kinship/Honorific terms,
+chẳng,nọ,1,False,MCQA,MCQA_0043_3,PNT3,Negation/Function words,
+chơi nữa,dởi nựa,1,False,SENT,SENT_1410,PNT3,Predicate vocabulary,[reclassified from Multi-word idiom -> Predicate vocabulary]
+chơi không,dởi nỏ,1,False,MCQA,MCQA_0077_0,PNT3,Negation/Function words,[reclassified from Multi-word idiom -> Negation/Function words]
+chơi hoặc làm,dởi hay mần,1,False,SENT,SENT_0958,PNT3,Predicate vocabulary,[reclassified from Multi-word idiom -> Predicate vocabulary]
+chăng nữa,nựa,1,False,SENT,SENT_5017,PNT3,Connectives/Aspect markers,
+chút nhưng,tí đều,1,False,SENT,SENT_1655,PNT3,Predicate vocabulary,[reclassified from Multi-word idiom -> Predicate vocabulary]
+chúng ta,mình,1,False,SENT,SENT_4155,PNT3,Pronouns,
+chúng ta,miềng,1,False,MCQA,MCQA_0065_5,PNT3,Pronouns,
+chúng mày lớn khôn lớn,bây nậy nậy,1,False,SENT,SENT_5017,PNT3,Predicate vocabulary,[reclassified from Multi-word idiom -> Predicate vocabulary]
+chú,kì con,1,False,NLI,NLI_3269,PNT3,Kinship/Honorific terms,
+chân,cẳng,1,False,SENT,SENT_2217,PNT3,Predicate vocabulary,
+chàng trai,anh nớ,1,False,NLI,NLI_0459,PNT3,Idiomatic expressions,[reclassified from Multi-word idiom -> Idiomatic expressions]
+chuyên,hay,1,False,QA,QA_27033,PNT3,Predicate vocabulary,
+chiện,chuyện,1,True,SENT,SENT_4428,PNT3,Orthographic variant,
+chen,xô,1,False,SENT,SENT_1192,PNT3,Predicate vocabulary,
+gọi thật,hú đại,1,False,MCQA,MCQA_0127_3,PNT3,Predicate vocabulary,
+hoạ,họa,1,True,SENT,SENT_0534,PNT3,Orthographic variant,
+hóa,hoá,1,True,NLI,NLI_0337,PNT3,Orthographic variant,
+mẹ tao xưa,mạ tau hồi ơ,1,False,SENT,SENT_1146,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+nay đâu,ni mô,1,False,MCQA,MCQA_0051_0,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+nay tao,ni tau,1,False,SENT,SENT_5421,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+nay nó,ni hắn,1,False,SENT,SENT_4550,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+nay,ni đỏ,1,False,NLI,NLI_5715,PNT3,Demonstratives/Deixis,
+mới muốn giành,mì ưng treng,1,False,NLI,NLI_3201,PNT3,Predicate vocabulary,[reclassified from Multi-word idiom -> Predicate vocabulary]
+một nữa số,nửa,1,False,QA,QA_19280,PNT3,Predicate vocabulary,
+mổ,mỗi,1,False,SENT,SENT_4959,PNT3,Orthographic variant,
+mến,quý,1,False,MCQA,MCQA_0065_5,PNT3,Predicate vocabulary,
+mẹ vào,vô,1,False,SENT,SENT_0814,PNT3,Kinship/Honorific terms,
+mẹ và anh,mạ với eng,1,False,MCQA,MCQA_0090_10,PNT3,Kinship/Honorific terms,
+mẹ cô đã cảm thấy,mạ ả đạ chộ,1,False,NLI,NLI_0521,PNT3,Kinship/Honorific terms,[reclassified from Multi-word idiom -> Kinship/Honorific terms]
+hôm,bữa,1,True,NLI,NLI_0830,PNT3,Demonstratives/Deixis,
+mẫu,méng,1,False,MCQA,MCQA_0047_4,PNT3,Predicate vocabulary,
+mất,luôn,1,False,SENT,SENT_5421,PNT3,Predicate vocabulary,
+mượn,mạn,1,False,NLI,NLI_5143,PNT3,Orthographic variant,
+mắc,dính,1,False,NLI,NLI_5167,PNT3,Predicate vocabulary,
+móa,mẹ,1,False,SENT,SENT_0343,PNT3,Kinship/Honorific terms,
+mình đành,miềng thì,1,False,MCQA,MCQA_0098_4,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+mình lúa,miềng ló,1,False,SENT,SENT_3906,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+mình không,mềng nỏ,1,False,SENT,SENT_2816,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+mình,mà tau,1,False,SENT,SENT_0192,PNT3,Pronouns,
+má nó,mẹ hắn,1,False,SENT,SENT_3469,PNT3,Kinship/Honorific terms,
+ngay lập tức,liền,1,True,NLI,NLI_6960,PNT3,Predicate vocabulary,
+nghĩ tới,nhờ tời,1,False,MCQA,MCQA_0127_3,PNT3,Predicate vocabulary,
+ngu,đần,1,False,SENT,SENT_5017,PNT3,Predicate vocabulary,
+ngàng,hàng,1,False,SENT,SENT_1485,PNT3,Orthographic variant,
+như thế nào nhỉ chắc,a răng hè e,1,False,SENT,SENT_2217,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+như thế nào,in răng,1,False,SENT,SENT_5017,PNT3,Interrogatives,
+như thế nào,dư răng,1,False,MCQA,MCQA_0151_3,PNT3,Interrogatives,
+như thế nào,a răng,1,True,QA,QA_1521,PNT3,Interrogatives,
+nhíp,nhấp,1,False,SENT,SENT_0835,PNT3,Orthographic variant,
+nhìn thấy,ngó chộ,1,False,QA,QA_17771,PNT3,Predicate vocabulary,
+nhìn nó vào,ngó hắn vô,1,False,SENT,SENT_5360,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+nhanh vừa,mau bựa,1,False,SENT,SENT_5456,PNT3,Predicate vocabulary,
+nha-kẻ,nha - kẻ,1,False,QA,QA_12019,PNT3,Noise/Non-linguistic,
+ngờ,ngại,1,False,NLI,NLI_5143,PNT3,Predicate vocabulary,
+anh chồng la hoài là vậy,eng dông nạt mãi mà rứa tê,1,False,SENT,SENT_3906,PNT3,Kinship/Honorific terms,[reclassified from Multi-word idiom -> Kinship/Honorific terms]
+người phụ nữ đã,ả nớ đạ,1,False,NLI,NLI_6960,PNT3,Kinship/Honorific terms,[reclassified from Multi-word idiom -> Kinship/Honorific terms]
+người kia mới,đứa tê,1,False,MCQA,MCQA_0042_7,PNT3,Idiomatic expressions,[reclassified from Multi-word idiom -> Idiomatic expressions]
+người khác,họ,1,False,MCQA,MCQA_0010_1,PNT3,Pronouns,
+người,đứa,1,True,NLI,NLI_6350,PNT3,Pronouns,
+người,quân,1,True,QA,QA_11800,PNT3,Out-of-scope,
+ngườ dân,ngài,1,False,NLI,NLI_4856,PNT3,Noise/Non-linguistic,
+ngưới,người,1,True,NLI,NLI_0959,PNT3,Orthographic variant,
+ngõ,trổng,1,False,SENT,SENT_0696,PNT3,Predicate vocabulary,
+ngày nào,hôm mô,1,False,QA,QA_23724,PNT3,Interrogatives,
+ngày,ngay,1,True,NLI,NLI_1420,PNT3,Orthographic variant,
+má mấy mẻ,mà bọn hắn,1,False,SENT,SENT_5407,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+má,vãi,1,False,SENT,SENT_2148,PNT3,Kinship/Honorific terms,
+mày chửi gì,mi chưởi chi,1,False,SENT,SENT_4959,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+kinh,ghê,1,True,SENT,SENT_4445,PNT3,Predicate vocabulary,
+khổng lồ như vậy,bà lả in rứa,1,False,NLI,NLI_3211,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+không trượt,nỏ lệch,1,False,SENT,SENT_4494,PNT3,Negation/Function words,[reclassified from Multi-word idiom -> Negation/Function words]
+không thấy cái đầu,nỏ chộ kì trốc,1,False,MCQA,MCQA_0152_3,PNT3,Negation/Function words,[reclassified from Multi-word idiom -> Negation/Function words]
+không nhỉ,khung hè,1,False,SENT,SENT_5154,PNT3,Negation/Function words,[reclassified from Multi-word idiom -> Negation/Function words]
+không làm,nỏ mần,1,True,SENT,SENT_4989,PNT3,Negation/Function words,[reclassified from Multi-word idiom -> Negation/Function words]
+không cảm thấy,nỏ chộ,1,False,NLI,NLI_1420,PNT3,Negation/Function words,[reclassified from Multi-word idiom -> Negation/Function words]
+không chơi,nỏ dởi,1,False,MCQA,MCQA_0077_0,PNT3,Negation/Function words,[reclassified from Multi-word idiom -> Negation/Function words]
+khóm,bụi,1,True,MCQA,MCQA_0098_4,PNT3,Predicate vocabulary,
+khóc,khóoc,1,False,MCQA,MCQA_0055_0,PNT3,Orthographic variant,
+khiến các,mần mấy,1,False,NLI,NLI_4394,PNT3,Predicate vocabulary,[reclassified from Multi-word idiom -> Predicate vocabulary]
+khi đó,chầu nớ,1,False,QA,QA_20004,PNT3,Demonstratives/Deixis,
+inh,minh,1,True,MCQA,MCQA_0056_2,PNT3,Orthographic variant,
+hồi đó đã,thời nớ,1,False,SENT,SENT_2507,PNT3,Demonstratives/Deixis,
+hối hả,tất ta tất tưởi,1,False,MCQA,MCQA_0090_10,PNT3,Idiomatic expressions,
+họ,mấy người nớ,1,False,QA,QA_17769,PNT3,Pronouns,
+hả,à,1,True,SENT,SENT_5008,PNT3,Discourse particles,
+hôm xưa đâu,chầu tê mô,1,False,MCQA,MCQA_0051_0,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+hôm tao,bựa tau,1,True,SENT,SENT_1410,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+hôm nó gặm,bựa hắn cắm,1,False,SENT,SENT_0895,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+hôm nay,bữa ni,1,True,MCQA,MCQA_0047_2,PNT3,Demonstratives/Deixis,
+hôm,bựa,1,True,MCQA,MCQA_0051_0,PNT3,Demonstratives/Deixis,
+kia mới,nớ mì,1,False,SENT,SENT_3023,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+kêu khóc,khóoc,1,False,MCQA,MCQA_0055_0,PNT3,Predicate vocabulary,
+muốn như thế nào,ưng chi nựa,1,False,SENT,SENT_2473,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+kỳ,cứ,1,False,QA,QA_6673,PNT3,Orthographic variant,
+muốn làm,ưng mần,1,False,MCQA,MCQA_0074_6,PNT3,Predicate vocabulary,[reclassified from Multi-word idiom -> Predicate vocabulary]
+muốn gọi,ưng kêu,1,False,MCQA,MCQA_0151_1,PNT3,Predicate vocabulary,[reclassified from Multi-word idiom -> Predicate vocabulary]
+muốn bạn ấy,ưng hắn,1,False,MCQA,MCQA_0074_6,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]
+mong muốn,ưng,1,True,NLI,NLI_3108,PNT3,Predicate vocabulary,
+mong bố,trông bọ,1,False,MCQA,MCQA_0016_0,PNT3,Kinship/Honorific terms,
+mong,trông,1,False,NLI,NLI_6854,PNT3,Predicate vocabulary,
+lầm,nhầm,1,True,MCQA,MCQA_0016_5,PNT3,Predicate vocabulary,
+lũ,bọn,1,True,SENT,SENT_3273,PNT3,Pronouns,
+ló rạng,ngoi lên,1,False,MCQA,MCQA_0069_1,PNT3,Predicate vocabulary,
+lên,nên,1,False,SENT,SENT_2308,PNT3,Orthographic variant,
+lâu mới,mì,1,False,SENT,SENT_1726,PNT3,Connectives/Aspect markers,
+làm thế,mần rứa,1,True,SENT,SENT_5154,PNT3,Demonstratives/Deixis,[reclassified from Multi-word idiom -> Demonstratives/Deixis]
+làm theo,mần dọi,1,False,MCQA,MCQA_0030_3,PNT3,Predicate vocabulary,[reclassified from Multi-word idiom -> Predicate vocabulary]
+làm tao sợ chetme,mần tau hại chetma,1,False,SENT,SENT_5456,PNT3,Idiomatic expressions,[reclassified from Multi-word idiom -> Idiomatic expressions]
+làm sao ấy,răng á,1,False,SENT,SENT_4809,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+làm gì nó,mần chi hắn,1,False,SENT,SENT_1222,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+làm gì nhìu,mần chi nhiều,1,True,SENT,SENT_3618,PNT3,Interrogatives,[reclassified from Multi-word idiom -> Interrogatives]
+làm cha làm mẹ,mần bọ mần mạ,1,False,SENT,SENT_4768,PNT3,Kinship/Honorific terms,[reclassified from Multi-word idiom -> Kinship/Honorific terms]
+ly,xa,1,False,SENT,SENT_1222,PNT3,Predicate vocabulary,
+luyện,lượn,1,False,MCQA,MCQA_0004_3,PNT3,Orthographic variant,
+liền là không,luôn,1,False,SENT,SENT_1146,PNT3,Predicate vocabulary,
+“tôi mong mình,“tau trông mềng,1,False,MCQA,MCQA_0152_3,PNT3,Pronouns,[reclassified from Multi-word idiom -> Pronouns]

@@ -1,0 +1,34 @@
+task,category,n,pct_within_task
+MCQA,Connectives/Aspect markers,199,12.547288776796973
+MCQA,Demonstratives/Deixis,81,5.10718789407314
+MCQA,Discourse particles,16,1.008827238335435
+MCQA,Idiomatic expressions,20,1.2610340479192939
+MCQA,Interrogatives,385,24.274905422446405
+MCQA,Kinship/Honorific terms,146,9.205548549810844
+MCQA,Negation/Function words,194,12.23203026481715
+MCQA,Predicate vocabulary,429,27.049180327868854
+MCQA,Pronouns,116,7.313997477931904
+NLI,Connectives/Aspect markers,89,14.471544715447154
+NLI,Demonstratives/Deixis,73,11.869918699186991
+NLI,Idiomatic expressions,12,1.951219512195122
+NLI,Interrogatives,57,9.268292682926829
+NLI,Kinship/Honorific terms,20,3.252032520325203
+NLI,Negation/Function words,140,22.764227642276424
+NLI,Predicate vocabulary,140,22.764227642276424
+NLI,Pronouns,84,13.658536585365853
+QA,Connectives/Aspect markers,154,22.547584187408493
+QA,Demonstratives/Deixis,30,4.392386530014641
+QA,Interrogatives,296,43.33821376281113
+QA,Kinship/Honorific terms,5,0.7320644216691069
+QA,Negation/Function words,81,11.859443631039532
+QA,Predicate vocabulary,100,14.641288433382138
+QA,Pronouns,17,2.4890190336749636
+SENT,Connectives/Aspect markers,96,6.015037593984962
+SENT,Demonstratives/Deixis,305,19.11027568922306
+SENT,Discourse particles,69,4.323308270676692
+SENT,Idiomatic expressions,24,1.5037593984962405
+SENT,Interrogatives,210,13.157894736842104
+SENT,Kinship/Honorific terms,68,4.260651629072682
+SENT,Negation/Function words,206,12.907268170426065
+SENT,Predicate vocabulary,292,18.295739348370926
+SENT,Pronouns,326,20.426065162907268

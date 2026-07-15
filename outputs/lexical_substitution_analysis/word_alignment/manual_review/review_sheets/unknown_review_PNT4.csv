@@ -1,0 +1,265 @@
+﻿standard_span,dialect_span,n_occurrences,is_shared_across_dialects,tasks,sample_ids,dialect,CATEGORY,NOTES
+vào,vô,29,True,"MCQA, NLI, QA, SENT",MCQA_0016_0; MCQA_0047_2; MCQA_0091_0; MCQA_0091_1; MCQA_0095_1,PNT4,Connectives/Aspect markers,vào->vô preposition/aspect marker per dialect notes
+như thế nào,ra ren,22,False,"MCQA, QA, SENT",MCQA_0020_2; MCQA_0058_0; MCQA_0065_2; MCQA_0090_10; MCQA_0095_1,PNT4,Interrogatives,như thế nào->ra ren per dialect notes
+đến,tới,17,True,"MCQA, NLI, QA, SENT",MCQA_0037_4; MCQA_0055_0; MCQA_0065_2; MCQA_0087_0; MCQA_0092_2,PNT4,Predicate vocabulary,đến->tới motion verb per dialect notes
+các,mấy,10,True,"MCQA, NLI, QA",MCQA_0062_0; MCQA_0072_2; MCQA_0092_2; MCQA_0137_1; NLI_3951,PNT4,Predicate vocabulary,"plural classifier/quantifier substitution, content word"
+những,mấy,7,True,"MCQA, NLI, QA, SENT",MCQA_0002_4; MCQA_0072_2; MCQA_0137_1; MCQA_0141_2; NLI_6110,PNT4,Predicate vocabulary,"plural marker substitution, quantifier content word"
+chứ,chớ,7,True,SENT,SENT_0343; SENT_1146; SENT_3750; SENT_3910; SENT_4057,PNT4,Discourse particles,sentence-final/discourse particle chứ->chớ
+thật,thiệt,6,False,SENT,SENT_3750; SENT_4155; SENT_4733; SENT_4768; SENT_5315,PNT4,Predicate vocabulary,adverb/adjective thật->thiệt
+việc,chuyện,5,True,"MCQA, NLI, SENT",MCQA_0072_2; NLI_7858; SENT_2727; SENT_4959,PNT4,Predicate vocabulary,noun synonym việc->chuyện
+nhé,nghe,5,False,"MCQA, SENT",MCQA_0037_2; MCQA_0138_3; SENT_1192; SENT_2129; SENT_2473,PNT4,Discourse particles,nhé->nghe per dialect notes
+bạn nhỏ,thằng cu,5,False,MCQA,MCQA_0064_1,PNT4,Kinship/Honorific terms,address term for a small child
+và,với,4,True,"MCQA, NLI, QA",MCQA_0013_3; NLI_6110; QA_20004,PNT4,Connectives/Aspect markers,conjunction và->với
+rằng,là,4,True,NLI,NLI_1921; NLI_4746; NLI_4856; NLI_7469,PNT4,Connectives/Aspect markers,complementizer rằng->là
+vì,tại/do,4,False,MCQA,MCQA_0012_5,PNT4,Connectives/Aspect markers,causal conjunction vì->tại/do
+cậu,hắn,4,False,MCQA,MCQA_0120_3,PNT4,Pronouns,personal pronoun cậu->hắn
+cậu,thằng nớ,4,False,MCQA,MCQA_0077_0,PNT4,Pronouns,personal pronoun cậu->thằng nớ
+lão,già,4,False,MCQA,MCQA_0091_1,PNT4,Predicate vocabulary,noun synonym lão->già
+nhìn,ngó,3,True,"MCQA, SENT",MCQA_0114_6; MCQA_0123_0; SENT_2148,PNT4,Predicate vocabulary,verb synonym nhìn->ngó
+tại,ở,2,True,QA,QA_12824; QA_22620,PNT4,Connectives/Aspect markers,preposition tại->ở
+lạ,cục,2,False,MCQA,MCQA_0047_4,PNT4,Predicate vocabulary,adjective/intensifier lạ->cục
+quá,kinh,2,False,"MCQA, SENT",MCQA_0047_2; SENT_3023,PNT4,Discourse particles,quá->kinh intensifier per dialect notes
+một số,mấy,2,True,"NLI, QA",NLI_3048; QA_17926,PNT4,Predicate vocabulary,quantifier một số->mấy
+vờ,đò,2,True,MCQA,MCQA_0055_0; MCQA_0055_1,PNT4,Predicate vocabulary,verb vờ->đò (giả đò/pretend)
+từng,hồi mô,2,False,MCQA,MCQA_0074_5,PNT4,Interrogatives,"từng->hồi mô, mô interrogative marker"
+dùng,lấy,2,False,MCQA,MCQA_0041_5,PNT4,Predicate vocabulary,dùng->lấy content verb per category def
+vào,hồi,2,True,"NLI, QA",NLI_3108; QA_12824,PNT4,Connectives/Aspect markers,temporal marker vào->hồi
+xong,xan,2,False,MCQA,MCQA_0013_4,PNT4,Orthographic variant,xong->xan phonetic/spelling variant
+và các,với mấy,2,True,NLI,NLI_1921; NLI_5263,PNT4,Connectives/Aspect markers,"conjunction+quantifier combo, conjunction primary"
+nhỉ,hỉ,2,False,SENT,SENT_2816; SENT_4160,PNT4,Discourse particles,sentence-final particle nhỉ->hỉ
+thẹo,sẹo,2,True,SENT,SENT_1146,PNT4,Orthographic variant,thẹo->sẹo dialectal pronunciation/spelling of same word
+này vào,ni vô,2,True,SENT,SENT_2727; SENT_4519,PNT4,Demonstratives/Deixis,này->ni demonstrative primary
+như thế nào,răng,2,True,"MCQA, QA",MCQA_0116_5; QA_17995,PNT4,Interrogatives,như thế nào->răng per category def
+bóng,bong,2,False,MCQA,MCQA_0152_0,PNT4,Orthographic variant,bóng->bong spelling variant
+bọn,tụi,2,True,SENT,SENT_4989; SENT_5008,PNT4,Pronouns,plural pronoun/collective bọn->tụi
+chăm,giữ,2,False,MCQA,MCQA_0144_3,PNT4,Predicate vocabulary,verb synonym chăm->giữ
+sao cha,răng ba,1,False,MCQA,MCQA_0010_1,PNT4,Interrogatives,sao->răng interrogative primary
+tao ngày nào,ta ngà mô,1,False,SENT,SENT_0958,PNT4,Interrogatives,"ngày nào->ngà mô, mô interrogative primary"
+rơi vào,rớt vô,1,True,MCQA,MCQA_0058_0,PNT4,Predicate vocabulary,"verb phrase rơi vào->rớt vô, verb primary"
+thân,cơ,1,False,QA,QA_27033,PNT4,Predicate vocabulary,noun synonym thân->cơ
+tao vậy,ta rứa,1,False,SENT,SENT_1098,PNT4,Demonstratives/Deixis,vậy->rứa deictic primary
+tao tao,ta ta,1,False,SENT,SENT_5315,PNT4,Pronouns,pronoun repetition tao->ta
+rược,đuổi,1,True,SENT,SENT_2938,PNT4,Predicate vocabulary,verb synonym rược->đuổi (chase)
+rất nhiều,quá trời,1,False,MCQA,MCQA_0137_1,PNT4,Idiomatic expressions,rất nhiều->quá trời idiomatic intensifier phrase
+sợ hãi,hại,1,False,NLI,NLI_6110,PNT4,Noise/Non-linguistic,"hại appears to be truncation/typo of sợ hãi, not a genuine substitution"
+sử dụng,dùng,1,True,NLI,NLI_5366,PNT4,Predicate vocabulary,verb synonym sử dụng->dùng
+sờ,xì,1,False,SENT,SENT_0958,PNT4,Predicate vocabulary,verb sờ->xì regional variant
+sau,sa,1,False,SENT,SENT_0958,PNT4,Orthographic variant,sau->sa spelling/phonetic variant
+rộng toang toác,ngoác mồm,1,False,SENT,SENT_1338,PNT4,Idiomatic expressions,descriptive idiom rộng toang toác->ngoác mồm
+rớm,chớm,1,False,MCQA,MCQA_0123_6,PNT4,Predicate vocabulary,verb synonym rớm->chớm
+rời,bỏ,1,False,MCQA,MCQA_0123_6,PNT4,Predicate vocabulary,verb synonym rời->bỏ
+rời,đi,1,False,MCQA,MCQA_0030_1,PNT4,Predicate vocabulary,rời->đi per dialect notes
+sao ấy,ren á,1,False,SENT,SENT_4809,PNT4,Interrogatives,sao->ren interrogative primary
+sao này,sau ni,1,True,SENT,SENT_4160,PNT4,Demonstratives/Deixis,này->ni demonstrative primary
+sao bọn nó,ren tụi hắn,1,False,SENT,SENT_4745,PNT4,Interrogatives,sao->ren interrogative primary
+phục,phúc,1,True,NLI,NLI_0521,PNT4,Orthographic variant,phục->phúc spelling variant
+rơi,rớt,1,True,MCQA,MCQA_0095_1,PNT4,Predicate vocabulary,verb synonym rơi->rớt
+nũa,nữa,1,True,SENT,SENT_3273,PNT4,Orthographic variant,nũa->nữa typo/spelling variant
+những ngưới,mấy người,1,False,NLI,NLI_0959,PNT4,Predicate vocabulary,những->mấy quantifier substitution
+những việc đó,mấy chuyện nớ,1,False,NLI,NLI_6110,PNT4,Demonstratives/Deixis,đó->nớ demonstrative primary within phrase
+nào chúng ta,mô tụi mình,1,False,MCQA,MCQA_0002_4,PNT4,Interrogatives,nào->mô interrogative primary
+nào khác,mô nữa,1,False,MCQA,MCQA_0141_3,PNT4,Interrogatives,nào->mô interrogative primary
+nào vào,chi ở,1,False,QA,QA_22617,PNT4,Interrogatives,nào->chi interrogative primary
+này có vẻ ngoài,ni nhìn,1,False,NLI,NLI_5704,PNT4,Demonstratives/Deixis,này->ni demonstrative primary
+này như thế nào,ni ra ren,1,False,MCQA,MCQA_0041_5,PNT4,Interrogatives,per dialect notes: use Interrogatives when question is primary
+này sao,ni ren,1,False,SENT,SENT_4084,PNT4,Interrogatives,sao->ren interrogative primary
+này tao,ni ta,1,False,SENT,SENT_4737,PNT4,Demonstratives/Deixis,này->ni demonstrative primary
+ném,quăng,1,True,SENT,SENT_5315,PNT4,Predicate vocabulary,verb synonym ném->quăng
+nó có vị trí,hén nằm,1,False,QA,QA_8137,PNT4,Predicate vocabulary,"verb phrase rewording, predicate primary"
+nơi,chỗ,1,True,NLI,NLI_1921,PNT4,Predicate vocabulary,noun synonym nơi->chỗ
+quả này,cú ni,1,False,SENT,SENT_1093,PNT4,Demonstratives/Deixis,này->ni demonstrative primary
+nơi nào,chỗ mô,1,False,QA,QA_8086,PNT4,Interrogatives,nào->mô interrogative primary
+nấp mau,núp nhanh,1,False,MCQA,MCQA_0039_4,PNT4,Predicate vocabulary,nấp mau->núp nhanh per dialect notes
+nổi bật,trội,1,False,QA,QA_25984,PNT4,Predicate vocabulary,adjective synonym nổi bật->trội
+or,hay,1,False,SENT,SENT_0237,PNT4,Noise/Non-linguistic,"'or' is English text/OCR artifact mixed in, not standard Vietnamese"
+phòng,buồng,1,False,SENT,SENT_5441,PNT4,Predicate vocabulary,noun synonym phòng->buồng
+phóng,chích,1,False,SENT,SENT_4745,PNT4,Predicate vocabulary,verb synonym phóng->chích
+phần lớn,đa số,1,False,QA,QA_9223,PNT4,Predicate vocabulary,phrase synonym phần lớn->đa số
+phủ quyết,bác bỏ,1,False,QA,QA_4230,PNT4,Predicate vocabulary,verb synonym phủ quyết->bác bỏ
+quá,ghê,1,True,MCQA,MCQA_0016_0,PNT4,Discourse particles,quá->ghê intensifier particle
+quá vậy,ghê rứa,1,False,SENT,SENT_4084,PNT4,Discourse particles,"intensifier+deictic, intensifier primary"
+quả,trái,1,True,NLI,NLI_3171,PNT4,Predicate vocabulary,noun synonym quả->trái
+thích,ưng,1,False,SENT,SENT_4003,PNT4,Predicate vocabulary,verb synonym thích->ưng
+""" nghìn mét ""","""nghàn mét""",1,False,SENT,SENT_1222,PNT4,Orthographic variant,nghìn->nghàn spelling variant
+thật quá,thiệt,1,False,SENT,SENT_0534,PNT4,Predicate vocabulary,adverb thật quá->thiệt
+điều này,chuyện ni,1,False,QA,QA_18170,PNT4,Demonstratives/Deixis,này->ni demonstrative primary
+vương,giương,1,False,SENT,SENT_1410,PNT4,Orthographic variant,vương->giương spelling/phonetic variant
+vẫn,cũng,1,False,SENT,SENT_3060,PNT4,Connectives/Aspect markers,adverb/aspect marker vẫn->cũng
+vẫn,cứ,1,False,MCQA,MCQA_0138_5,PNT4,Connectives/Aspect markers,adverb/aspect marker vẫn->cứ
+vật lộn,chống chọi,1,False,MCQA,MCQA_0056_2,PNT4,Predicate vocabulary,verb synonym vật lộn->chống chọi
+vệ,lề,1,True,MCQA,MCQA_0138_5,PNT4,Predicate vocabulary,noun synonym vệ->lề (roadside)
+vội vàng,quíu quắn,1,False,MCQA,MCQA_0055_0,PNT4,Predicate vocabulary,adjective synonym vội vàng->quíu quắn
+xơi,ăn,1,True,SENT,SENT_1192,PNT4,Predicate vocabulary,verb synonym xơi->ăn
+xấc xược,hỗn hào bố,1,False,SENT,SENT_4861,PNT4,Predicate vocabulary,adjective phrase xấc xược->hỗn hào bố
+à tao,hả ta,1,False,SENT,SENT_3094,PNT4,Pronouns,tao->ta personal pronoun primary
+ông ấy như thế nào,ổng ren hết,1,False,NLI,NLI_0729,PNT4,Interrogatives,như thế nào->ren interrogative primary
+ôtô cá nhân,xe hơi riêng,1,False,NLI,NLI_3915,PNT4,Predicate vocabulary,noun phrase synonym ôtô cá nhân->xe hơi riêng
+ăn,en,1,False,MCQA,MCQA_0013_4,PNT4,Orthographic variant,ăn->en phonetic/spelling variant
+điều đó,chuyện nớ,1,False,NLI,NLI_6155,PNT4,Demonstratives/Deixis,đó->nớ demonstrative primary
+vì,tại,1,True,QA,QA_20004,PNT4,Connectives/Aspect markers,vì->tại per dialect notes
+đánh,ăn,1,False,MCQA,MCQA_0114_1,PNT4,Predicate vocabulary,verb synonym đánh->ăn (colloquial 'to beat/win')
+đó cha,nớ ba,1,False,SENT,SENT_3555,PNT4,Demonstratives/Deixis,đó->nớ demonstrative primary
+đỗ,đậu,1,True,SENT,SENT_3243,PNT4,Predicate vocabulary,verb synonym đỗ->đậu
+đỗ lùi,đậu xích,1,False,SENT,SENT_3243,PNT4,Predicate vocabulary,verb phrase đỗ lùi->đậu xích
+đột,tự,1,True,NLI,NLI_6129,PNT4,Orthographic variant,đột->tự (đột nhiên/tự nhiên) variant
+đức,bức,1,True,NLI,NLI_1077,PNT4,Orthographic variant,đức->bức spelling variant/typo
+ư,hả,1,True,SENT,SENT_2515,PNT4,Discourse particles,sentence-final particle ư->hả
+ạ thế,rứa,1,True,MCQA,MCQA_0025_10,PNT4,Demonstratives/Deixis,ạ thế->rứa per dialect notes
+ảnh,hình,1,False,NLI,NLI_2899,PNT4,Predicate vocabulary,noun synonym ảnh->hình
+ấy chứ,đó bớt,1,False,SENT,SENT_1655,PNT4,Demonstratives/Deixis,ấy->đó demonstrative primary
+ấy chứ,đó chớ,1,False,SENT,SENT_3023,PNT4,Demonstratives/Deixis,ấy->đó demonstrative primary
+ấy giờ,đó chừ,1,False,SENT,SENT_2308,PNT4,Demonstratives/Deixis,ấy giờ->đó chừ deictic time expression
+ví,bóp,1,True,NLI,NLI_1465,PNT4,Predicate vocabulary,noun synonym ví->bóp (wallet)
+vì,do,1,False,QA,QA_19877,PNT4,Connectives/Aspect markers,causal conjunction vì->do
+thật đấy,ghê lắm,1,False,SENT,SENT_1626,PNT4,Discourse particles,intensifier phrase thật đấy->ghê lắm
+tránh xa,né,1,False,SENT,SENT_1192,PNT4,Predicate vocabulary,verb synonym tránh xa->né
+thật đấy,kinh á,1,False,SENT,SENT_1093,PNT4,Discourse particles,intensifier phrase thật đấy->kinh á
+thằng,đứa,1,False,SENT,SENT_1192,PNT4,Predicate vocabulary,classifier/noun synonym thằng->đứa
+thế kia,rứa,1,True,SENT,SENT_3094,PNT4,Demonstratives/Deixis,thế kia->rứa deictic
+thục,thạo,1,True,NLI,NLI_0028,PNT4,Predicate vocabulary,adjective synonym thục->thạo
+thục mạng,chết mẹ,1,False,SENT,SENT_0696,PNT4,Idiomatic expressions,idiomatic intensifier phrase thục mạng->chết mẹ
+tin,nói,1,False,QA,QA_11490,PNT4,Predicate vocabulary,verb synonym tin->nói
+toét,lếu,1,False,SENT,SENT_5315,PNT4,Predicate vocabulary,adjective synonym toét->lếu
+những gì đã,mấy chuyện,1,False,NLI,NLI_7469,PNT4,Predicate vocabulary,những gì đã->mấy chuyện quantifier/noun substitution
+trong tương lai,sau ni,1,True,NLI,NLI_0959,PNT4,Demonstratives/Deixis,temporal deictic phrase trong tương lai->sau ni
+trrong gia,trong giai,1,True,QA,QA_10410,PNT4,Noise/Non-linguistic,trrong is a typo of trong; likely OCR/typing artifact
+truang,trung,1,True,QA,QA_23724,PNT4,Noise/Non-linguistic,truang appears to be typo of trung
+trái,ngược,1,False,QA,QA_27000,PNT4,Predicate vocabulary,adjective synonym trái->ngược
+trèo,leo,1,True,SENT,SENT_4745,PNT4,Predicate vocabulary,verb synonym trèo->leo
+vén,kéo,1,False,SENT,SENT_2507,PNT4,Predicate vocabulary,verb synonym vén->kéo
+trông,nhìn,1,False,SENT,SENT_3514,PNT4,Predicate vocabulary,verb synonym trông->nhìn
+trất,tốt nhứt,1,False,SENT,SENT_0018,PNT4,Predicate vocabulary,adjective phrase trất->tốt nhứt (nhất/best superlative)
+trịu,trụi,1,True,MCQA,MCQA_0002_4,PNT4,Orthographic variant,trịu->trụi spelling variant
+tính,định,1,True,SENT,SENT_1410,PNT4,Predicate vocabulary,verb synonym tính->định
+tỏ,ra,1,True,SENT,SENT_4861,PNT4,Predicate vocabulary,verb synonym tỏ->ra
+tới,xuống,1,False,SENT,SENT_1172,PNT4,Predicate vocabulary,verb synonym tới->xuống
+và,rồi,1,True,MCQA,MCQA_0091_0,PNT4,Connectives/Aspect markers,conjunction và->rồi
+và sự,với,1,False,QA,QA_8904,PNT4,Connectives/Aspect markers,conjunction và->với
+vào,ở,1,True,QA,QA_7436,PNT4,Connectives/Aspect markers,preposition vào->ở
+vào các,vô mấy,1,False,QA,QA_18828,PNT4,Connectives/Aspect markers,vào->vô aspect/preposition marker primary
+vâng,dạ,1,True,SENT,SENT_3169,PNT4,Discourse particles,affirmative particle vâng->dạ
+vâng,nghe,1,True,MCQA,MCQA_0056_2,PNT4,Discourse particles,affirmative/discourse particle vâng->nghe
+trong giai đoạn,hồi,1,False,NLI,NLI_4233,PNT4,Connectives/Aspect markers,temporal marker trong giai đoạn->hồi
+nhầm hôm nay,lầm bữa ni,1,False,SENT,SENT_4550,PNT4,Demonstratives/Deixis,hôm nay->bữa ni demonstrative/deixis primary
+nhờ,ngờ,1,True,MCQA,MCQA_0065_2,PNT4,Orthographic variant,nhờ->ngờ spelling/typo variant
+cả,nguyên,1,True,MCQA,MCQA_0020_2,PNT4,Negation/Function words,cả->nguyên quantifier per dialect notes
+cậu,thằng,1,True,MCQA,MCQA_0120_3,PNT4,Pronouns,personal pronoun cậu->thằng
+cặp,gắp,1,True,MCQA,MCQA_0041_5,PNT4,Predicate vocabulary,verb synonym cặp->gắp
+di chuyển,đi,1,False,NLI,NLI_3048,PNT4,Predicate vocabulary,verb synonym di chuyển->đi
+do,tại,1,True,NLI,NLI_5704,PNT4,Connectives/Aspect markers,causal conjunction do->tại
+du,ru,1,True,SENT,SENT_5441,PNT4,Orthographic variant,du->ru spelling/phonetic variant
+dàn,lần lần,1,False,QA,QA_24045,PNT4,Predicate vocabulary,adverb synonym dàn->lần lần
+dạy,bày,1,False,MCQA,MCQA_0064_1,PNT4,Predicate vocabulary,verb synonym dạy->bày
+dội,bật,1,False,SENT,SENT_1410,PNT4,Predicate vocabulary,verb synonym dội->bật
+dữ,hung,1,False,SENT,SENT_2148,PNT4,Predicate vocabulary,adjective synonym dữ->hung
+em,con,1,False,NLI,NLI_6280,PNT4,Kinship/Honorific terms,address term em->con
+ghi đông,tay lái,1,False,MCQA,MCQA_0127_3,PNT4,Predicate vocabulary,noun synonym ghi đông->tay lái
+giai đoạn,thời gian,1,False,QA,QA_1521,PNT4,Predicate vocabulary,noun synonym giai đoạn->thời gian
+giai đoạn này,đợt ni,1,False,NLI,NLI_3048,PNT4,Demonstratives/Deixis,này->ni demonstrative primary
+giúp,giùm,1,False,MCQA,MCQA_0092_2,PNT4,Predicate vocabulary,verb synonym giúp->giùm
+giúp,phụ,1,False,MCQA,MCQA_0092_2,PNT4,Predicate vocabulary,verb synonym giúp->phụ
+giúp mẹ một số công,phụ má mấy,1,False,MCQA,MCQA_0013_3,PNT4,Kinship/Honorific terms,mẹ->má kinship term primary
+giờ đây,bây chừ,1,False,SENT,SENT_2308,PNT4,Demonstratives/Deixis,giờ đây->bây chừ temporal deictic
+gàn dở,khùng,1,False,MCQA,MCQA_0030_3,PNT4,Predicate vocabulary,gàn dở->khùng per dialect notes
+gái cưới,nớ lấy,1,False,NLI,NLI_0716,PNT4,Predicate vocabulary,"verb phrase gái cưới->nớ lấy, predicate primary"
+gì cả,chi hết,1,False,MCQA,MCQA_0074_5,PNT4,Interrogatives,gì->chi interrogative primary
+gì cả,chi nguyên,1,False,MCQA,MCQA_0047_4,PNT4,Interrogatives,gì->chi interrogative primary
+gì dữ vậy,chi kinh rứa,1,False,SENT,SENT_4959,PNT4,Interrogatives,gì->chi interrogative primary
+gì nhưng mọi người đều,chi chớ ai cũng,1,False,NLI,NLI_4746,PNT4,Interrogatives,gì->chi interrogative primary
+gì vào lúc,chi hồi,1,False,MCQA,MCQA_0016_0,PNT4,Interrogatives,gì->chi interrogative primary
+gì vậy nhỉ,chi ri bây,1,False,SENT,SENT_0343,PNT4,Interrogatives,gì->chi interrogative primary
+gấu,ghệ,1,False,SENT,SENT_1192,PNT4,Predicate vocabulary,noun synonym slang gấu->ghệ (girlfriend)
+gắn,lắp,1,False,NLI,NLI_3951,PNT4,Predicate vocabulary,verb synonym gắn->lắp
+cậu,anh,1,False,MCQA,MCQA_0152_0,PNT4,Pronouns,personal pronoun cậu->anh
+cùng bọn,với tụi,1,False,SENT,SENT_0958,PNT4,Pronouns,bọn->tụi pronoun primary
+nhỉ,rứa,1,False,SENT,SENT_0572,PNT4,Discourse particles,sentence-final particle nhỉ->rứa
+cô ấy vỡ vụn,cổ nát bét,1,False,NLI,NLI_3171,PNT4,Pronouns,cô ấy->cổ personal pronoun primary
+bao giờ,hồi mô,1,False,MCQA,MCQA_0074_5,PNT4,Interrogatives,bao giờ->hồi mô interrogative time expression
+bao giờ bảo,hồi mô sai,1,False,MCQA,MCQA_0074_5,PNT4,Interrogatives,bao giờ->hồi mô interrogative primary
+bây,bi,1,False,SENT,SENT_0534,PNT4,Demonstratives/Deixis,bây->bi temporal deictic variant (bây giờ/bi giờ)
+bãi,bờ,1,False,MCQA,MCQA_0098_4,PNT4,Predicate vocabulary,noun synonym bãi->bờ
+bêu riếu,trêu chọc,1,False,NLI,NLI_0459,PNT4,Predicate vocabulary,verb synonym bêu riếu->trêu chọc
+bạn nhỉ mình,mi hỉ ta,1,False,SENT,SENT_4745,PNT4,Pronouns,mình->ta personal pronoun primary
+bất hạnh,khổ,1,False,SENT,SENT_1726,PNT4,Predicate vocabulary,adjective synonym bất hạnh->khổ
+bận,mắc,1,True,MCQA,MCQA_0152_0,PNT4,Predicate vocabulary,adjective synonym bận->mắc
+bỏ mẹ,thấy mồ,1,False,SENT,SENT_1222,PNT4,Idiomatic expressions,idiomatic intensifier phrase bỏ mẹ->thấy mồ
+bố bảo,ba nói,1,False,MCQA,MCQA_0010_3,PNT4,Kinship/Honorific terms,bố->ba kinship term primary
+bố mình,ba ta,1,False,SENT,SENT_4428,PNT4,Kinship/Honorific terms,bố->ba kinship term primary
+bố mẹ,ba má,1,True,SENT,SENT_0192,PNT4,Kinship/Honorific terms,bố mẹ->ba má kinship term
+bố quát,ba nộ,1,False,SENT,SENT_5441,PNT4,Kinship/Honorific terms,bố->ba kinship term primary
+bởi,tại,1,True,NLI,NLI_3201,PNT4,Connectives/Aspect markers,causal conjunction bởi->tại
+chay,chạy,1,True,SENT,SENT_1222,PNT4,Orthographic variant,chay->chạy spelling variant/typo
+chuẩn tao,đúng dậy ta,1,False,SENT,SENT_0958,PNT4,Pronouns,tao->ta personal pronoun primary
+chú,con,1,True,NLI,NLI_3269,PNT4,Kinship/Honorific terms,address term chú->con
+chúng nó không,đó hân,1,False,SENT,SENT_0696,PNT4,Noise/Non-linguistic,đó hân does not correspond compositionally; likely transcription noise
+chăm,lo,1,False,MCQA,MCQA_0144_0,PNT4,Predicate vocabulary,verb synonym chăm->lo
+chăn,mền,1,True,MCQA,MCQA_0048_5,PNT4,Predicate vocabulary,noun synonym chăn->mền
+chạy,qua,1,False,SENT,SENT_0696,PNT4,Predicate vocabulary,verb synonym chạy->qua
+chọn,lựa,1,True,MCQA,MCQA_0064_1,PNT4,Predicate vocabulary,verb synonym chọn->lựa
+các chau,mấy cháu,1,False,SENT,SENT_3273,PNT4,Predicate vocabulary,các->mấy quantifier substitution
+các chế,tụi bây,1,False,SENT,SENT_3249,PNT4,Pronouns,personal pronoun các chế->tụi bây
+các vùng,mấy khu,1,False,QA,QA_22617,PNT4,Predicate vocabulary,các->mấy quantifier substitution
+có kích thước rất to,bự quá chừng,1,False,NLI,NLI_1921,PNT4,Predicate vocabulary,adjective phrase to->bự predicate primary
+cô tại,cổ ở,1,False,NLI,NLI_5263,PNT4,Pronouns,cô->cổ personal pronoun primary
+hiệu,hàng,1,False,MCQA,MCQA_0152_0,PNT4,Predicate vocabulary,noun synonym hiệu->hàng
+hoài,miết,1,False,SENT,SENT_3906,PNT4,Predicate vocabulary,adverb synonym hoài->miết
+hoạng,hoảng,1,True,SENT,SENT_3814,PNT4,Orthographic variant,hoạng->hoảng spelling variant/typo
+hoặc làm,hay lồm,1,False,SENT,SENT_0958,PNT4,Predicate vocabulary,làm->lồm predicate primary (phonetic variant of mần/làm)
+mãi,hoài,1,True,MCQA,MCQA_0095_1,PNT4,Predicate vocabulary,adverb synonym mãi->hoài
+mãi đến,hoài tới,1,True,MCQA,MCQA_0095_1,PNT4,Predicate vocabulary,đến->tới motion verb primary
+mất,quá,1,False,SENT,SENT_5421,PNT4,Discourse particles,intensifier mất->quá
+mẩu,miếng,1,True,MCQA,MCQA_0047_4,PNT4,Predicate vocabulary,noun synonym mẩu->miếng
+mẫu,miếng,1,True,MCQA,MCQA_0047_4,PNT4,Predicate vocabulary,noun synonym mẫu->miếng
+mặc,lơ,1,False,MCQA,MCQA_0055_0,PNT4,Predicate vocabulary,verb synonym mặc->lơ (ignore)
+mẹ bật,má mở,1,True,MCQA,MCQA_0048_2,PNT4,Kinship/Honorific terms,mẹ->má kinship term primary
+mẹ và,má với,1,False,MCQA,MCQA_0090_10,PNT4,Kinship/Honorific terms,mẹ->má kinship term primary
+mọi,mụa,1,False,NLI,NLI_0647,PNT4,Orthographic variant,mọi->mụa spelling/phonetic variant
+mồm,mỏ,1,False,SENT,SENT_4494,PNT4,Predicate vocabulary,noun synonym mồm->mỏ
+một thời gian,mấy bữa,1,False,SENT,SENT_0958,PNT4,Predicate vocabulary,quantifier+noun phrase một thời gian->mấy bữa
+mới tháng,thắng,1,False,NLI,NLI_7681,PNT4,Noise/Non-linguistic,thắng appears to be a typo/truncation of tháng
+nay tao,ni ta,1,False,SENT,SENT_5421,PNT4,Demonstratives/Deixis,nay->ni demonstrative primary
+ngay,liền,1,False,SENT,SENT_1161,PNT4,Predicate vocabulary,adverb synonym ngay->liền
+người,thằng,1,True,SENT,SENT_5008,PNT4,Predicate vocabulary,noun/classifier synonym người->thằng
+người,đứa,1,True,NLI,NLI_6350,PNT4,Predicate vocabulary,noun/classifier synonym người->đứa
+ngạc nhiên,bất ngờ,1,False,MCQA,MCQA_0074_5,PNT4,Predicate vocabulary,adjective synonym ngạc nhiên->bất ngờ
+nhá,nghe,1,False,SENT,SENT_3814,PNT4,Discourse particles,sentence-final particle nhá->nghe
+nhé nhỉ thế,nghe như rứa,1,False,SENT,SENT_0534,PNT4,Discourse particles,sentence-final particle cluster nhé/nhỉ->nghe/rứa
+như thế nào,kiểu ren,1,False,QA,QA_19250,PNT4,Interrogatives,như thế nào->kiểu ren interrogative primary
+như thế nào nhỉ,ren hè,1,False,SENT,SENT_2217,PNT4,Interrogatives,như thế nào->ren interrogative primary
+như thế nào đến,ra ren tới,1,False,QA,QA_12099,PNT4,Interrogatives,như thế nào->ra ren interrogative primary
+1,một,1,True,NLI,NLI_6323,PNT4,Out-of-scope,"numeral substitution, out-of-scope per category def"
+nhắc,nói,1,False,NLI,NLI_3107,PNT4,Predicate vocabulary,verb synonym nhắc->nói
+nhằm,để,1,True,MCQA,MCQA_0137_1,PNT4,Connectives/Aspect markers,purpose conjunction nhằm->để
+nhặt xem,lượm coi,1,True,SENT,SENT_5315,PNT4,Predicate vocabulary,verb phrase synonym nhặt xem->lượm coi
+nhỉ,dậy,1,False,SENT,SENT_1172,PNT4,Discourse particles,sentence-final particle nhỉ->dậy
+mang,đem,1,False,MCQA,MCQA_0152_0,PNT4,Predicate vocabulary,verb synonym mang->đem
+lớn,to,1,False,MCQA,MCQA_0020_2,PNT4,Predicate vocabulary,lớn->to per dialect notes
+lắm,gớm,1,False,SENT,SENT_3060,PNT4,Discourse particles,intensifier particle lắm->gớm
+khi đó,hồi nớ,1,False,QA,QA_20004,PNT4,Demonstratives/Deixis,đó->nớ demonstrative primary
+hoặc sang,hay qua,1,False,NLI,NLI_3048,PNT4,Predicate vocabulary,verb synonym sang->qua predicate primary
+hà,rứa,1,False,SENT,SENT_2148,PNT4,Discourse particles,sentence-final particle hà->rứa
+hàng,hằng,1,False,MCQA,MCQA_0092_2,PNT4,Orthographic variant,hàng->hằng spelling/typo variant
+háo,hóa,1,True,QA,QA_23724,PNT4,Orthographic variant,háo->hóa spelling variant
+hóa,hoá,1,True,NLI,NLI_0337,PNT4,Orthographic variant,hóa->hoá spelling variant (tone mark placement)
+hôm,bữa,1,True,NLI,NLI_0830,PNT4,Demonstratives/Deixis,hôm->bữa temporal deictic noun
+hôm nay,bữa ni,1,True,MCQA,MCQA_0047_2,PNT4,Demonstratives/Deixis,hôm nay->bữa ni per dialect notes
+hôm nó,bữa hén,1,False,SENT,SENT_0895,PNT4,Demonstratives/Deixis,hôm->bữa temporal deictic primary
+hạ,hè,1,False,MCQA,MCQA_0002_4,PNT4,Predicate vocabulary,noun synonym hạ->hè (summer)
+hối hả,quíu,1,False,MCQA,MCQA_0090_10,PNT4,Predicate vocabulary,adjective synonym hối hả->quíu
+hốt,sợ,1,False,MCQA,MCQA_0055_1,PNT4,Predicate vocabulary,verb synonym hốt->sợ
+khi nào,lúc mô,1,False,MCQA,MCQA_0069_5,PNT4,Interrogatives,khi nào->lúc mô interrogative primary
+khá,rất,1,False,NLI,NLI_2313,PNT4,Predicate vocabulary,adverb synonym khá->rất
+lầm lì,hầm hầm,1,False,SENT,SENT_5441,PNT4,Predicate vocabulary,adjective synonym lầm lì->hầm hầm
+không may,lỡ,1,False,SENT,SENT_2217,PNT4,Predicate vocabulary,adverb synonym không may->lỡ
+không thành công,hông được,1,False,NLI,NLI_5263,PNT4,Negation/Function words,negation particle không->hông primary
+khẳng,khẻng,1,False,NLI,NLI_0647,PNT4,Orthographic variant,khẳng->khẻng spelling/typo variant
+kiểu như thế nào,rứa rồi,1,False,SENT,SENT_2129,PNT4,Interrogatives,"như thế nào->rứa rồi, interrogative context primary"
+luyện,liệng,1,True,MCQA,MCQA_0004_3,PNT4,Orthographic variant,luyện->liệng spelling/phonetic variant
+làm gì,mần cấy chi,1,False,MCQA,MCQA_0100_2,PNT4,Predicate vocabulary,làm->mần predicate verb primary
+làm gì,mắc chi,1,False,SENT,SENT_0814,PNT4,Predicate vocabulary,"làm gì->mắc chi predicate/interrogative combo, predicate verb primary"
+lão vào,già vô,1,False,MCQA,MCQA_0091_1,PNT4,Predicate vocabulary,lão->già noun synonym primary
+lúc,hồi,1,True,SENT,SENT_5360,PNT4,Connectives/Aspect markers,temporal marker lúc->hồi
+lúc đó,hồi nớ,1,False,NLI,NLI_0515,PNT4,Demonstratives/Deixis,đó->nớ demonstrative primary
+lý,lí,1,False,NLI,NLI_0516,PNT4,Orthographic variant,lý->lí spelling variant
+lũ,bọn,1,True,SENT,SENT_3514,PNT4,Pronouns,collective pronoun lũ->bọn
+ủi ui,trời ơi,1,False,SENT,SENT_3670,PNT4,Idiomatic expressions,exclamatory idiom ủi ui->trời ơi

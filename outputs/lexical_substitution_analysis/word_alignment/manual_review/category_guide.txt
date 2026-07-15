@@ -1,0 +1,68 @@
+
+LEXICAL CATEGORY GUIDE FOR UNKNOWN TERM REVIEW
+================================================
+
+Assign exactly ONE category from the list below to each (standard → dialect) pair.
+If the pair fits none cleanly, use the closest match and add a note in the NOTES column.
+
+CATEGORIES
+----------
+1. Interrogatives
+   Question words and phrases.
+   Examples: gì→chi, thế nào→răng, nào→mô, sao→răng, bao giờ→bây chừ mô
+
+2. Pronouns
+   Personal pronouns, reflexive, inclusive/exclusive we, etc.
+   Examples: tôi→tau, mình→tau, chúng tôi→tụi tui, cô ấy→cổ, họ→tụi hắn
+
+3. Demonstratives/Deixis
+   This/that/here/there/now/then demonstratives and spatial deictics.
+   Examples: này→ni, đây→đây ni, kia→nớ, đó→nớ, bây giờ→chừ, hôm nay→bữa ni
+
+4. Negation/Function words
+   Negation particles, modal particles, function words.
+   Examples: không→nỏ, không→hông, chưa→chửa, cũng→cung
+
+5. Connectives/Aspect markers
+   Conjunctions, aspect/tense markers, clause linkers.
+   Examples: đã→đạ, rồi→rùi, và→với, vì→tại, nhưng→mà
+
+6. Predicate vocabulary
+   Content verbs, adjectives, adverbs — core lexical replacements.
+   Examples: làm→mần, thấy→chộ, về→viền, nói→kêu, sợ→ngại
+
+7. Kinship/Honorific terms
+   Family relationship terms, address terms, honorifics.
+   Examples: bố→ba, mẹ→má, ông→bọ, bà→mệ, anh→eng, chị→ả
+
+8. Discourse particles
+   Sentence-final or filler particles.
+   Examples: nhỉ→hè, nhé→nghe, à→hả, thôi→rứa thôi
+
+9. Idiomatic expressions
+   Multi-word phrases with non-compositional meaning.
+   Examples: van xin→năn nỉ, hão huyền→viển vông, siêng năng→chăm chỉ
+
+10. Noise/Non-linguistic
+    Typos, OCR artifacts, punctuation changes, numbers only.
+    Use when the "substitution" is not meaningful.
+
+11. Orthographic variant
+    Same word, different spelling or tonal mark only.
+    Examples: nũa→nữa, thẹo→sẹo (same meaning, same word, different orthography)
+
+12. Multi-word idiom
+    Full phrase replaced by full phrase, hard to assign a single category.
+    Use sparingly — try a more specific category first.
+
+13. Out-of-scope
+    Proper nouns, numbers, entities — not a dialect substitution.
+
+REVIEW INSTRUCTIONS
+-------------------
+- Fill in the CATEGORY column with exactly one category name from the list above.
+- Fill in NOTES if you are uncertain or the pair is ambiguous.
+- If a pair is the same word with only tonal/spelling change → Orthographic variant.
+- If it is a multi-word phrase where one word is dialectal → use that word's category.
+- Leave CATEGORY blank only if you genuinely cannot determine it.
+- Do NOT modify any other columns.

@@ -1,0 +1,1711 @@
+target_dialect,opcode,standard_span,dialect_span,n_occurrences,n_distinct_samples,tasks,example_sample_ids,category
+PNB,replace,tại,ở,4,4,QA,QA_14184; QA_22620; QA_4887; QA_8137,Connectives/Aspect markers
+PNB,replace,bạn,cô,3,1,MCQA,MCQA_0056_1,Pronouns
+PNB,replace,miền,vùng,3,1,MCQA,MCQA_0062_2,Predicate vocabulary
+PNB,replace,mẩu,mảnh,3,2,MCQA,MCQA_0047_2; MCQA_0047_4,Predicate vocabulary
+PNB,replace,z,vậy,3,1,SENT,SENT_3427,Noise/Non-linguistic
+PNB,replace,dí,đuổi,2,1,SENT,SENT_5407,Predicate vocabulary
+PNB,replace,heo,lợn,2,1,SENT,SENT_4035,Predicate vocabulary
+PNB,replace,nữa,nửa,2,2,QA,QA_19280; QA_3410,Orthographic variant
+PNB,replace,ta,mình,2,2,MCQA; SENT,MCQA_0042_2; SENT_3555,Pronouns
+PNB,replace,thẹo,sẹo,2,1,SENT,SENT_1146,Predicate vocabulary
+PNB,replace,trải,rải,2,1,QA,QA_14728,Predicate vocabulary
+PNB,replace,tới,đến,2,1,SENT,SENT_1161,Connectives/Aspect markers
+PNB,replace,""" nghìn mét ""","""nghìn mét""",1,1,SENT,SENT_1222,Predicate vocabulary
+PNB,replace,""" tại","""tại",1,1,SENT,SENT_3555,Connectives/Aspect markers
+PNB,replace,1,một,1,1,SENT,SENT_4964,Noise/Non-linguistic
+PNB,replace,all,tất cả,1,1,SENT,SENT_3763,Predicate vocabulary
+PNB,replace,anh ấy,mình,1,1,NLI,NLI_5368,Pronouns
+PNB,replace,bả,bã,1,1,MCQA,MCQA_0065_2,Pronouns
+PNB,replace,bịn rịn,lưu luyến,1,1,MCQA,MCQA_0081_3,Predicate vocabulary
+PNB,replace,bổg m,bổng mày,1,1,SENT,SENT_3520,Predicate vocabulary
+PNB,replace,bởi,từ,1,1,QA,QA_0572,Connectives/Aspect markers
+PNB,replace,bứt,đứt,1,1,MCQA,MCQA_0095_1,Predicate vocabulary
+PNB,replace,chau,cháu,1,1,SENT,SENT_3273,Predicate vocabulary
+PNB,replace,chay,chạy,1,1,SENT,SENT_1222,Predicate vocabulary
+PNB,replace,chetme,chết khiếp,1,1,SENT,SENT_5456,Noise/Non-linguistic
+PNB,replace,chiện,chuyện,1,1,SENT,SENT_4428,Predicate vocabulary
+PNB,replace,cho cắm,chó cắn,1,1,SENT,SENT_3273,Connectives/Aspect markers
+PNB,replace,chôm,trộm,1,1,SENT,SENT_1485,Predicate vocabulary
+PNB,replace,chúng,bọn,1,1,NLI,NLI_4266,Pronouns
+PNB,replace,chạy,phóng,1,1,SENT,SENT_5456,Predicate vocabulary
+PNB,replace,chết,mất,1,1,MCQA,MCQA_0062_2,Predicate vocabulary
+PNB,replace,chớ,chứ,1,1,SENT,SENT_5315,Orthographic variant
+PNB,replace,chừ,giờ,1,1,SENT,SENT_0018,Orthographic variant
+PNB,replace,con mẹ,mụ,1,1,SENT,SENT_5315,Kinship/Honorific terms
+PNB,replace,câu hỏi,thắc mắc,1,1,NLI,NLI_6637,Predicate vocabulary
+PNB,replace,có,còn,1,1,SENT,SENT_1093,Predicate vocabulary
+PNB,replace,cảnh sát,công an,1,1,SENT,SENT_5456,Predicate vocabulary
+PNB,replace,cặp,gắp,1,1,MCQA,MCQA_0041_5,Predicate vocabulary
+PNB,replace,cứ phải,toàn như,1,1,SENT,SENT_0814,Demonstratives/Deixis
+PNB,replace,do,vì,1,1,NLI,NLI_3269,Noise/Non-linguistic
+PNB,replace,dàn,dần,1,1,QA,QA_24045,Orthographic variant
+PNB,replace,dã man,khinh khủng,1,1,SENT,SENT_0534,Noise/Non-linguistic
+PNB,replace,dạt,trôi,1,1,MCQA,MCQA_0095_1,Predicate vocabulary
+PNB,replace,dịu cơn,đỡ,1,1,MCQA,MCQA_0016_0,Predicate vocabulary
+PNB,replace,dữ vậy,kinh thế,1,1,SENT,SENT_4959,Noise/Non-linguistic
+PNB,replace,gàn dở,ngớ ngẩn,1,1,MCQA,MCQA_0030_3,Predicate vocabulary
+PNB,replace,góp,tặng,1,1,MCQA,MCQA_0092_2,Predicate vocabulary
+PNB,replace,gấu,người yêu,1,1,SENT,SENT_1894,Predicate vocabulary
+PNB,replace,halo,hãm,1,1,SENT,SENT_1726,Predicate vocabulary
+PNB,replace,hay,tốt,1,1,SENT,SENT_4035,Predicate vocabulary
+PNB,replace,hiểu,biết được,1,1,QA,QA_1224,Predicate vocabulary
+PNB,replace,hoạng,hoảng,1,1,SENT,SENT_3814,Predicate vocabulary
+PNB,replace,hám,ham,1,1,SENT,SENT_3520,Predicate vocabulary
+PNB,replace,háo,hóa,1,1,QA,QA_23724,Predicate vocabulary
+PNB,replace,hão huyền,viển vông,1,1,MCQA,MCQA_0043_3,Predicate vocabulary
+PNB,replace,hên xui,may rủi,1,1,SENT,SENT_4035,Predicate vocabulary
+PNB,replace,hút,húc,1,1,SENT,SENT_1222,Predicate vocabulary
+PNB,replace,hư,rách,1,1,MCQA,MCQA_0095_1,Predicate vocabulary
+PNB,replace,hả,à,1,1,SENT,SENT_5008,Discourse particles
+PNB,replace,hết,nữa,1,1,SENT,SENT_1726,Demonstratives/Deixis
+PNB,replace,hối hả,vội vã,1,1,MCQA,MCQA_0090_10,Discourse particles
+PNB,replace,inh,minh,1,1,MCQA,MCQA_0056_2,Predicate vocabulary
+PNB,replace,khi,1h,1,1,NLI,NLI_3739,Noise/Non-linguistic
+PNB,replace,khoá,khóa,1,1,SENT,SENT_5315,Noise/Non-linguistic
+PNB,replace,khóm,bụi,1,1,MCQA,MCQA_0098_4,Noise/Non-linguistic
+PNB,replace,không được,chịu,1,1,SENT,SENT_1146,Noise/Non-linguistic
+PNB,replace,kiếm,tìm,1,1,SENT,SENT_4959,Noise/Non-linguistic
+PNB,replace,kêu,bảo,1,1,SENT,SENT_1146,Noise/Non-linguistic
+PNB,replace,kì,kỳ,1,1,NLI,NLI_4856,Noise/Non-linguistic
+PNB,replace,kìm kẹp,khống chế,1,1,MCQA,MCQA_0062_0,Noise/Non-linguistic
+PNB,replace,la hoài,chửi mãi,1,1,SENT,SENT_3906,Predicate vocabulary
+PNB,replace,liền,ngay,1,1,SENT,SENT_1146,Connectives/Aspect markers
+PNB,replace,lui,quay,1,1,MCQA,MCQA_0069_5,Predicate vocabulary
+PNB,replace,luyện,liệng,1,1,MCQA,MCQA_0004_3,Orthographic variant
+PNB,replace,ly,cốc,1,1,SENT,SENT_5251,Noise/Non-linguistic
+PNB,replace,là,rằng,1,1,NLI,NLI_7681,Predicate vocabulary
+PNB,replace,lên,đến,1,1,QA,QA_8904,Predicate vocabulary
+PNB,replace,lí,lý,1,1,NLI,NLI_2615,Predicate vocabulary
+PNB,replace,lại,cản,1,1,NLI,NLI_4654,Connectives/Aspect markers
+PNB,replace,mát,lát,1,1,MCQA,MCQA_0138_3,Predicate vocabulary
+PNB,replace,móa thiệt chứ tụi,mé thật sự bọn,1,1,SENT,SENT_0343,Pronouns
+PNB,replace,mẫu,mảnh,1,1,MCQA,MCQA_0047_4,Predicate vocabulary
+PNB,replace,mắc ói,buồn nôn,1,1,SENT,SENT_1579,Predicate vocabulary
+PNB,replace,mặc,lại,1,1,MCQA,MCQA_0055_0,Predicate vocabulary
+PNB,replace,mặt,mặc,1,1,MCQA,MCQA_0081_4,Predicate vocabulary
+PNB,replace,mọc,lên,1,1,MCQA,MCQA_0069_5,Predicate vocabulary
+PNB,replace,mọi,tất cả,1,1,NLI,NLI_5735,Demonstratives/Deixis
+PNB,replace,mỏi,nhọc,1,1,NLI,NLI_4266,Predicate vocabulary
+PNB,replace,mổ,một,1,1,SENT,SENT_4959,Predicate vocabulary
+PNB,replace,nghề nghiệp,manh áo của,1,1,SENT,SENT_4003,Predicate vocabulary
+PNB,replace,ngoại,vãi,1,1,MCQA,MCQA_0064_1,Kinship/Honorific terms
+PNB,replace,ngưng,ngừng,1,1,MCQA,MCQA_0004_3,Predicate vocabulary
+PNB,replace,ngưới,người,1,1,NLI,NLI_0959,Predicate vocabulary
+PNB,replace,ngườ,người,1,1,NLI,NLI_4856,Predicate vocabulary
+PNB,replace,người,quân,1,1,QA,QA_11800,Predicate vocabulary
+PNB,replace,người,vị,1,1,MCQA,MCQA_0116_5,Predicate vocabulary
+PNB,replace,nhâu,nhau,1,1,SENT,SENT_3249,Predicate vocabulary
+PNB,replace,nhờ,ngờ,1,1,MCQA,MCQA_0065_2,Predicate vocabulary
+PNB,replace,nói rằng,bảo là,1,1,NLI,NLI_4746,Predicate vocabulary
+PNB,replace,nóng,sốt,1,1,NLI,NLI_2198,Predicate vocabulary
+PNB,replace,nũa,nữa,1,1,SENT,SENT_3273,Orthographic variant
+PNB,replace,nặn,nạn,1,1,SENT,SENT_4964,Predicate vocabulary
+PNB,replace,phì,béo,1,1,SENT,SENT_5251,Predicate vocabulary
+PNB,replace,phúc đáp,phản hồi,1,1,MCQA,MCQA_0065_5,Connectives/Aspect markers
+PNB,replace,phục,phúc,1,1,NLI,NLI_0521,Orthographic variant
+PNB,replace,quân,quay,1,1,QA,QA_11800,Predicate vocabulary
+PNB,replace,quơ,thì vơ,1,1,SENT,SENT_3249,Predicate vocabulary
+PNB,replace,quơ,vơ,1,1,SENT,SENT_3249,Predicate vocabulary
+PNB,replace,quốc-cộng,quốc - cộng,1,1,QA,QA_19358,Predicate vocabulary
+PNB,replace,ra,đi,1,1,SENT,SENT_4964,Noise/Non-linguistic
+PNB,replace,réo rắt,véo von,1,1,MCQA,MCQA_0060_1,Predicate vocabulary
+PNB,replace,rược,đuổi theo,1,1,SENT,SENT_2938,Predicate vocabulary
+PNB,replace,rễ,rể,1,1,NLI,NLI_1639,Predicate vocabulary
+PNB,replace,rứa,thế,1,1,SENT,SENT_0572,Orthographic variant
+PNB,replace,sau,từ,1,1,NLI,NLI_2354,Connectives/Aspect markers
+PNB,replace,siêng năng,chăm chỉ,1,1,MCQA,MCQA_0041_7,Predicate vocabulary
+PNB,replace,soán,soát,1,1,NLI,NLI_4572,Predicate vocabulary
+PNB,replace,sầm sì,âm u,1,1,MCQA,MCQA_0069_1,Predicate vocabulary
+PNB,replace,sự,tính,1,1,NLI,NLI_5143,Predicate vocabulary
+PNB,replace,"ta ""","mình""",1,1,SENT,SENT_3555,Pronouns
+PNB,replace,thi,thu,1,1,SENT,SENT_1894,Predicate vocabulary
+PNB,replace,thành công,được,1,1,NLI,NLI_5263,Predicate vocabulary
+PNB,replace,tháng,thắng,1,1,NLI,NLI_7681,Orthographic variant
+PNB,replace,thân,nạn,1,1,MCQA,MCQA_0055_1,Predicate vocabulary
+PNB,replace,thấy mẹ hà,thế không biết,1,1,SENT,SENT_2148,Kinship/Honorific terms
+PNB,replace,thắng,thắn,1,1,NLI,NLI_2313,Predicate vocabulary
+PNB,replace,thằg,thằng,1,1,SENT,SENT_3520,Pronouns
+PNB,replace,thời,tuổi,1,1,MCQA,MCQA_0020_1,Predicate vocabulary
+PNB,replace,thời điểm,lúc,1,1,MCQA,MCQA_0013_4,Connectives/Aspect markers
+PNB,replace,thục,thạo,1,1,NLI,NLI_0028,Predicate vocabulary
+PNB,replace,thủ,thử,1,1,QA,QA_23452,Predicate vocabulary
+PNB,replace,tin chuẩn,chính xác,1,1,NLI,NLI_0647,Predicate vocabulary
+PNB,replace,trrong,trong,1,1,QA,QA_10410,Predicate vocabulary
+PNB,replace,truang,trung,1,1,QA,QA_23724,Predicate vocabulary
+PNB,replace,trách,cười,1,1,MCQA,MCQA_0041_5,Predicate vocabulary
+PNB,replace,trả,mượn,1,1,NLI,NLI_4801,Predicate vocabulary
+PNB,replace,trả lời,giải đáp,1,1,NLI,NLI_6637,Predicate vocabulary
+PNB,replace,trịu,trụi,1,1,MCQA,MCQA_0002_4,Orthographic variant
+PNB,replace,trở thành,là,1,1,QA,QA_26558,Connectives/Aspect markers
+PNB,replace,tuyết,tuyệt,1,1,NLI,NLI_0337,Orthographic variant
+PNB,replace,tác động,ảnh hưởng,1,1,QA,QA_0572,Predicate vocabulary
+PNB,replace,tính thân,tinh thần,1,1,NLI,NLI_5368,Predicate vocabulary
+PNB,replace,tý vào,tí,1,1,SENT,SENT_4733,Connectives/Aspect markers
+PNB,replace,tại,rằng ở,1,1,QA,QA_1203,Connectives/Aspect markers
+PNB,replace,tấm,chiếc,1,1,MCQA,MCQA_0092_2,Predicate vocabulary
+PNB,replace,tốt khi,nhanh trí kêu,1,1,NLI,NLI_0515,Connectives/Aspect markers
+PNB,replace,vi,xâm,1,1,QA,QA_17769,Noise/Non-linguistic
+PNB,replace,vid,video,1,1,SENT,SENT_1626,Predicate vocabulary
+PNB,replace,vâng,nghe,1,1,MCQA,MCQA_0056_2,Discourse particles
+PNB,replace,vì,tại,1,1,NLI,NLI_2198,Connectives/Aspect markers
+PNB,replace,vô,vào,1,1,SENT,SENT_3427,Connectives/Aspect markers
+PNB,replace,vùng,nơi,1,1,MCQA,MCQA_0060_2,Predicate vocabulary
+PNB,replace,vương,vươn,1,1,SENT,SENT_1222,Predicate vocabulary
+PNB,replace,vương nỏ,giương ná,1,1,SENT,SENT_1410,Predicate vocabulary
+PNB,replace,vẫn,vần,1,1,MCQA,MCQA_0072_2,Orthographic variant
+PNB,replace,vị,vi,1,1,QA,QA_3410,Noise/Non-linguistic
+PNB,replace,vốn,trình độ,1,1,SENT,SENT_0070,Predicate vocabulary
+PNB,replace,với,bằng,1,1,QA,QA_6664,Predicate vocabulary
+PNB,replace,với thằg,thằng,1,1,SENT,SENT_3520,Pronouns
+PNB,replace,xem,coi,1,1,QA,QA_14257,Predicate vocabulary
+PNB,replace,xuể,hết,1,1,MCQA,MCQA_0010_1,Predicate vocabulary
+PNB,replace,xvii-xx thì,xvii - xx,1,1,QA,QA_7442,Predicate vocabulary
+PNB,replace,xơi,ăn,1,1,SENT,SENT_1192,Predicate vocabulary
+PNB,replace,xưa,kìa,1,1,MCQA,MCQA_0051_0,Noise/Non-linguistic
+PNB,replace,đame,dame,1,1,SENT,SENT_1410,Predicate vocabulary
+PNB,replace,đem,mang,1,1,SENT,SENT_2727,Predicate vocabulary
+PNB,replace,đàn,các,1,1,MCQA,MCQA_0081_4,Predicate vocabulary
+PNB,replace,đám,mảnh,1,1,MCQA,MCQA_0043_3,Predicate vocabulary
+PNB,replace,đã,từng,1,1,QA,QA_6664,Connectives/Aspect markers
+PNB,replace,đó kkkk,đấy,1,1,SENT,SENT_3249,Demonstratives/Deixis
+PNB,replace,đúi,đuối,1,1,SENT,SENT_3910,Predicate vocabulary
+PNB,replace,đưa,làm cho,1,1,QA,QA_18786,Predicate vocabulary
+PNB,replace,để,được,1,1,MCQA,MCQA_0120_3,Connectives/Aspect markers
+PNB,replace,đển,đến,1,1,NLI,NLI_3107,Predicate vocabulary
+PNB,replace,đối với,trước,1,1,QA,QA_11800,Predicate vocabulary
+PNB,replace,đức,bức,1,1,NLI,NLI_1077,Orthographic variant
+PNB,replace,ỉ,ỷ,1,1,SENT,SENT_5315,Predicate vocabulary
+PNB,replace,ổ,chuồng,1,1,MCQA,MCQA_0058_0,Predicate vocabulary
+PNN,replace,các,mấy,31,26,MCQA; NLI; QA; SENT,MCQA_0018_6; MCQA_0039_4; MCQA_0062_0; MCQA_0062_2; MCQA_0065_5,Demonstratives/Deixis
+PNN,replace,như thế nào,ra sao,30,30,MCQA; QA; SENT,MCQA_0042_7; MCQA_0081_3; MCQA_0095_1; MCQA_0116_5; MCQA_0126_2,Interrogatives
+PNN,replace,và,với,29,25,MCQA; NLI; QA; SENT,MCQA_0013_3; MCQA_0056_2; MCQA_0064_1; MCQA_0095_1; MCQA_0098_4,Connectives/Aspect markers
+PNN,replace,vào,vô,27,26,MCQA; NLI; QA; SENT,MCQA_0016_0; MCQA_0047_2; MCQA_0123_0; MCQA_0142_1; NLI_0647,Connectives/Aspect markers
+PNN,replace,khi,lúc,25,22,MCQA; NLI; QA; SENT,MCQA_0018_4; MCQA_0025_9; MCQA_0039_4; MCQA_0047_4; MCQA_0069_5,Connectives/Aspect markers
+PNN,replace,mẹ,má,25,18,MCQA; NLI; QA; SENT,MCQA_0013_3; MCQA_0013_4; MCQA_0016_0; MCQA_0037_2; MCQA_0048_2,Kinship/Honorific terms
+PNN,replace,đến,tới,24,21,MCQA; NLI; QA; SENT,MCQA_0037_4; MCQA_0039_4; MCQA_0055_0; MCQA_0056_1; MCQA_0064_1,Connectives/Aspect markers
+PNN,replace,những,mấy,21,19,MCQA; NLI; QA; SENT,MCQA_0047_2; MCQA_0064_1; MCQA_0072_2; MCQA_0116_5; MCQA_0126_2,Demonstratives/Deixis
+PNN,replace,vì,tại,21,9,MCQA; NLI; SENT,MCQA_0074_5; MCQA_0074_6; MCQA_0077_0; MCQA_0100_1; MCQA_0114_6,Connectives/Aspect markers
+PNN,replace,vào,hồi,14,14,MCQA; NLI; QA,MCQA_0016_0; NLI_3108; QA_12824; QA_14728; QA_17724,Connectives/Aspect markers
+PNN,replace,bố,ba,12,11,MCQA; SENT,MCQA_0013_3; MCQA_0013_4; MCQA_0014_1; MCQA_0016_0; MCQA_0037_2,Kinship/Honorific terms
+PNN,replace,tại,ở,11,11,MCQA; NLI; QA,MCQA_0062_2; NLI_5263; QA_14184; QA_19280; QA_22620,Connectives/Aspect markers
+PNN,replace,xem,coi,10,10,MCQA; QA; SENT,MCQA_0051_4; MCQA_0114_1; QA_14257; SENT_1161; SENT_1626,Predicate vocabulary
+PNN,replace,điều,chuyện,9,6,MCQA; NLI; QA,MCQA_0051_4; MCQA_0074_6; MCQA_0138_5; NLI_6155; QA_18041,Predicate vocabulary
+PNN,replace,cha,ba,8,6,MCQA; NLI; QA; SENT,MCQA_0043_4; MCQA_0098_4; NLI_5735; QA_27000; SENT_4768,Kinship/Honorific terms
+PNN,replace,việc,chuyện,8,7,MCQA; NLI; QA,MCQA_0013_3; MCQA_0042_7; MCQA_0074_5; MCQA_0148_3; NLI_7858,Predicate vocabulary
+PNN,replace,bát,chén,6,1,MCQA,MCQA_0036_5,Predicate vocabulary
+PNN,replace,bọn,tụi,6,5,SENT,SENT_0958; SENT_4745; SENT_4768; SENT_4964; SENT_5008,Pronouns
+PNN,replace,chúng ta,tụi mình,6,6,MCQA; SENT,MCQA_0062_0; MCQA_0065_5; MCQA_0116_6; SENT_2308; SENT_4155,Pronouns
+PNN,replace,và,rồi,6,5,MCQA; NLI,MCQA_0091_0; MCQA_0095_1; MCQA_0100_1; MCQA_0138_5; NLI_6129,Connectives/Aspect markers
+PNN,replace,bố mẹ,ba má,5,5,MCQA; SENT,MCQA_0128_1; SENT_5017; SENT_5360; SENT_5421; SENT_0192,Kinship/Honorific terms
+PNN,replace,chúng,tụi,5,3,MCQA; SENT,MCQA_0148_3; SENT_5017; SENT_0696,Pronouns
+PNN,replace,dí,rượt,5,2,SENT,SENT_5407; SENT_5521,Predicate vocabulary
+PNN,replace,hoa,bông,5,2,MCQA,MCQA_0016_0; MCQA_0100_2,Predicate vocabulary
+PNN,replace,hạt,hột,5,1,MCQA,MCQA_0126_2,Predicate vocabulary
+PNN,replace,người mẹ,má,5,1,MCQA,MCQA_0048_5,Kinship/Honorific terms
+PNN,replace,định,tính,5,2,MCQA,MCQA_0025_9; MCQA_0114_1,Predicate vocabulary
+PNN,replace,bút,viết,4,1,MCQA,MCQA_0025_10,Predicate vocabulary
+PNN,replace,do,tại,4,4,NLI,NLI_3269; NLI_3719; NLI_4015; NLI_5704,Connectives/Aspect markers
+PNN,replace,dẫn,dắt,4,1,MCQA,MCQA_0064_1,Predicate vocabulary
+PNN,replace,lười,làm biếng,4,2,MCQA; SENT,MCQA_0041_7; SENT_0462,Predicate vocabulary
+PNN,replace,quả,trái,4,3,MCQA,MCQA_0041_5; MCQA_0141_2; MCQA_0141_3,Predicate vocabulary
+PNN,replace,rơi,rớt,4,3,MCQA,MCQA_0058_0; MCQA_0095_1; MCQA_0128_1,Predicate vocabulary
+PNN,replace,rằng,là,4,4,MCQA; NLI; QA,MCQA_0042_7; MCQA_0100_1; NLI_4856; QA_15627,Predicate vocabulary
+PNN,replace,chàng lười,ảnh làm biếng mà,3,1,MCQA,MCQA_0041_7,Pronouns
+PNN,replace,mảnh,miếng,3,1,MCQA,MCQA_0043_3,Predicate vocabulary
+PNN,replace,mắng,la,3,3,MCQA; SENT,MCQA_0030_3; SENT_4445; SENT_5441,Predicate vocabulary
+PNN,replace,như thế nào,làm sao,3,3,MCQA; QA,MCQA_0064_1; QA_13818; QA_0572,Interrogatives
+PNN,replace,tôi không,tui hông,3,3,MCQA; NLI,MCQA_0138_3; NLI_4801; NLI_5143,Negation/Function words
+PNN,replace,tầng,lầu,3,1,SENT,SENT_4445,Predicate vocabulary
+PNN,replace,việc,vụ,3,3,QA,QA_18786; QA_27033; QA_4380,Predicate vocabulary
+PNN,replace,bùn,sình,2,1,MCQA,MCQA_0095_1,Predicate vocabulary
+PNN,replace,bảo,biểu,2,1,MCQA,MCQA_0074_5,Predicate vocabulary
+PNN,replace,bẩn,dơ,2,2,MCQA; SENT,MCQA_0047_2; SENT_3273,Predicate vocabulary
+PNN,replace,bố mình,ba tui,2,1,SENT,SENT_4428,Kinship/Honorific terms
+PNN,replace,cha mẹ,ba má,2,2,SENT,SENT_3067; SENT_3555,Kinship/Honorific terms
+PNN,replace,các,mấy cái,2,2,QA,QA_21489; QA_0572,Demonstratives/Deixis
+PNN,replace,cô,con,2,2,MCQA; NLI,MCQA_0056_2; NLI_7901,Pronouns
+PNN,replace,cạnh,kế bên,2,2,MCQA,MCQA_0037_2; MCQA_0151_3,Noise/Non-linguistic
+PNN,replace,cả,nguyên,2,2,SENT,SENT_4035; SENT_5407,Demonstratives/Deixis
+PNN,replace,dỗi,giận,2,1,MCQA,MCQA_0090_6,Predicate vocabulary
+PNN,replace,giúp bố,phụ ba,2,1,MCQA,MCQA_0144_3,Kinship/Honorific terms
+PNN,replace,giúp mẹ,phụ má,2,2,MCQA,MCQA_0013_3; MCQA_0092_1,Kinship/Honorific terms
+PNN,replace,gấu,bồ,2,2,SENT,SENT_1192; SENT_1894,Predicate vocabulary
+PNN,replace,hôm,bữa,2,2,SENT,SENT_1410; SENT_5531,Orthographic variant
+PNN,replace,khi,chừng,2,1,SENT,SENT_1579,Connectives/Aspect markers
+PNN,replace,lúc,hồi,2,2,SENT,SENT_3469; SENT_5360,Connectives/Aspect markers
+PNN,replace,mẩu,miếng,2,1,MCQA,MCQA_0047_4,Predicate vocabulary
+PNN,replace,mồm,miệng,2,2,SENT,SENT_1338; SENT_4494,Predicate vocabulary
+PNN,replace,ngờ,dè,2,2,SENT,SENT_1410; SENT_2308,Predicate vocabulary
+PNN,replace,những,mấy cái,2,2,MCQA; NLI,MCQA_0141_2; NLI_0448,Demonstratives/Deixis
+PNN,replace,những gì,mấy cái,2,2,NLI,NLI_1775; NLI_4572,Interrogatives
+PNN,replace,nói rằng,kêu là,2,2,NLI,NLI_1921; NLI_4746,Noise/Non-linguistic
+PNN,replace,sự việc,vụ,2,2,QA,QA_11800; QA_9483,Predicate vocabulary
+PNN,replace,thuê,mướn,2,1,MCQA,MCQA_0043_4,Predicate vocabulary
+PNN,replace,thật đấy,thiệt đó,2,2,SENT,SENT_1093; SENT_1626,Discourse particles
+PNN,replace,thời gian,lúc,2,2,QA; SENT,QA_7517; SENT_4035,Connectives/Aspect markers
+PNN,replace,to,bự,2,2,SENT,SENT_2473; SENT_0572,Noise/Non-linguistic
+PNN,replace,trèo,leo,2,2,MCQA; SENT,MCQA_0120_3; SENT_4745,Predicate vocabulary
+PNN,replace,trẻ em,con nít,2,2,MCQA; SENT,MCQA_0137_1; SENT_4964,Pronouns
+PNN,replace,tìm,kiếm,2,2,MCQA,MCQA_0055_0; MCQA_0127_3,Noise/Non-linguistic
+PNN,replace,tập,hành,2,1,MCQA,MCQA_0137_3,Predicate vocabulary
+PNN,replace,và các,với mấy,2,2,NLI,NLI_1921; NLI_5263,Demonstratives/Deixis
+PNN,replace,vì cậu suốt ngày,tại nó cứ,2,1,MCQA,MCQA_0077_0,Pronouns
+PNN,replace,vì mẹ,tại má,2,1,MCQA,MCQA_0074_5,Kinship/Honorific terms
+PNN,replace,vờ,giả đò,2,1,MCQA,MCQA_0090_6,Predicate vocabulary
+PNN,replace,đuổi,rượt,2,1,SENT,SENT_0696,Predicate vocabulary
+PNN,replace,đàn ngan,bầy vịt xiêm,2,1,MCQA,MCQA_0144_3,Predicate vocabulary
+PNN,replace,đến,qua,2,1,MCQA,MCQA_0065_5,Connectives/Aspect markers
+PNN,replace,để,đặng,2,2,MCQA; SENT,MCQA_0137_3; SENT_1146,Connectives/Aspect markers
+PNN,replace,đồng ý,chịu,2,1,NLI,NLI_4916,Predicate vocabulary
+PNN,replace,đỗ,đậu,2,1,SENT,SENT_3243,Predicate vocabulary
+PNN,replace,ạ em,con,2,1,MCQA,MCQA_0025_10,Pronouns
+PNN,replace,1,phân,1,1,MCQA,MCQA_0042_2,Noise/Non-linguistic
+PNN,replace,buồn,sầu,1,1,NLI,NLI_1420,Predicate vocabulary
+PNN,replace,bà mẹ,má,1,1,MCQA,MCQA_0056_2,Kinship/Honorific terms
+PNN,replace,bả,bã,1,1,MCQA,MCQA_0065_2,Pronouns
+PNN,replace,bỏ mặc,kệ,1,1,MCQA,MCQA_0055_0,Predicate vocabulary
+PNN,replace,bố,cha,1,1,MCQA,MCQA_0144_0,Kinship/Honorific terms
+PNN,replace,bố láo,cà chớn,1,1,SENT,SENT_1192,Kinship/Honorific terms
+PNN,replace,bố điều,ba chuyện,1,1,MCQA,MCQA_0051_0,Kinship/Honorific terms
+PNN,replace,bố đời ấy,làm phách đó,1,1,SENT,SENT_4003,Kinship/Honorific terms
+PNN,replace,bởi,tại,1,1,NLI,NLI_3201,Connectives/Aspect markers
+PNN,replace,cho,bỏ,1,1,MCQA,MCQA_0091_0,Connectives/Aspect markers
+PNN,replace,chàng hoảng hốt,ảnh quýnh quáng,1,1,MCQA,MCQA_0098_4,Pronouns
+PNN,replace,chép,lại,1,1,MCQA,MCQA_0060_2,Predicate vocabulary
+PNN,replace,chê trách,quở,1,1,MCQA,MCQA_0041_5,Predicate vocabulary
+PNN,replace,chóng,mau,1,1,MCQA,MCQA_0100_1,Predicate vocabulary
+PNN,replace,chú,con,1,1,NLI,NLI_3269,Kinship/Honorific terms
+PNN,replace,chú,để,1,1,QA,QA_1203,Kinship/Honorific terms
+PNN,replace,chúng ta những,tụi mình mấy,1,1,SENT,SENT_2308,Pronouns
+PNN,replace,chăn,mền,1,1,MCQA,MCQA_0048_5,Predicate vocabulary
+PNN,replace,chạy,nhào,1,1,SENT,SENT_5456,Predicate vocabulary
+PNN,replace,chắn,cú,1,1,NLI,NLI_4221,Predicate vocabulary
+PNN,replace,chẳng,hông có,1,1,MCQA,MCQA_0030_3,Negation/Function words
+PNN,replace,chịu,bị,1,1,QA,QA_18828,Predicate vocabulary
+PNN,replace,chọn,lựa,1,1,NLI,NLI_7530,Predicate vocabulary
+PNN,replace,cuối,sau,1,1,MCQA,MCQA_0100_1,Predicate vocabulary
+PNN,replace,cuộc,vụ,1,1,QA,QA_18023,Predicate vocabulary
+PNN,replace,các chau,mấy đứa cháu,1,1,SENT,SENT_3273,Pronouns
+PNN,replace,các quốc gia,mấy nước,1,1,QA,QA_26901,Demonstratives/Deixis
+PNN,replace,cáu,quạu,1,1,MCQA,MCQA_0018_6,Predicate vocabulary
+PNN,replace,có lẽ,hông chừng,1,1,SENT,SENT_4155,Negation/Function words
+PNN,replace,có vẻ ngoài không,nhìn hông,1,1,NLI,NLI_5704,Negation/Function words
+PNN,replace,có vẻ điều,coi bộ chuyện,1,1,NLI,NLI_3172,Idiomatic expressions
+PNN,replace,cô gái cưới,cổ lấy,1,1,NLI,NLI_0716,Pronouns
+PNN,replace,cô ấy tôi,cổ tui,1,1,SENT,SENT_4494,Pronouns
+PNN,replace,công,mướn,1,1,SENT,SENT_2727,Predicate vocabulary
+PNN,replace,cùng,chung với,1,1,MCQA,MCQA_0077_0,Connectives/Aspect markers
+PNN,replace,cạnh nơi,kế bên chỗ,1,1,NLI,NLI_1921,Noise/Non-linguistic
+PNN,replace,cả,hết,1,1,NLI,NLI_4616,Demonstratives/Deixis
+PNN,replace,cậu cởi,nó lột,1,1,MCQA,MCQA_0120_3,Pronouns
+PNN,replace,cậu trèo,nó leo,1,1,MCQA,MCQA_0120_3,Pronouns
+PNN,replace,do mẹ,tại má,1,1,SENT,SENT_1146,Kinship/Honorific terms
+PNN,replace,dàn,từ từ,1,1,QA,QA_24045,Predicate vocabulary
+PNN,replace,dạt,tấp,1,1,MCQA,MCQA_0095_1,Predicate vocabulary
+PNN,replace,em ấy,ẻm,1,1,SENT,SENT_4861,Pronouns
+PNN,replace,ghen tị,phân bì,1,1,MCQA,MCQA_0090_10,Predicate vocabulary
+PNN,replace,giai đoạn,lúc,1,1,NLI,NLI_3048,Connectives/Aspect markers
+PNN,replace,giống,y chang,1,1,SENT,SENT_1098,Predicate vocabulary
+PNN,replace,gà,dở,1,1,SENT,SENT_0814,Predicate vocabulary
+PNN,replace,gàn dở,khùng điên,1,1,MCQA,MCQA_0030_3,Noise/Non-linguistic
+PNN,replace,gấp gáp,rốp rẻng,1,1,MCQA,MCQA_0039_4,Predicate vocabulary
+PNN,replace,gọi thật,kêu thiệt,1,1,MCQA,MCQA_0127_3,Noise/Non-linguistic
+PNN,replace,hoa quả,trái cây,1,1,MCQA,MCQA_0127_0,Predicate vocabulary
+PNN,replace,hoảng hốt,quýnh quáng,1,1,MCQA,MCQA_0055_1,Predicate vocabulary
+PNN,replace,hoặc,hay,1,1,NLI,NLI_3048,Connectives/Aspect markers
+PNN,replace,hối hả,tất bật,1,1,MCQA,MCQA_0090_10,Discourse particles
+PNN,replace,khi bố bảo,lúc ba kêu,1,1,MCQA,MCQA_0010_3,Noise/Non-linguistic
+PNN,replace,khi cha,lúc ba,1,1,MCQA,MCQA_0098_4,Noise/Non-linguistic
+PNN,replace,khi các,lúc mấy,1,1,MCQA,MCQA_0092_1,Noise/Non-linguistic
+PNN,replace,khi không,lúc hông,1,1,QA,QA_3982,Noise/Non-linguistic
+PNN,replace,khi mẹ,lúc má,1,1,MCQA,MCQA_0144_3,Noise/Non-linguistic
+PNN,replace,khi xem những,lúc coi mấy,1,1,NLI,NLI_2899,Noise/Non-linguistic
+PNN,replace,khiến các,làm mấy,1,1,NLI,NLI_4394,Noise/Non-linguistic
+PNN,replace,khuất,mất,1,1,MCQA,MCQA_0100_1,Noise/Non-linguistic
+PNN,replace,khác,ta,1,1,MCQA,MCQA_0010_1,Noise/Non-linguistic
+PNN,replace,khóm,bụi,1,1,MCQA,MCQA_0098_4,Noise/Non-linguistic
+PNN,replace,không chú,hông để,1,1,MCQA,MCQA_0100_1,Negation/Function words
+PNN,replace,không chạm,hông đụng,1,1,NLI,NLI_7176,Negation/Function words
+PNN,replace,không khiến,hông làm,1,1,SENT,SENT_5251,Negation/Function words
+PNN,replace,không nhầm hôm,hông lầm bữa,1,1,SENT,SENT_4550,Noise/Non-linguistic
+PNN,replace,không nhỉ,lắm hông,1,1,SENT,SENT_0237,Discourse particles
+PNN,replace,không về,hông dìa,1,1,MCQA,MCQA_0123_6,Negation/Function words
+PNN,replace,khổng lồ,bự chảng,1,1,NLI,NLI_3211,Noise/Non-linguistic
+PNN,replace,kinh,ghê,1,1,SENT,SENT_4445,Noise/Non-linguistic
+PNN,replace,lao,nhào,1,1,SENT,SENT_5407,Predicate vocabulary
+PNN,replace,là ác,xá,1,1,SENT,SENT_4964,Predicate vocabulary
+PNN,replace,lâu lâu,thảng thảng,1,1,SENT,SENT_1726,Predicate vocabulary
+PNN,replace,lí,lý,1,1,NLI,NLI_0511,Predicate vocabulary
+PNN,replace,lũ,tụi,1,1,SENT,SENT_3273,Pronouns
+PNN,replace,lười thế,làm biếng vậy,1,1,MCQA,MCQA_0041_7,Demonstratives/Deixis
+PNN,replace,lại,về,1,1,MCQA,MCQA_0037_2,Connectives/Aspect markers
+PNN,replace,lợn,heo,1,1,SENT,SENT_4519,Predicate vocabulary
+PNN,replace,mang,chở,1,1,MCQA,MCQA_0138_5,Predicate vocabulary
+PNN,replace,mang thai,có chửa,1,1,NLI,NLI_4217,Predicate vocabulary
+PNN,replace,muốn,mắc,1,1,SENT,SENT_4885,Predicate vocabulary
+PNN,replace,mãi,hoài,1,1,MCQA,MCQA_0095_1,Connectives/Aspect markers
+PNN,replace,mãi không,hoài hông,1,1,MCQA,MCQA_0116_5,Negation/Function words
+PNN,replace,mãi đến,hoài tới,1,1,MCQA,MCQA_0095_1,Connectives/Aspect markers
+PNN,replace,móa,má,1,1,SENT,SENT_0343,Kinship/Honorific terms
+PNN,replace,mượn,mướn,1,1,NLI,NLI_5143,Predicate vocabulary
+PNN,replace,mấy,họ,1,1,SENT,SENT_0192,Pronouns
+PNN,replace,mặc,bận,1,1,NLI,NLI_6637,Predicate vocabulary
+PNN,replace,mặt,mặc,1,1,MCQA,MCQA_0081_4,Predicate vocabulary
+PNN,replace,mẹ,mã,1,1,NLI,NLI_2899,Kinship/Honorific terms
+PNN,replace,mẹ bảo,má biểu,1,1,MCQA,MCQA_0074_5,Kinship/Honorific terms
+PNN,replace,mẹ bật,má mở,1,1,MCQA,MCQA_0048_2,Kinship/Honorific terms
+PNN,replace,mẹ nhé,má nhen,1,1,MCQA,MCQA_0037_2,Kinship/Honorific terms
+PNN,replace,mẹ và,má rồi,1,1,MCQA,MCQA_0037_2,Kinship/Honorific terms
+PNN,replace,mệt mỏi,oải,1,1,NLI,NLI_4266,Predicate vocabulary
+PNN,replace,mọi,hết thảy,1,1,NLI,NLI_5735,Demonstratives/Deixis
+PNN,replace,một,tới,1,1,SENT,SENT_4155,Connectives/Aspect markers
+PNN,replace,một nữa,phân nửa,1,1,QA,QA_19280,Connectives/Aspect markers
+PNN,replace,một số,mấy,1,1,QA,QA_17926,Demonstratives/Deixis
+PNN,replace,mức,cỡ,1,1,SENT,SENT_1172,Predicate vocabulary
+PNN,replace,ngan bố,vịt xiêm ba,1,1,MCQA,MCQA_0144_0,Kinship/Honorific terms
+PNN,replace,ngang,vịt xiêm,1,1,SENT,SENT_1222,Predicate vocabulary
+PNN,replace,ngay lập tức,liền,1,1,NLI,NLI_6960,Connectives/Aspect markers
+PNN,replace,nghìn,ngàn,1,1,SENT,SENT_1222,Predicate vocabulary
+PNN,replace,ngày,bữa,1,1,NLI,NLI_7681,Orthographic variant
+PNN,replace,ngày,hồi,1,1,SENT,SENT_3555,Connectives/Aspect markers
+PNN,replace,ngày qua,bữa,1,1,NLI,NLI_0157,Predicate vocabulary
+PNN,replace,ngơi khi,lúc,1,1,MCQA,MCQA_0069_5,Connectives/Aspect markers
+PNN,replace,người bố,ba,1,1,MCQA,MCQA_0137_3,Kinship/Honorific terms
+PNN,replace,người cha,ba,1,1,MCQA,MCQA_0043_3,Kinship/Honorific terms
+PNN,replace,ngừa,hờ,1,1,MCQA,MCQA_0128_2,Predicate vocabulary
+PNN,replace,nhanh thế,lẹ dữ hồi,1,1,SENT,SENT_1485,Demonstratives/Deixis
+PNN,replace,nhiều,mấy,1,1,MCQA,MCQA_0100_2,Demonstratives/Deixis
+PNN,replace,nhiều,nhóc,1,1,NLI,NLI_5451,Demonstratives/Deixis
+PNN,replace,nhé nhỉ,như,1,1,SENT,SENT_0534,Discourse particles
+PNN,replace,nhìn,ngó,1,1,MCQA,MCQA_0152_3,Predicate vocabulary
+PNN,replace,như,mà,1,1,QA,QA_22620,Connectives/Aspect markers
+PNN,replace,như,y,1,1,SENT,SENT_3060,Noise/Non-linguistic
+PNN,replace,như thế nhỉ,vậy ta,1,1,SENT,SENT_1338,Demonstratives/Deixis
+PNN,replace,như thế nào lên,ra sao đến,1,1,QA,QA_8904,Interrogatives
+PNN,replace,như thế nào nhỉ,sao ta,1,1,SENT,SENT_2217,Interrogatives
+PNN,replace,như thế nào đến,ra sao tới,1,1,QA,QA_12099,Interrogatives
+PNN,replace,nhằm,đặng,1,1,QA,QA_21489,Connectives/Aspect markers
+PNN,replace,nhằm,để,1,1,QA,QA_9601,Connectives/Aspect markers
+PNN,replace,nhặt quả,luợm trái,1,1,MCQA,MCQA_0041_5,Predicate vocabulary
+PNN,replace,nhặt xem,lượm coi,1,1,SENT,SENT_5315,Predicate vocabulary
+PNN,replace,nhờ,ngờ,1,1,MCQA,MCQA_0065_2,Predicate vocabulary
+PNN,replace,những,các,1,1,MCQA,MCQA_0128_1,Demonstratives/Deixis
+PNN,replace,những chiếc,mấy cái,1,1,MCQA,MCQA_0126_2,Demonstratives/Deixis
+PNN,replace,những gì,mấy chuyện,1,1,NLI,NLI_7469,Interrogatives
+PNN,replace,những khu vực,mấy vùng,1,1,QA,QA_18828,Demonstratives/Deixis
+PNN,replace,những việc,mấy chuyện,1,1,QA,QA_10410,Demonstratives/Deixis
+PNN,replace,những việc,mấy vụ,1,1,NLI,NLI_6110,Demonstratives/Deixis
+PNN,replace,ném,quăng,1,1,SENT,SENT_5315,Predicate vocabulary
+PNN,replace,ném vào,quăng vô,1,1,SENT,SENT_4150,Connectives/Aspect markers
+PNN,replace,nói,là,1,1,MCQA,MCQA_0056_1,Predicate vocabulary
+PNN,replace,nói rằng ông,kêu là ổng,1,1,NLI,NLI_4616,Noise/Non-linguistic
+PNN,replace,nông,ruộng,1,1,MCQA,MCQA_0096_0,Predicate vocabulary
+PNN,replace,nơi,chỗ,1,1,QA,QA_8086,Predicate vocabulary
+PNN,replace,nảy,mọc,1,1,MCQA,MCQA_0126_2,Predicate vocabulary
+PNN,replace,nấp mau,núp lẹ,1,1,MCQA,MCQA_0039_4,Predicate vocabulary
+PNN,replace,nẻo,con,1,1,MCQA,MCQA_0137_1,Predicate vocabulary
+PNN,replace,nữ,con gái,1,1,NLI,NLI_0959,Predicate vocabulary
+PNN,replace,oi bức,nóng nực,1,1,MCQA,MCQA_0048_5,Predicate vocabulary
+PNN,replace,phát khổ,mệt,1,1,SENT,SENT_0192,Predicate vocabulary
+PNN,replace,phát ngôn,nói năng,1,1,SENT,SENT_4861,Predicate vocabulary
+PNN,replace,phì,mập,1,1,SENT,SENT_5251,Predicate vocabulary
+PNN,replace,phúc đáp,hồi âm,1,1,MCQA,MCQA_0065_5,Connectives/Aspect markers
+PNN,replace,phải,tính,1,1,SENT,SENT_1908,Predicate vocabulary
+PNN,replace,quá,ghê,1,1,SENT,SENT_4035,Predicate vocabulary
+PNN,replace,quả,cú,1,1,SENT,SENT_1093,Predicate vocabulary
+PNN,replace,quần áo,đồ,1,1,MCQA,MCQA_0120_3,Predicate vocabulary
+PNN,replace,rơi vào,lọt vô,1,1,QA,QA_3368,Connectives/Aspect markers
+PNN,replace,rất to,bự chảng,1,1,NLI,NLI_1921,Predicate vocabulary
+PNN,replace,rộng toang toác,bô bô,1,1,SENT,SENT_1338,Predicate vocabulary
+PNN,replace,sau này,mai mốt,1,1,SENT,SENT_4733,Connectives/Aspect markers
+PNN,replace,sinh sao này,trò mai mốt,1,1,SENT,SENT_4160,Interrogatives
+PNN,replace,số,phần,1,1,NLI,NLI_0959,Predicate vocabulary
+PNN,replace,sử dụng,xài,1,1,QA,QA_7517,Predicate vocabulary
+PNN,replace,sử dụng vào,xài vô,1,1,QA,QA_3982,Connectives/Aspect markers
+PNN,replace,ta,mình,1,1,SENT,SENT_2308,Pronouns
+PNN,replace,thành thục,rành rọt,1,1,NLI,NLI_0028,Predicate vocabulary
+PNN,replace,thêm khó chịu và,bực mình với,1,1,MCQA,MCQA_0116_5,Connectives/Aspect markers
+PNN,replace,thì như thế nào,ra sao,1,1,QA,QA_26719,Interrogatives
+PNN,replace,thông tin,chuyện,1,1,MCQA,MCQA_0018_4,Predicate vocabulary
+PNN,replace,thật không,thiệt hông,1,1,MCQA,MCQA_0042_2,Discourse particles
+PNN,replace,thật đáng thương,ên thiệt tội nghiệp,1,1,MCQA,MCQA_0042_2,Discourse particles
+PNN,replace,thằng chúng mày,đứa tụi bây,1,1,SENT,SENT_2515,Pronouns
+PNN,replace,thế chân,vậy giò,1,1,SENT,SENT_1908,Demonstratives/Deixis
+PNN,replace,thế không,dữ hông,1,1,SENT,SENT_4885,Demonstratives/Deixis
+PNN,replace,thế kia không,vậy hông,1,1,SENT,SENT_3094,Demonstratives/Deixis
+PNN,replace,thế nào khi,ra sao lúc,1,1,QA,QA_5750,Interrogatives
+PNN,replace,thủ,hườm,1,1,SENT,SENT_3814,Predicate vocabulary
+PNN,replace,thủ,thử,1,1,QA,QA_23452,Predicate vocabulary
+PNN,replace,thức,đồ,1,1,MCQA,MCQA_0030_1,Predicate vocabulary
+PNN,replace,thực,thật,1,1,MCQA,MCQA_0012_5,Connectives/Aspect markers
+PNN,replace,tiêm,chích,1,1,NLI,NLI_6280,Predicate vocabulary
+PNN,replace,trong tương lai,sau này,1,1,NLI,NLI_0959,Connectives/Aspect markers
+PNN,replace,trrong gia đoạn,hồi lúc,1,1,QA,QA_10410,Connectives/Aspect markers
+PNN,replace,trút,quăng,1,1,MCQA,MCQA_0138_5,Predicate vocabulary
+PNN,replace,trước,bữa,1,1,SENT,SENT_5456,Predicate vocabulary
+PNN,replace,trất,dẹp đi,1,1,SENT,SENT_0018,Predicate vocabulary
+PNN,replace,trở nên,đâm ra,1,1,QA,QA_22620,Connectives/Aspect markers
+PNN,replace,tuyết,tuyệt,1,1,NLI,NLI_0337,Orthographic variant
+PNN,replace,tìm những,kiếm mấy,1,1,SENT,SENT_3169,Noise/Non-linguistic
+PNN,replace,tình,ý,1,1,QA,QA_17769,Predicate vocabulary
+PNN,replace,tình hình kinh doanh,vụ làm ăn,1,1,NLI,NLI_4572,Idiomatic expressions
+PNN,replace,tại thời điểm,lúc,1,1,NLI,NLI_0337,Connectives/Aspect markers
+PNN,replace,tận,tuốt,1,1,MCQA,MCQA_0096_0,Connectives/Aspect markers
+PNN,replace,tập làm,viết,1,1,MCQA,MCQA_0074_6,Predicate vocabulary
+PNN,replace,tỏ,ra,1,1,SENT,SENT_4861,Noise/Non-linguistic
+PNN,replace,tốt,giỏi,1,1,NLI,NLI_0515,Predicate vocabulary
+PNN,replace,tốt thật,giỏi thiệt,1,1,SENT,SENT_3750,Connectives/Aspect markers
+PNN,replace,từ,do,1,1,QA,QA_18828,Noise/Non-linguistic
+PNN,replace,từ,hồi,1,1,MCQA,MCQA_0010_1,Connectives/Aspect markers
+PNN,replace,tự do,thả giàn,1,1,NLI,NLI_4233,Connectives/Aspect markers
+PNN,replace,van xin,năn nỉ,1,1,MCQA,MCQA_0030_1,Predicate vocabulary
+PNN,replace,việc,cái vụ,1,1,QA,QA_27538,Predicate vocabulary
+PNN,replace,việc ông ấy,vụ ổng,1,1,SENT,SENT_4057,Pronouns
+PNN,replace,và,ghê với,1,1,SENT,SENT_4885,Connectives/Aspect markers
+PNN,replace,và,lắm với,1,1,MCQA,MCQA_0140_3,Discourse particles
+PNN,replace,và bảo,rồi kêu,1,1,MCQA,MCQA_0128_2,Connectives/Aspect markers
+PNN,replace,và bật,với té,1,1,NLI,NLI_4394,Connectives/Aspect markers
+PNN,replace,và không,rồi hông,1,1,MCQA,MCQA_0138_5,Negation/Function words
+PNN,replace,và không,với hông,1,1,MCQA,MCQA_0138_5,Negation/Function words
+PNN,replace,và những,với mấy,1,1,MCQA,MCQA_0056_2,Demonstratives/Deixis
+PNN,replace,và rất,với,1,1,MCQA,MCQA_0140_3,Connectives/Aspect markers
+PNN,replace,vào túi,vô bịch,1,1,MCQA,MCQA_0091_0,Connectives/Aspect markers
+PNN,replace,vâng,dạ,1,1,SENT,SENT_3169,Discourse particles
+PNN,replace,vâng,nghe,1,1,MCQA,MCQA_0056_2,Discourse particles
+PNN,replace,vì,tại anh,1,1,MCQA,MCQA_0041_7,Connectives/Aspect markers
+PNN,replace,vì,tại cái,1,1,MCQA,MCQA_0141_2,Connectives/Aspect markers
+PNN,replace,vì bố,tại ba,1,1,MCQA,MCQA_0010_1,Kinship/Honorific terms
+PNN,replace,vì cha không,tại ba hổng,1,1,MCQA,MCQA_0010_1,Kinship/Honorific terms
+PNN,replace,vì cậu,tại nó,1,1,MCQA,MCQA_0077_0,Pronouns
+PNN,replace,vì cậu không,tại nó hông,1,1,MCQA,MCQA_0077_0,Pronouns
+PNN,replace,vì không,tại hông,1,1,QA,QA_19877,Negation/Function words
+PNN,replace,vì mẹ bảo,tại má biểu,1,1,MCQA,MCQA_0074_5,Kinship/Honorific terms
+PNN,replace,vì nguyên nhân,tại lí do,1,1,QA,QA_20004,Demonstratives/Deixis
+PNN,replace,vì đến,tại tới,1,1,SENT,SENT_5441,Connectives/Aspect markers
+PNN,replace,ví,bóp,1,1,NLI,NLI_1077,Predicate vocabulary
+PNN,replace,vấn đề,vụ,1,1,QA,QA_2325,Predicate vocabulary
+PNN,replace,vẫn,vần,1,1,MCQA,MCQA_0072_2,Orthographic variant
+PNN,replace,về bệnh,bịnh,1,1,NLI,NLI_0157,Predicate vocabulary
+PNN,replace,về điều,nghe chuyện,1,1,MCQA,MCQA_0030_1,Discourse particles
+PNN,replace,vệ,lề,1,1,MCQA,MCQA_0138_5,Predicate vocabulary
+PNN,replace,với ạ,giùm cái,1,1,SENT,SENT_4768,Discourse particles
+PNN,replace,vờ,bộ,1,1,MCQA,MCQA_0055_0,Predicate vocabulary
+PNN,replace,vở chọn bút,tập lựa viết,1,1,MCQA,MCQA_0064_1,Idiomatic expressions
+PNN,replace,vỡ vụn,banh,1,1,NLI,NLI_3171,Predicate vocabulary
+PNN,replace,xây,gầy,1,1,QA,QA_17724,Predicate vocabulary
+PNN,replace,xơi,ăn,1,1,SENT,SENT_1192,Predicate vocabulary
+PNN,replace,xấu hổ,mắc cỡ,1,1,MCQA,MCQA_0090_10,Predicate vocabulary
+PNN,replace,yêu cầu,biểu,1,1,MCQA,MCQA_0047_4,Predicate vocabulary
+PNN,replace,à,hả,1,1,SENT,SENT_3094,Discourse particles
+PNN,replace,áo quần,đồ,1,1,MCQA,MCQA_0064_1,Predicate vocabulary
+PNN,replace,ông bà đấy thế nào,ổng bả ra sao,1,1,SENT,SENT_4519,Pronouns
+PNN,replace,ông bố,ba,1,1,MCQA,MCQA_0037_2,Kinship/Honorific terms
+PNN,replace,ông đến,ổng tới,1,1,QA,QA_9767,Pronouns
+PNN,replace,ôtô cá,xe hơi cá,1,1,NLI,NLI_3915,Predicate vocabulary
+PNN,replace,đi,hai,1,1,MCQA,MCQA_0152_0,Predicate vocabulary
+PNN,replace,điên rồ,tửng,1,1,NLI,NLI_6854,Predicate vocabulary
+PNN,replace,điều khiển,lái,1,1,MCQA,MCQA_0127_3,Predicate vocabulary
+PNN,replace,điều may mắn,chuyện hên,1,1,MCQA,MCQA_0127_3,Predicate vocabulary
+PNN,replace,đáng,để,1,1,MCQA,MCQA_0114_6,Connectives/Aspect markers
+PNN,replace,đáng buồn,mắc,1,1,MCQA,MCQA_0041_7,Predicate vocabulary
+PNN,replace,đánh,uýnh,1,1,SENT,SENT_1971,Predicate vocabulary
+PNN,replace,đã đưa ra ý kiến,nói,1,1,MCQA,MCQA_0010_3,Connectives/Aspect markers
+PNN,replace,đùa,giỡn,1,1,SENT,SENT_1655,Predicate vocabulary
+PNN,replace,được,nổi,1,1,SENT,SENT_3060,Predicate vocabulary
+PNN,replace,được,đặng,1,1,SENT,SENT_5360,Connectives/Aspect markers
+PNN,replace,đến nơi nào,tới đâu,1,1,QA,QA_3410,Interrogatives
+PNN,replace,đến thối,tới thúi,1,1,MCQA,MCQA_0126_2,Connectives/Aspect markers
+PNN,replace,đến việc,tới vụ,1,1,SENT,SENT_1894,Connectives/Aspect markers
+PNN,replace,đển,tới,1,1,NLI,NLI_3107,Connectives/Aspect markers
+PNN,replace,định đánh,tính ăn,1,1,MCQA,MCQA_0114_1,Predicate vocabulary
+PNN,replace,đột,tự,1,1,NLI,NLI_6129,Predicate vocabulary
+PNN,replace,ư,hả,1,1,SENT,SENT_2515,Discourse particles
+PNN,replace,ạ thế thì em,vậy con,1,1,MCQA,MCQA_0025_10,Pronouns
+PNN,replace,ấy chứ,nít đó chớ,1,1,SENT,SENT_3023,Demonstratives/Deixis
+PNN,replace,ấy đánh không,á uýnh hông,1,1,SENT,SENT_1971,Demonstratives/Deixis
+PNN,replace,ầm,váng,1,1,MCQA,MCQA_0055_0,Predicate vocabulary
+PNN,replace,“tôi,“tui,1,1,MCQA,MCQA_0152_3,Pronouns
+PNT1,replace,gì,chi,43,41,MCQA; NLI; QA; SENT,MCQA_0018_4; MCQA_0030_1; MCQA_0030_3; MCQA_0036_5; MCQA_0037_2,Interrogatives
+PNT1,replace,có,cúa,27,21,MCQA; NLI; QA; SENT,MCQA_0018_4; MCQA_0137_1; MCQA_0144_0; MCQA_0147_4; MCQA_0152_0,Orthographic variant
+PNT1,replace,đã,đả,21,21,MCQA; NLI; QA,NLI_4654; NLI_5733; QA_12019; QA_14184; QA_15627,Orthographic variant
+PNT1,replace,cho,chua,17,15,MCQA; NLI; QA; SENT,MCQA_0120_7; MCQA_0138_3; MCQA_0140_3; MCQA_0142_1; MCQA_0144_0,Connectives/Aspect markers
+PNT1,replace,thế nào,răng,16,16,MCQA; QA; SENT,MCQA_0058_0; MCQA_0095_1; QA_11800; QA_12824; QA_13646,Interrogatives
+PNT1,replace,vào,vô,12,9,MCQA; NLI; SENT,MCQA_0041_5; MCQA_0091_0; MCQA_0091_1; MCQA_0095_1; MCQA_0096_0,Connectives/Aspect markers
+PNT1,replace,mày,mi,11,7,SENT,SENT_2515; SENT_3520; SENT_3670; SENT_4737; SENT_4768,Pronouns
+PNT1,replace,con,coan,10,5,MCQA,MCQA_0030_3; MCQA_0039_4; MCQA_0043_3; MCQA_0043_4; MCQA_0010_3,Orthographic variant
+PNT1,replace,không,chả,10,10,NLI; SENT,NLI_1749; NLI_2559; NLI_2615; NLI_4217; NLI_4746,Negation/Function words
+PNT1,replace,sao,răng,10,10,MCQA; NLI; SENT,MCQA_0074_5; MCQA_0074_6; MCQA_0077_0; MCQA_0081_4; MCQA_0100_1,Interrogatives
+PNT1,replace,có,cóa,8,4,MCQA; SENT,MCQA_0030_1; MCQA_0042_2; SENT_0237; SENT_0462,Orthographic variant
+PNT1,replace,con,cuôn,7,7,MCQA; NLI; QA; SENT,MCQA_0137_1; MCQA_0151_1; NLI_5704; QA_6664; SENT_1410,Orthographic variant
+PNT1,replace,như thế nào,răng,7,7,MCQA; SENT,MCQA_0018_4; MCQA_0018_6; MCQA_0025_9; MCQA_0036_5; MCQA_0041_5,Interrogatives
+PNT1,replace,như thế nào,ra răng,6,6,MCQA,MCQA_0064_1; MCQA_0065_2; MCQA_0081_3; MCQA_0090_10; MCQA_0090_6,Interrogatives
+PNT1,replace,nói,nuối,6,5,MCQA; QA; SENT,MCQA_0037_2; MCQA_0037_4; MCQA_0041_7; QA_27033; SENT_0237,Orthographic variant
+PNT1,replace,vậy,rứa,5,5,MCQA; NLI; SENT,MCQA_0016_5; MCQA_0060_2; NLI_3211; NLI_4616; SENT_4861,Orthographic variant
+PNT1,replace,xem,coi,5,3,MCQA; NLI,MCQA_0114_1; MCQA_0114_6; NLI_2899,Predicate vocabulary
+PNT1,replace,dẫn,dắt,4,1,MCQA,MCQA_0064_1,Predicate vocabulary
+PNT1,replace,gì,cấy chi,4,4,MCQA; QA,MCQA_0120_3; MCQA_0128_2; QA_17769; QA_18652,Interrogatives
+PNT1,replace,họ,bọn hấn,4,1,MCQA,MCQA_0043_4,Pronouns
+PNT1,replace,lười,nhác,4,1,MCQA,MCQA_0041_7,Predicate vocabulary
+PNT1,replace,nó,hấn,4,4,NLI; SENT,NLI_5704; SENT_1410; SENT_2816; SENT_3249,Pronouns
+PNT1,replace,với,ví,4,4,MCQA,MCQA_0126_2; MCQA_0138_5; MCQA_0142_1; MCQA_0147_4,Predicate vocabulary
+PNT1,replace,đâu,đi mô,4,1,MCQA,MCQA_0051_0,Interrogatives
+PNT1,replace,cha,bố,3,3,MCQA; SENT,MCQA_0144_0; SENT_3067; MCQA_0010_1,Kinship/Honorific terms
+PNT1,replace,chó con,chóa coan,3,2,MCQA,MCQA_0010_1; MCQA_0010_3,Kinship/Honorific terms
+PNT1,replace,không,nỏ,3,2,MCQA,MCQA_0123_6; MCQA_0128_1,Negation/Function words
+PNT1,replace,mình,tau,3,3,SENT,SENT_2816; SENT_4057; SENT_4745,Pronouns
+PNT1,replace,viết,vít,3,2,MCQA; SENT,MCQA_0025_10; SENT_0462,Orthographic variant
+PNT1,replace,và,ví,3,2,MCQA,MCQA_0123_6; MCQA_0128_1,Connectives/Aspect markers
+PNT1,replace,điểm,đỉm,3,3,MCQA; NLI,MCQA_0137_1; NLI_2313; NLI_0337,Orthographic variant
+PNT1,replace,giờ,chừ,2,2,SENT,SENT_0462; SENT_0534,Orthographic variant
+PNT1,replace,gì,cái chi,2,2,MCQA; QA,MCQA_0016_0; QA_19406,Interrogatives
+PNT1,replace,gọi,hú,2,2,MCQA,MCQA_0100_2; MCQA_0127_3,Predicate vocabulary
+PNT1,replace,hiểm,hỉm,2,2,MCQA; NLI,MCQA_0039_4; NLI_0240,Predicate vocabulary
+PNT1,replace,khóc,khốc,2,1,MCQA,MCQA_0055_0,Noise/Non-linguistic
+PNT1,replace,khỏi,khuổi,2,2,MCQA; NLI,MCQA_0152_0; NLI_0337,Noise/Non-linguistic
+PNT1,replace,muốn,mún,2,2,MCQA; SENT,MCQA_0151_1; SENT_0462,Orthographic variant
+PNT1,replace,mẹ,moẹ,2,2,SENT,SENT_0814; SENT_3060,Orthographic variant
+PNT1,replace,người,ngừi,2,2,NLI; SENT,NLI_6350; SENT_3618,Orthographic variant
+PNT1,replace,nuôi,nui,2,1,MCQA,MCQA_0010_3,Predicate vocabulary
+PNT1,replace,nào,chi,2,2,MCQA; QA,MCQA_0104_4; QA_7517,Interrogatives
+PNT1,replace,nên,niên,2,2,NLI,NLI_4266; NLI_4916,Connectives/Aspect markers
+PNT1,replace,nữa,nửa,2,2,MCQA; SENT,SENT_2308; MCQA_0004_3,Orthographic variant
+PNT1,replace,thẹo,sẹo,2,1,SENT,SENT_1146,Predicate vocabulary
+PNT1,replace,thế,rứa,2,1,MCQA,MCQA_0090_6,Orthographic variant
+PNT1,replace,vậy,rứ,2,1,MCQA,MCQA_0037_4,Orthographic variant
+PNT1,replace,vờ,bộ,2,2,MCQA,MCQA_0055_0; MCQA_0055_1,Predicate vocabulary
+PNT1,replace,"""ai",“ai,1,1,MCQA,MCQA_0072_2,Interrogatives
+PNT1,replace,bb,bạn bè,1,1,SENT,SENT_3514,Noise/Non-linguistic
+PNT1,replace,biết,bítt,1,1,NLI,NLI_2313,Predicate vocabulary
+PNT1,replace,"biết""","bít""",1,1,NLI,NLI_2313,Predicate vocabulary
+PNT1,replace,biển,bỉn,1,1,MCQA,MCQA_0014_1,Predicate vocabulary
+PNT1,replace,bãi,bải,1,1,NLI,NLI_0516,Predicate vocabulary
+PNT1,replace,bé,bíe,1,1,MCQA,MCQA_0120_7,Predicate vocabulary
+PNT1,replace,bó với,bóa vứi,1,1,MCQA,MCQA_0020_1,Predicate vocabulary
+PNT1,replace,bạn nhỉ mình,mi nhở tau,1,1,SENT,SENT_4745,Pronouns
+PNT1,replace,bả,bã,1,1,MCQA,MCQA_0065_2,Pronouns
+PNT1,replace,bắt,tống,1,1,NLI,NLI_4217,Predicate vocabulary
+PNT1,replace,bỏ vào,bỏa vô,1,1,MCQA,MCQA_0041_5,Connectives/Aspect markers
+PNT1,replace,chau,cháu,1,1,SENT,SENT_3273,Predicate vocabulary
+PNT1,replace,chetme,bome,1,1,SENT,SENT_5456,Noise/Non-linguistic
+PNT1,replace,chg,chẳng,1,1,SENT,SENT_3514,Noise/Non-linguistic
+PNT1,replace,chiếm,chím,1,1,NLI,NLI_2837,Predicate vocabulary
+PNT1,replace,chiến,chín,1,1,QA,QA_10377,Predicate vocabulary
+PNT1,replace,cho chó con,choa chóa coan,1,1,MCQA,MCQA_0010_3,Pronouns
+PNT1,replace,chui,bò,1,1,NLI,NLI_2615,Predicate vocabulary
+PNT1,replace,chàng trai,nó,1,1,NLI,NLI_0459,Pronouns
+PNT1,replace,chân tình,chăn tềnh,1,1,MCQA,MCQA_0116_5,Predicate vocabulary
+PNT1,replace,chó,chóa,1,1,SENT,SENT_5407,Predicate vocabulary
+PNT1,replace,chôm,trộm,1,1,SENT,SENT_1485,Predicate vocabulary
+PNT1,replace,chùa,chù,1,1,MCQA,MCQA_0014_1,Predicate vocabulary
+PNT1,replace,chúng tôi,bọn tau,1,1,NLI,NLI_1114,Pronouns
+PNT1,replace,chơi gì,chi,1,1,MCQA,MCQA_0080_0,Interrogatives
+PNT1,replace,chồng,chòng,1,1,MCQA,MCQA_0030_1,Orthographic variant
+PNT1,replace,chứ,chớ,1,1,SENT,SENT_0192,Orthographic variant
+PNT1,replace,chừng,khéo lại,1,1,SENT,SENT_1655,Noise/Non-linguistic
+PNT1,replace,chửi,bới,1,1,SENT,SENT_4885,Predicate vocabulary
+PNT1,replace,cmm,chết cụ,1,1,SENT,SENT_4964,Noise/Non-linguistic
+PNT1,replace,con,cuân,1,1,NLI,NLI_0521,Kinship/Honorific terms
+PNT1,replace,con kiếm,coan kím,1,1,MCQA,MCQA_0039_4,Kinship/Honorific terms
+PNT1,replace,có,cúa,1,1,NLI,NLI_3951,Predicate vocabulary
+PNT1,replace,các chế,bọn mi,1,1,SENT,SENT_3249,Pronouns
+PNT1,replace,"cây""",cây”,1,1,MCQA,MCQA_0072_2,Predicate vocabulary
+PNT1,replace,"cây"" ""người",cây” “người,1,1,MCQA,MCQA_0072_2,Predicate vocabulary
+PNT1,replace,có,cúa cấy,1,1,NLI,NLI_2313,Demonstratives/Deixis
+PNT1,replace,có điểm,cúa đỉm,1,1,NLI,NLI_0959,Predicate vocabulary
+PNT1,replace,"có"" ""em",có” “em,1,1,MCQA,MCQA_0072_2,Pronouns
+PNT1,replace,cũng,củng,1,1,SENT,SENT_0572,Predicate vocabulary
+PNT1,replace,của,cũa,1,1,QA,QA_12824,Orthographic variant
+PNT1,replace,cức,cứt,1,1,SENT,SENT_1971,Predicate vocabulary
+PNT1,replace,diễn,diển,1,1,NLI,NLI_4916,Predicate vocabulary
+PNT1,replace,do chưa đóng,doa chư đuống,1,1,NLI,NLI_0240,Negation/Function words
+PNT1,replace,dàn,dần,1,1,QA,QA_24045,Orthographic variant
+PNT1,replace,dơ,bẩn,1,1,SENT,SENT_4768,Predicate vocabulary
+PNT1,replace,dưới,dứi,1,1,MCQA,MCQA_0137_1,Predicate vocabulary
+PNT1,replace,dịu,bớt,1,1,MCQA,MCQA_0016_0,Predicate vocabulary
+PNT1,replace,dữ,ghê,1,1,SENT,SENT_2148,Predicate vocabulary
+PNT1,replace,dữ,gớm,1,1,SENT,SENT_4959,Predicate vocabulary
+PNT1,replace,em,eim,1,1,MCQA,MCQA_0042_2,Pronouns
+PNT1,replace,em,mi,1,1,MCQA,MCQA_0104_4,Pronouns
+PNT1,replace,eo,éo,1,1,SENT,SENT_3243,Noise/Non-linguistic
+PNT1,replace,ghi đông,tay xe,1,1,MCQA,MCQA_0127_3,Predicate vocabulary
+PNT1,replace,giải,giãi,1,1,NLI,NLI_3739,Predicate vocabulary
+PNT1,replace,giải thưởng,giãi thưỡng,1,1,NLI,NLI_7826,Predicate vocabulary
+PNT1,replace,giỏi,giuổi,1,1,NLI,NLI_1639,Predicate vocabulary
+PNT1,replace,giữa,giửa,1,1,NLI,NLI_6323,Predicate vocabulary
+PNT1,replace,gì,chi cả,1,1,MCQA,MCQA_0152_0,Interrogatives
+PNT1,replace,gọi,gọai,1,1,QA,QA_10332,Predicate vocabulary
+PNT1,replace,hoạ,họa,1,1,SENT,SENT_0534,Orthographic variant
+PNT1,replace,hám,tham,1,1,SENT,SENT_3520,Predicate vocabulary
+PNT1,replace,háo,hoá,1,1,QA,QA_23724,Predicate vocabulary
+PNT1,replace,hóa,húa,1,1,NLI,NLI_0337,Predicate vocabulary
+PNT1,replace,hương,hưng,1,1,MCQA,MCQA_0043_3,Predicate vocabulary
+PNT1,replace,hưởng quyền,hửng quỳn,1,1,NLI,NLI_0240,Predicate vocabulary
+PNT1,replace,hạnh phục,hành phúc,1,1,NLI,NLI_0521,Predicate vocabulary
+PNT1,replace,hỏa,hoã,1,1,NLI,NLI_2559,Predicate vocabulary
+PNT1,replace,hỏi,huổi,1,1,MCQA,MCQA_0036_5,Predicate vocabulary
+PNT1,replace,hỏi,hõi,1,1,NLI,NLI_7858,Predicate vocabulary
+PNT1,replace,inh,minh,1,1,MCQA,MCQA_0056_2,Predicate vocabulary
+PNT1,replace,khiến,khín,1,1,MCQA,MCQA_0116_5,Noise/Non-linguistic
+PNT1,replace,khuyên,dặn,1,1,MCQA,MCQA_0137_3,Noise/Non-linguistic
+PNT1,replace,khó,khúa,1,1,MCQA,MCQA_0137_1,Noise/Non-linguistic
+PNT1,replace,khỏi,thể không,1,1,NLI,NLI_5143,Noise/Non-linguistic
+PNT1,replace,khổng,không,1,1,NLI,NLI_3211,Noise/Non-linguistic
+PNT1,replace,kia,di,1,1,SENT,SENT_0814,Noise/Non-linguistic
+PNT1,replace,kia,tê,1,1,SENT,SENT_0835,Noise/Non-linguistic
+PNT1,replace,kkkkk,kkk hhehehehe,1,1,SENT,SENT_4809,Noise/Non-linguistic
+PNT1,replace,lao,phóng,1,1,MCQA,MCQA_0127_3,Predicate vocabulary
+PNT1,replace,leo,lieo,1,1,MCQA,MCQA_0014_1,Predicate vocabulary
+PNT1,replace,liên,lin,1,1,MCQA,MCQA_0039_4,Predicate vocabulary
+PNT1,replace,luyện,liệng,1,1,MCQA,MCQA_0004_3,Orthographic variant
+PNT1,replace,luôn,cứ,1,1,MCQA,MCQA_0056_1,Predicate vocabulary
+PNT1,replace,làm như thế nào,mằn răng,1,1,MCQA,MCQA_0114_1,Interrogatives
+PNT1,replace,làm sao,mần răng,1,1,SENT,SENT_1908,Interrogatives
+PNT1,replace,lên,vô,1,1,MCQA,MCQA_0114_1,Connectives/Aspect markers
+PNT1,replace,lí,lý,1,1,NLI,NLI_0511,Predicate vocabulary
+PNT1,replace,lúa,lú,1,1,MCQA,MCQA_0042_7,Orthographic variant
+PNT1,replace,lười biếng,lừi bíng,1,1,MCQA,MCQA_0041_5,Predicate vocabulary
+PNT1,replace,lạ,cách,1,1,SENT,SENT_2308,Predicate vocabulary
+PNT1,replace,lập tức,luôn,1,1,NLI,NLI_6960,Connectives/Aspect markers
+PNT1,replace,lộn,nhau,1,1,SENT,SENT_3618,Predicate vocabulary
+PNT1,replace,m,mi,1,1,SENT,SENT_3520,Noise/Non-linguistic
+PNT1,replace,mang thai,có bầu,1,1,NLI,NLI_4217,Predicate vocabulary
+PNT1,replace,miêu,miu,1,1,MCQA,MCQA_0020_2,Predicate vocabulary
+PNT1,replace,miệt,kì,1,1,NLI,NLI_1767,Noise/Non-linguistic
+PNT1,replace,mong muốn,ưng,1,1,NLI,NLI_3108,Predicate vocabulary
+PNT1,replace,moá,mẹ,1,1,SENT,SENT_5315,Predicate vocabulary
+PNT1,replace,mày phì đâu,mi béo mô,1,1,SENT,SENT_5251,Pronouns
+PNT1,replace,má,mẹ,1,1,SENT,SENT_2148,Kinship/Honorific terms
+PNT1,replace,mùa hè,mù hiè,1,1,MCQA,MCQA_0014_1,Predicate vocabulary
+PNT1,replace,mắc,bị,1,1,NLI,NLI_5167,Predicate vocabulary
+PNT1,replace,mươi,mưi,1,1,QA,QA_10377,Predicate vocabulary
+PNT1,replace,mẫu,mẩu,1,1,MCQA,MCQA_0047_4,Predicate vocabulary
+PNT1,replace,mắng,bới,1,1,SENT,SENT_4861,Predicate vocabulary
+PNT1,replace,mắng mỏ và bêu riếu,chửi bới với bếu rếu,1,1,NLI,NLI_0459,Connectives/Aspect markers
+PNT1,replace,mặt,mặc,1,1,MCQA,MCQA_0081_4,Predicate vocabulary
+PNT1,replace,mẹ,miẹ,1,1,MCQA,MCQA_0039_4,Kinship/Honorific terms
+PNT1,replace,mỏi gì,mõi chi,1,1,NLI,NLI_4266,Interrogatives
+PNT1,replace,nghe,nghie,1,1,MCQA,MCQA_0037_2,Predicate vocabulary
+PNT1,replace,nghe người,nghie ngừi,1,1,MCQA,MCQA_0037_4,Predicate vocabulary
+PNT1,replace,ngon,ngoan,1,1,MCQA,MCQA_0039_4,Predicate vocabulary
+PNT1,replace,ngàng,hàng mà,1,1,SENT,SENT_1485,Connectives/Aspect markers
+PNT1,replace,ngày,ngay,1,1,NLI,NLI_1420,Orthographic variant
+PNT1,replace,ngáo,dở,1,1,SENT,SENT_5008,Predicate vocabulary
+PNT1,replace,người,đứa,1,1,SENT,SENT_5008,Pronouns
+PNT1,replace,ngỡ,ngở,1,1,NLI,NLI_4394,Predicate vocabulary
+PNT1,replace,ngửa,ngữa,1,1,NLI,NLI_4394,Predicate vocabulary
+PNT1,replace,nhiệm,nhịm,1,1,NLI,NLI_0448,Predicate vocabulary
+PNT1,replace,nhé nhỉ,như,1,1,SENT,SENT_0534,Discourse particles
+PNT1,replace,nhờ,ngờ,1,1,MCQA,MCQA_0065_2,Predicate vocabulary
+PNT1,replace,những,mấy,1,1,MCQA,MCQA_0072_2,Demonstratives/Deixis
+PNT1,replace,những,nhửng,1,1,NLI,NLI_2948,Demonstratives/Deixis
+PNT1,replace,nuối,núi,1,1,MCQA,MCQA_0025_9,Predicate vocabulary
+PNT1,replace,nào cũng,mô củng,1,1,SENT,SENT_0626,Interrogatives
+PNT1,replace,nào đã,mô đả,1,1,QA,QA_17758,Orthographic variant
+PNT1,replace,nào đó,môđó,1,1,SENT,SENT_4155,Interrogatives
+PNT1,replace,này cơ cực thật đấy,ni khổ kinh,1,1,SENT,SENT_1626,Demonstratives/Deixis
+PNT1,replace,này đời,ni đơì,1,1,SENT,SENT_0534,Demonstratives/Deixis
+PNT1,replace,nên đã,niên đả,1,1,QA,QA_17724,Orthographic variant
+PNT1,replace,nó,nóa,1,1,SENT,SENT_5407,Pronouns
+PNT1,replace,nói gì,nuối chi,1,1,MCQA,MCQA_0025_10,Interrogatives
+PNT1,replace,nóng,sốt,1,1,NLI,NLI_2198,Predicate vocabulary
+PNT1,replace,nũa,nữa,1,1,SENT,SENT_3273,Orthographic variant
+PNT1,replace,nước,nác,1,1,MCQA,MCQA_0055_1,Orthographic variant
+PNT1,replace,nặn,nạn,1,1,SENT,SENT_4964,Predicate vocabulary
+PNT1,replace,or,hoặc,1,1,SENT,SENT_0237,Noise/Non-linguistic
+PNT1,replace,phiên,phin,1,1,MCQA,MCQA_0043_3,Predicate vocabulary
+PNT1,replace,phân biệt,nhận biết,1,1,SENT,SENT_1146,Predicate vocabulary
+PNT1,replace,quá,quớ,1,1,MCQA,MCQA_0010_1,Predicate vocabulary
+PNT1,replace,quản,quãn,1,1,NLI,NLI_0516,Predicate vocabulary
+PNT1,replace,răng,sao,1,1,SENT,SENT_0572,Interrogatives
+PNT1,replace,rược,đuổi,1,1,SENT,SENT_2938,Predicate vocabulary
+PNT1,replace,sao,răng mà,1,1,SENT,SENT_1098,Interrogatives
+PNT1,replace,sao cha,răng bố,1,1,MCQA,MCQA_0010_1,Kinship/Honorific terms
+PNT1,replace,sản của,sãn cũa,1,1,NLI,NLI_5735,Predicate vocabulary
+PNT1,replace,sẽ,sẻ,1,1,NLI,NLI_5366,Orthographic variant
+PNT1,replace,sẽ nói cho,sĩa nuối choa,1,1,MCQA,MCQA_0030_1,Pronouns
+PNT1,replace,sử dụng,dùng,1,1,MCQA,MCQA_0104_4,Predicate vocabulary
+PNT1,replace,sự,lúc,1,1,MCQA,MCQA_0127_3,Connectives/Aspect markers
+PNT1,replace,ta,cơ,1,1,SENT,SENT_1172,Noise/Non-linguistic
+PNT1,replace,tao tao,tau tau,1,1,SENT,SENT_5315,Pronouns
+PNT1,replace,tao vậy,tau ri,1,1,SENT,SENT_1098,Pronouns
+PNT1,replace,thiếu thiếu,thíu thíu,1,1,SENT,SENT_0626,Predicate vocabulary
+PNT1,replace,thiệt,thặc,1,1,SENT,SENT_0343,Predicate vocabulary
+PNT1,replace,thuẫn,thuẩn,1,1,QA,QA_26462,Predicate vocabulary
+PNT1,replace,thể gắn,thễ lắp,1,1,NLI,NLI_3915,Predicate vocabulary
+PNT1,replace,thôi thúc,giục,1,1,MCQA,MCQA_0137_3,Discourse particles
+PNT1,replace,thương,thưng,1,1,MCQA,MCQA_0042_7,Predicate vocabulary
+PNT1,replace,thấy cảm,thấybiết,1,1,SENT,SENT_2507,Predicate vocabulary
+PNT1,replace,thật đấy,vải luôn ấy,1,1,SENT,SENT_1093,Demonstratives/Deixis
+PNT1,replace,thế,di,1,1,SENT,SENT_5154,Noise/Non-linguistic
+PNT1,replace,thế nhỉ,rứa nhể,1,1,SENT,SENT_1338,Interrogatives
+PNT1,replace,thế nào,cái chi,1,1,QA,QA_19250,Interrogatives
+PNT1,replace,thế nào,như răng,1,1,QA,QA_27000,Interrogatives
+PNT1,replace,thế nào,ri,1,1,SENT,SENT_2129,Interrogatives
+PNT1,replace,thế này,ri,1,1,SENT,SENT_0462,Interrogatives
+PNT1,replace,thể,thễ,1,1,NLI,NLI_0647,Predicate vocabulary
+PNT1,replace,thụt,trượt,1,1,SENT,SENT_2217,Predicate vocabulary
+PNT1,replace,tiên,tin,1,1,QA,QA_10332,Predicate vocabulary
+PNT1,replace,toác,hoang,1,1,SENT,SENT_1338,Predicate vocabulary
+PNT1,replace,toán,tón,1,1,MCQA,MCQA_0042_7,Predicate vocabulary
+PNT1,replace,triển,triễn,1,1,NLI,NLI_4176,Predicate vocabulary
+PNT1,replace,trong,troong,1,1,QA,QA_10332,Predicate vocabulary
+PNT1,replace,trrong gia,trong giai,1,1,QA,QA_10410,Predicate vocabulary
+PNT1,replace,truang,trung,1,1,QA,QA_23724,Predicate vocabulary
+PNT1,replace,trâu,tru,1,1,MCQA,MCQA_0020_1,Orthographic variant
+PNT1,replace,trước,tước,1,1,MCQA,MCQA_0010_1,Predicate vocabulary
+PNT1,replace,trịu,trọi,1,1,MCQA,MCQA_0002_4,Orthographic variant
+PNT1,replace,tuyết,tuỵt,1,1,NLI,NLI_0337,Predicate vocabulary
+PNT1,replace,tát,vả,1,1,SENT,SENT_4494,Predicate vocabulary
+PNT1,replace,tính thân,tinh thần,1,1,NLI,NLI_5368,Predicate vocabulary
+PNT1,replace,tư tao,tự tạo,1,1,SENT,SENT_0572,Pronouns
+PNT1,replace,tại sao,răng mà,1,1,SENT,SENT_0835,Interrogatives
+PNT1,replace,tử,tữ,1,1,QA,QA_1203,Predicate vocabulary
+PNT1,replace,viên,vin,1,1,MCQA,MCQA_0116_5,Predicate vocabulary
+PNT1,replace,và,lẫn,1,1,MCQA,MCQA_0104_4,Connectives/Aspect markers
+PNT1,replace,và,rồi,1,1,MCQA,MCQA_0091_0,Connectives/Aspect markers
+PNT1,replace,vâng,nghe,1,1,MCQA,MCQA_0056_2,Discourse particles
+PNT1,replace,vẫn,vần,1,1,MCQA,MCQA_0072_2,Orthographic variant
+PNT1,replace,vậy nên,di niên,1,1,NLI,NLI_3269,Demonstratives/Deixis
+PNT1,replace,xem,cuôi,1,1,SENT,SENT_1626,Predicate vocabulary
+PNT1,replace,xem,xiêm,1,1,SENT,SENT_1894,Predicate vocabulary
+PNT1,replace,xem cái này,xiêm cấy ni,1,1,SENT,SENT_0070,Demonstratives/Deixis
+PNT1,replace,xuống suối,xún súi,1,1,MCQA,MCQA_0151_1,Predicate vocabulary
+PNT1,replace,xác đáng,minh bạch,1,1,NLI,NLI_5143,Predicate vocabulary
+PNT1,replace,xò lông,dẩm,1,1,SENT,SENT_1579,Predicate vocabulary
+PNT1,replace,ù,cố,1,1,SENT,SENT_0696,Predicate vocabulary
+PNT1,replace,đi,đẫy,1,1,NLI,NLI_4233,Predicate vocabulary
+PNT1,replace,điều,việc,1,1,MCQA,MCQA_0137_3,Predicate vocabulary
+PNT1,replace,điện,địn,1,1,MCQA,MCQA_0037_4,Predicate vocabulary
+PNT1,replace,đuổi,đủi,1,1,MCQA,MCQA_0043_3,Predicate vocabulary
+PNT1,replace,đánh,nhể oánh,1,1,SENT,SENT_1971,Predicate vocabulary
+PNT1,replace,đánh,oách,1,1,SENT,SENT_1971,Predicate vocabulary
+PNT1,replace,đánh cắp,lấy trộm,1,1,MCQA,MCQA_0114_1,Predicate vocabulary
+PNT1,replace,đâu,chi mà,1,1,MCQA,MCQA_0060_2,Interrogatives
+PNT1,replace,đấy,đấ,1,1,SENT,SENT_1192,Demonstratives/Deixis
+PNT1,replace,đến,tới,1,1,MCQA,MCQA_0095_1,Connectives/Aspect markers
+PNT1,replace,đọc,đuộc,1,1,SENT,SENT_0462,Predicate vocabulary
+PNT1,replace,đủ,đũ,1,1,NLI,NLI_4176,Predicate vocabulary
+PNT1,replace,ảnh hưởng khủng,ãnh hưỡng khũng,1,1,SENT,SENT_0534,Idiomatic expressions
+PNT1,replace,“tôi,“tau,1,1,MCQA,MCQA_0152_3,Pronouns
+PNT2,replace,vào,vô,58,50,MCQA; NLI; QA; SENT,MCQA_0013_4; MCQA_0016_0; MCQA_0041_5; MCQA_0047_2; MCQA_0074_5,Connectives/Aspect markers
+PNT2,replace,như thế nào,a răng,29,29,MCQA; QA,MCQA_0018_4; MCQA_0018_6; MCQA_0025_9; MCQA_0036_5; MCQA_0042_7,Interrogatives
+PNT2,replace,đã làm gì,đạ mần chi,11,11,MCQA; QA,MCQA_0037_2; MCQA_0043_3; MCQA_0048_5; MCQA_0055_0; MCQA_0091_1,Interrogatives
+PNT2,replace,bảo,kêu,7,2,MCQA,MCQA_0030_1; MCQA_0074_5,Noise/Non-linguistic
+PNT2,replace,các,mấy,6,6,MCQA; NLI; QA,MCQA_0018_6; NLI_1921; NLI_3951; QA_17995; QA_20495,Demonstratives/Deixis
+PNT2,replace,gái,gấy,6,3,MCQA; NLI; SENT,MCQA_0056_1; NLI_6350; SENT_5441,Orthographic variant
+PNT2,replace,người,ngài,6,6,MCQA; NLI; QA; SENT,NLI_6169; QA_9637; SENT_3763; SENT_4445; MCQA_0010_1,Predicate vocabulary
+PNT2,replace,nước,nác,6,1,MCQA,MCQA_0096_0,Orthographic variant
+PNT2,replace,vì,tại,6,3,MCQA,MCQA_0016_0; MCQA_0010_1; MCQA_0012_5,Connectives/Aspect markers
+PNT2,replace,chúng,nhà,5,3,MCQA; NLI,MCQA_0065_5; MCQA_0148_3; NLI_2313,Pronouns
+PNT2,replace,như thế nào,ra răng,5,5,NLI; QA,QA_15627; QA_20495; QA_22836; NLI_0729; QA_12099,Interrogatives
+PNT2,replace,như thế nào,ơ răng,5,5,MCQA; QA,MCQA_0116_5; QA_15710; QA_19329; QA_26901; QA_6664,Interrogatives
+PNT2,replace,ngày,ngay,4,2,MCQA,MCQA_0077_0; MCQA_0012_0,Orthographic variant
+PNT2,replace,tại,lộ,4,4,NLI; QA,NLI_5263; QA_22617; QA_23978; QA_4887,Connectives/Aspect markers
+PNT2,replace,cái này,cấy ni,3,3,SENT,SENT_1771; SENT_4790; SENT_5531,Demonstratives/Deixis
+PNT2,replace,gì đã,chi đạ,3,3,MCQA,MCQA_0020_1; MCQA_0030_3; MCQA_0138_5,Interrogatives
+PNT2,replace,mình,chắc,3,2,MCQA,MCQA_0042_2; MCQA_0077_0,Pronouns
+PNT2,replace,như thế nào,à răng,3,3,MCQA; QA,MCQA_0065_2; MCQA_0148_3; QA_27033,Interrogatives
+PNT2,replace,ruộng,rọng,3,1,MCQA,MCQA_0096_0,Orthographic variant
+PNT2,replace,vì cậu,tại lạo,3,1,MCQA,MCQA_0077_0,Pronouns
+PNT2,replace,cô,con,2,2,MCQA; NLI,MCQA_0056_2; NLI_7901,Pronouns
+PNT2,replace,cùng,với,2,2,MCQA; SENT,MCQA_0077_0; SENT_0958,Connectives/Aspect markers
+PNT2,replace,giờ,dừ,2,2,SENT,SENT_3023; SENT_4035,Orthographic variant
+PNT2,replace,giữa,trửa,2,2,MCQA,MCQA_0123_0; MCQA_0151_3,Orthographic variant
+PNT2,replace,heo,lợn,2,1,SENT,SENT_4035,Predicate vocabulary
+PNT2,replace,nhau,chắc,2,1,MCQA,MCQA_0123_0,Predicate vocabulary
+PNT2,replace,những,mấy cấy,2,2,MCQA; NLI,NLI_2899; MCQA_0002_4,Demonstratives/Deixis
+PNT2,replace,những,nhửng,2,2,MCQA; NLI,MCQA_0137_3; NLI_0448,Demonstratives/Deixis
+PNT2,replace,nào làm,mô mần,2,2,NLI,NLI_3269; NLI_6155,Interrogatives
+PNT2,replace,nữa,nửa,2,2,QA,QA_19280; QA_3410,Orthographic variant
+PNT2,replace,rằng,là,2,2,MCQA; NLI,MCQA_0100_1; NLI_1921,Predicate vocabulary
+PNT2,replace,tao không,tau nỏ,2,2,SENT,SENT_1410; SENT_3763,Pronouns
+PNT2,replace,thẹo,sẹo,2,1,SENT,SENT_1146,Predicate vocabulary
+PNT2,replace,trâu,tru,2,2,MCQA,MCQA_0020_1; MCQA_0087_0,Orthographic variant
+PNT2,replace,và,với,2,2,NLI; QA,QA_26719; NLI_0064,Connectives/Aspect markers
+PNT2,replace,đã không,đạ nỏ,2,2,MCQA; QA,MCQA_0123_0; QA_6673,Negation/Function words
+PNT2,replace,"""người đâu","""ngài mô",1,1,MCQA,MCQA_0041_7,Interrogatives
+PNT2,replace,ba,bố,1,1,SENT,SENT_4885,Kinship/Honorific terms
+PNT2,replace,bạn,con,1,1,MCQA,MCQA_0090_6,Predicate vocabulary
+PNT2,replace,bạn,lạo,1,1,MCQA,MCQA_0012_5,Kinship/Honorific terms
+PNT2,replace,bạn,mày,1,1,SENT,SENT_4745,Pronouns
+PNT2,replace,bản,xóm,1,1,MCQA,MCQA_0030_3,Predicate vocabulary
+PNT2,replace,bởi vì,do cấy,1,1,NLI,NLI_3201,Connectives/Aspect markers
+PNT2,replace,cha mẹ,ba mạ,1,1,SENT,SENT_3067,Kinship/Honorific terms
+PNT2,replace,chau,cháu,1,1,SENT,SENT_3273,Predicate vocabulary
+PNT2,replace,cho cắm,chó cắn,1,1,SENT,SENT_3273,Connectives/Aspect markers
+PNT2,replace,chuẩn tao,ừa tau,1,1,SENT,SENT_0958,Pronouns
+PNT2,replace,chàng trai,của anh nớ,1,1,NLI,NLI_0459,Pronouns
+PNT2,replace,chôm,cướp,1,1,SENT,SENT_1485,Predicate vocabulary
+PNT2,replace,chúng tôi đã,choa đạ,1,1,MCQA,MCQA_0062_0,Pronouns
+PNT2,replace,chơi,nhởi,1,1,SENT,SENT_1894,Predicate vocabulary
+PNT2,replace,chơi hoặc làm,nhởi hay mần,1,1,SENT,SENT_0958,Connectives/Aspect markers
+PNT2,replace,chồng,nhông,1,1,NLI,NLI_6960,Kinship/Honorific terms
+PNT2,replace,chứ làm gì,chơ mần chi,1,1,SENT,SENT_0814,Interrogatives
+PNT2,replace,chứ nó,chơ hấn,1,1,SENT,SENT_4150,Pronouns
+PNT2,replace,chứ đâu,chơ mô,1,1,SENT,SENT_4003,Interrogatives
+PNT2,replace,cái này vào,cấy ni vô,1,1,SENT,SENT_2727,Demonstratives/Deixis
+PNT2,replace,còn,đăng,1,1,SENT,SENT_3750,Predicate vocabulary
+PNT2,replace,cô gái cưới chồng,ả nớ lấy nhông,1,1,NLI,NLI_0716,Pronouns
+PNT2,replace,cùng cậu,với cu nớ,1,1,NLI,NLI_5451,Pronouns
+PNT2,replace,cũng,còn,1,1,MCQA,MCQA_0141_2,Predicate vocabulary
+PNT2,replace,cũng khá,cụng được,1,1,SENT,SENT_0070,Predicate vocabulary
+PNT2,replace,cũng không thấy,cụng nỏ chộ,1,1,SENT,SENT_0835,Negation/Function words
+PNT2,replace,cũng đều,cụng,1,1,NLI,NLI_0830,Predicate vocabulary
+PNT2,replace,cảnh này gặp cũng nhiều,hồi xưa còn bị vén tà áo dài nằm lên bàn,1,1,SENT,SENT_3060,Demonstratives/Deixis
+PNT2,replace,dàn,dần,1,1,QA,QA_24045,Orthographic variant
+PNT2,replace,dã,dạ,1,1,SENT,SENT_0534,Discourse particles
+PNT2,replace,dậy,dị,1,1,MCQA,MCQA_0096_0,Predicate vocabulary
+PNT2,replace,dắt,dắc,1,1,SENT,SENT_0814,Predicate vocabulary
+PNT2,replace,dọn,đập chơ quỳ như ri có là cây chi mô dừ mới,1,1,SENT,SENT_3060,Interrogatives
+PNT2,replace,dữ thấy,tợn bỏ,1,1,SENT,SENT_2148,Predicate vocabulary
+PNT2,replace,gia đình,nhà,1,1,QA,QA_25984,Predicate vocabulary
+PNT2,replace,giờ mới,dừ mì,1,1,SENT,SENT_3469,Predicate vocabulary
+PNT2,replace,giờ nó,dừ hấn,1,1,SENT,SENT_5360,Pronouns
+PNT2,replace,giữ,giự,1,1,MCQA,MCQA_0010_3,Predicate vocabulary
+PNT2,replace,giữa,giửa,1,1,MCQA,MCQA_0020_2,Predicate vocabulary
+PNT2,replace,gàn dở,bị điên,1,1,MCQA,MCQA_0030_3,Predicate vocabulary
+PNT2,replace,gì cái,chi cây,1,1,SENT,SENT_4150,Interrogatives
+PNT2,replace,gì cũng,chi cụng,1,1,SENT,SENT_0018,Interrogatives
+PNT2,replace,gì nó,chi hấn,1,1,SENT,SENT_1222,Pronouns
+PNT2,replace,gọi thật,hú thiệt,1,1,MCQA,MCQA_0127_3,Connectives/Aspect markers
+PNT2,replace,hoạ,họa,1,1,SENT,SENT_0534,Orthographic variant
+PNT2,replace,hôm,bựa,1,1,MCQA,MCQA_0051_0,Orthographic variant
+PNT2,replace,hôm,vào bựa,1,1,NLI,NLI_0830,Predicate vocabulary
+PNT2,replace,hôm kia đâu,bựa nớ mô,1,1,MCQA,MCQA_0051_0,Interrogatives
+PNT2,replace,hôm nay,bữa ni,1,1,MCQA,MCQA_0047_2,Demonstratives/Deixis
+PNT2,replace,hôm nay nó,bựa ni hấn,1,1,SENT,SENT_4550,Pronouns
+PNT2,replace,hôm nay đâu,bựa ni mô,1,1,MCQA,MCQA_0051_0,Interrogatives
+PNT2,replace,hôm nào,bựa mô,1,1,SENT,SENT_5531,Interrogatives
+PNT2,replace,hôm nó,bữa hấn,1,1,SENT,SENT_0895,Pronouns
+PNT2,replace,hôm tao,bựa tau,1,1,SENT,SENT_1410,Pronouns
+PNT2,replace,hôm xưa đâu,mọi hồi mô,1,1,MCQA,MCQA_0051_0,Interrogatives
+PNT2,replace,hôm ấy,bữa nớ,1,1,SENT,SENT_3514,Demonstratives/Deixis
+PNT2,replace,khi,cấy đoạn,1,1,QA,QA_17771,Noise/Non-linguistic
+PNT2,replace,khu vực,mấy đoạn,1,1,QA,QA_3137,Noise/Non-linguistic
+PNT2,replace,không làm,nỏ mần,1,1,SENT,SENT_4989,Noise/Non-linguistic
+PNT2,replace,không làm gì,nỏ mần chi,1,1,SENT,SENT_2515,Negation/Function words
+PNT2,replace,không thấy,nỏ chộ,1,1,MCQA,MCQA_0152_3,Noise/Non-linguistic
+PNT2,replace,kkkk,kkk,1,1,SENT,SENT_1161,Noise/Non-linguistic
+PNT2,replace,luyện,liệng,1,1,MCQA,MCQA_0004_3,Orthographic variant
+PNT2,replace,là gì,cái chi,1,1,QA,QA_18652,Interrogatives
+PNT2,replace,làm gì nhìu,mần chi nhiều,1,1,SENT,SENT_3618,Interrogatives
+PNT2,replace,làm gì vậy nhỉ,mần chi rứa hè,1,1,SENT,SENT_0343,Interrogatives
+PNT2,replace,làm sao,mần răng,1,1,SENT,SENT_4809,Interrogatives
+PNT2,replace,làm sao không,mần răng nỏ,1,1,SENT,SENT_4035,Interrogatives
+PNT2,replace,làm thế,mần rứa,1,1,SENT,SENT_5154,Interrogatives
+PNT2,replace,lúa,ló,1,1,MCQA,MCQA_0042_7,Orthographic variant
+PNT2,replace,lười thế,nhác rứa,1,1,MCQA,MCQA_0041_7,Interrogatives
+PNT2,replace,lầm,nhầm,1,1,MCQA,MCQA_0016_5,Predicate vocabulary
+PNT2,replace,mai này,sau ni,1,1,SENT,SENT_0534,Demonstratives/Deixis
+PNT2,replace,mccarthy,mccartthy,1,1,NLI,NLI_0064,Predicate vocabulary
+PNT2,replace,mong muốn,ưng,1,1,NLI,NLI_3108,Predicate vocabulary
+PNT2,replace,mình,mà,1,1,SENT,SENT_0192,Pronouns
+PNT2,replace,móa thiệt chứ tụi này,moá thật chư bọn ni,1,1,SENT,SENT_0343,Pronouns
+PNT2,replace,mươi,mưới,1,1,QA,QA_10377,Predicate vocabulary
+PNT2,replace,mẫu,mẩu,1,1,MCQA,MCQA_0047_4,Predicate vocabulary
+PNT2,replace,mẹ luôn mà vẫn không sạch được tức ghê ức chế lắm 1 lần thì không sao mà cả chục lần,cảm ơn thầy cô vì hồi nớ đã,1,1,SENT,SENT_3060,Interrogatives
+PNT2,replace,mổ,mổi,1,1,SENT,SENT_4959,Predicate vocabulary
+PNT2,replace,ngay lập,tắp lự,1,1,NLI,NLI_6960,Connectives/Aspect markers
+PNT2,replace,nghĩ gì,nghị chi,1,1,SENT,SENT_4733,Interrogatives
+PNT2,replace,ngày hôm,bữa,1,1,MCQA,MCQA_0051_4,Predicate vocabulary
+PNT2,replace,ngày nay,bữa ni,1,1,QA,QA_23978,Demonstratives/Deixis
+PNT2,replace,ngưới,người,1,1,NLI,NLI_0959,Predicate vocabulary
+PNT2,replace,người,đứa,1,1,MCQA,MCQA_0043_4,Pronouns
+PNT2,replace,người dân,bà con,1,1,NLI,NLI_4233,Predicate vocabulary
+PNT2,replace,người như thế nào,ngài a răng,1,1,SENT,SENT_4057,Interrogatives
+PNT2,replace,người nấy,ngài nớ,1,1,MCQA,MCQA_0138_3,Demonstratives/Deixis
+PNT2,replace,người vậy,ngài rứa,1,1,SENT,SENT_0895,Interrogatives
+PNT2,replace,người đàn ông,ci anh nớ,1,1,NLI,NLI_0515,Pronouns
+PNT2,replace,nhâu,nhau,1,1,SENT,SENT_3249,Predicate vocabulary
+PNT2,replace,nhíp,nhím,1,1,SENT,SENT_0835,Predicate vocabulary
+PNT2,replace,như thế nào nhỉ,a răng biết,1,1,SENT,SENT_2217,Interrogatives
+PNT2,replace,như thế này bây giờ không,a ri chừ nỏ,1,1,SENT,SENT_0462,Interrogatives
+PNT2,replace,nhất,nhít,1,1,SENT,SENT_4428,Predicate vocabulary
+PNT2,replace,nhỉ mình nhận thấy,hè tui chộ,1,1,SENT,SENT_0237,Pronouns
+PNT2,replace,nhỉ sao,rứa răng,1,1,SENT,SENT_1172,Interrogatives
+PNT2,replace,những,mấy,1,1,MCQA,MCQA_0147_4,Demonstratives/Deixis
+PNT2,replace,những,nhựng,1,1,NLI,NLI_0028,Demonstratives/Deixis
+PNT2,replace,nào chúng,mô mà,1,1,MCQA,MCQA_0002_4,Pronouns
+PNT2,replace,nào không,mô nỏ,1,1,MCQA,MCQA_0123_6,Interrogatives
+PNT2,replace,nào mẹ làm,mô mệ mần,1,1,SENT,SENT_1915,Kinship/Honorific terms
+PNT2,replace,nào tao,mô tau,1,1,SENT,SENT_1579,Pronouns
+PNT2,replace,nào vào,mô vô,1,1,QA,QA_22617,Interrogatives
+PNT2,replace,này +,ni với,1,1,SENT,SENT_5421,Demonstratives/Deixis
+PNT2,replace,này không,ni nỏ,1,1,NLI,NLI_3048,Demonstratives/Deixis
+PNT2,replace,này như thế nào,ni a răng,1,1,MCQA,MCQA_0041_5,Interrogatives
+PNT2,replace,này sợ thật đấy,hết cả hồn,1,1,SENT,SENT_1093,Demonstratives/Deixis
+PNT2,replace,này tao thấy mày,ni tau chộ mi,1,1,SENT,SENT_4737,Pronouns
+PNT2,replace,này tuyết,ni tuyệt,1,1,NLI,NLI_0337,Demonstratives/Deixis
+PNT2,replace,này vào,ni vô,1,1,SENT,SENT_4519,Demonstratives/Deixis
+PNT2,replace,này đâu,ni cả,1,1,SENT,SENT_3243,Interrogatives
+PNT2,replace,nên người ta mới gọi nó,bơ họ mì kêu hắn,1,1,NLI,NLI_5704,Pronouns
+PNT2,replace,nó không,hấn nỏ,1,1,SENT,SENT_4745,Pronouns
+PNT2,replace,nó làm gì,hấn mần chi,1,1,MCQA,MCQA_0151_1,Pronouns
+PNT2,replace,nó vào,hấn vô,1,1,SENT,SENT_5360,Pronouns
+PNT2,replace,nó đỗ,hấn đậu,1,1,SENT,SENT_1546,Pronouns
+PNT2,replace,nũa,nữa,1,1,SENT,SENT_3273,Orthographic variant
+PNT2,replace,nơi như thế nào,chỗ a răng,1,1,QA,QA_23978,Interrogatives
+PNT2,replace,nữa,nựa,1,1,MCQA,MCQA_0004_3,Orthographic variant
+PNT2,replace,nữa chứ,nựa chơ,1,1,SENT,SENT_3750,Connectives/Aspect markers
+PNT2,replace,or không,hoặc nỏ,1,1,SENT,SENT_0237,Negation/Function words
+PNT2,replace,phục,phúc,1,1,NLI,NLI_0521,Orthographic variant
+PNT2,replace,qua,vừa rồi,1,1,NLI,NLI_0157,Connectives/Aspect markers
+PNT2,replace,quát,nạt,1,1,SENT,SENT_5441,Predicate vocabulary
+PNT2,replace,ruộng,rộng,1,1,MCQA,MCQA_0096_0,Predicate vocabulary
+PNT2,replace,ruột,rọt,1,1,NLI,NLI_2198,Orthographic variant
+PNT2,replace,sao không,răng nỏ,1,1,MCQA,MCQA_0037_4,Interrogatives
+PNT2,replace,sao này,sau ni,1,1,SENT,SENT_4160,Interrogatives
+PNT2,replace,sao nó không,răng hấn nỏ,1,1,SENT,SENT_2816,Pronouns
+PNT2,replace,sao ấy,răng rứa,1,1,SENT,SENT_1971,Interrogatives
+PNT2,replace,sau đó bị,quá mấy nữa,1,1,SENT,SENT_0958,Demonstratives/Deixis
+PNT2,replace,sâu,su,1,1,MCQA,MCQA_0096_0,Noise/Non-linguistic
+PNT2,replace,sẽ,có lẹ,1,1,SENT,SENT_0192,Predicate vocabulary
+PNT2,replace,số lượng lớn,vơ trời,1,1,NLI,NLI_3719,Predicate vocabulary
+PNT2,replace,tao quá vậy,tau rứa,1,1,SENT,SENT_4084,Pronouns
+PNT2,replace,tao tao,tau tau,1,1,SENT,SENT_5315,Pronouns
+PNT2,replace,tao vậy,tau rứa,1,1,SENT,SENT_1098,Pronouns
+PNT2,replace,tao đã,tau đạ,1,1,SENT,SENT_0462,Pronouns
+PNT2,replace,thành,thuần,1,1,NLI,NLI_0028,Predicate vocabulary
+PNT2,replace,thân một mình,chắc,1,1,MCQA,MCQA_0042_2,Pronouns
+PNT2,replace,thì tao,chắc tau,1,1,SENT,SENT_0958,Pronouns
+PNT2,replace,thế không,rứa nỏ,1,1,SENT,SENT_4885,Interrogatives
+PNT2,replace,thế kia,rứa tê,1,1,SENT,SENT_0814,Interrogatives
+PNT2,replace,thế kia không,rứa nỏ,1,1,SENT,SENT_3094,Interrogatives
+PNT2,replace,thế nhỉ,rứa hầy,1,1,SENT,SENT_1338,Interrogatives
+PNT2,replace,thế này cơ,như ri chơ,1,1,SENT,SENT_0814,Interrogatives
+PNT2,replace,thế này thế kia,như ri như rứa,1,1,SENT,SENT_3555,Interrogatives
+PNT2,replace,thủ,thử,1,1,QA,QA_23452,Predicate vocabulary
+PNT2,replace,toòng teng,hoa tai,1,1,MCQA,MCQA_0152_0,Predicate vocabulary
+PNT2,replace,trái,ngược lại,1,1,QA,QA_27000,Predicate vocabulary
+PNT2,replace,trất,dẹp,1,1,SENT,SENT_0018,Predicate vocabulary
+PNT2,replace,trịu,trọi,1,1,MCQA,MCQA_0002_4,Orthographic variant
+PNT2,replace,tôi không,tui nỏ,1,1,MCQA,MCQA_0138_3,Pronouns
+PNT2,replace,tôi đã,tau đạ,1,1,NLI,NLI_7691,Pronouns
+PNT2,replace,túi,bao,1,1,MCQA,MCQA_0091_0,Predicate vocabulary
+PNT2,replace,tại sao,vì răng mà,1,1,MCQA,MCQA_0141_2,Interrogatives
+PNT2,replace,vào,cấy đoạn,1,1,QA,QA_19281,Connectives/Aspect markers
+PNT2,replace,vào làm những,vô mần nhửng,1,1,QA,QA_10410,Demonstratives/Deixis
+PNT2,replace,vâng,dạ,1,1,SENT,SENT_3169,Discourse particles
+PNT2,replace,vì cha không,tại bố nỏ,1,1,MCQA,MCQA_0010_1,Kinship/Honorific terms
+PNT2,replace,vì cậu không,tại lạo nỏ,1,1,MCQA,MCQA_0077_0,Pronouns
+PNT2,replace,vì sao cha,tại răng bố,1,1,MCQA,MCQA_0010_1,Kinship/Honorific terms
+PNT2,replace,vấn đề,chi là,1,1,SENT,SENT_4733,Interrogatives
+PNT2,replace,vậy không,khung,1,1,SENT,SENT_0626,Noise/Non-linguistic
+PNT2,replace,vịnh,vinh,1,1,QA,QA_10377,Predicate vocabulary
+PNT2,replace,xác,chính,1,1,NLI,NLI_5143,Predicate vocabulary
+PNT2,replace,điều gì,cái chi,1,1,QA,QA_0363,Interrogatives
+PNT2,replace,điều gì,cây chi,1,1,MCQA,MCQA_0051_0,Interrogatives
+PNT2,replace,điều gì,cấy chi,1,1,QA,QA_17771,Interrogatives
+PNT2,replace,đánh chứ,đập chơ,1,1,SENT,SENT_2507,Predicate vocabulary
+PNT2,replace,đâu không,mô nỏ,1,1,SENT,SENT_4989,Interrogatives
+PNT2,replace,đâu nhỉ,mô hầy,1,1,SENT,SENT_4550,Interrogatives
+PNT2,replace,đây,dừ,1,1,SENT,SENT_3169,Demonstratives/Deixis
+PNT2,replace,đã làm,đạ mần,1,1,MCQA,MCQA_0144_3,Connectives/Aspect markers
+PNT2,replace,đã làm như thế nào,đạ mần a răng,1,1,MCQA,MCQA_0123_0,Interrogatives
+PNT2,replace,đó chẳng,nớ nỏ,1,1,MCQA,MCQA_0114_6,Demonstratives/Deixis
+PNT2,replace,đó không,nớ nỏ,1,1,NLI,NLI_3172,Demonstratives/Deixis
+PNT2,replace,đó tao,nớ tau,1,1,SENT,SENT_1579,Pronouns
+PNT2,replace,đó vậy,nớ rứa,1,1,SENT,SENT_1172,Interrogatives
+PNT2,replace,được chả,nổi nỏ,1,1,SENT,SENT_4861,Negation/Function words
+PNT2,replace,đấy thế nào,nớ như răng,1,1,SENT,SENT_4519,Interrogatives
+PNT2,replace,đầu,trốc,1,1,SENT,SENT_2148,Predicate vocabulary
+PNT2,replace,đỗ đâu,đậu mô,1,1,SENT,SENT_1546,Interrogatives
+PNT2,replace,đột,tự,1,1,NLI,NLI_6129,Predicate vocabulary
+PNT2,replace,đỡ,đợ,1,1,MCQA,MCQA_0012_0,Predicate vocabulary
+PNT2,replace,đức,bức,1,1,NLI,NLI_1077,Orthographic variant
+PNT2,replace,ấy tôi,nớ tau,1,1,SENT,SENT_4494,Pronouns
+PNT2,replace,“tôi,“tui,1,1,MCQA,MCQA_0152_3,Pronouns
+PNT3,replace,vào,vô,54,48,MCQA; NLI; QA; SENT,MCQA_0041_5; MCQA_0047_2; MCQA_0091_1; MCQA_0095_1; MCQA_0096_0,Connectives/Aspect markers
+PNT3,replace,và,với,29,23,MCQA; NLI; QA; SENT,MCQA_0013_3; MCQA_0013_4; MCQA_0036_5; MCQA_0048_2; MCQA_0056_1,Connectives/Aspect markers
+PNT3,replace,các,mấy,26,19,MCQA; NLI; QA; SENT,MCQA_0062_0; MCQA_0062_2; MCQA_0065_5; MCQA_0077_0; MCQA_0092_1,Demonstratives/Deixis
+PNT3,replace,những,mấy,14,13,MCQA; NLI; QA; SENT,MCQA_0064_1; MCQA_0072_2; MCQA_0116_5; MCQA_0126_2; MCQA_0137_1,Demonstratives/Deixis
+PNT3,replace,mình,miềng,8,8,MCQA; NLI; QA; SENT,MCQA_0042_7; MCQA_0048_2; QA_5750; SENT_1546; SENT_3906,Pronouns
+PNT3,replace,và,rồi,7,5,MCQA; NLI,MCQA_0037_2; MCQA_0060_2; MCQA_0095_1; MCQA_0138_5; NLI_0511,Connectives/Aspect markers
+PNT3,replace,bát nào,chén mô,4,1,MCQA,MCQA_0036_5,Interrogatives
+PNT3,replace,chúng,bọn,4,2,MCQA,MCQA_0062_0; MCQA_0148_3,Pronouns
+PNT3,replace,rằng,là,4,4,NLI; QA,NLI_1921; NLI_7826; QA_13818; QA_15627,Predicate vocabulary
+PNT3,replace,đến,tới,4,4,MCQA; NLI,MCQA_0064_1; MCQA_0087_0; MCQA_0126_2; NLI_0959,Connectives/Aspect markers
+PNT3,replace,bà mong mình,mệ trông mềng,3,1,MCQA,MCQA_0152_3,Pronouns
+PNT3,replace,bảo,nói,3,3,MCQA,MCQA_0025_9; MCQA_0074_5; MCQA_0128_2,Predicate vocabulary
+PNT3,replace,cây,cơn,3,2,MCQA,MCQA_0020_2; MCQA_0072_2,Predicate vocabulary
+PNT3,replace,cậu,thằng,3,3,MCQA,MCQA_0036_5; MCQA_0120_3; MCQA_0120_7,Pronouns
+PNT3,replace,không thích,nỏ ưng,3,3,MCQA; SENT,SENT_4003; SENT_4959; MCQA_0025_10,Noise/Non-linguistic
+PNT3,replace,muốn,ưng,3,3,SENT,SENT_4809; SENT_4885; SENT_1222,Predicate vocabulary
+PNT3,replace,mình,mềng,3,3,MCQA; SENT,MCQA_0152_3; SENT_4745; SENT_5315,Pronouns
+PNT3,replace,mới,mì,3,3,NLI,NLI_3269; NLI_3719; NLI_5704,Orthographic variant
+PNT3,replace,nước,nác,3,3,MCQA,MCQA_0116_5; MCQA_0151_1; MCQA_0151_3,Orthographic variant
+PNT3,replace,quá,quái,3,3,MCQA; SENT,SENT_3023; MCQA_0010_1; MCQA_0016_0,Predicate vocabulary
+PNT3,replace,tại,ở,3,3,QA,QA_14184; QA_22620; QA_8137,Connectives/Aspect markers
+PNT3,replace,điều gì,cấy chi,3,3,MCQA; NLI,MCQA_0036_5; MCQA_0051_4; NLI_6854,Interrogatives
+PNT3,replace,đường,đàng,3,3,QA; SENT,QA_6664; SENT_3243; SENT_5456,Orthographic variant
+PNT3,replace,bát,chén,2,1,MCQA,MCQA_0036_5,Predicate vocabulary
+PNT3,replace,bố mình,bọ tau,2,1,SENT,SENT_4428,Pronouns
+PNT3,replace,bố mẹ,bọ mạ,2,2,SENT,SENT_5017; SENT_5360,Kinship/Honorific terms
+PNT3,replace,chơi,rượng,2,2,SENT,SENT_1894; SENT_5456,Predicate vocabulary
+PNT3,replace,các con,mấy đứa,2,1,MCQA,MCQA_0039_4,Pronouns
+PNT3,replace,"cây""","cơn""",2,1,MCQA,MCQA_0072_2,Predicate vocabulary
+PNT3,replace,dỗi,lẫy,2,1,MCQA,MCQA_0090_6,Predicate vocabulary
+PNT3,replace,gì đã,chi đạ,2,2,MCQA; NLI,MCQA_0020_1; NLI_7469,Interrogatives
+PNT3,replace,không muốn,nỏ ưng,2,2,MCQA; SENT,MCQA_0056_1; SENT_5315,Noise/Non-linguistic
+PNT3,replace,mình,chắc,2,2,MCQA; NLI,MCQA_0077_0; NLI_6110,Pronouns
+PNT3,replace,mẩu,méng,2,1,MCQA,MCQA_0047_4,Predicate vocabulary
+PNT3,replace,mẹ già,mạ tra,2,2,MCQA; SENT,MCQA_0081_3; SENT_5315,Kinship/Honorific terms
+PNT3,replace,người ta,họ,2,2,QA; SENT,QA_4833; SENT_4003,Pronouns
+PNT3,replace,nào cũng,mô cụng,2,2,SENT,SENT_3469; SENT_4445,Interrogatives
+PNT3,replace,nào làm,mô mần,2,2,NLI,NLI_3269; NLI_6155,Interrogatives
+PNT3,replace,này không,ni khung,2,2,NLI; SENT,NLI_3048; SENT_1915,Demonstratives/Deixis
+PNT3,replace,sử dụng,dùng,2,2,MCQA; QA,MCQA_0104_4; QA_7517,Predicate vocabulary
+PNT3,replace,vào,vô kì,2,2,QA; SENT,QA_25984; SENT_1410,Connectives/Aspect markers
+PNT3,replace,vào,ở,2,2,QA,QA_14176; QA_5051,Connectives/Aspect markers
+PNT3,replace,vợ chồng,cấy dông,2,1,MCQA,MCQA_0030_3,Kinship/Honorific terms
+PNT3,replace,ông,ổng,2,1,MCQA,MCQA_0098_8,Pronouns
+PNT3,replace,đàn,bầy,2,1,MCQA,MCQA_0151_1,Predicate vocabulary
+PNT3,replace,đó không,nớ nỏ,2,2,NLI,NLI_3172; NLI_6129,Demonstratives/Deixis
+PNT3,replace,đỗ,đậu,2,1,SENT,SENT_3243,Predicate vocabulary
+PNT3,replace,""" nghìn mét ""","""ngàn mét""",1,1,SENT,SENT_1222,Predicate vocabulary
+PNT3,replace,anh chồng la hoài là vậy,eng dông nạt mãi mà rứa tê,1,1,SENT,SENT_3906,Pronouns
+PNT3,replace,bao giờ,lần mô,1,1,MCQA,MCQA_0074_5,Interrogatives
+PNT3,replace,bao giờ bảo,từng kêu,1,1,MCQA,MCQA_0074_5,Interrogatives
+PNT3,replace,bao giờ bảo,từng nói,1,1,MCQA,MCQA_0074_5,Interrogatives
+PNT3,replace,bà cha,mệ bọ,1,1,NLI,NLI_5735,Kinship/Honorific terms
+PNT3,replace,bà nó,mẹ kì,1,1,SENT,SENT_3469,Pronouns
+PNT3,replace,bà đã tuyên bố,lạo xưng,1,1,QA,QA_26462,Pronouns
+PNT3,replace,bà đấy thế nào,mệ nớ ra răng,1,1,SENT,SENT_4519,Pronouns
+PNT3,replace,bây giờ nó,bựa chừ hắn,1,1,SENT,SENT_5360,Pronouns
+PNT3,replace,bãi,bại,1,1,NLI,NLI_1677,Predicate vocabulary
+PNT3,replace,bão vắng mẹ,bạo thiếu mạ,1,1,MCQA,MCQA_0144_0,Kinship/Honorific terms
+PNT3,replace,bước,đoạn,1,1,SENT,SENT_1161,Predicate vocabulary
+PNT3,replace,bạn nhỉ mình cũng không,mi hè mềng cụng nỏ,1,1,SENT,SENT_4745,Pronouns
+PNT3,replace,bả,bã,1,1,MCQA,MCQA_0065_2,Pronouns
+PNT3,replace,bận,mắc,1,1,MCQA,MCQA_0152_0,Predicate vocabulary
+PNT3,replace,bắt,tóm,1,1,SENT,SENT_1485,Predicate vocabulary
+PNT3,replace,bố mẹ chửi mắng,bọ mạ chưởi,1,1,SENT,SENT_4861,Idiomatic expressions
+PNT3,replace,bố quát,bọ nạt,1,1,SENT,SENT_5441,Kinship/Honorific terms
+PNT3,replace,bố thích,bọ ưng,1,1,MCQA,MCQA_0010_1,Kinship/Honorific terms
+PNT3,replace,bố vào thời điểm nào,ba khi mô,1,1,MCQA,MCQA_0013_4,Interrogatives
+PNT3,replace,bố điều gì,bọ cấy chi,1,1,MCQA,MCQA_0051_0,Kinship/Honorific terms
+PNT3,replace,bởi vì,tại,1,1,NLI,NLI_3201,Connectives/Aspect markers
+PNT3,replace,bởi vậy,vì rứa nên,1,1,SENT,SENT_3618,Interrogatives
+PNT3,replace,bữa,bựa,1,1,SENT,SENT_5251,Predicate vocabulary
+PNT3,replace,bữa không,bựa nỏ,1,1,SENT,SENT_5441,Negation/Function words
+PNT3,replace,cha không thích,bọ nỏ ưng,1,1,MCQA,MCQA_0010_1,Kinship/Honorific terms
+PNT3,replace,chay,chạy,1,1,SENT,SENT_1222,Predicate vocabulary
+PNT3,replace,chen,xô,1,1,SENT,SENT_1192,Predicate vocabulary
+PNT3,replace,chiện,chuyện,1,1,SENT,SENT_4428,Predicate vocabulary
+PNT3,replace,chuyên,hay,1,1,QA,QA_27033,Predicate vocabulary
+PNT3,replace,chàng trai,anh nớ,1,1,NLI,NLI_0459,Pronouns
+PNT3,replace,chân,cẳng,1,1,SENT,SENT_2217,Predicate vocabulary
+PNT3,replace,chú,kì con,1,1,NLI,NLI_3269,Noise/Non-linguistic
+PNT3,replace,chúng mày lớn khôn lớn,bây nậy nậy,1,1,SENT,SENT_5017,Pronouns
+PNT3,replace,chúng ta,miềng,1,1,MCQA,MCQA_0065_5,Pronouns
+PNT3,replace,chúng ta,mình,1,1,SENT,SENT_4155,Pronouns
+PNT3,replace,chút nhưng,tí đều,1,1,SENT,SENT_1655,Predicate vocabulary
+PNT3,replace,chăng nữa,nựa,1,1,SENT,SENT_5017,Connectives/Aspect markers
+PNT3,replace,chơi hoặc làm,dởi hay mần,1,1,SENT,SENT_0958,Connectives/Aspect markers
+PNT3,replace,chơi không,dởi nỏ,1,1,MCQA,MCQA_0077_0,Negation/Function words
+PNT3,replace,chơi nữa,dởi nựa,1,1,SENT,SENT_1410,Connectives/Aspect markers
+PNT3,replace,chẳng,nọ,1,1,MCQA,MCQA_0043_3,Negation/Function words
+PNT3,replace,chồng,dông,1,1,NLI,NLI_6960,Kinship/Honorific terms
+PNT3,replace,chỗ,lộ,1,1,MCQA,MCQA_0137_1,Predicate vocabulary
+PNT3,replace,chứ không,chơ khung,1,1,SENT,SENT_4057,Negation/Function words
+PNT3,replace,chứ làm gì,cho rồi chơ mần chi,1,1,SENT,SENT_0814,Interrogatives
+PNT3,replace,chứ mình không,chơ miềng nỏ,1,1,SENT,SENT_1546,Pronouns
+PNT3,replace,chứ sau này,chơ mài bựa,1,1,SENT,SENT_4733,Demonstratives/Deixis
+PNT3,replace,chứ đâu,chơ mô,1,1,SENT,SENT_4003,Interrogatives
+PNT3,replace,chứ đường,chơ đàng,1,1,SENT,SENT_3243,Predicate vocabulary
+PNT3,replace,chứa,bỏ,1,1,QA,QA_0268,Predicate vocabulary
+PNT3,replace,con ấy chứ,em đó chơ,1,1,SENT,SENT_3023,Kinship/Honorific terms
+PNT3,replace,các,mấy cái,1,1,NLI,NLI_1019,Demonstratives/Deixis
+PNT3,replace,các,mấy cì,1,1,NLI,NLI_0157,Demonstratives/Deixis
+PNT3,replace,các,những,1,1,QA,QA_18041,Demonstratives/Deixis
+PNT3,replace,các bà đâu,mấy mệ mô,1,1,SENT,SENT_3243,Pronouns
+PNT3,replace,các chế ơi,mấy ả nở,1,1,SENT,SENT_3249,Pronouns
+PNT3,replace,các nẻo đường,mấy lộ,1,1,MCQA,MCQA_0137_1,Demonstratives/Deixis
+PNT3,replace,các vị,mấy người,1,1,MCQA,MCQA_0018_6,Demonstratives/Deixis
+PNT3,replace,cái lũ,cấy bọn,1,1,SENT,SENT_4964,Pronouns
+PNT3,replace,cái này,cấy ni,1,1,SENT,SENT_5531,Demonstratives/Deixis
+PNT3,replace,cái này luôn thế,cấy ni rứa,1,1,SENT,SENT_1771,Interrogatives
+PNT3,replace,cáu,đóa,1,1,MCQA,MCQA_0018_6,Predicate vocabulary
+PNT3,replace,cãi lộn mệt,cại chắc dọc,1,1,SENT,SENT_3618,Idiomatic expressions
+PNT3,replace,cô,lạo,1,1,NLI,NLI_6637,Pronouns
+PNT3,replace,cô,ả,1,1,NLI,NLI_5263,Pronouns
+PNT3,replace,cô bé,ả nớ,1,1,NLI,NLI_7901,Pronouns
+PNT3,replace,cô gái cưới chồng,ả nớ lấy dông,1,1,NLI,NLI_0716,Pronouns
+PNT3,replace,cô ấy tôi,ả tau,1,1,SENT,SENT_4494,Pronouns
+PNT3,replace,cùng,với,1,1,MCQA,MCQA_0077_0,Connectives/Aspect markers
+PNT3,replace,cùng bố,với bọ,1,1,MCQA,MCQA_0014_1,Kinship/Honorific terms
+PNT3,replace,cũ,cộ,1,1,MCQA,MCQA_0051_0,Predicate vocabulary
+PNT3,replace,cũng,cụng,1,1,SENT,SENT_4861,Orthographic variant
+PNT3,replace,cả,với,1,1,SENT,SENT_0895,Connectives/Aspect markers
+PNT3,replace,cậu,cu,1,1,MCQA,MCQA_0152_3,Pronouns
+PNT3,replace,cậu,cu nớ,1,1,NLI,NLI_5451,Pronouns
+PNT3,replace,cậu bé,thằng cu,1,1,NLI,NLI_4654,Pronouns
+PNT3,replace,cậu không thích,hắn nỏ ưng,1,1,MCQA,MCQA_0077_0,Pronouns
+PNT3,replace,cậu ấy,thằng cu nớ,1,1,NLI,NLI_4654,Pronouns
+PNT3,replace,của,cụa,1,1,NLI,NLI_3276,Orthographic variant
+PNT3,replace,du,ru,1,1,SENT,SENT_5441,Noise/Non-linguistic
+PNT3,replace,dàn,dần,1,1,QA,QA_24045,Orthographic variant
+PNT3,replace,dơ,dớp,1,1,SENT,SENT_4768,Predicate vocabulary
+PNT3,replace,dẫn gấu,đắc bồ,1,1,SENT,SENT_1192,Predicate vocabulary
+PNT3,replace,dắt,đắc,1,1,SENT,SENT_0814,Predicate vocabulary
+PNT3,replace,ghen tị,èng neng,1,1,MCQA,MCQA_0090_10,Predicate vocabulary
+PNT3,replace,gia đình,kì nhà,1,1,NLI,NLI_1405,Noise/Non-linguistic
+PNT3,replace,giành,treng,1,1,NLI,NLI_3719,Predicate vocabulary
+PNT3,replace,giống tao nhưng,y tau mà,1,1,SENT,SENT_1146,Pronouns
+PNT3,replace,giờ,bựa chừ,1,1,SENT,SENT_3023,Predicate vocabulary
+PNT3,replace,giờ mới,chừ mì,1,1,SENT,SENT_3469,Predicate vocabulary
+PNT3,replace,giờ đây chúng ta,chừ bọn miềng,1,1,SENT,SENT_2308,Pronouns
+PNT3,replace,giữa,trữa,1,1,MCQA,MCQA_0123_0,Orthographic variant
+PNT3,replace,gái mình,cấy mềng,1,1,SENT,SENT_5441,Pronouns
+PNT3,replace,gì chúng tôi,chi choa,1,1,NLI,NLI_2948,Pronouns
+PNT3,replace,gì cái,chi cấy,1,1,SENT,SENT_4150,Interrogatives
+PNT3,replace,gì tại,chi ở cì chỗ,1,1,QA,QA_10377,Interrogatives
+PNT3,replace,gì vậy nhỉ,chi rứa he,1,1,SENT,SENT_0343,Interrogatives
+PNT3,replace,gì đâu giờ,chi mô chừ,1,1,SENT,SENT_2507,Interrogatives
+PNT3,replace,gọi thật,hú đại,1,1,MCQA,MCQA_0127_3,Connectives/Aspect markers
+PNT3,replace,hoạ,họa,1,1,SENT,SENT_0534,Orthographic variant
+PNT3,replace,hóa,hoá,1,1,NLI,NLI_0337,Orthographic variant
+PNT3,replace,hôm,bữa,1,1,NLI,NLI_0830,Orthographic variant
+PNT3,replace,hôm,bựa,1,1,MCQA,MCQA_0051_0,Orthographic variant
+PNT3,replace,hôm nay,bữa ni,1,1,MCQA,MCQA_0047_2,Demonstratives/Deixis
+PNT3,replace,hôm nó gặm,bựa hắn cắm,1,1,SENT,SENT_0895,Pronouns
+PNT3,replace,hôm tao,bựa tau,1,1,SENT,SENT_1410,Pronouns
+PNT3,replace,hôm xưa đâu,chầu tê mô,1,1,MCQA,MCQA_0051_0,Interrogatives
+PNT3,replace,hả,à,1,1,SENT,SENT_5008,Discourse particles
+PNT3,replace,họ,mấy người nớ,1,1,QA,QA_17769,Pronouns
+PNT3,replace,hối hả,tất ta tất tưởi,1,1,MCQA,MCQA_0090_10,Discourse particles
+PNT3,replace,hồi đó đã,thời nớ,1,1,SENT,SENT_2507,Demonstratives/Deixis
+PNT3,replace,inh,minh,1,1,MCQA,MCQA_0056_2,Predicate vocabulary
+PNT3,replace,khi đó,chầu nớ,1,1,QA,QA_20004,Noise/Non-linguistic
+PNT3,replace,khiến các,mần mấy,1,1,NLI,NLI_4394,Noise/Non-linguistic
+PNT3,replace,khóc,khóoc,1,1,MCQA,MCQA_0055_0,Noise/Non-linguistic
+PNT3,replace,khóm,bụi,1,1,MCQA,MCQA_0098_4,Noise/Non-linguistic
+PNT3,replace,không chơi,nỏ dởi,1,1,MCQA,MCQA_0077_0,Negation/Function words
+PNT3,replace,không cảm thấy,nỏ chộ,1,1,NLI,NLI_1420,Negation/Function words
+PNT3,replace,không làm,nỏ mần,1,1,SENT,SENT_4989,Noise/Non-linguistic
+PNT3,replace,không nhỉ,khung hè,1,1,SENT,SENT_5154,Noise/Non-linguistic
+PNT3,replace,không thấy cái đầu,nỏ chộ kì trốc,1,1,MCQA,MCQA_0152_3,Noise/Non-linguistic
+PNT3,replace,không trượt,nỏ lệch,1,1,SENT,SENT_4494,Noise/Non-linguistic
+PNT3,replace,khổng lồ như vậy,bà lả in rứa,1,1,NLI,NLI_3211,Noise/Non-linguistic
+PNT3,replace,kia mới,nớ mì,1,1,SENT,SENT_3023,Noise/Non-linguistic
+PNT3,replace,kinh,ghê,1,1,SENT,SENT_4445,Noise/Non-linguistic
+PNT3,replace,kêu khóc,khóoc,1,1,MCQA,MCQA_0055_0,Noise/Non-linguistic
+PNT3,replace,kỳ,cứ,1,1,QA,QA_6673,Noise/Non-linguistic
+PNT3,replace,liền là không,luôn,1,1,SENT,SENT_1146,Negation/Function words
+PNT3,replace,luyện,lượn,1,1,MCQA,MCQA_0004_3,Predicate vocabulary
+PNT3,replace,ly,xa,1,1,SENT,SENT_1222,Noise/Non-linguistic
+PNT3,replace,làm cha làm mẹ,mần bọ mần mạ,1,1,SENT,SENT_4768,Idiomatic expressions
+PNT3,replace,làm gì nhìu,mần chi nhiều,1,1,SENT,SENT_3618,Interrogatives
+PNT3,replace,làm gì nó,mần chi hắn,1,1,SENT,SENT_1222,Pronouns
+PNT3,replace,làm sao ấy,răng á,1,1,SENT,SENT_4809,Interrogatives
+PNT3,replace,làm tao sợ chetme,mần tau hại chetma,1,1,SENT,SENT_5456,Pronouns
+PNT3,replace,làm theo,mần dọi,1,1,MCQA,MCQA_0030_3,Predicate vocabulary
+PNT3,replace,làm thế,mần rứa,1,1,SENT,SENT_5154,Interrogatives
+PNT3,replace,lâu mới,mì,1,1,SENT,SENT_1726,Predicate vocabulary
+PNT3,replace,lên,nên,1,1,SENT,SENT_2308,Predicate vocabulary
+PNT3,replace,ló rạng,ngoi lên,1,1,MCQA,MCQA_0069_1,Predicate vocabulary
+PNT3,replace,lũ,bọn,1,1,SENT,SENT_3273,Pronouns
+PNT3,replace,lầm,nhầm,1,1,MCQA,MCQA_0016_5,Predicate vocabulary
+PNT3,replace,mong,trông,1,1,NLI,NLI_6854,Predicate vocabulary
+PNT3,replace,mong bố,trông bọ,1,1,MCQA,MCQA_0016_0,Kinship/Honorific terms
+PNT3,replace,mong muốn,ưng,1,1,NLI,NLI_3108,Predicate vocabulary
+PNT3,replace,muốn bạn ấy,ưng hắn,1,1,MCQA,MCQA_0074_6,Pronouns
+PNT3,replace,muốn gọi,ưng kêu,1,1,MCQA,MCQA_0151_1,Predicate vocabulary
+PNT3,replace,muốn làm,ưng mần,1,1,MCQA,MCQA_0074_6,Predicate vocabulary
+PNT3,replace,muốn như thế nào,ưng chi nựa,1,1,SENT,SENT_2473,Interrogatives
+PNT3,replace,mày chửi gì,mi chưởi chi,1,1,SENT,SENT_4959,Pronouns
+PNT3,replace,má,vãi,1,1,SENT,SENT_2148,Kinship/Honorific terms
+PNT3,replace,má mấy mẻ,mà bọn hắn,1,1,SENT,SENT_5407,Pronouns
+PNT3,replace,má nó,mẹ hắn,1,1,SENT,SENT_3469,Pronouns
+PNT3,replace,mình,mà tau,1,1,SENT,SENT_0192,Pronouns
+PNT3,replace,mình không,mềng nỏ,1,1,SENT,SENT_2816,Pronouns
+PNT3,replace,mình lúa,miềng ló,1,1,SENT,SENT_3906,Pronouns
+PNT3,replace,mình đành,miềng thì,1,1,MCQA,MCQA_0098_4,Pronouns
+PNT3,replace,móa,mẹ,1,1,SENT,SENT_0343,Predicate vocabulary
+PNT3,replace,mắc,dính,1,1,NLI,NLI_5167,Predicate vocabulary
+PNT3,replace,mượn,mạn,1,1,NLI,NLI_5143,Predicate vocabulary
+PNT3,replace,mất,luôn,1,1,SENT,SENT_5421,Connectives/Aspect markers
+PNT3,replace,mẫu,méng,1,1,MCQA,MCQA_0047_4,Predicate vocabulary
+PNT3,replace,mẹ cô đã cảm thấy,mạ ả đạ chộ,1,1,NLI,NLI_0521,Pronouns
+PNT3,replace,mẹ tao xưa,mạ tau hồi ơ,1,1,SENT,SENT_1146,Pronouns
+PNT3,replace,mẹ và anh,mạ với eng,1,1,MCQA,MCQA_0090_10,Pronouns
+PNT3,replace,mẹ vào,vô,1,1,SENT,SENT_0814,Kinship/Honorific terms
+PNT3,replace,mến,quý,1,1,MCQA,MCQA_0065_5,Predicate vocabulary
+PNT3,replace,mổ,mỗi,1,1,SENT,SENT_4959,Predicate vocabulary
+PNT3,replace,một nữa số,nửa,1,1,QA,QA_19280,Connectives/Aspect markers
+PNT3,replace,mới muốn giành,mì ưng treng,1,1,NLI,NLI_3201,Idiomatic expressions
+PNT3,replace,nay,ni đỏ,1,1,NLI,NLI_5715,Demonstratives/Deixis
+PNT3,replace,nay nó,ni hắn,1,1,SENT,SENT_4550,Pronouns
+PNT3,replace,nay tao,ni tau,1,1,SENT,SENT_5421,Pronouns
+PNT3,replace,nay đâu,ni mô,1,1,MCQA,MCQA_0051_0,Interrogatives
+PNT3,replace,ngay lập tức,liền,1,1,NLI,NLI_6960,Connectives/Aspect markers
+PNT3,replace,nghĩ tới,nhờ tời,1,1,MCQA,MCQA_0127_3,Predicate vocabulary
+PNT3,replace,ngu,đần,1,1,SENT,SENT_5017,Predicate vocabulary
+PNT3,replace,ngàng,hàng,1,1,SENT,SENT_1485,Predicate vocabulary
+PNT3,replace,ngày,ngay,1,1,NLI,NLI_1420,Orthographic variant
+PNT3,replace,ngày nào,hôm mô,1,1,QA,QA_23724,Interrogatives
+PNT3,replace,ngõ,trổng,1,1,SENT,SENT_0696,Predicate vocabulary
+PNT3,replace,ngưới,người,1,1,NLI,NLI_0959,Predicate vocabulary
+PNT3,replace,ngườ dân,ngài,1,1,NLI,NLI_4856,Predicate vocabulary
+PNT3,replace,người,quân,1,1,QA,QA_11800,Predicate vocabulary
+PNT3,replace,người,đứa,1,1,NLI,NLI_6350,Pronouns
+PNT3,replace,người khác,họ,1,1,MCQA,MCQA_0010_1,Pronouns
+PNT3,replace,người kia mới,đứa tê,1,1,MCQA,MCQA_0042_7,Pronouns
+PNT3,replace,người phụ nữ đã,ả nớ đạ,1,1,NLI,NLI_6960,Pronouns
+PNT3,replace,ngờ,ngại,1,1,NLI,NLI_5143,Predicate vocabulary
+PNT3,replace,nha-kẻ,nha - kẻ,1,1,QA,QA_12019,Predicate vocabulary
+PNT3,replace,nhanh vừa,mau bựa,1,1,SENT,SENT_5456,Predicate vocabulary
+PNT3,replace,nhìn nó vào,ngó hắn vô,1,1,SENT,SENT_5360,Pronouns
+PNT3,replace,nhìn thấy,ngó chộ,1,1,QA,QA_17771,Predicate vocabulary
+PNT3,replace,nhíp,nhấp,1,1,SENT,SENT_0835,Predicate vocabulary
+PNT3,replace,như thế nào,a răng,1,1,QA,QA_1521,Interrogatives
+PNT3,replace,như thế nào,dư răng,1,1,MCQA,MCQA_0151_3,Interrogatives
+PNT3,replace,như thế nào,in răng,1,1,SENT,SENT_5017,Interrogatives
+PNT3,replace,như thế nào nhỉ chắc,a răng hè e,1,1,SENT,SENT_2217,Interrogatives
+PNT3,replace,như thế nào đối với,chi tới,1,1,QA,QA_4380,Interrogatives
+PNT3,replace,nhưng,chơ đều,1,1,SENT,SENT_3763,Predicate vocabulary
+PNT3,replace,nhưng,mà,1,1,NLI,NLI_5518,Connectives/Aspect markers
+PNT3,replace,nhưng không,chơ đều nỏ,1,1,NLI,NLI_0729,Negation/Function words
+PNT3,replace,nhưng không,mà nỏ,1,1,NLI,NLI_5263,Negation/Function words
+PNT3,replace,nhưng làm,chơ mần,1,1,SENT,SENT_4768,Predicate vocabulary
+PNT3,replace,nhằm,để,1,1,QA,QA_21489,Connectives/Aspect markers
+PNT3,replace,nhỉ mình nhận,hè tao,1,1,SENT,SENT_0237,Pronouns
+PNT3,replace,nhỉ sao,rứa răng,1,1,SENT,SENT_1172,Interrogatives
+PNT3,replace,nhờ,ngờ,1,1,MCQA,MCQA_0065_2,Predicate vocabulary
+PNT3,replace,nhờ vào,do,1,1,QA,QA_18828,Noise/Non-linguistic
+PNT3,replace,những gì,mấy cấy,1,1,NLI,NLI_4572,Interrogatives
+PNT3,replace,những mẩu,mớ,1,1,MCQA,MCQA_0047_2,Demonstratives/Deixis
+PNT3,replace,nào cho ta,mô làm miềng,1,1,MCQA,MCQA_0062_2,Pronouns
+PNT3,replace,nào chứ,mô chơ,1,1,SENT,SENT_4733,Interrogatives
+PNT3,replace,nào mẹ làm,mô mạ mần,1,1,SENT,SENT_1915,Kinship/Honorific terms
+PNT3,replace,nào tao nhìn,mô tau chộ,1,1,SENT,SENT_1579,Pronouns
+PNT3,replace,nào thì,mô là,1,1,QA,QA_3137,Interrogatives
+PNT3,replace,nào vào,chi vô,1,1,QA,QA_22617,Interrogatives
+PNT3,replace,này chúng ta,ni bọn miềng,1,1,SENT,SENT_2308,Pronouns
+PNT3,replace,này có vẻ ngoài không được,ni trông nỏ,1,1,NLI,NLI_5704,Demonstratives/Deixis
+PNT3,replace,này nên không mệt mỏi gì,ni bơ nỏ dọc chi,1,1,NLI,NLI_4266,Interrogatives
+PNT3,replace,này nọ,ni kêu tê,1,1,SENT,SENT_4733,Demonstratives/Deixis
+PNT3,replace,này sao,ni răng,1,1,SENT,SENT_4084,Interrogatives
+PNT3,replace,này tuyết,ni tuyệt,1,1,NLI,NLI_0337,Demonstratives/Deixis
+PNT3,replace,này vào,ni vô,1,1,SENT,SENT_2727,Demonstratives/Deixis
+PNT3,replace,này vào đĩa,ni vô dịa,1,1,SENT,SENT_4519,Demonstratives/Deixis
+PNT3,replace,này đâu,ni mô,1,1,SENT,SENT_3243,Interrogatives
+PNT3,replace,nó không,hắn nỏ,1,1,SENT,SENT_4745,Pronouns
+PNT3,replace,nó thích đỗ đâu,hắn ưng đậu mô,1,1,SENT,SENT_1546,Pronouns
+PNT3,replace,nó thấy nó,hắn chộ hắn,1,1,SENT,SENT_1222,Pronouns
+PNT3,replace,nó vương,hắn vươn,1,1,SENT,SENT_1222,Pronouns
+PNT3,replace,nó vả không,hắn bả nỏ,1,1,SENT,SENT_4733,Pronouns
+PNT3,replace,nó vừa,hắn bưa bưa,1,1,SENT,SENT_3243,Pronouns
+PNT3,replace,nó yêu nhâu,hắn ưng chắc,1,1,SENT,SENT_3249,Pronouns
+PNT3,replace,nó đã,hắn đạ,1,1,QA,QA_7713,Pronouns
+PNT3,replace,nó đỗ mình thích,hắn đậu miềng ưng,1,1,SENT,SENT_1546,Pronouns
+PNT3,replace,nói chuyện,gọi,1,1,MCQA,MCQA_0037_4,Predicate vocabulary
+PNT3,replace,năm,nam,1,1,QA,QA_10377,Predicate vocabulary
+PNT3,replace,nũa,nữa,1,1,SENT,SENT_3273,Orthographic variant
+PNT3,replace,nơi nào,từng mô,1,1,QA,QA_3410,Interrogatives
+PNT3,replace,nơi nào đã,lộ mô đạ,1,1,QA,QA_8086,Interrogatives
+PNT3,replace,nặn,nạn,1,1,SENT,SENT_4964,Predicate vocabulary
+PNT3,replace,nếu tôi,tau mà,1,1,SENT,SENT_4494,Pronouns
+PNT3,replace,nữa,nựa,1,1,MCQA,MCQA_0056_1,Orthographic variant
+PNT3,replace,nữa chắc,nựa e,1,1,SENT,SENT_3469,Connectives/Aspect markers
+PNT3,replace,nữa chứ,nựa chớ,1,1,SENT,SENT_3750,Discourse particles
+PNT3,replace,nữa sẽ,nựa là,1,1,QA,QA_18652,Connectives/Aspect markers
+PNT3,replace,phát khổ,phải khổi,1,1,SENT,SENT_0192,Predicate vocabulary
+PNT3,replace,phải,phại,1,1,SENT,SENT_3814,Predicate vocabulary
+PNT3,replace,phục,phúc,1,1,NLI,NLI_0521,Orthographic variant
+PNT3,replace,qua,bằng,1,1,MCQA,MCQA_0098_4,Predicate vocabulary
+PNT3,replace,ruột,rọt,1,1,NLI,NLI_2198,Orthographic variant
+PNT3,replace,rơi,rớt,1,1,MCQA,MCQA_0095_1,Predicate vocabulary
+PNT3,replace,rơi vào,rớt vô,1,1,MCQA,MCQA_0058_0,Connectives/Aspect markers
+PNT3,replace,rược suốt,rượt cả,1,1,SENT,SENT_2938,Predicate vocabulary
+PNT3,replace,rất lâu,khi mô đến chừ,1,1,NLI,NLI_3340,Noise/Non-linguistic
+PNT3,replace,rừng,rú,1,1,MCQA,MCQA_0014_1,Predicate vocabulary
+PNT3,replace,sang,qua,1,1,NLI,NLI_3048,Predicate vocabulary
+PNT3,replace,sao bắt nhanh thế,răng tóm lẹ rứa,1,1,SENT,SENT_1485,Interrogatives
+PNT3,replace,sao cha muốn,răng bọ ưng,1,1,MCQA,MCQA_0010_1,Kinship/Honorific terms
+PNT3,replace,sao không,răng nỏ,1,1,SENT,SENT_4035,Interrogatives
+PNT3,replace,sao này,mài bựa,1,1,SENT,SENT_4160,Interrogatives
+PNT3,replace,sao nó không,răng hắn khung,1,1,SENT,SENT_2816,Pronouns
+PNT3,replace,sao ấy,răng á,1,1,SENT,SENT_1971,Interrogatives
+PNT3,replace,soán,soát,1,1,NLI,NLI_4572,Predicate vocabulary
+PNT3,replace,sẽ,cũng,1,1,SENT,SENT_0534,Connectives/Aspect markers
+PNT3,replace,sự việc gì,kì vụ chi đạ,1,1,QA,QA_9483,Noise/Non-linguistic
+PNT3,replace,ta,mình,1,1,MCQA,MCQA_0042_2,Pronouns
+PNT3,replace,tai họa nấp,nguy hiểm trốn,1,1,MCQA,MCQA_0039_4,Idiomatic expressions
+PNT3,replace,tao ghét,tau két,1,1,SENT,SENT_5315,Pronouns
+PNT3,replace,tao không,tau nỏ,1,1,SENT,SENT_1410,Pronouns
+PNT3,replace,tao không mắc ói,tau nỏ buồn oẹ,1,1,SENT,SENT_1579,Pronouns
+PNT3,replace,tao quá vậy,tau rứa he,1,1,SENT,SENT_4084,Pronouns
+PNT3,replace,tao vậy,tau ri,1,1,SENT,SENT_1098,Pronouns
+PNT3,replace,thai,bầu,1,1,NLI,NLI_4217,Predicate vocabulary
+PNT3,replace,tháng,thắng,1,1,NLI,NLI_7681,Orthographic variant
+PNT3,replace,"thân""","thân tau""",1,1,NLI,NLI_7176,Pronouns
+PNT3,replace,thôi trất,dẹp đi,1,1,SENT,SENT_0018,Discourse particles
+PNT3,replace,thấy chế,ngó chộ chị,1,1,SENT,SENT_3814,Predicate vocabulary
+PNT3,replace,thấy những,chộ mấy,1,1,MCQA,MCQA_0002_4,Demonstratives/Deixis
+PNT3,replace,thật chẳng,thiệt nỏ,1,1,SENT,SENT_4733,Negation/Function words
+PNT3,replace,thật chớ,thiệt chơ,1,1,SENT,SENT_5315,Connectives/Aspect markers
+PNT3,replace,thật giờ,thiệt chừ,1,1,SENT,SENT_1626,Connectives/Aspect markers
+PNT3,replace,thật đấy,thiệt á,1,1,SENT,SENT_1626,Demonstratives/Deixis
+PNT3,replace,thế chân,rứa cẳng,1,1,SENT,SENT_1908,Interrogatives
+PNT3,replace,thế cũng,rứa cụng,1,1,SENT,SENT_3023,Interrogatives
+PNT3,replace,thế không,rứa nỏ,1,1,SENT,SENT_4885,Interrogatives
+PNT3,replace,thế kia,rứa,1,1,SENT,SENT_0814,Interrogatives
+PNT3,replace,thế kia không,in rứa nỏ,1,1,SENT,SENT_3094,Interrogatives
+PNT3,replace,thế nào vào,răng vô,1,1,QA,QA_22836,Interrogatives
+PNT3,replace,thế này bây giờ không muốn,ri chừ nỏ ưng,1,1,SENT,SENT_0462,Interrogatives
+PNT3,replace,thế này cơ mà,như ri chơ đều,1,1,SENT,SENT_0814,Interrogatives
+PNT3,replace,thể sẽ,khi đã,1,1,NLI,NLI_1069,Noise/Non-linguistic
+PNT3,replace,thể sử dụng,dùng,1,1,NLI,NLI_0028,Predicate vocabulary
+PNT3,replace,thời gian,tỉ,1,1,SENT,SENT_0958,Predicate vocabulary
+PNT3,replace,to vậy,bà là rứa,1,1,SENT,SENT_2473,Interrogatives
+PNT3,replace,trong giai,ở kì,1,1,QA,QA_7442,Predicate vocabulary
+PNT3,replace,trong tương lai,sau ni,1,1,NLI,NLI_0959,Demonstratives/Deixis
+PNT3,replace,trrong gia,trong kì giai,1,1,QA,QA_10410,Predicate vocabulary
+PNT3,replace,tránh,tréng,1,1,SENT,SENT_1192,Predicate vocabulary
+PNT3,replace,trèo,leo,1,1,SENT,SENT_4745,Predicate vocabulary
+PNT3,replace,trêu đùa quái,chọc đại,1,1,SENT,SENT_3023,Predicate vocabulary
+PNT3,replace,trước,bựa,1,1,MCQA,MCQA_0010_1,Predicate vocabulary
+PNT3,replace,trước mẹ,bựa mạ,1,1,SENT,SENT_4445,Kinship/Honorific terms
+PNT3,replace,trước tao,bựa tau,1,1,SENT,SENT_5456,Pronouns
+PNT3,replace,trắng,thâu,1,1,MCQA,MCQA_0048_5,Predicate vocabulary
+PNT3,replace,trịu,trụi,1,1,MCQA,MCQA_0002_4,Orthographic variant
+PNT3,replace,tính,định,1,1,SENT,SENT_1410,Predicate vocabulary
+PNT3,replace,tôi không,tau khung,1,1,NLI,NLI_5143,Pronouns
+PNT3,replace,tôi đã,tui đạ,1,1,NLI,NLI_7691,Pronouns
+PNT3,replace,tý vào,một tỉ vô,1,1,SENT,SENT_4733,Connectives/Aspect markers
+PNT3,replace,tại,vì,1,1,SENT,SENT_0572,Connectives/Aspect markers
+PNT3,replace,tại 1,ở một,1,1,NLI,NLI_0516,Connectives/Aspect markers
+PNT3,replace,tại sao,vì răng,1,1,MCQA,MCQA_0037_4,Interrogatives
+PNT3,replace,tại đâu,chỗ mô,1,1,QA,QA_9520,Interrogatives
+PNT3,replace,tại đó,chỗ nớ,1,1,MCQA,MCQA_0062_2,Demonstratives/Deixis
+PNT3,replace,tấm,tờ,1,1,NLI,NLI_0511,Predicate vocabulary
+PNT3,replace,tối,túi,1,1,MCQA,MCQA_0148_3,Predicate vocabulary
+PNT3,replace,vay,sự xác đáng của mạn tiền,1,1,NLI,NLI_4801,Predicate vocabulary
+PNT3,replace,việc,chuyện,1,1,QA,QA_27033,Predicate vocabulary
+PNT3,replace,và,nên,1,1,MCQA,MCQA_0138_5,Connectives/Aspect markers
+PNT3,replace,và làm theo,rồi mần dọi,1,1,MCQA,MCQA_0030_3,Connectives/Aspect markers
+PNT3,replace,vào,hồi,1,1,NLI,NLI_3108,Connectives/Aspect markers
+PNT3,replace,vào,lên,1,1,MCQA,MCQA_0100_2,Connectives/Aspect markers
+PNT3,replace,vào,trong,1,1,QA,QA_10332,Connectives/Aspect markers
+PNT3,replace,vào,đoạn,1,1,QA,QA_18041,Connectives/Aspect markers
+PNT3,replace,vào làm,vô mần,1,1,QA,QA_10410,Connectives/Aspect markers
+PNT3,replace,vào nó,vô hắn,1,1,NLI,NLI_0647,Pronouns
+PNT3,replace,vào túi ni lông và,vô bao xì dầu rồi,1,1,MCQA,MCQA_0091_0,Connectives/Aspect markers
+PNT3,replace,vương,dương,1,1,SENT,SENT_1410,Predicate vocabulary
+PNT3,replace,vấn đề,chuyện,1,1,NLI,NLI_6637,Predicate vocabulary
+PNT3,replace,vấn đề,cấy chi,1,1,SENT,SENT_4733,Interrogatives
+PNT3,replace,vất vả,khổ,1,1,MCQA,MCQA_0144_0,Noise/Non-linguistic
+PNT3,replace,vậy không,cũng được nỏ,1,1,SENT,SENT_0626,Demonstratives/Deixis
+PNT3,replace,vậy nên,rứa bơ,1,1,SENT,SENT_4428,Interrogatives
+PNT3,replace,vậy tôi,rứa tau,1,1,NLI,NLI_5746,Pronouns
+PNT3,replace,vội vàng,lật đật,1,1,MCQA,MCQA_0055_1,Predicate vocabulary
+PNT3,replace,vờ,đò,1,1,MCQA,MCQA_0055_1,Predicate vocabulary
+PNT3,replace,vợ chồng tôi không hiểu,cấy dông tau nỏ khỏi nghi ngờ,1,1,NLI,NLI_4801,Pronouns
+PNT3,replace,xem cái này,ngó cấy ni,1,1,SENT,SENT_4790,Demonstratives/Deixis
+PNT3,replace,xem những,coi mấy,1,1,NLI,NLI_2899,Demonstratives/Deixis
+PNT3,replace,xuân,xun,1,1,MCQA,MCQA_0002_4,Predicate vocabulary
+PNT3,replace,xơi,ăn,1,1,SENT,SENT_1192,Predicate vocabulary
+PNT3,replace,z đó,rứa,1,1,SENT,SENT_4768,Interrogatives
+PNT3,replace,điều gì qua,cấy chi trong,1,1,MCQA,MCQA_0137_3,Interrogatives
+PNT3,replace,điều này đã,chuyện ni đạ,1,1,QA,QA_18041,Demonstratives/Deixis
+PNT3,replace,điều đó,cấy nớ,1,1,NLI,NLI_6155,Demonstratives/Deixis
+PNT3,replace,đám,chỗ,1,1,SENT,SENT_1192,Predicate vocabulary
+PNT3,replace,đâu không,mô ra rựa nỏ,1,1,SENT,SENT_4989,Interrogatives
+PNT3,replace,đâu nhỉ,mô hè,1,1,SENT,SENT_4550,Interrogatives
+PNT3,replace,đã không,đạ khung,1,1,QA,QA_9483,Negation/Function words
+PNT3,replace,đã làm gì,đạ mần chi,1,1,MCQA,MCQA_0055_0,Interrogatives
+PNT3,replace,đã làm gì khi,mần chi lúc,1,1,QA,QA_17769,Interrogatives
+PNT3,replace,đã sao,đạ răng,1,1,SENT,SENT_4003,Interrogatives
+PNT3,replace,đó cha mẹ,nớ bọ mạ,1,1,SENT,SENT_3555,Kinship/Honorific terms
+PNT3,replace,đó chẳng,nớ nỏ,1,1,MCQA,MCQA_0114_6,Demonstratives/Deixis
+PNT3,replace,đó dắt,nớ đắc,1,1,SENT,SENT_1894,Demonstratives/Deixis
+PNT3,replace,đó gọi,nớ kêu,1,1,SENT,SENT_5315,Demonstratives/Deixis
+PNT3,replace,đó nhìn,nớ nhòm,1,1,MCQA,MCQA_0114_6,Demonstratives/Deixis
+PNT3,replace,đó tao,nớ tau,1,1,SENT,SENT_1579,Pronouns
+PNT3,replace,đó vậy ta,nớ hè,1,1,SENT,SENT_1172,Pronouns
+PNT3,replace,đóng,nộp,1,1,NLI,NLI_0240,Predicate vocabulary
+PNT3,replace,đúi,đuối,1,1,SENT,SENT_3910,Predicate vocabulary
+PNT3,replace,đưa ra,nói,1,1,MCQA,MCQA_0010_3,Predicate vocabulary
+PNT3,replace,đường không,đàng nỏ,1,1,SENT,SENT_2473,Negation/Function words
+PNT3,replace,đường đến,đàng tới,1,1,MCQA,MCQA_0127_3,Connectives/Aspect markers
+PNT3,replace,đầy,toàn,1,1,MCQA,MCQA_0095_1,Demonstratives/Deixis
+PNT3,replace,đến tận rốn,thấu lộ tún,1,1,SENT,SENT_2217,Connectives/Aspect markers
+PNT3,replace,để,mà,1,1,MCQA,MCQA_0137_1,Connectives/Aspect markers
+PNT3,replace,đển,đến,1,1,NLI,NLI_3107,Predicate vocabulary
+PNT3,replace,đột,tự,1,1,NLI,NLI_6129,Predicate vocabulary
+PNT3,replace,đợi,chờ,1,1,MCQA,MCQA_0104_4,Predicate vocabulary
+PNT3,replace,đợi lớn,chơ mài bựa nậy,1,1,SENT,SENT_5360,Predicate vocabulary
+PNT3,replace,đức,bức,1,1,NLI,NLI_1077,Orthographic variant
+PNT3,replace,ư,à,1,1,SENT,SENT_2515,Discourse particles
+PNT3,replace,ạ thế,rứa,1,1,MCQA,MCQA_0025_10,Interrogatives
+PNT3,replace,ấy chứ,đó chơ,1,1,SENT,SENT_1655,Demonstratives/Deixis
+PNT3,replace,ấy của,ấu cụa,1,1,MCQA,MCQA_0020_1,Demonstratives/Deixis
+PNT3,replace,ấy giờ,nớ chừ,1,1,SENT,SENT_2308,Demonstratives/Deixis
+PNT3,replace,ấy đã,nớ đạ,1,1,NLI,NLI_3340,Demonstratives/Deixis
+PNT3,replace,“tôi mong mình,“tau trông mềng,1,1,MCQA,MCQA_0152_3,Pronouns
+PNT4,replace,vào,vô,29,28,MCQA; NLI; QA; SENT,MCQA_0047_2; MCQA_0091_0; MCQA_0091_1; MCQA_0095_1; MCQA_0096_0,Connectives/Aspect markers
+PNT4,replace,như thế nào,ra ren,22,22,MCQA; QA; SENT,MCQA_0020_2; MCQA_0058_0; MCQA_0065_2; MCQA_0090_10; MCQA_0095_1,Interrogatives
+PNT4,replace,đến,tới,17,16,MCQA; NLI; QA; SENT,MCQA_0037_4; MCQA_0055_0; MCQA_0065_2; MCQA_0087_0; MCQA_0092_2,Connectives/Aspect markers
+PNT4,replace,các,mấy,10,9,MCQA; NLI; QA,MCQA_0062_0; MCQA_0072_2; MCQA_0092_2; MCQA_0137_1; NLI_3951,Demonstratives/Deixis
+PNT4,replace,chứ,chớ,7,7,SENT,SENT_3750; SENT_3910; SENT_4057; SENT_4733; SENT_4989,Orthographic variant
+PNT4,replace,những,mấy,7,7,MCQA; NLI; QA; SENT,MCQA_0072_2; MCQA_0137_1; MCQA_0141_2; NLI_6110; SENT_2308,Demonstratives/Deixis
+PNT4,replace,thật,thiệt,6,5,SENT,SENT_3750; SENT_4155; SENT_4733; SENT_4768; SENT_5315,Connectives/Aspect markers
+PNT4,replace,bạn nhỏ,thằng cu,5,1,MCQA,MCQA_0064_1,Pronouns
+PNT4,replace,nhé,nghe,5,5,MCQA; SENT,MCQA_0037_2; MCQA_0138_3; SENT_2129; SENT_2473; SENT_1192,Discourse particles
+PNT4,replace,việc,chuyện,5,4,MCQA; NLI; SENT,MCQA_0072_2; NLI_7858; SENT_2727; SENT_4959,Predicate vocabulary
+PNT4,replace,cậu,hắn,4,1,MCQA,MCQA_0120_3,Pronouns
+PNT4,replace,cậu,thằng nớ,4,1,MCQA,MCQA_0077_0,Pronouns
+PNT4,replace,lão,già,4,1,MCQA,MCQA_0091_1,Pronouns
+PNT4,replace,rằng,là,4,4,NLI,NLI_1921; NLI_4746; NLI_4856; NLI_7469,Predicate vocabulary
+PNT4,replace,và,với,4,3,MCQA; NLI; QA,NLI_6110; QA_20004; MCQA_0013_3,Connectives/Aspect markers
+PNT4,replace,vì,tại/do,4,1,MCQA,MCQA_0012_5,Connectives/Aspect markers
+PNT4,replace,nhìn,ngó,3,3,MCQA; SENT,MCQA_0114_6; MCQA_0123_0; SENT_2148,Predicate vocabulary
+PNT4,replace,bóng,bong,2,1,MCQA,MCQA_0152_0,Predicate vocabulary
+PNT4,replace,bọn,tụi,2,2,SENT,SENT_4989; SENT_5008,Pronouns
+PNT4,replace,chăm,giữ,2,1,MCQA,MCQA_0144_3,Predicate vocabulary
+PNT4,replace,dùng,lấy,2,1,MCQA,MCQA_0041_5,Predicate vocabulary
+PNT4,replace,lạ,cục,2,1,MCQA,MCQA_0047_4,Predicate vocabulary
+PNT4,replace,một số,mấy,2,2,NLI; QA,NLI_3048; QA_17926,Demonstratives/Deixis
+PNT4,replace,như thế nào,răng,2,2,MCQA; QA,MCQA_0116_5; QA_17995,Interrogatives
+PNT4,replace,nhỉ,hỉ,2,2,SENT,SENT_2816; SENT_4160,Discourse particles
+PNT4,replace,này vào,ni vô,2,2,SENT,SENT_2727; SENT_4519,Demonstratives/Deixis
+PNT4,replace,quá,kinh,2,2,MCQA; SENT,MCQA_0047_2; SENT_3023,Noise/Non-linguistic
+PNT4,replace,thẹo,sẹo,2,1,SENT,SENT_1146,Predicate vocabulary
+PNT4,replace,tại,ở,2,2,QA,QA_12824; QA_22620,Connectives/Aspect markers
+PNT4,replace,từng,hồi mô,2,1,MCQA,MCQA_0074_5,Interrogatives
+PNT4,replace,và các,với mấy,2,2,NLI,NLI_1921; NLI_5263,Demonstratives/Deixis
+PNT4,replace,vào,hồi,2,2,NLI; QA,NLI_3108; QA_12824,Connectives/Aspect markers
+PNT4,replace,vờ,đò,2,2,MCQA,MCQA_0055_0; MCQA_0055_1,Predicate vocabulary
+PNT4,replace,xong,xan,2,1,MCQA,MCQA_0013_4,Predicate vocabulary
+PNT4,replace,""" nghìn mét ""","""nghàn mét""",1,1,SENT,SENT_1222,Predicate vocabulary
+PNT4,replace,1,một,1,1,NLI,NLI_6323,Noise/Non-linguistic
+PNT4,replace,bao giờ,hồi mô,1,1,MCQA,MCQA_0074_5,Interrogatives
+PNT4,replace,bao giờ bảo,hồi mô sai,1,1,MCQA,MCQA_0074_5,Interrogatives
+PNT4,replace,bây,bi,1,1,SENT,SENT_0534,Noise/Non-linguistic
+PNT4,replace,bãi,bờ,1,1,MCQA,MCQA_0098_4,Predicate vocabulary
+PNT4,replace,bêu riếu,trêu chọc,1,1,NLI,NLI_0459,Predicate vocabulary
+PNT4,replace,bạn nhỉ mình,mi hỉ ta,1,1,SENT,SENT_4745,Pronouns
+PNT4,replace,bất hạnh,khổ,1,1,SENT,SENT_1726,Noise/Non-linguistic
+PNT4,replace,bận,mắc,1,1,MCQA,MCQA_0152_0,Predicate vocabulary
+PNT4,replace,bỏ mẹ,thấy mồ,1,1,SENT,SENT_1222,Kinship/Honorific terms
+PNT4,replace,bố bảo,ba nói,1,1,MCQA,MCQA_0010_3,Kinship/Honorific terms
+PNT4,replace,bố mình,ba ta,1,1,SENT,SENT_4428,Pronouns
+PNT4,replace,bố mẹ,ba má,1,1,SENT,SENT_0192,Kinship/Honorific terms
+PNT4,replace,bố quát,ba nộ,1,1,SENT,SENT_5441,Kinship/Honorific terms
+PNT4,replace,bởi,tại,1,1,NLI,NLI_3201,Connectives/Aspect markers
+PNT4,replace,chay,chạy,1,1,SENT,SENT_1222,Predicate vocabulary
+PNT4,replace,chuẩn tao,đúng dậy ta,1,1,SENT,SENT_0958,Pronouns
+PNT4,replace,chú,con,1,1,NLI,NLI_3269,Kinship/Honorific terms
+PNT4,replace,chúng nó không,đó hân,1,1,SENT,SENT_0696,Pronouns
+PNT4,replace,chăm,lo,1,1,MCQA,MCQA_0144_0,Noise/Non-linguistic
+PNT4,replace,chăn,mền,1,1,MCQA,MCQA_0048_5,Predicate vocabulary
+PNT4,replace,chạy,qua,1,1,SENT,SENT_0696,Predicate vocabulary
+PNT4,replace,chọn,lựa,1,1,MCQA,MCQA_0064_1,Predicate vocabulary
+PNT4,replace,các chau,mấy cháu,1,1,SENT,SENT_3273,Demonstratives/Deixis
+PNT4,replace,các chế,tụi bây,1,1,SENT,SENT_3249,Pronouns
+PNT4,replace,các vùng,mấy khu,1,1,QA,QA_22617,Demonstratives/Deixis
+PNT4,replace,có kích thước rất to,bự quá chừng,1,1,NLI,NLI_1921,Discourse particles
+PNT4,replace,cô tại,cổ ở,1,1,NLI,NLI_5263,Pronouns
+PNT4,replace,cô ấy vỡ vụn,cổ nát bét,1,1,NLI,NLI_3171,Pronouns
+PNT4,replace,cùng bọn,với tụi,1,1,SENT,SENT_0958,Pronouns
+PNT4,replace,cả,nguyên,1,1,MCQA,MCQA_0020_2,Demonstratives/Deixis
+PNT4,replace,cậu,anh,1,1,MCQA,MCQA_0152_0,Pronouns
+PNT4,replace,cậu,thằng,1,1,MCQA,MCQA_0120_3,Pronouns
+PNT4,replace,cặp,gắp,1,1,MCQA,MCQA_0041_5,Predicate vocabulary
+PNT4,replace,di chuyển,đi,1,1,NLI,NLI_3048,Predicate vocabulary
+PNT4,replace,do,tại,1,1,NLI,NLI_5704,Connectives/Aspect markers
+PNT4,replace,du,ru,1,1,SENT,SENT_5441,Noise/Non-linguistic
+PNT4,replace,dàn,lần lần,1,1,QA,QA_24045,Predicate vocabulary
+PNT4,replace,dạy,bày,1,1,MCQA,MCQA_0064_1,Predicate vocabulary
+PNT4,replace,dội,bật,1,1,SENT,SENT_1410,Predicate vocabulary
+PNT4,replace,dữ,hung,1,1,SENT,SENT_2148,Predicate vocabulary
+PNT4,replace,em,con,1,1,NLI,NLI_6280,Noise/Non-linguistic
+PNT4,replace,ghi đông,tay lái,1,1,MCQA,MCQA_0127_3,Predicate vocabulary
+PNT4,replace,giai đoạn,thời gian,1,1,QA,QA_1521,Predicate vocabulary
+PNT4,replace,giai đoạn này,đợt ni,1,1,NLI,NLI_3048,Demonstratives/Deixis
+PNT4,replace,giúp,giùm,1,1,MCQA,MCQA_0092_2,Predicate vocabulary
+PNT4,replace,giúp,phụ,1,1,MCQA,MCQA_0092_2,Predicate vocabulary
+PNT4,replace,giúp mẹ một số công,phụ má mấy,1,1,MCQA,MCQA_0013_3,Demonstratives/Deixis
+PNT4,replace,giờ đây,bây chừ,1,1,SENT,SENT_2308,Demonstratives/Deixis
+PNT4,replace,gàn dở,khùng,1,1,MCQA,MCQA_0030_3,Noise/Non-linguistic
+PNT4,replace,gái cưới,nớ lấy,1,1,NLI,NLI_0716,Demonstratives/Deixis
+PNT4,replace,gì cả,chi hết,1,1,MCQA,MCQA_0074_5,Interrogatives
+PNT4,replace,gì cả,chi nguyên,1,1,MCQA,MCQA_0047_4,Interrogatives
+PNT4,replace,gì dữ vậy,chi kinh rứa,1,1,SENT,SENT_4959,Interrogatives
+PNT4,replace,gì nhưng mọi người đều,chi chớ ai cũng,1,1,NLI,NLI_4746,Interrogatives
+PNT4,replace,gì vào lúc,chi hồi,1,1,MCQA,MCQA_0016_0,Interrogatives
+PNT4,replace,gì vậy nhỉ,chi ri bây,1,1,SENT,SENT_0343,Interrogatives
+PNT4,replace,gấu,ghệ,1,1,SENT,SENT_1192,Predicate vocabulary
+PNT4,replace,gắn,lắp,1,1,NLI,NLI_3951,Predicate vocabulary
+PNT4,replace,hiệu,hàng,1,1,MCQA,MCQA_0152_0,Predicate vocabulary
+PNT4,replace,hoài,miết,1,1,SENT,SENT_3906,Predicate vocabulary
+PNT4,replace,hoạng,hoảng,1,1,SENT,SENT_3814,Predicate vocabulary
+PNT4,replace,hoặc làm,hay lồm,1,1,SENT,SENT_0958,Connectives/Aspect markers
+PNT4,replace,hoặc sang,hay qua,1,1,NLI,NLI_3048,Connectives/Aspect markers
+PNT4,replace,hà,rứa,1,1,SENT,SENT_2148,Interrogatives
+PNT4,replace,hàng,hằng,1,1,MCQA,MCQA_0092_2,Predicate vocabulary
+PNT4,replace,háo,hóa,1,1,QA,QA_23724,Predicate vocabulary
+PNT4,replace,hóa,hoá,1,1,NLI,NLI_0337,Orthographic variant
+PNT4,replace,hôm,bữa,1,1,NLI,NLI_0830,Orthographic variant
+PNT4,replace,hôm nay,bữa ni,1,1,MCQA,MCQA_0047_2,Demonstratives/Deixis
+PNT4,replace,hôm nó,bữa hén,1,1,SENT,SENT_0895,Pronouns
+PNT4,replace,hạ,hè,1,1,MCQA,MCQA_0002_4,Discourse particles
+PNT4,replace,hối hả,quíu,1,1,MCQA,MCQA_0090_10,Discourse particles
+PNT4,replace,hốt,sợ,1,1,MCQA,MCQA_0055_1,Predicate vocabulary
+PNT4,replace,khi nào,lúc mô,1,1,MCQA,MCQA_0069_5,Noise/Non-linguistic
+PNT4,replace,khi đó,hồi nớ,1,1,QA,QA_20004,Noise/Non-linguistic
+PNT4,replace,khá,rất,1,1,NLI,NLI_2313,Noise/Non-linguistic
+PNT4,replace,không may,lỡ,1,1,SENT,SENT_2217,Noise/Non-linguistic
+PNT4,replace,không thành công,hông được,1,1,NLI,NLI_5263,Negation/Function words
+PNT4,replace,khẳng,khẻng,1,1,NLI,NLI_0647,Noise/Non-linguistic
+PNT4,replace,kiểu như thế nào,rứa rồi,1,1,SENT,SENT_2129,Noise/Non-linguistic
+PNT4,replace,luyện,liệng,1,1,MCQA,MCQA_0004_3,Orthographic variant
+PNT4,replace,làm gì,mần cấy chi,1,1,MCQA,MCQA_0100_2,Interrogatives
+PNT4,replace,làm gì,mắc chi,1,1,SENT,SENT_0814,Interrogatives
+PNT4,replace,lão vào,già vô,1,1,MCQA,MCQA_0091_1,Pronouns
+PNT4,replace,lúc,hồi,1,1,SENT,SENT_5360,Connectives/Aspect markers
+PNT4,replace,lúc đó,hồi nớ,1,1,NLI,NLI_0515,Demonstratives/Deixis
+PNT4,replace,lý,lí,1,1,NLI,NLI_0516,Predicate vocabulary
+PNT4,replace,lũ,bọn,1,1,SENT,SENT_3514,Pronouns
+PNT4,replace,lầm lì,hầm hầm,1,1,SENT,SENT_5441,Predicate vocabulary
+PNT4,replace,lắm,gớm,1,1,SENT,SENT_3060,Predicate vocabulary
+PNT4,replace,lớn,to,1,1,MCQA,MCQA_0020_2,Noise/Non-linguistic
+PNT4,replace,mang,đem,1,1,MCQA,MCQA_0152_0,Predicate vocabulary
+PNT4,replace,mãi,hoài,1,1,MCQA,MCQA_0095_1,Connectives/Aspect markers
+PNT4,replace,mãi đến,hoài tới,1,1,MCQA,MCQA_0095_1,Connectives/Aspect markers
+PNT4,replace,mất,quá,1,1,SENT,SENT_5421,Discourse particles
+PNT4,replace,mẩu,miếng,1,1,MCQA,MCQA_0047_4,Predicate vocabulary
+PNT4,replace,mẫu,miếng,1,1,MCQA,MCQA_0047_4,Predicate vocabulary
+PNT4,replace,mặc,lơ,1,1,MCQA,MCQA_0055_0,Predicate vocabulary
+PNT4,replace,mẹ bật,má mở,1,1,MCQA,MCQA_0048_2,Kinship/Honorific terms
+PNT4,replace,mẹ và,má với,1,1,MCQA,MCQA_0090_10,Kinship/Honorific terms
+PNT4,replace,mọi,mụa,1,1,NLI,NLI_0647,Demonstratives/Deixis
+PNT4,replace,mồm,mỏ,1,1,SENT,SENT_4494,Predicate vocabulary
+PNT4,replace,một thời gian,mấy bữa,1,1,SENT,SENT_0958,Demonstratives/Deixis
+PNT4,replace,mới tháng,thắng,1,1,NLI,NLI_7681,Predicate vocabulary
+PNT4,replace,nay tao,ni ta,1,1,SENT,SENT_5421,Pronouns
+PNT4,replace,ngay,liền,1,1,SENT,SENT_1161,Discourse particles
+PNT4,replace,người,thằng,1,1,SENT,SENT_5008,Pronouns
+PNT4,replace,người,đứa,1,1,NLI,NLI_6350,Pronouns
+PNT4,replace,ngạc nhiên,bất ngờ,1,1,MCQA,MCQA_0074_5,Predicate vocabulary
+PNT4,replace,nhá,nghe,1,1,SENT,SENT_3814,Discourse particles
+PNT4,replace,nhé nhỉ thế,nghe như rứa,1,1,SENT,SENT_0534,Interrogatives
+PNT4,replace,như thế nào,kiểu ren,1,1,QA,QA_19250,Noise/Non-linguistic
+PNT4,replace,như thế nào nhỉ,ren hè,1,1,SENT,SENT_2217,Interrogatives
+PNT4,replace,như thế nào đến,ra ren tới,1,1,QA,QA_12099,Interrogatives
+PNT4,replace,nhầm hôm nay,lầm bữa ni,1,1,SENT,SENT_4550,Demonstratives/Deixis
+PNT4,replace,nhắc,nói,1,1,NLI,NLI_3107,Predicate vocabulary
+PNT4,replace,nhằm,để,1,1,MCQA,MCQA_0137_1,Connectives/Aspect markers
+PNT4,replace,nhặt xem,lượm coi,1,1,SENT,SENT_5315,Predicate vocabulary
+PNT4,replace,nhỉ,dậy,1,1,SENT,SENT_1172,Discourse particles
+PNT4,replace,nhỉ,rứa,1,1,SENT,SENT_0572,Interrogatives
+PNT4,replace,nhờ,ngờ,1,1,MCQA,MCQA_0065_2,Predicate vocabulary
+PNT4,replace,những gì đã,mấy chuyện,1,1,NLI,NLI_7469,Interrogatives
+PNT4,replace,những ngưới,mấy người,1,1,NLI,NLI_0959,Demonstratives/Deixis
+PNT4,replace,những việc đó,mấy chuyện nớ,1,1,NLI,NLI_6110,Demonstratives/Deixis
+PNT4,replace,nào chúng ta,mô tụi mình,1,1,MCQA,MCQA_0002_4,Pronouns
+PNT4,replace,nào khác,mô nữa,1,1,MCQA,MCQA_0141_3,Interrogatives
+PNT4,replace,nào vào,chi ở,1,1,QA,QA_22617,Interrogatives
+PNT4,replace,này có vẻ ngoài,ni nhìn,1,1,NLI,NLI_5704,Demonstratives/Deixis
+PNT4,replace,này như thế nào,ni ra ren,1,1,MCQA,MCQA_0041_5,Interrogatives
+PNT4,replace,này sao,ni ren,1,1,SENT,SENT_4084,Interrogatives
+PNT4,replace,này tao,ni ta,1,1,SENT,SENT_4737,Pronouns
+PNT4,replace,ném,quăng,1,1,SENT,SENT_5315,Predicate vocabulary
+PNT4,replace,nó có vị trí,hén nằm,1,1,QA,QA_8137,Pronouns
+PNT4,replace,nũa,nữa,1,1,SENT,SENT_3273,Orthographic variant
+PNT4,replace,nơi,chỗ,1,1,NLI,NLI_1921,Predicate vocabulary
+PNT4,replace,nơi nào,chỗ mô,1,1,QA,QA_8086,Interrogatives
+PNT4,replace,nấp mau,núp nhanh,1,1,MCQA,MCQA_0039_4,Predicate vocabulary
+PNT4,replace,nổi bật,trội,1,1,QA,QA_25984,Predicate vocabulary
+PNT4,replace,or,hay,1,1,SENT,SENT_0237,Noise/Non-linguistic
+PNT4,replace,phòng,buồng,1,1,SENT,SENT_5441,Predicate vocabulary
+PNT4,replace,phóng,chích,1,1,SENT,SENT_4745,Predicate vocabulary
+PNT4,replace,phần lớn,đa số,1,1,QA,QA_9223,Predicate vocabulary
+PNT4,replace,phục,phúc,1,1,NLI,NLI_0521,Orthographic variant
+PNT4,replace,phủ quyết,bác bỏ,1,1,QA,QA_4230,Predicate vocabulary
+PNT4,replace,quá,ghê,1,1,MCQA,MCQA_0016_0,Predicate vocabulary
+PNT4,replace,quá vậy,ghê rứa,1,1,SENT,SENT_4084,Interrogatives
+PNT4,replace,quả,trái,1,1,NLI,NLI_3171,Predicate vocabulary
+PNT4,replace,quả này,cú ni,1,1,SENT,SENT_1093,Demonstratives/Deixis
+PNT4,replace,rơi,rớt,1,1,MCQA,MCQA_0095_1,Predicate vocabulary
+PNT4,replace,rơi vào,rớt vô,1,1,MCQA,MCQA_0058_0,Connectives/Aspect markers
+PNT4,replace,rược,đuổi,1,1,SENT,SENT_2938,Predicate vocabulary
+PNT4,replace,rất nhiều,quá trời,1,1,MCQA,MCQA_0137_1,Demonstratives/Deixis
+PNT4,replace,rộng toang toác,ngoác mồm,1,1,SENT,SENT_1338,Predicate vocabulary
+PNT4,replace,rớm,chớm,1,1,MCQA,MCQA_0123_6,Predicate vocabulary
+PNT4,replace,rời,bỏ,1,1,MCQA,MCQA_0123_6,Predicate vocabulary
+PNT4,replace,rời,đi,1,1,MCQA,MCQA_0030_1,Predicate vocabulary
+PNT4,replace,sao bọn nó,ren tụi hắn,1,1,SENT,SENT_4745,Pronouns
+PNT4,replace,sao cha,răng ba,1,1,MCQA,MCQA_0010_1,Kinship/Honorific terms
+PNT4,replace,sao này,sau ni,1,1,SENT,SENT_4160,Interrogatives
+PNT4,replace,sao ấy,ren á,1,1,SENT,SENT_4809,Interrogatives
+PNT4,replace,sau,sa,1,1,SENT,SENT_0958,Noise/Non-linguistic
+PNT4,replace,sờ,xì,1,1,SENT,SENT_0958,Predicate vocabulary
+PNT4,replace,sợ hãi,hại,1,1,NLI,NLI_6110,Predicate vocabulary
+PNT4,replace,sử dụng,dùng,1,1,NLI,NLI_5366,Predicate vocabulary
+PNT4,replace,tao ngày nào,ta ngà mô,1,1,SENT,SENT_0958,Pronouns
+PNT4,replace,tao tao,ta ta,1,1,SENT,SENT_5315,Pronouns
+PNT4,replace,tao vậy,ta rứa,1,1,SENT,SENT_1098,Pronouns
+PNT4,replace,thân,cơ,1,1,QA,QA_27033,Predicate vocabulary
+PNT4,replace,thích,ưng,1,1,SENT,SENT_4003,Predicate vocabulary
+PNT4,replace,thật quá,thiệt,1,1,SENT,SENT_0534,Connectives/Aspect markers
+PNT4,replace,thật đấy,ghê lắm,1,1,SENT,SENT_1626,Demonstratives/Deixis
+PNT4,replace,thật đấy,kinh á,1,1,SENT,SENT_1093,Noise/Non-linguistic
+PNT4,replace,thằng,đứa,1,1,SENT,SENT_1192,Pronouns
+PNT4,replace,thế kia,rứa,1,1,SENT,SENT_3094,Interrogatives
+PNT4,replace,thục,thạo,1,1,NLI,NLI_0028,Predicate vocabulary
+PNT4,replace,thục mạng,chết mẹ,1,1,SENT,SENT_0696,Predicate vocabulary
+PNT4,replace,tin,nói,1,1,QA,QA_11490,Predicate vocabulary
+PNT4,replace,toét,lếu,1,1,SENT,SENT_5315,Predicate vocabulary
+PNT4,replace,trong giai đoạn,hồi,1,1,NLI,NLI_4233,Connectives/Aspect markers
+PNT4,replace,trong tương lai,sau ni,1,1,NLI,NLI_0959,Demonstratives/Deixis
+PNT4,replace,trrong gia,trong giai,1,1,QA,QA_10410,Predicate vocabulary
+PNT4,replace,truang,trung,1,1,QA,QA_23724,Predicate vocabulary
+PNT4,replace,trái,ngược,1,1,QA,QA_27000,Predicate vocabulary
+PNT4,replace,tránh xa,né,1,1,SENT,SENT_1192,Predicate vocabulary
+PNT4,replace,trèo,leo,1,1,SENT,SENT_4745,Predicate vocabulary
+PNT4,replace,trông,nhìn,1,1,SENT,SENT_3514,Predicate vocabulary
+PNT4,replace,trất,tốt nhứt,1,1,SENT,SENT_0018,Predicate vocabulary
+PNT4,replace,trịu,trụi,1,1,MCQA,MCQA_0002_4,Orthographic variant
+PNT4,replace,tính,định,1,1,SENT,SENT_1410,Predicate vocabulary
+PNT4,replace,tỏ,ra,1,1,SENT,SENT_4861,Noise/Non-linguistic
+PNT4,replace,tới,xuống,1,1,SENT,SENT_1172,Predicate vocabulary
+PNT4,replace,và,rồi,1,1,MCQA,MCQA_0091_0,Connectives/Aspect markers
+PNT4,replace,và sự,với,1,1,QA,QA_8904,Connectives/Aspect markers
+PNT4,replace,vào,ở,1,1,QA,QA_7436,Connectives/Aspect markers
+PNT4,replace,vào các,vô mấy,1,1,QA,QA_18828,Demonstratives/Deixis
+PNT4,replace,vâng,dạ,1,1,SENT,SENT_3169,Discourse particles
+PNT4,replace,vâng,nghe,1,1,MCQA,MCQA_0056_2,Discourse particles
+PNT4,replace,vén,kéo,1,1,SENT,SENT_2507,Noise/Non-linguistic
+PNT4,replace,vì,do,1,1,QA,QA_19877,Noise/Non-linguistic
+PNT4,replace,vì,tại,1,1,QA,QA_20004,Connectives/Aspect markers
+PNT4,replace,ví,bóp,1,1,NLI,NLI_1465,Predicate vocabulary
+PNT4,replace,vương,giương,1,1,SENT,SENT_1410,Predicate vocabulary
+PNT4,replace,vẫn,cũng,1,1,SENT,SENT_3060,Connectives/Aspect markers
+PNT4,replace,vẫn,cứ,1,1,MCQA,MCQA_0138_5,Predicate vocabulary
+PNT4,replace,vật lộn,chống chọi,1,1,MCQA,MCQA_0056_2,Predicate vocabulary
+PNT4,replace,vệ,lề,1,1,MCQA,MCQA_0138_5,Predicate vocabulary
+PNT4,replace,vội vàng,quíu quắn,1,1,MCQA,MCQA_0055_0,Predicate vocabulary
+PNT4,replace,xơi,ăn,1,1,SENT,SENT_1192,Predicate vocabulary
+PNT4,replace,xấc xược,hỗn hào bố,1,1,SENT,SENT_4861,Predicate vocabulary
+PNT4,replace,à tao,hả ta,1,1,SENT,SENT_3094,Pronouns
+PNT4,replace,ông ấy như thế nào,ổng ren hết,1,1,NLI,NLI_0729,Pronouns
+PNT4,replace,ôtô cá nhân,xe hơi riêng,1,1,NLI,NLI_3915,Idiomatic expressions
+PNT4,replace,ăn,en,1,1,MCQA,MCQA_0013_4,Noise/Non-linguistic
+PNT4,replace,điều này,chuyện ni,1,1,QA,QA_18170,Demonstratives/Deixis
+PNT4,replace,điều đó,chuyện nớ,1,1,NLI,NLI_6155,Demonstratives/Deixis
+PNT4,replace,đánh,ăn,1,1,MCQA,MCQA_0114_1,Predicate vocabulary
+PNT4,replace,đó cha,nớ ba,1,1,SENT,SENT_3555,Kinship/Honorific terms
+PNT4,replace,đỗ,đậu,1,1,SENT,SENT_3243,Predicate vocabulary
+PNT4,replace,đỗ lùi,đậu xích,1,1,SENT,SENT_3243,Predicate vocabulary
+PNT4,replace,đột,tự,1,1,NLI,NLI_6129,Predicate vocabulary
+PNT4,replace,đức,bức,1,1,NLI,NLI_1077,Orthographic variant
+PNT4,replace,ư,hả,1,1,SENT,SENT_2515,Discourse particles
+PNT4,replace,ạ thế,rứa,1,1,MCQA,MCQA_0025_10,Interrogatives
+PNT4,replace,ảnh,hình,1,1,NLI,NLI_2899,Predicate vocabulary
+PNT4,replace,ấy chứ,đó bớt,1,1,SENT,SENT_1655,Demonstratives/Deixis
+PNT4,replace,ấy chứ,đó chớ,1,1,SENT,SENT_3023,Demonstratives/Deixis
+PNT4,replace,ấy giờ,đó chừ,1,1,SENT,SENT_2308,Demonstratives/Deixis
+PNT4,replace,ủi ui,trời ơi,1,1,SENT,SENT_3670,Predicate vocabulary
