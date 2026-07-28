@@ -1,0 +1,7 @@
+section,metric,yes,partial,no,total,rate
+combined_review,semantic_preservation,1191,353,108,1652,
+combined_review,dialect_authenticity,964,605,83,1652,
+combined_review,guideline_compliance,1259,368,25,1652,
+dual_review,outcome_auto_accepted,,,,,26,40.6%
+dual_review,outcome_auto_rejected,,,,,5,7.8%
+dual_review,outcome_pending_adjudication,,,,,33,51.6%
