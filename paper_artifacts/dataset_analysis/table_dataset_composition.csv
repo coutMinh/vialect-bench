@@ -1,5 +1,5 @@
-Task,Dialect rows,Unique sample ids,Domains,Grouped examples,Mean dialects/example,Complete six-dialect examples
-MCQA,600,100,1,100,6.00,100
-NLI,600,100,1,100,6.00,100
-QA,600,100,1,100,6.00,100
-Sentiment,600,100,1,100,6.00,100
+task	samples	annotations	regions
+SENT	103	1000	6
+MCQA	102	1000	6
+NLI	103	1000	6
+QA	102	1000	6

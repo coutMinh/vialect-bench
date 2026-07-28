@@ -1,0 +1,7 @@
+source	criterion	yes	partial	no	total
+AI	semantic_preservation	569	328	103	1000
+AI	dialect_authenticity	440	510	50	1000
+AI	guideline_preservation	697	298	5	1000
+Human	semantic_preservation	622	25	5	652
+Human	dialect_authenticity	524	95	33	652
+Human	guideline_preservation	562	70	20	652

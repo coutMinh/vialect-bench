@@ -1,0 +1,216 @@
+{
+  "timestamp": "2026-07-28T10:23:33.930Z",
+  "dataset": {
+    "totalAssignments": 1000,
+    "assignmentsByDialect": {
+      "PNT1": 340,
+      "PNT4": 202,
+      "PNT2": 25,
+      "PNN": 352,
+      "PNB": 21,
+      "PNT3": 60
+    },
+    "assignmentsByStatus": {
+      "finalized": 1000
+    },
+    "assignmentsByDialectStatus": {
+      "PNT1|finalized": 340,
+      "PNT4|finalized": 202,
+      "PNT2|finalized": 25,
+      "PNN|finalized": 352,
+      "PNB|finalized": 21,
+      "PNT3|finalized": 60
+    },
+    "totalSamples": 410,
+    "samplesByTask": {
+      "SENT": 103,
+      "MCQA": 102,
+      "NLI": 103,
+      "QA": 102
+    },
+    "totalAnnotations": 1000,
+    "annotationsByType": {
+      "rewrite": 779,
+      "qualification": 221
+    },
+    "annotationsByStatus": {
+      "submitted": 939,
+      "skipped": 51,
+      "rejected": 10
+    },
+    "annotationsByRegion": {
+      "PNT4": 241,
+      "PNT3": 125,
+      "PNT1": 227,
+      "PNN": 163,
+      "PNT2": 95,
+      "PNB": 149
+    }
+  },
+  "iaa": {
+    "humanHuman": [
+      {
+        "criterion": "Semantic preservation",
+        "short": "semantic",
+        "exactAgree": 58,
+        "totalPairs": 64,
+        "exactPct": "90.6",
+        "kappa": "-0.04"
+      },
+      {
+        "criterion": "Dialect authenticity",
+        "short": "dialect",
+        "exactAgree": 32,
+        "totalPairs": 64,
+        "exactPct": "50.0",
+        "kappa": "-0.05"
+      },
+      {
+        "criterion": "Guideline compliance",
+        "short": "guideline",
+        "exactAgree": 51,
+        "totalPairs": 64,
+        "exactPct": "79.7",
+        "kappa": "-0.05"
+      }
+    ],
+    "aiHuman": {
+      "semantic_preservation": {
+        "exact": 199,
+        "total": 291,
+        "pct": "68.4"
+      },
+      "dialect_authenticity": {
+        "exact": 142,
+        "total": 291,
+        "pct": "48.8"
+      },
+      "guideline_preservation": {
+        "exact": 212,
+        "total": 291,
+        "pct": "72.9"
+      }
+    },
+    "nDualReviewPairs": 64,
+    "nAnnotationsBothAiAndHuman": 291
+  },
+  "reviews": {
+    "totalHumanReviews": 652,
+    "totalAiReviews": 1000,
+    "totalQualificationReviews": 563,
+    "humanCriteria": {
+      "semantic_preservation": {
+        "YES": 622,
+        "PARTIAL": 25,
+        "NO": 5
+      },
+      "dialect_authenticity": {
+        "YES": 524,
+        "PARTIAL": 95,
+        "NO": 33
+      },
+      "guideline_preservation": {
+        "YES": 562,
+        "PARTIAL": 70,
+        "NO": 20
+      }
+    },
+    "aiCriteria": {
+      "semantic_preservation": {
+        "YES": 569,
+        "PARTIAL": 328,
+        "NO": 103
+      },
+      "dialect_authenticity": {
+        "YES": 440,
+        "PARTIAL": 510,
+        "NO": 50
+      },
+      "guideline_preservation": {
+        "YES": 697,
+        "PARTIAL": 298,
+        "NO": 5
+      }
+    },
+    "aiDecisions": {
+      "ACCEPT": 1000
+    }
+  },
+  "dualReviewOutcomes": {
+    "autoAccept": 26,
+    "autoReject": 5,
+    "pendingAdjudication": 33,
+    "total": 64,
+    "autoAcceptPct": "40.6",
+    "autoRejectPct": "7.8",
+    "pendingPct": "51.6"
+  },
+  "reviewByDialect": {
+    "ai": {
+      "PNT3": 235,
+      "PNT2": 244,
+      "PNB": 221,
+      "PNT1": 223,
+      "PNT4": 37,
+      "PNN": 40
+    },
+    "human": {
+      "PNN": 62,
+      "PNT4": 76,
+      "PNT3": 55,
+      "PNB": 48,
+      "PNT2": 9,
+      "PNT1": 66
+    },
+    "aiSemanticByDialect": {
+      "PNT3": {
+        "semantic": {
+          "YES": 124,
+          "PARTIAL": 88,
+          "NO": 23
+        },
+        "total": 235
+      },
+      "PNT2": {
+        "semantic": {
+          "YES": 93,
+          "PARTIAL": 124,
+          "NO": 27
+        },
+        "total": 244
+      },
+      "PNB": {
+        "semantic": {
+          "YES": 168,
+          "PARTIAL": 28,
+          "NO": 25
+        },
+        "total": 221
+      },
+      "PNT1": {
+        "semantic": {
+          "YES": 124,
+          "PARTIAL": 71,
+          "NO": 28
+        },
+        "total": 223
+      },
+      "PNT4": {
+        "semantic": {
+          "YES": 28,
+          "PARTIAL": 9,
+          "NO": 0
+        },
+        "total": 37
+      },
+      "PNN": {
+        "semantic": {
+          "YES": 32,
+          "PARTIAL": 8,
+          "NO": 0
+        },
+        "total": 40
+      }
+    }
+  }
+}

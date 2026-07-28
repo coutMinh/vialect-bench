@@ -1,0 +1,7 @@
+dialect	human_n	ai_n	ai_sem_yes_pct	ai_sem_no_pct
+PNB	48	221	76.0%	11.3%
+PNN	62	40	80.0%	0.0%
+PNT1	66	223	55.6%	12.6%
+PNT2	9	244	38.1%	11.1%
+PNT3	55	235	52.8%	9.8%
+PNT4	76	37	75.7%	0.0%

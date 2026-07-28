@@ -1,0 +1,4 @@
+criterion	exact_agree	exact_pct	kappa	n_pairs
+Semantic preservation	58	90.6%	-0.04	64
+Dialect authenticity	32	50.0%	-0.05	64
+Guideline compliance	51	79.7%	-0.05	64
