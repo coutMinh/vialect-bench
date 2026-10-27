@@ -11,6 +11,7 @@ Authors: Minh Tran, Duc Hoang, Cuong Dang Cao, Luan Thanh Nguyen, Trinh Chau, Ha
   <a href="https://github.com/tarudesu"><img src="https://github.com/tarudesu.png?size=64" width="64" height="64" style="border-radius: 50%; border: 2px solid #e1e4e8;" alt="tarudesu" /></a>
   <a href="https://github.com/suzhentxt"><img src="https://github.com/suzhentxt.png?size=64" width="64" height="64" style="border-radius: 50%; border: 2px solid #e1e4e8;" alt="suzhentxt" /></a>
   <a href="https://github.com/haizznaam"><img src="https://github.com/haizznaam.png?size=64" width="64" height="64" style="border-radius: 50%; border: 2px solid #e1e4e8;" alt="haizznaam" /></a>
+  <a href="https://github.com/digi-lad"><img src="https://github.com/digi-lad.png?size=64" width="64" height="64" style="border-radius: 50%; border: 2px solid #e1e4e8;" alt="digi-lad" /></a>
 </p>
 
 ## Rebuttal workspace
