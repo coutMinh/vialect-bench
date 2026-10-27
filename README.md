@@ -13,67 +13,65 @@ Authors: Minh Tran, Duc Hoang, Cuong Dang Cao, Luan Thanh Nguyen, Trinh Chau, Ha
   <a href="https://github.com/haizznaam"><img src="https://github.com/haizznaam.png?size=64" width="64" height="64" style="border-radius: 50%; border: 2px solid #e1e4e8;" alt="haizznaam" /></a>
 </p>
 
-## Setup
+## Rebuttal workspace
 
-Install the Python dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-## Sampling
-
-Select label-balanced samples with dialect lexicon coverage:
-
-```bash
-python -m src.select_samples \
-  --tasks sentiment nli qa mcqa \
-  --sample-size 100 \
-  --lexicon data/DIALECT_LEXICON_v2.xlsx \
-  --output-dir data
-```
-
-This writes task files such as `data/sentiment_100.jsonl`, `data/nli_100.jsonl`, `data/qa_100.jsonl`, `data/mcqa_100.jsonl`, and `data/selection_summary.csv`.
-
-For a quick smoke test:
-
-```bash
-python -m src.select_samples \
-  --tasks sentiment nli qa mcqa \
-  --sample-size 10 \
-  --max-source-rows 500 \
-  --output-dir data/smoke
-```
-
-## Running Probes
-
-The probing script reads YAML configs and runs one model with one prompt setting:
-
-```bash
-python -m src.probe_models --config configs/probe.yaml
-```
-
-The active prompt configs are organized by folder:
+The `rebuttal/cleanup` branch shares the finalized benchmark, cached model results,
+and paper analysis. See [the rebuttal handoff](docs/rebuttal.md) for the file inventory,
+reviewer-question mapping, known gaps, and branch workflow.
 
 ```text
-configs/direct_prompting/
+data/Finalized/probe_dialects.jsonl       400 cases, 100 per task, 7 variants each
+data/vialectbench_finalized_6.json        2,400 annotated dialect rewrites
+data/*_100.jsonl                         original selected task samples
+configs/                                model, prompt, and sampling configurations
+src/                                    sampling, preparation, and model runners
+scripts/                                intrinsic and lexical analysis
+outputs/direct_prompting/               10 cached models, 2,800 rows each
+outputs/finalized_6_complete_six_intrinsic_analysis/
+outputs/lexical_substitution_analysis/   includes completed manual review sheets
+notebooks/EDA.ipynb                      paper tables and figures from cached outputs
+notebooks/probe_dialects_quality_audit.ipynb
+notebooks/ViDia2std_Normalizer.ipynb      optional normalization research
+paper_artifacts/{dataset_analysis,direct_prompting}/
+submission.pdf                          submitted manuscript reference
 ```
 
-Run direct prompting:
+## Analyze existing results
+
+Run commands from the repository root. No GPU, API key, or model download is needed
+for cached-result analysis:
 
 ```bash
-python -m src.probe_models --config configs/direct_prompting/qwen_2_5_3b_instruct.yaml
+python -m pip install -r requirements-analysis.txt
+python scripts/check_rebuttal_bundle.py
+python -m nbconvert --to notebook --execute notebooks/EDA.ipynb --output EDA.executed.ipynb --output-dir .local
+python -m nbconvert --to notebook --execute notebooks/probe_dialects_quality_audit.ipynb --output audit.executed.ipynb --output-dir .local
 ```
 
-The benchmark now focuses on two inference settings: direct dialect input and
-direct prompting after a ViDia2Std-style normalizer rewrites each dialect variant.
-The normalized setting should use `prompt_strategy: normalized_direct` with a
-normalized case file once that file is produced.
+EDA rewrites the tracked tables and figures under `paper_artifacts/`; review their
+diff before committing. It does not regenerate the intrinsic PPL caches or the
+separate PPL figures already supplied under `paper_artifacts/dataset_analysis/`.
+The audit reports data inconsistencies for inspection; finishing execution does
+not mean all quality checks passed.
 
-Each config writes results to a separate JSONL file under `outputs/<prompt_setting>/`. The output rows include `prompt_strategy`, `variant`, `dialect_group`, `gold`, `prediction`, and `raw_output`.
-For MCQA, NLI, and sentiment, probing also stores fixed-candidate confidence
-signals by default: `label_candidates`, `label_logprobs`, `label_probs`,
-`confidence`, `prob_prediction`, and `gold_prob`. Use
-`--no-collect-probabilities` to disable this extra scoring pass.
+## Run additional inference only when needed
 
-To run another model, choose the matching config file in the same prompt-setting folder. Some Hugging Face models may require login or license acceptance before they can be downloaded.
+```bash
+python -m pip install -r requirements.txt
+python -m src.probe_models --config configs/direct_prompting/qwen_2_5_3b_instruct.yaml --output .local/qwen_rebuttal.jsonl
+python -m src.probe_gemma3 --config configs/direct_prompting/gemma_3_4b_it.yaml --output .local/gemma3_rebuttal.jsonl
+python -m src.probe_openai --config configs/direct_prompting/gpt_4o.yaml --output .local/gpt4o_rebuttal.jsonl
+```
+
+Use a separate output path while checking a new run to preserve the submitted
+baseline. Export `HF_TOKEN` or `OPENAI_API_KEY` in the process environment when
+needed; `.env.example` lists the names, and runners do not load `.env` automatically.
+
+To rebuild probe cases for comparison without overwriting the shared dataset:
+
+```bash
+python -m src.prepare_annotated_probe_cases --output .local/probe_rebuilt.jsonl
+```
+
+This command validates source consistency and can stop on existing annotation
+issues. Inspect the audit before changing source data or regenerating cases.

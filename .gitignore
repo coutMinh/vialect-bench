@@ -1,24 +1,71 @@
-papers
-#outputs
+# Local credentials and environments
+.env
+.env.*
+!.env.example
 .venv/
+venv/
 .cache/
-.DS_Store
+.local/
 __pycache__/
 *.py[cod]
 .pytest_cache/
-data/pilot_samples_smoke/
-run.ipynb
-test.py
-examples
-model_output
-INCLINE
-AAAI_2027_Anonymous_Submission
-AuthorKit27
-Dialectal_Robustness_of_LLMs_under_Meaning_Preserving_Vietnamese_Variation
-.env
-scripts
-!scripts/
-!scripts/analyze_vialectbench_data.py
-paper_artifacts
-ui
-main.tex
+.ipynb_checkpoints/
+.DS_Store
+logs/
+*.log
+model_weight/
+checkpoints/
+wandb/
+
+# Historical projects and manuscript workspaces (keep local copies)
+/papers/
+/examples/
+/model_output/
+/INCLINE/
+/AuthorKit27/
+/AAAI_2027_Anonymous_Submission/
+/Dialectal_Robustness_of_LLMs_under_Meaning_Preserving_Vietnamese_Variation/
+/ArXiv_dialect/
+/VialectBench.github.io/
+/ui/
+/main.tex
+/run.ipynb
+/test.py
+/docs/PA1.md
+/docs/PA2.md
+/docs/sampling_and_benchmarking.md
+/docs/*.pdf
+
+# Final benchmark plus source/provenance files required by preparation and audit
+/data/*
+!/data/Finalized/
+!/data/vialectbench_finalized_6.json
+!/data/DIALECT_LEXICON_v2.xlsx
+!/data/sentiment_100.jsonl
+!/data/nli_100.jsonl
+!/data/qa_100.jsonl
+!/data/mcqa_100.jsonl
+!/data/qualification_10.jsonl
+!/data/selection_summary.csv
+
+# Keep the cached results used for rebuttal; historical runs stay local
+/outputs/*
+!/outputs/direct_prompting/
+!/outputs/finalized_6_complete_six_intrinsic_analysis/
+!/outputs/lexical_substitution_analysis/
+!/outputs/normalized_direct_prompting/
+!/outputs/normalized_direct/
+!/outputs/direct_prompting_normalized/
+
+# Main paper artifacts; exclude side-project figures and visual references
+/paper_artifacts/*
+!/paper_artifacts/dataset_analysis/
+!/paper_artifacts/direct_prompting/
+
+# Retain one normalizer notebook and the benchmark analysis/audit notebooks
+/notebooks/seas.ipynb
+/notebooks/ViDia2std_Normalizer (2).ipynb
+
+# Superseded analysis entry points
+/scripts/quant_perplexity.py
+/scripts/visualize_perplexity.py

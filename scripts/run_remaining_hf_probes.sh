@@ -45,7 +45,12 @@ for config in "${CONFIGS[@]}"; do
   echo "Log: $log_file"
   echo "============================================================"
 
-  "$PYTHON_BIN" -u -m src.probe_models \
+  runner="src.probe_models"
+  if [[ "$name" == "gemma_3_4b_it" ]]; then
+    runner="src.probe_gemma3"
+  fi
+
+  "$PYTHON_BIN" -u -m "$runner" \
     --config "$config" \
     "$@" 2>&1 | tee "$log_file"
 done

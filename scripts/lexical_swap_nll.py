@@ -37,7 +37,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 # Paths
 # ---------------------------------------------------------------------------
 BASE = Path(".")
-ALIGN_CSV  = BASE / "outputs/lexical_substitution_analysis/word_word_alignment/raw_alignment_diff.csv"
+ALIGN_CSV  = BASE / "outputs/lexical_substitution_analysis/word_alignment/raw_alignment_diff.csv"
 PPL_CSV    = BASE / "outputs/finalized_6_complete_six_intrinsic_analysis/perplexity_pairwise_results.csv"
 OUT_DIR    = BASE / "outputs/lexical_substitution_analysis/swap_nll_analysis"
 

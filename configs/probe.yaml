@@ -2,7 +2,7 @@ models: configs/models.yaml
 dataset_part: finalized
 model_name: Qwen 2.5 3B Instruct
 cases: data/Finalized/probe_dialects.jsonl
-output: outputs/qwen_3b_probe.jsonl
+output: outputs/direct_prompting/qwen_2_5_3b_instruct.jsonl
 prompt_strategy: direct
 collect_probabilities: true
 max_new_tokens: 48

@@ -550,8 +550,8 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Run intrinsic dataset analysis for VialectBench finalized data."
     )
-    parser.add_argument("--input", default="data/vialectbench_finalized_5.json")
-    parser.add_argument("--output_dir", default="outputs/finalized_5_intrinsic_analysis")
+    parser.add_argument("--input", default="data/vialectbench_finalized_6.json")
+    parser.add_argument("--output_dir", default="outputs/finalized_6_complete_six_intrinsic_analysis")
     parser.add_argument("--model", "--reference_model", dest="model", default="Qwen/Qwen2.5-0.5B")
     parser.add_argument("--orig_col", default="original_text")
     parser.add_argument("--para_col", default="dialect_text")

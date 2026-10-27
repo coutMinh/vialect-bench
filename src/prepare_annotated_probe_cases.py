@@ -298,7 +298,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description="Convert human-annotated VialectBench JSON rows into probe_dialects JSONL."
     )
-    parser.add_argument("--input", type=Path, default=Path("data/vialectbench_finalized_1.json"))
+    parser.add_argument("--input", type=Path, default=Path("data/vialectbench_finalized_6.json"))
     parser.add_argument("--output", type=Path, default=Path("data/Finalized/probe_dialects.jsonl"))
     parser.add_argument("--dataset-part", default="finalized")
     parser.add_argument("--sentiment", type=Path, default=Path("data/sentiment_100.jsonl"))

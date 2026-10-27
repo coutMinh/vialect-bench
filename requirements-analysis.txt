@@ -1,0 +1,7 @@
+# Cached-output analysis and notebooks; no model downloads or API keys required.
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+ipython>=8.0.0
+ipykernel>=6.0.0
+nbconvert>=7.0.0
