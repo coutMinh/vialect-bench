@@ -1,0 +1,112 @@
+{
+  "models": 10,
+  "unique_variants": 2400,
+  "model_rows": 24000,
+  "changed_variants": 1683,
+  "source_exact_standard_variants": 457,
+  "exact_standard_variants": 649,
+  "originally_standard_changed": 82,
+  "originally_standard_changed_after_score_norm": 68,
+  "unchanged_prompt_controls": [
+    {
+      "model": "Qwen 2.5 0.5B Instruct",
+      "changed_inputs": 1683,
+      "changed_input_gain_pp": 4.60930482827893,
+      "unchanged_inputs": 717,
+      "unchanged_input_gain_pp": -0.12884358510135172,
+      "unchanged_input_exact_match_flips": 0
+    },
+    {
+      "model": "Qwen 2.5 3B Instruct",
+      "changed_inputs": 1683,
+      "changed_input_gain_pp": 3.0253923870312764,
+      "unchanged_inputs": 717,
+      "unchanged_input_gain_pp": -0.3766357697209932,
+      "unchanged_input_exact_match_flips": 1
+    },
+    {
+      "model": "Qwen 2.5 7B Instruct",
+      "changed_inputs": 1683,
+      "changed_input_gain_pp": 2.516868151466954,
+      "unchanged_inputs": 717,
+      "unchanged_input_gain_pp": 0.04649000464900045,
+      "unchanged_input_exact_match_flips": 2
+    },
+    {
+      "model": "Llama 3.1 8B Instruct",
+      "changed_inputs": 1683,
+      "changed_input_gain_pp": 3.0919334204330364,
+      "unchanged_inputs": 717,
+      "unchanged_input_gain_pp": 0.0,
+      "unchanged_input_exact_match_flips": 0
+    },
+    {
+      "model": "Mistral 7B Instruct v0.3",
+      "changed_inputs": 1683,
+      "changed_input_gain_pp": 5.716005523713029,
+      "unchanged_inputs": 717,
+      "unchanged_input_gain_pp": 0.0,
+      "unchanged_input_exact_match_flips": 0
+    },
+    {
+      "model": "Gemma 2 9B IT",
+      "changed_inputs": 1683,
+      "changed_input_gain_pp": 1.5517683070022124,
+      "unchanged_inputs": 717,
+      "unchanged_input_gain_pp": -0.00929800092980009,
+      "unchanged_input_exact_match_flips": 1
+    },
+    {
+      "model": "Gemma 3 4B IT",
+      "changed_inputs": 1683,
+      "changed_input_gain_pp": 2.338548884209292,
+      "unchanged_inputs": 717,
+      "unchanged_input_gain_pp": 0.34407530100367906,
+      "unchanged_input_exact_match_flips": 7
+    },
+    {
+      "model": "Vistral 7B Chat",
+      "changed_inputs": 1683,
+      "changed_input_gain_pp": 0.9016644921419835,
+      "unchanged_inputs": 717,
+      "unchanged_input_gain_pp": 0.2016384659116472,
+      "unchanged_input_exact_match_flips": 1
+    },
+    {
+      "model": "SeaLLM 7B Chat",
+      "changed_inputs": 1683,
+      "changed_input_gain_pp": 3.690885491749154,
+      "unchanged_inputs": 717,
+      "unchanged_input_gain_pp": 0.1394700139470014,
+      "unchanged_input_exact_match_flips": 1
+    },
+    {
+      "model": "GPT-4o",
+      "changed_inputs": 1683,
+      "changed_input_gain_pp": -1.2669025049645968,
+      "unchanged_inputs": 717,
+      "unchanged_input_gain_pp": 0.29834484368226677,
+      "unchanged_input_exact_match_flips": 25
+    }
+  ],
+  "exact_match_transitions": {
+    "incorrect_to_correct": 982,
+    "correct_to_incorrect": 676,
+    "incorrect_to_incorrect": 10661,
+    "correct_to_correct": 11681
+  },
+  "macro_across_models": {
+    "standard_score": 0.6222216018703415,
+    "direct_dialect_score": 0.5939801855556327,
+    "normalized_dialect_score": 0.6124896615090425,
+    "standard_reference_gap_pp": 2.824141631470878,
+    "gain_pp": 1.8509475953409849,
+    "standard_reference_gap_recovered_percent": 65.54018306712767,
+    "gain_case_cluster_bootstrap_95ci_pp": [
+      1.1935223072408117,
+      2.52055405350206
+    ],
+    "bootstrap_unit": "source case (400), stratified by task (100 each), with six dialect variants and ten models per case",
+    "bootstrap_replicates": 2000
+  }
+}

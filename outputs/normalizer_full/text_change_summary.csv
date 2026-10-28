@@ -1,0 +1,12 @@
+Group,Value,Variants,Changed,Source exact standard,Normalized exact standard,Source exact standard changed
+all,all,2400,1683,457,649,82
+dialect,PNB,400,93,217,177,40
+dialect,PNN,400,248,52,63,12
+dialect,PNT1,400,272,96,138,13
+dialect,PNT2,400,376,23,110,5
+dialect,PNT3,400,382,8,44,1
+dialect,PNT4,400,312,61,117,11
+task,mcqa,600,497,75,96,27
+task,nli,600,348,163,216,24
+task,qa,600,346,137,255,2
+task,sentiment,600,492,82,82,29

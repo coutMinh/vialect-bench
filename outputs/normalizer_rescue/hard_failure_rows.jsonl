@@ -1,0 +1,753 @@
+{"model_slug": "gemma_2_9b_it", "task": "nli", "id": "NLI_0064", "variant": "PNT2", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gemma_2_9b_it", "task": "nli", "id": "NLI_0064", "variant": "PNT3", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gemma_2_9b_it", "task": "nli", "id": "NLI_0064", "variant": "PNT4", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gemma_2_9b_it", "task": "nli", "id": "NLI_2313", "variant": "PNT1", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gemma_2_9b_it", "task": "nli", "id": "NLI_2313", "variant": "PNT2", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gemma_2_9b_it", "task": "nli", "id": "NLI_2313", "variant": "PNT4", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gemma_2_9b_it", "task": "nli", "id": "NLI_3048", "variant": "PNN", "gold": "neutral", "direct_prediction": "entailment", "standard_prediction": "neutral"}
+{"model_slug": "gemma_2_9b_it", "task": "nli", "id": "NLI_3048", "variant": "PNT2", "gold": "neutral", "direct_prediction": "entailment", "standard_prediction": "neutral"}
+{"model_slug": "gemma_2_9b_it", "task": "nli", "id": "NLI_3048", "variant": "PNT3", "gold": "neutral", "direct_prediction": "contradiction", "standard_prediction": "neutral"}
+{"model_slug": "gemma_2_9b_it", "task": "nli", "id": "NLI_7901", "variant": "PNN", "gold": "contradiction", "direct_prediction": "neutral", "standard_prediction": "contradiction"}
+{"model_slug": "gemma_2_9b_it", "task": "nli", "id": "NLI_7901", "variant": "PNT2", "gold": "contradiction", "direct_prediction": "neutral", "standard_prediction": "contradiction"}
+{"model_slug": "gemma_2_9b_it", "task": "nli", "id": "NLI_7901", "variant": "PNT3", "gold": "contradiction", "direct_prediction": "neutral", "standard_prediction": "contradiction"}
+{"model_slug": "gemma_2_9b_it", "task": "qa", "id": "QA_14176", "variant": "PNT1", "gold": ["bắt đầu mở rộng lãnh thổ ra hải ngoại"], "direct_prediction": "mở rộng lãnh thổ ra hải ngoại", "standard_prediction": "bắt đầu mở rộng lãnh thổ ra hải ngoại"}
+{"model_slug": "gemma_2_9b_it", "task": "qa", "id": "QA_14176", "variant": "PNT2", "gold": ["bắt đầu mở rộng lãnh thổ ra hải ngoại"], "direct_prediction": "mở rộng lãnh thổ ra hải ngoại", "standard_prediction": "bắt đầu mở rộng lãnh thổ ra hải ngoại"}
+{"model_slug": "gemma_2_9b_it", "task": "qa", "id": "QA_14176", "variant": "PNT3", "gold": ["bắt đầu mở rộng lãnh thổ ra hải ngoại"], "direct_prediction": "mở rộng lãnh thổ ra hải ngoại", "standard_prediction": "bắt đầu mở rộng lãnh thổ ra hải ngoại"}
+{"model_slug": "gemma_2_9b_it", "task": "qa", "id": "QA_14176", "variant": "PNT4", "gold": ["bắt đầu mở rộng lãnh thổ ra hải ngoại"], "direct_prediction": "mở rộng lãnh thổ ra hải ngoại", "standard_prediction": "bắt đầu mở rộng lãnh thổ ra hải ngoại"}
+{"model_slug": "gemma_2_9b_it", "task": "qa", "id": "QA_17926", "variant": "PNT1", "gold": ["thuyết thần học Kháng Cách"], "direct_prediction": "Kháng Cách", "standard_prediction": "thuyết thần học Kháng Cách"}
+{"model_slug": "gemma_2_9b_it", "task": "qa", "id": "QA_17926", "variant": "PNT2", "gold": ["thuyết thần học Kháng Cách"], "direct_prediction": "Kháng Cách", "standard_prediction": "thuyết thần học Kháng Cách"}
+{"model_slug": "gemma_2_9b_it", "task": "qa", "id": "QA_17926", "variant": "PNT3", "gold": ["thuyết thần học Kháng Cách"], "direct_prediction": "Kháng Cách", "standard_prediction": "thuyết thần học Kháng Cách"}
+{"model_slug": "gemma_2_9b_it", "task": "qa", "id": "QA_17926", "variant": "PNT4", "gold": ["thuyết thần học Kháng Cách"], "direct_prediction": "Kháng Cách", "standard_prediction": "thuyết thần học Kháng Cách"}
+{"model_slug": "gemma_2_9b_it", "task": "qa", "id": "QA_18828", "variant": "PNB", "gold": ["khôi phục sinh khí"], "direct_prediction": "khôi phục sinh khí, khiến kinh tế triều Minh được khôi phục nhanh chóng", "standard_prediction": "khôi phục sinh khí"}
+{"model_slug": "gemma_2_9b_it", "task": "qa", "id": "QA_18828", "variant": "PNN", "gold": ["khôi phục sinh khí"], "direct_prediction": "các khu vực từng chịu tổn thất nặng nề trong chiến loạn khôi phục sinh khí", "standard_prediction": "khôi phục sinh khí"}
+{"model_slug": "gemma_2_9b_it", "task": "qa", "id": "QA_18828", "variant": "PNT1", "gold": ["khôi phục sinh khí"], "direct_prediction": "các khu vực từng chịu tổn thất nặng nề trong chiến loạn khôi phục sinh khí", "standard_prediction": "khôi phục sinh khí"}
+{"model_slug": "gemma_2_9b_it", "task": "qa", "id": "QA_18828", "variant": "PNT2", "gold": ["khôi phục sinh khí"], "direct_prediction": "các khu vực từng chịu tổn thất nặng nề trong chiến loạn", "standard_prediction": "khôi phục sinh khí"}
+{"model_slug": "gemma_2_9b_it", "task": "qa", "id": "QA_18828", "variant": "PNT3", "gold": ["khôi phục sinh khí"], "direct_prediction": "các khu vực từng chịu tổn thất nặng nề trong chiến loạn", "standard_prediction": "khôi phục sinh khí"}
+{"model_slug": "gemma_2_9b_it", "task": "qa", "id": "QA_18828", "variant": "PNT4", "gold": ["khôi phục sinh khí"], "direct_prediction": "các khu vực từng chịu tổn thất nặng nề trong chiến loạn", "standard_prediction": "khôi phục sinh khí"}
+{"model_slug": "gemma_2_9b_it", "task": "qa", "id": "QA_4833", "variant": "PNT1", "gold": ["khá phức tạp, và có thể khó áp dụng"], "direct_prediction": "khó áp dụng", "standard_prediction": "khá phức tạp, và có thể khó áp dụng"}
+{"model_slug": "gemma_2_9b_it", "task": "qa", "id": "QA_4833", "variant": "PNT2", "gold": ["khá phức tạp, và có thể khó áp dụng"], "direct_prediction": "khó áp dụng", "standard_prediction": "khá phức tạp, và có thể khó áp dụng"}
+{"model_slug": "gemma_2_9b_it", "task": "qa", "id": "QA_4833", "variant": "PNT3", "gold": ["khá phức tạp, và có thể khó áp dụng"], "direct_prediction": "khó áp dụng", "standard_prediction": "khá phức tạp, và có thể khó áp dụng"}
+{"model_slug": "gemma_2_9b_it", "task": "qa", "id": "QA_4833", "variant": "PNT4", "gold": ["khá phức tạp, và có thể khó áp dụng"], "direct_prediction": "khó áp dụng", "standard_prediction": "khá phức tạp, và có thể khó áp dụng"}
+{"model_slug": "gemma_2_9b_it", "task": "qa", "id": "QA_6664", "variant": "PNN", "gold": ["ngôn ngữ nài xin"], "direct_prediction": "những thanh niên, phụ nữ đã nhúng tay vào bạo lực. Cha kêu gọi các con với ngôn ngữ nài xin. Cha quỳ gối van xin", "standard_prediction": "ngôn ngữ nài xin"}
+{"model_slug": "gemma_2_9b_it", "task": "qa", "id": "QA_6664", "variant": "PNT2", "gold": ["ngôn ngữ nài xin"], "direct_prediction": "nài xin", "standard_prediction": "ngôn ngữ nài xin"}
+{"model_slug": "gemma_2_9b_it", "task": "qa", "id": "QA_6664", "variant": "PNT3", "gold": ["ngôn ngữ nài xin"], "direct_prediction": "nài xin", "standard_prediction": "ngôn ngữ nài xin"}
+{"model_slug": "gemma_2_9b_it", "task": "qa", "id": "QA_6664", "variant": "PNT4", "gold": ["ngôn ngữ nài xin"], "direct_prediction": "nài xin", "standard_prediction": "ngôn ngữ nài xin"}
+{"model_slug": "gemma_2_9b_it", "task": "qa", "id": "QA_7517", "variant": "PNT1", "gold": ["Đến thế kỷ XXI"], "direct_prediction": "thế kỷ XXI", "standard_prediction": "Đến thế kỷ XXI"}
+{"model_slug": "gemma_2_9b_it", "task": "qa", "id": "QA_7517", "variant": "PNT2", "gold": ["Đến thế kỷ XXI"], "direct_prediction": "thế kỷ XXI", "standard_prediction": "Đến thế kỷ XXI"}
+{"model_slug": "gemma_2_9b_it", "task": "qa", "id": "QA_7517", "variant": "PNT3", "gold": ["Đến thế kỷ XXI"], "direct_prediction": "thế kỷ XXI", "standard_prediction": "Đến thế kỷ XXI"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_0192", "variant": "PNN", "gold": "Enjoyment", "direct_prediction": "Sadness", "standard_prediction": "Enjoyment"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_0192", "variant": "PNT1", "gold": "Enjoyment", "direct_prediction": "Sadness", "standard_prediction": "Enjoyment"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_0192", "variant": "PNT2", "gold": "Enjoyment", "direct_prediction": "Anger", "standard_prediction": "Enjoyment"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_0192", "variant": "PNT3", "gold": "Enjoyment", "direct_prediction": "Anger", "standard_prediction": "Enjoyment"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_0192", "variant": "PNT4", "gold": "Enjoyment", "direct_prediction": "Sadness", "standard_prediction": "Enjoyment"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_0462", "variant": "PNT1", "gold": "Sadness", "direct_prediction": "Anger", "standard_prediction": "Sadness"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_0462", "variant": "PNT2", "gold": "Sadness", "direct_prediction": "Anger", "standard_prediction": "Sadness"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_0462", "variant": "PNT3", "gold": "Sadness", "direct_prediction": "Anger", "standard_prediction": "Sadness"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_1146", "variant": "PNB", "gold": "Other", "direct_prediction": "Sadness", "standard_prediction": "Other"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_1146", "variant": "PNT1", "gold": "Other", "direct_prediction": "Sadness", "standard_prediction": "Other"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_1146", "variant": "PNT2", "gold": "Other", "direct_prediction": "Sadness", "standard_prediction": "Other"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_1146", "variant": "PNT4", "gold": "Other", "direct_prediction": "Sadness", "standard_prediction": "Other"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_1172", "variant": "PNT2", "gold": "Surprise", "direct_prediction": "Sadness", "standard_prediction": "Surprise"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_1172", "variant": "PNT3", "gold": "Surprise", "direct_prediction": "Disgust", "standard_prediction": "Surprise"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_1172", "variant": "PNT4", "gold": "Surprise", "direct_prediction": "Anger", "standard_prediction": "Surprise"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_2217", "variant": "PNN", "gold": "Fear", "direct_prediction": "Anger", "standard_prediction": "Fear"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_2217", "variant": "PNT2", "gold": "Fear", "direct_prediction": "Anger", "standard_prediction": "Fear"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_2217", "variant": "PNT3", "gold": "Fear", "direct_prediction": "Disgust", "standard_prediction": "Fear"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_2217", "variant": "PNT4", "gold": "Fear", "direct_prediction": "Anger", "standard_prediction": "Fear"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_4057", "variant": "PNN", "gold": "Other", "direct_prediction": "Anger", "standard_prediction": "Other"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_4057", "variant": "PNT1", "gold": "Other", "direct_prediction": "Anger", "standard_prediction": "Other"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_4057", "variant": "PNT2", "gold": "Other", "direct_prediction": "Anger", "standard_prediction": "Other"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_4057", "variant": "PNT3", "gold": "Other", "direct_prediction": "Anger", "standard_prediction": "Other"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_4057", "variant": "PNT4", "gold": "Other", "direct_prediction": "Anger", "standard_prediction": "Other"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_4084", "variant": "PNT1", "gold": "Surprise", "direct_prediction": "Enjoyment", "standard_prediction": "Surprise"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_4084", "variant": "PNT2", "gold": "Surprise", "direct_prediction": "Enjoyment", "standard_prediction": "Surprise"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_4084", "variant": "PNT3", "gold": "Surprise", "direct_prediction": "Enjoyment", "standard_prediction": "Surprise"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_4084", "variant": "PNT4", "gold": "Surprise", "direct_prediction": "Anger", "standard_prediction": "Surprise"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_4150", "variant": "PNN", "gold": "Disgust", "direct_prediction": "Anger", "standard_prediction": "Disgust"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_4150", "variant": "PNT2", "gold": "Disgust", "direct_prediction": "Other", "standard_prediction": "Disgust"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_4150", "variant": "PNT3", "gold": "Disgust", "direct_prediction": "Anger", "standard_prediction": "Disgust"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_4150", "variant": "PNT4", "gold": "Disgust", "direct_prediction": "Anger", "standard_prediction": "Disgust"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_4519", "variant": "PNN", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_4519", "variant": "PNT1", "gold": "Anger", "direct_prediction": "Enjoyment", "standard_prediction": "Anger"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_4519", "variant": "PNT2", "gold": "Anger", "direct_prediction": "Enjoyment", "standard_prediction": "Anger"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_4519", "variant": "PNT4", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_4745", "variant": "PNT1", "gold": "Surprise", "direct_prediction": "Anger", "standard_prediction": "Surprise"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_4745", "variant": "PNT2", "gold": "Surprise", "direct_prediction": "Anger", "standard_prediction": "Surprise"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_4745", "variant": "PNT3", "gold": "Surprise", "direct_prediction": "Anger", "standard_prediction": "Surprise"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_4745", "variant": "PNT4", "gold": "Surprise", "direct_prediction": "Anger", "standard_prediction": "Surprise"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_5154", "variant": "PNT1", "gold": "Surprise", "direct_prediction": "Sadness", "standard_prediction": "Surprise"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_5154", "variant": "PNT2", "gold": "Surprise", "direct_prediction": "Disgust", "standard_prediction": "Surprise"}
+{"model_slug": "gemma_2_9b_it", "task": "sentiment", "id": "SENT_5154", "variant": "PNT3", "gold": "Surprise", "direct_prediction": "Anger", "standard_prediction": "Surprise"}
+{"model_slug": "gemma_3_4b_it", "task": "mcqa", "id": "MCQA_0123_6", "variant": "PNN", "gold": "C", "direct_prediction": "A", "standard_prediction": "C"}
+{"model_slug": "gemma_3_4b_it", "task": "mcqa", "id": "MCQA_0123_6", "variant": "PNT1", "gold": "C", "direct_prediction": "A", "standard_prediction": "C"}
+{"model_slug": "gemma_3_4b_it", "task": "mcqa", "id": "MCQA_0123_6", "variant": "PNT2", "gold": "C", "direct_prediction": "A", "standard_prediction": "C"}
+{"model_slug": "gemma_3_4b_it", "task": "mcqa", "id": "MCQA_0123_6", "variant": "PNT4", "gold": "C", "direct_prediction": "B", "standard_prediction": "C"}
+{"model_slug": "gemma_3_4b_it", "task": "nli", "id": "NLI_0064", "variant": "PNT2", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gemma_3_4b_it", "task": "nli", "id": "NLI_0064", "variant": "PNT3", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gemma_3_4b_it", "task": "nli", "id": "NLI_0064", "variant": "PNT4", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gemma_3_4b_it", "task": "nli", "id": "NLI_0337", "variant": "PNT1", "gold": "entailment", "direct_prediction": "contradiction", "standard_prediction": "entailment"}
+{"model_slug": "gemma_3_4b_it", "task": "nli", "id": "NLI_0337", "variant": "PNT2", "gold": "entailment", "direct_prediction": "contradiction", "standard_prediction": "entailment"}
+{"model_slug": "gemma_3_4b_it", "task": "nli", "id": "NLI_0337", "variant": "PNT3", "gold": "entailment", "direct_prediction": "contradiction", "standard_prediction": "entailment"}
+{"model_slug": "gemma_3_4b_it", "task": "nli", "id": "NLI_0337", "variant": "PNT4", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gemma_3_4b_it", "task": "nli", "id": "NLI_0511", "variant": "PNT1", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gemma_3_4b_it", "task": "nli", "id": "NLI_0511", "variant": "PNT2", "gold": "entailment", "direct_prediction": "contradiction", "standard_prediction": "entailment"}
+{"model_slug": "gemma_3_4b_it", "task": "nli", "id": "NLI_0511", "variant": "PNT3", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gemma_3_4b_it", "task": "nli", "id": "NLI_2559", "variant": "PNN", "gold": "entailment", "direct_prediction": "contradiction", "standard_prediction": "entailment"}
+{"model_slug": "gemma_3_4b_it", "task": "nli", "id": "NLI_2559", "variant": "PNT1", "gold": "entailment", "direct_prediction": "contradiction", "standard_prediction": "entailment"}
+{"model_slug": "gemma_3_4b_it", "task": "nli", "id": "NLI_2559", "variant": "PNT2", "gold": "entailment", "direct_prediction": "contradiction", "standard_prediction": "entailment"}
+{"model_slug": "gemma_3_4b_it", "task": "nli", "id": "NLI_2559", "variant": "PNT3", "gold": "entailment", "direct_prediction": "contradiction", "standard_prediction": "entailment"}
+{"model_slug": "gemma_3_4b_it", "task": "nli", "id": "NLI_2559", "variant": "PNT4", "gold": "entailment", "direct_prediction": "contradiction", "standard_prediction": "entailment"}
+{"model_slug": "gemma_3_4b_it", "task": "nli", "id": "NLI_3269", "variant": "PNT1", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gemma_3_4b_it", "task": "nli", "id": "NLI_3269", "variant": "PNT3", "gold": "entailment", "direct_prediction": "contradiction", "standard_prediction": "entailment"}
+{"model_slug": "gemma_3_4b_it", "task": "nli", "id": "NLI_3269", "variant": "PNT4", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gemma_3_4b_it", "task": "nli", "id": "NLI_6110", "variant": "PNT1", "gold": "neutral", "direct_prediction": "entailment", "standard_prediction": "neutral"}
+{"model_slug": "gemma_3_4b_it", "task": "nli", "id": "NLI_6110", "variant": "PNT2", "gold": "neutral", "direct_prediction": "entailment", "standard_prediction": "neutral"}
+{"model_slug": "gemma_3_4b_it", "task": "nli", "id": "NLI_6110", "variant": "PNT4", "gold": "neutral", "direct_prediction": "entailment", "standard_prediction": "neutral"}
+{"model_slug": "gemma_3_4b_it", "task": "qa", "id": "QA_11800", "variant": "PNN", "gold": ["Washington di chuyển quân của mình ra khỏi New York"], "direct_prediction": "Washington liền tấn công họ tại Monmouth.", "standard_prediction": "Washington di chuyển quân của mình ra khỏi New York."}
+{"model_slug": "gemma_3_4b_it", "task": "qa", "id": "QA_11800", "variant": "PNT1", "gold": ["Washington di chuyển quân của mình ra khỏi New York"], "direct_prediction": "Washington liền tấn công họ tại Monmouth.", "standard_prediction": "Washington di chuyển quân của mình ra khỏi New York."}
+{"model_slug": "gemma_3_4b_it", "task": "qa", "id": "QA_11800", "variant": "PNT2", "gold": ["Washington di chuyển quân của mình ra khỏi New York"], "direct_prediction": "Washington liền tấn công họ tại Monmouth.", "standard_prediction": "Washington di chuyển quân của mình ra khỏi New York."}
+{"model_slug": "gemma_3_4b_it", "task": "qa", "id": "QA_22617", "variant": "PNN", "gold": ["nổi loạn và thành lập nên các nhà nước độc lập"], "direct_prediction": "Những vùng khác của Đế chế Tây Ban Nha tại Mỹ Latinh nổi loạn và thành lập nên các nhà nước độc lập", "standard_prediction": "nổi loạn và thành lập nên các nhà nước độc lập"}
+{"model_slug": "gemma_3_4b_it", "task": "qa", "id": "QA_22617", "variant": "PNT1", "gold": ["nổi loạn và thành lập nên các nhà nước độc lập"], "direct_prediction": "các vùng khác của Đế chế Tây Ban Nha tại Mỹ Latinh nổi loạn và thành lập nên các nhà nước độc lập", "standard_prediction": "nổi loạn và thành lập nên các nhà nước độc lập"}
+{"model_slug": "gemma_3_4b_it", "task": "qa", "id": "QA_22617", "variant": "PNT2", "gold": ["nổi loạn và thành lập nên các nhà nước độc lập"], "direct_prediction": "các vùng khác của Đế chế Tây Ban Nha tại Mỹ Latinh", "standard_prediction": "nổi loạn và thành lập nên các nhà nước độc lập"}
+{"model_slug": "gemma_3_4b_it", "task": "qa", "id": "QA_22617", "variant": "PNT4", "gold": ["nổi loạn và thành lập nên các nhà nước độc lập"], "direct_prediction": "các vùng khác của Đế chế Tây Ban Nha tại Mỹ Latinh", "standard_prediction": "nổi loạn và thành lập nên các nhà nước độc lập"}
+{"model_slug": "gemma_3_4b_it", "task": "qa", "id": "QA_22620", "variant": "PNT1", "gold": ["Haiti"], "direct_prediction": "lo ngại về một cuộc nổi loạn nô lệ", "standard_prediction": "Haiti"}
+{"model_slug": "gemma_3_4b_it", "task": "qa", "id": "QA_22620", "variant": "PNT2", "gold": ["Haiti"], "direct_prediction": "lo ngại về một cuộc nổi loạn nô lệ", "standard_prediction": "Haiti"}
+{"model_slug": "gemma_3_4b_it", "task": "qa", "id": "QA_22620", "variant": "PNT3", "gold": ["Haiti"], "direct_prediction": "lo ngại về một cuộc nổi loạn nô lệ", "standard_prediction": "Haiti"}
+{"model_slug": "gemma_3_4b_it", "task": "qa", "id": "QA_22620", "variant": "PNT4", "gold": ["Haiti"], "direct_prediction": "lo ngại về một cuộc nổi loạn nô lệ", "standard_prediction": "Haiti"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_0626", "variant": "PNT1", "gold": "Enjoyment", "direct_prediction": "Other", "standard_prediction": "Enjoyment"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_0626", "variant": "PNT2", "gold": "Enjoyment", "direct_prediction": "Sadness", "standard_prediction": "Enjoyment"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_0626", "variant": "PNT3", "gold": "Enjoyment", "direct_prediction": "Other", "standard_prediction": "Enjoyment"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_1338", "variant": "PNN", "gold": "Surprise", "direct_prediction": "Anger", "standard_prediction": "Surprise"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_1338", "variant": "PNT1", "gold": "Surprise", "direct_prediction": "Disgust", "standard_prediction": "Surprise"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_1338", "variant": "PNT2", "gold": "Surprise", "direct_prediction": "Sadness", "standard_prediction": "Surprise"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_1626", "variant": "PNN", "gold": "Enjoyment", "direct_prediction": "Sadness", "standard_prediction": "Enjoyment"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_1626", "variant": "PNT1", "gold": "Enjoyment", "direct_prediction": "Sadness", "standard_prediction": "Enjoyment"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_1626", "variant": "PNT2", "gold": "Enjoyment", "direct_prediction": "Sadness", "standard_prediction": "Enjoyment"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_2816", "variant": "PNT1", "gold": "Surprise", "direct_prediction": "Fear", "standard_prediction": "Surprise"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_2816", "variant": "PNT3", "gold": "Surprise", "direct_prediction": "Fear", "standard_prediction": "Surprise"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_2816", "variant": "PNT4", "gold": "Surprise", "direct_prediction": "Other", "standard_prediction": "Surprise"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_3750", "variant": "PNN", "gold": "Enjoyment", "direct_prediction": "Anger", "standard_prediction": "Enjoyment"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_3750", "variant": "PNT2", "gold": "Enjoyment", "direct_prediction": "Anger", "standard_prediction": "Enjoyment"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_3750", "variant": "PNT3", "gold": "Enjoyment", "direct_prediction": "Anger", "standard_prediction": "Enjoyment"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_3750", "variant": "PNT4", "gold": "Enjoyment", "direct_prediction": "Anger", "standard_prediction": "Enjoyment"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_3910", "variant": "PNB", "gold": "Disgust", "direct_prediction": "Enjoyment", "standard_prediction": "Disgust"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_3910", "variant": "PNN", "gold": "Disgust", "direct_prediction": "Enjoyment", "standard_prediction": "Disgust"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_3910", "variant": "PNT1", "gold": "Disgust", "direct_prediction": "Enjoyment", "standard_prediction": "Disgust"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_3910", "variant": "PNT2", "gold": "Disgust", "direct_prediction": "Other", "standard_prediction": "Disgust"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_3910", "variant": "PNT3", "gold": "Disgust", "direct_prediction": "Enjoyment", "standard_prediction": "Disgust"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_3910", "variant": "PNT4", "gold": "Disgust", "direct_prediction": "Enjoyment", "standard_prediction": "Disgust"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_4084", "variant": "PNN", "gold": "Surprise", "direct_prediction": "Other", "standard_prediction": "Surprise"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_4084", "variant": "PNT1", "gold": "Surprise", "direct_prediction": "Other", "standard_prediction": "Surprise"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_4084", "variant": "PNT2", "gold": "Surprise", "direct_prediction": "Other", "standard_prediction": "Surprise"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_4084", "variant": "PNT3", "gold": "Surprise", "direct_prediction": "Other", "standard_prediction": "Surprise"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_4084", "variant": "PNT4", "gold": "Surprise", "direct_prediction": "Other", "standard_prediction": "Surprise"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_4519", "variant": "PNT1", "gold": "Anger", "direct_prediction": "Surprise", "standard_prediction": "Anger"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_4519", "variant": "PNT2", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_4519", "variant": "PNT3", "gold": "Anger", "direct_prediction": "Sadness", "standard_prediction": "Anger"}
+{"model_slug": "gemma_3_4b_it", "task": "sentiment", "id": "SENT_4519", "variant": "PNT4", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "gpt_4o", "task": "nli", "id": "NLI_0064", "variant": "PNB", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gpt_4o", "task": "nli", "id": "NLI_0064", "variant": "PNT2", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gpt_4o", "task": "nli", "id": "NLI_0064", "variant": "PNT3", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gpt_4o", "task": "nli", "id": "NLI_0064", "variant": "PNT4", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gpt_4o", "task": "nli", "id": "NLI_1019", "variant": "PNB", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gpt_4o", "task": "nli", "id": "NLI_1019", "variant": "PNT1", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gpt_4o", "task": "nli", "id": "NLI_1019", "variant": "PNT4", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gpt_4o", "task": "nli", "id": "NLI_1749", "variant": "PNN", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gpt_4o", "task": "nli", "id": "NLI_1749", "variant": "PNT1", "gold": "entailment", "direct_prediction": "contradiction", "standard_prediction": "entailment"}
+{"model_slug": "gpt_4o", "task": "nli", "id": "NLI_1749", "variant": "PNT2", "gold": "entailment", "direct_prediction": "contradiction", "standard_prediction": "entailment"}
+{"model_slug": "gpt_4o", "task": "nli", "id": "NLI_3269", "variant": "PNN", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gpt_4o", "task": "nli", "id": "NLI_3269", "variant": "PNT1", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gpt_4o", "task": "nli", "id": "NLI_3269", "variant": "PNT2", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gpt_4o", "task": "nli", "id": "NLI_3269", "variant": "PNT3", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gpt_4o", "task": "nli", "id": "NLI_3269", "variant": "PNT4", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "gpt_4o", "task": "nli", "id": "NLI_4916", "variant": "PNT1", "gold": "neutral", "direct_prediction": "entailment", "standard_prediction": "neutral"}
+{"model_slug": "gpt_4o", "task": "nli", "id": "NLI_4916", "variant": "PNT2", "gold": "neutral", "direct_prediction": "entailment", "standard_prediction": "neutral"}
+{"model_slug": "gpt_4o", "task": "nli", "id": "NLI_4916", "variant": "PNT3", "gold": "neutral", "direct_prediction": "entailment", "standard_prediction": "neutral"}
+{"model_slug": "gpt_4o", "task": "nli", "id": "NLI_6129", "variant": "PNN", "gold": "neutral", "direct_prediction": "entailment", "standard_prediction": "neutral"}
+{"model_slug": "gpt_4o", "task": "nli", "id": "NLI_6129", "variant": "PNT2", "gold": "neutral", "direct_prediction": "entailment", "standard_prediction": "neutral"}
+{"model_slug": "gpt_4o", "task": "nli", "id": "NLI_6129", "variant": "PNT3", "gold": "neutral", "direct_prediction": "entailment", "standard_prediction": "neutral"}
+{"model_slug": "gpt_4o", "task": "nli", "id": "NLI_6129", "variant": "PNT4", "gold": "neutral", "direct_prediction": "entailment", "standard_prediction": "neutral"}
+{"model_slug": "gpt_4o", "task": "qa", "id": "QA_4887", "variant": "PNT2", "gold": ["Văn hóa Nhị Lý Đầu"], "direct_prediction": "Nhị Lý Đầu", "standard_prediction": "Văn hóa Nhị Lý Đầu"}
+{"model_slug": "gpt_4o", "task": "qa", "id": "QA_4887", "variant": "PNT3", "gold": ["Văn hóa Nhị Lý Đầu"], "direct_prediction": "Nhị Lý Đầu", "standard_prediction": "Văn hóa Nhị Lý Đầu"}
+{"model_slug": "gpt_4o", "task": "qa", "id": "QA_4887", "variant": "PNT4", "gold": ["Văn hóa Nhị Lý Đầu"], "direct_prediction": "Nhị Lý Đầu", "standard_prediction": "Văn hóa Nhị Lý Đầu"}
+{"model_slug": "gpt_4o", "task": "sentiment", "id": "SENT_0018", "variant": "PNN", "gold": "Fear", "direct_prediction": "Disgust", "standard_prediction": "Fear"}
+{"model_slug": "gpt_4o", "task": "sentiment", "id": "SENT_0018", "variant": "PNT2", "gold": "Fear", "direct_prediction": "Disgust", "standard_prediction": "Fear"}
+{"model_slug": "gpt_4o", "task": "sentiment", "id": "SENT_0018", "variant": "PNT3", "gold": "Fear", "direct_prediction": "Disgust", "standard_prediction": "Fear"}
+{"model_slug": "gpt_4o", "task": "sentiment", "id": "SENT_0018", "variant": "PNT4", "gold": "Fear", "direct_prediction": "Sadness", "standard_prediction": "Fear"}
+{"model_slug": "gpt_4o", "task": "sentiment", "id": "SENT_0343", "variant": "PNB", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "gpt_4o", "task": "sentiment", "id": "SENT_0343", "variant": "PNN", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "gpt_4o", "task": "sentiment", "id": "SENT_0343", "variant": "PNT2", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "gpt_4o", "task": "sentiment", "id": "SENT_1726", "variant": "PNN", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "gpt_4o", "task": "sentiment", "id": "SENT_1726", "variant": "PNT2", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "gpt_4o", "task": "sentiment", "id": "SENT_1726", "variant": "PNT3", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "gpt_4o", "task": "sentiment", "id": "SENT_4861", "variant": "PNB", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "gpt_4o", "task": "sentiment", "id": "SENT_4861", "variant": "PNN", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "gpt_4o", "task": "sentiment", "id": "SENT_4861", "variant": "PNT1", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "gpt_4o", "task": "sentiment", "id": "SENT_4861", "variant": "PNT2", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "gpt_4o", "task": "sentiment", "id": "SENT_4861", "variant": "PNT3", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "gpt_4o", "task": "sentiment", "id": "SENT_4861", "variant": "PNT4", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "gpt_4o", "task": "sentiment", "id": "SENT_5017", "variant": "PNB", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "gpt_4o", "task": "sentiment", "id": "SENT_5017", "variant": "PNT1", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "gpt_4o", "task": "sentiment", "id": "SENT_5017", "variant": "PNT2", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "gpt_4o", "task": "sentiment", "id": "SENT_5360", "variant": "PNT2", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "gpt_4o", "task": "sentiment", "id": "SENT_5360", "variant": "PNT3", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "gpt_4o", "task": "sentiment", "id": "SENT_5360", "variant": "PNT4", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "mcqa", "id": "MCQA_0010_3", "variant": "PNN", "gold": "B", "direct_prediction": "D", "standard_prediction": "B"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "mcqa", "id": "MCQA_0010_3", "variant": "PNT3", "gold": "B", "direct_prediction": "D", "standard_prediction": "B"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "mcqa", "id": "MCQA_0010_3", "variant": "PNT4", "gold": "B", "direct_prediction": "D", "standard_prediction": "B"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "mcqa", "id": "MCQA_0041_5", "variant": "PNN", "gold": "A", "direct_prediction": "D", "standard_prediction": "A"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "mcqa", "id": "MCQA_0041_5", "variant": "PNT1", "gold": "A", "direct_prediction": "D", "standard_prediction": "A"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "mcqa", "id": "MCQA_0041_5", "variant": "PNT2", "gold": "A", "direct_prediction": "D", "standard_prediction": "A"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "mcqa", "id": "MCQA_0041_5", "variant": "PNT3", "gold": "A", "direct_prediction": "D", "standard_prediction": "A"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "mcqa", "id": "MCQA_0041_5", "variant": "PNT4", "gold": "A", "direct_prediction": "D", "standard_prediction": "A"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "mcqa", "id": "MCQA_0087_0", "variant": "PNT1", "gold": "C", "direct_prediction": "A", "standard_prediction": "C"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "mcqa", "id": "MCQA_0087_0", "variant": "PNT2", "gold": "C", "direct_prediction": "A", "standard_prediction": "C"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "mcqa", "id": "MCQA_0087_0", "variant": "PNT3", "gold": "C", "direct_prediction": "A", "standard_prediction": "C"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "mcqa", "id": "MCQA_0095_1", "variant": "PNB", "gold": "C", "direct_prediction": "D", "standard_prediction": "C"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "mcqa", "id": "MCQA_0095_1", "variant": "PNT1", "gold": "C", "direct_prediction": "D", "standard_prediction": "C"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "mcqa", "id": "MCQA_0095_1", "variant": "PNT2", "gold": "C", "direct_prediction": "D", "standard_prediction": "C"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "mcqa", "id": "MCQA_0095_1", "variant": "PNT4", "gold": "C", "direct_prediction": "D", "standard_prediction": "C"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "mcqa", "id": "MCQA_0123_6", "variant": "PNN", "gold": "C", "direct_prediction": "A", "standard_prediction": "C"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "mcqa", "id": "MCQA_0123_6", "variant": "PNT1", "gold": "C", "direct_prediction": "A", "standard_prediction": "C"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "mcqa", "id": "MCQA_0123_6", "variant": "PNT2", "gold": "C", "direct_prediction": "A", "standard_prediction": "C"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "mcqa", "id": "MCQA_0142_1", "variant": "PNN", "gold": "B", "direct_prediction": "A", "standard_prediction": "B"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "mcqa", "id": "MCQA_0142_1", "variant": "PNT2", "gold": "B", "direct_prediction": "A", "standard_prediction": "B"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "mcqa", "id": "MCQA_0142_1", "variant": "PNT3", "gold": "B", "direct_prediction": "A", "standard_prediction": "B"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "nli", "id": "NLI_2559", "variant": "PNN", "gold": "entailment", "direct_prediction": "contradiction", "standard_prediction": "entailment"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "nli", "id": "NLI_2559", "variant": "PNT1", "gold": "entailment", "direct_prediction": "contradiction", "standard_prediction": "entailment"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "nli", "id": "NLI_2559", "variant": "PNT2", "gold": "entailment", "direct_prediction": "contradiction", "standard_prediction": "entailment"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "nli", "id": "NLI_2559", "variant": "PNT3", "gold": "entailment", "direct_prediction": "contradiction", "standard_prediction": "entailment"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "nli", "id": "NLI_4266", "variant": "PNN", "gold": "contradiction", "direct_prediction": "entailment", "standard_prediction": "contradiction"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "nli", "id": "NLI_4266", "variant": "PNT1", "gold": "contradiction", "direct_prediction": "entailment", "standard_prediction": "contradiction"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "nli", "id": "NLI_4266", "variant": "PNT2", "gold": "contradiction", "direct_prediction": "entailment", "standard_prediction": "contradiction"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "nli", "id": "NLI_5263", "variant": "PNN", "gold": "contradiction", "direct_prediction": "entailment", "standard_prediction": "contradiction"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "nli", "id": "NLI_5263", "variant": "PNT2", "gold": "contradiction", "direct_prediction": "entailment", "standard_prediction": "contradiction"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "nli", "id": "NLI_5263", "variant": "PNT3", "gold": "contradiction", "direct_prediction": "entailment", "standard_prediction": "contradiction"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "nli", "id": "NLI_7691", "variant": "PNN", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "nli", "id": "NLI_7691", "variant": "PNT1", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "nli", "id": "NLI_7691", "variant": "PNT4", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "qa", "id": "QA_11800", "variant": "PNB", "gold": ["Washington di chuyển quân của mình ra khỏi New York"], "direct_prediction": "di chuyển quân của mình ra khỏi New York", "standard_prediction": "Washington di chuyển quân của mình ra khỏi New York."}
+{"model_slug": "llama_3_1_8b_instruct", "task": "qa", "id": "QA_11800", "variant": "PNT1", "gold": ["Washington di chuyển quân của mình ra khỏi New York"], "direct_prediction": "di chuyển quân của mình ra khỏi New York", "standard_prediction": "Washington di chuyển quân của mình ra khỏi New York."}
+{"model_slug": "llama_3_1_8b_instruct", "task": "qa", "id": "QA_11800", "variant": "PNT2", "gold": ["Washington di chuyển quân của mình ra khỏi New York"], "direct_prediction": "di chuyển quân của mình ra khỏi New York", "standard_prediction": "Washington di chuyển quân của mình ra khỏi New York."}
+{"model_slug": "llama_3_1_8b_instruct", "task": "qa", "id": "QA_11800", "variant": "PNT3", "gold": ["Washington di chuyển quân của mình ra khỏi New York"], "direct_prediction": "di chuyển quân của mình ra khỏi New York", "standard_prediction": "Washington di chuyển quân của mình ra khỏi New York."}
+{"model_slug": "llama_3_1_8b_instruct", "task": "qa", "id": "QA_17926", "variant": "PNT1", "gold": ["thuyết thần học Kháng Cách"], "direct_prediction": "thần học Kháng Cách", "standard_prediction": "thuyết thần học Kháng Cách"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "qa", "id": "QA_17926", "variant": "PNT2", "gold": ["thuyết thần học Kháng Cách"], "direct_prediction": "thần học Kháng Cách", "standard_prediction": "thuyết thần học Kháng Cách"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "qa", "id": "QA_17926", "variant": "PNT3", "gold": ["thuyết thần học Kháng Cách"], "direct_prediction": "thần học Kháng Cách", "standard_prediction": "thuyết thần học Kháng Cách"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "qa", "id": "QA_17926", "variant": "PNT4", "gold": ["thuyết thần học Kháng Cách"], "direct_prediction": "thần học Kháng Cách", "standard_prediction": "thuyết thần học Kháng Cách"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "qa", "id": "QA_18828", "variant": "PNT1", "gold": ["khôi phục sinh khí"], "direct_prediction": "Các khu vực từng chịu tổn thất nặng nề trong chiến loạn", "standard_prediction": "khôi phục sinh khí"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "qa", "id": "QA_18828", "variant": "PNT2", "gold": ["khôi phục sinh khí"], "direct_prediction": "Các khu vực từng chịu tổn thất nặng nề trong chiến loạn", "standard_prediction": "khôi phục sinh khí"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "qa", "id": "QA_18828", "variant": "PNT3", "gold": ["khôi phục sinh khí"], "direct_prediction": "khu vực từng chịu tổn thất nặng nề trong chiến loạn", "standard_prediction": "khôi phục sinh khí"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "qa", "id": "QA_18828", "variant": "PNT4", "gold": ["khôi phục sinh khí"], "direct_prediction": "khu vực từng chịu tổn thất nặng nề trong chiến loạn", "standard_prediction": "khôi phục sinh khí"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "qa", "id": "QA_22620", "variant": "PNT1", "gold": ["Haiti"], "direct_prediction": "như đã xảy ra tại Haiti", "standard_prediction": "Haiti"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "qa", "id": "QA_22620", "variant": "PNT2", "gold": ["Haiti"], "direct_prediction": "như đã xảy ra tại Haiti", "standard_prediction": "Haiti"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "qa", "id": "QA_22620", "variant": "PNT3", "gold": ["Haiti"], "direct_prediction": "như đã xảy ra tại Haiti", "standard_prediction": "Haiti"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "qa", "id": "QA_22620", "variant": "PNT4", "gold": ["Haiti"], "direct_prediction": "như đã xảy ra tại Haiti", "standard_prediction": "Haiti"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "qa", "id": "QA_9767", "variant": "PNT2", "gold": ["ông từ chối"], "direct_prediction": "Từ chối", "standard_prediction": "ông từ chối"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "qa", "id": "QA_9767", "variant": "PNT3", "gold": ["ông từ chối"], "direct_prediction": "Từ chối", "standard_prediction": "ông từ chối"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "qa", "id": "QA_9767", "variant": "PNT4", "gold": ["ông từ chối"], "direct_prediction": "Từ chối", "standard_prediction": "ông từ chối"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "sentiment", "id": "SENT_2816", "variant": "PNN", "gold": "Surprise", "direct_prediction": "Fear", "standard_prediction": "Surprise"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "sentiment", "id": "SENT_2816", "variant": "PNT2", "gold": "Surprise", "direct_prediction": "Fear", "standard_prediction": "Surprise"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "sentiment", "id": "SENT_2816", "variant": "PNT3", "gold": "Surprise", "direct_prediction": "Fear", "standard_prediction": "Surprise"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "sentiment", "id": "SENT_3243", "variant": "PNN", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "sentiment", "id": "SENT_3243", "variant": "PNT1", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "sentiment", "id": "SENT_3243", "variant": "PNT2", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "sentiment", "id": "SENT_3273", "variant": "PNB", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "sentiment", "id": "SENT_3273", "variant": "PNN", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "sentiment", "id": "SENT_3273", "variant": "PNT1", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "sentiment", "id": "SENT_3273", "variant": "PNT2", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "sentiment", "id": "SENT_3273", "variant": "PNT3", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "sentiment", "id": "SENT_3750", "variant": "PNN", "gold": "Enjoyment", "direct_prediction": "Surprise", "standard_prediction": "Enjoyment"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "sentiment", "id": "SENT_3750", "variant": "PNT2", "gold": "Enjoyment", "direct_prediction": "Disgust", "standard_prediction": "Enjoyment"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "sentiment", "id": "SENT_3750", "variant": "PNT3", "gold": "Enjoyment", "direct_prediction": "Disgust", "standard_prediction": "Enjoyment"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "sentiment", "id": "SENT_3750", "variant": "PNT4", "gold": "Enjoyment", "direct_prediction": "Disgust", "standard_prediction": "Enjoyment"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "sentiment", "id": "SENT_3906", "variant": "PNB", "gold": "Sadness", "direct_prediction": "Anger", "standard_prediction": "Sadness"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "sentiment", "id": "SENT_3906", "variant": "PNT2", "gold": "Sadness", "direct_prediction": "Anger", "standard_prediction": "Sadness"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "sentiment", "id": "SENT_3906", "variant": "PNT3", "gold": "Sadness", "direct_prediction": "Anger", "standard_prediction": "Sadness"}
+{"model_slug": "llama_3_1_8b_instruct", "task": "sentiment", "id": "SENT_3906", "variant": "PNT4", "gold": "Sadness", "direct_prediction": "Anger", "standard_prediction": "Sadness"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "mcqa", "id": "MCQA_0018_4", "variant": "PNT1", "gold": "A", "direct_prediction": "B", "standard_prediction": "A"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "mcqa", "id": "MCQA_0018_4", "variant": "PNT2", "gold": "A", "direct_prediction": "B", "standard_prediction": "A"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "mcqa", "id": "MCQA_0018_4", "variant": "PNT3", "gold": "A", "direct_prediction": "B", "standard_prediction": "A"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "mcqa", "id": "MCQA_0090_6", "variant": "PNN", "gold": "A", "direct_prediction": "D", "standard_prediction": "A"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "mcqa", "id": "MCQA_0090_6", "variant": "PNT1", "gold": "A", "direct_prediction": "D", "standard_prediction": "A"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "mcqa", "id": "MCQA_0090_6", "variant": "PNT2", "gold": "A", "direct_prediction": "D", "standard_prediction": "A"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "mcqa", "id": "MCQA_0090_6", "variant": "PNT3", "gold": "A", "direct_prediction": "D", "standard_prediction": "A"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "mcqa", "id": "MCQA_0090_6", "variant": "PNT4", "gold": "A", "direct_prediction": "D", "standard_prediction": "A"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "mcqa", "id": "MCQA_0123_6", "variant": "PNN", "gold": "C", "direct_prediction": "A", "standard_prediction": "C"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "mcqa", "id": "MCQA_0123_6", "variant": "PNT1", "gold": "C", "direct_prediction": "B", "standard_prediction": "C"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "mcqa", "id": "MCQA_0123_6", "variant": "PNT2", "gold": "C", "direct_prediction": "B", "standard_prediction": "C"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "mcqa", "id": "MCQA_0123_6", "variant": "PNT4", "gold": "C", "direct_prediction": "B", "standard_prediction": "C"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "mcqa", "id": "MCQA_0127_0", "variant": "PNT2", "gold": "C", "direct_prediction": "D", "standard_prediction": "C"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "mcqa", "id": "MCQA_0127_0", "variant": "PNT3", "gold": "C", "direct_prediction": "D", "standard_prediction": "C"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "mcqa", "id": "MCQA_0127_0", "variant": "PNT4", "gold": "C", "direct_prediction": "D", "standard_prediction": "C"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "nli", "id": "NLI_2615", "variant": "PNB", "gold": "contradiction", "direct_prediction": "neutral", "standard_prediction": "contradiction"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "nli", "id": "NLI_2615", "variant": "PNN", "gold": "contradiction", "direct_prediction": "neutral", "standard_prediction": "contradiction"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "nli", "id": "NLI_2615", "variant": "PNT2", "gold": "contradiction", "direct_prediction": "entailment", "standard_prediction": "contradiction"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "nli", "id": "NLI_2615", "variant": "PNT3", "gold": "contradiction", "direct_prediction": "entailment", "standard_prediction": "contradiction"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "nli", "id": "NLI_2615", "variant": "PNT4", "gold": "contradiction", "direct_prediction": "entailment", "standard_prediction": "contradiction"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "nli", "id": "NLI_2899", "variant": "PNN", "gold": "entailment", "direct_prediction": "contradiction", "standard_prediction": "entailment"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "nli", "id": "NLI_2899", "variant": "PNT2", "gold": "entailment", "direct_prediction": "contradiction", "standard_prediction": "entailment"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "nli", "id": "NLI_2899", "variant": "PNT3", "gold": "entailment", "direct_prediction": "contradiction", "standard_prediction": "entailment"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "nli", "id": "NLI_5143", "variant": "PNN", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "nli", "id": "NLI_5143", "variant": "PNT2", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "nli", "id": "NLI_5143", "variant": "PNT3", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_1203", "variant": "PNT1", "gold": ["thấp"], "direct_prediction": "true", "standard_prediction": "thấp"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_1203", "variant": "PNT2", "gold": ["thấp"], "direct_prediction": "a lớn", "standard_prediction": "thấp"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_1203", "variant": "PNT3", "gold": ["thấp"], "direct_prediction": "true", "standard_prediction": "thấp"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_16173", "variant": "PNN", "gold": ["trục xuất về nước"], "direct_prediction": "deported", "standard_prediction": "Trục xuất về nước"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_16173", "variant": "PNT2", "gold": ["trục xuất về nước"], "direct_prediction": "xử phạt như răng", "standard_prediction": "Trục xuất về nước"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_16173", "variant": "PNT3", "gold": ["trục xuất về nước"], "direct_prediction": "xử phạt như răng rựa", "standard_prediction": "Trục xuất về nước"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_16173", "variant": "PNT4", "gold": ["trục xuất về nước"], "direct_prediction": "xử phạt như răng", "standard_prediction": "Trục xuất về nước"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_18375", "variant": "PNT1", "gold": ["Long Khánh tân chính và Vạn Lịch trung hưng"], "direct_prediction": "Vạn Lịch trung hưng", "standard_prediction": "Long Khánh tân chính và Vạn Lịch trung hưng"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_18375", "variant": "PNT2", "gold": ["Long Khánh tân chính và Vạn Lịch trung hưng"], "direct_prediction": "Vạn Lịch trung hưng", "standard_prediction": "Long Khánh tân chính và Vạn Lịch trung hưng"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_18375", "variant": "PNT3", "gold": ["Long Khánh tân chính và Vạn Lịch trung hưng"], "direct_prediction": "Vạn Lịch trung hưng", "standard_prediction": "Long Khánh tân chính và Vạn Lịch trung hưng"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_18375", "variant": "PNT4", "gold": ["Long Khánh tân chính và Vạn Lịch trung hưng"], "direct_prediction": "Vạn Lịch trung hưng", "standard_prediction": "Long Khánh tân chính và Vạn Lịch trung hưng"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_18828", "variant": "PNN", "gold": ["khôi phục sinh khí"], "direct_prediction": "khu vực từng chịu tổn thất nặng nề trong chiến loạn", "standard_prediction": "khôi phục sinh khí"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_18828", "variant": "PNT1", "gold": ["khôi phục sinh khí"], "direct_prediction": "khu vực từng chịu tổn thất nặng nề trong chiến loạn", "standard_prediction": "khôi phục sinh khí"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_18828", "variant": "PNT2", "gold": ["khôi phục sinh khí"], "direct_prediction": "khu vực từng chịu tổn thất nặng nề trong chiến loạn", "standard_prediction": "khôi phục sinh khí"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_18828", "variant": "PNT3", "gold": ["khôi phục sinh khí"], "direct_prediction": "khu vực từng chịu tổn thất nặng nề trong chiến loạn", "standard_prediction": "khôi phục sinh khí"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_18828", "variant": "PNT4", "gold": ["khôi phục sinh khí"], "direct_prediction": "khu vực từng chịu tổn thất nặng nề trong chiến loạn", "standard_prediction": "khôi phục sinh khí"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_19281", "variant": "PNN", "gold": ["Quốc Dân đảng là tổ chức phi pháp, hạ lệnh giải tán"], "direct_prediction": "Quốc Dân đảng là tổ chức phi pháp", "standard_prediction": "Quốc Dân đảng là tổ chức phi pháp, hạ lệnh giải tán"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_19281", "variant": "PNT2", "gold": ["Quốc Dân đảng là tổ chức phi pháp, hạ lệnh giải tán"], "direct_prediction": "xác định", "standard_prediction": "Quốc Dân đảng là tổ chức phi pháp, hạ lệnh giải tán"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_19281", "variant": "PNT3", "gold": ["Quốc Dân đảng là tổ chức phi pháp, hạ lệnh giải tán"], "direct_prediction": "xác định", "standard_prediction": "Quốc Dân đảng là tổ chức phi pháp, hạ lệnh giải tán"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_19281", "variant": "PNT4", "gold": ["Quốc Dân đảng là tổ chức phi pháp, hạ lệnh giải tán"], "direct_prediction": "xác định", "standard_prediction": "Quốc Dân đảng là tổ chức phi pháp, hạ lệnh giải tán"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_19329", "variant": "PNT1", "gold": ["viện hạt thị\" đổi sang gọi là \"trực hạt thị"], "direct_prediction": "yes", "standard_prediction": "viện hạt thị đổi sang gọi là trực hạt thị"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_19329", "variant": "PNT2", "gold": ["viện hạt thị\" đổi sang gọi là \"trực hạt thị"], "direct_prediction": "yes", "standard_prediction": "viện hạt thị đổi sang gọi là trực hạt thị"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_19329", "variant": "PNT3", "gold": ["viện hạt thị\" đổi sang gọi là \"trực hạt thị"], "direct_prediction": "yes", "standard_prediction": "viện hạt thị đổi sang gọi là trực hạt thị"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_19329", "variant": "PNT4", "gold": ["viện hạt thị\" đổi sang gọi là \"trực hạt thị"], "direct_prediction": "yes", "standard_prediction": "viện hạt thị đổi sang gọi là trực hạt thị"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_22620", "variant": "PNT1", "gold": ["Haiti"], "direct_prediction": "yes", "standard_prediction": "Haiti"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_22620", "variant": "PNT2", "gold": ["Haiti"], "direct_prediction": "yes", "standard_prediction": "Haiti"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_22620", "variant": "PNT3", "gold": ["Haiti"], "direct_prediction": "yes", "standard_prediction": "Haiti"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_22620", "variant": "PNT4", "gold": ["Haiti"], "direct_prediction": "yes", "standard_prediction": "Haiti"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_22836", "variant": "PNN", "gold": ["một đối tác tiềm năng mới"], "direct_prediction": "allied", "standard_prediction": "một đối tác tiềm năng mới"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_22836", "variant": "PNT2", "gold": ["một đối tác tiềm năng mới"], "direct_prediction": "new ally", "standard_prediction": "một đối tác tiềm năng mới"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_22836", "variant": "PNT3", "gold": ["một đối tác tiềm năng mới"], "direct_prediction": "Quốc gia mới đối tác", "standard_prediction": "một đối tác tiềm năng mới"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_22836", "variant": "PNT4", "gold": ["một đối tác tiềm năng mới"], "direct_prediction": "new ally", "standard_prediction": "một đối tác tiềm năng mới"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_24045", "variant": "PNN", "gold": ["lối cư xử nhã nhặn, thanh lịch"], "direct_prediction": "cách cư xử vô văn hóa", "standard_prediction": "lối cư xử nhã nhặn, thanh lịch"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_24045", "variant": "PNT2", "gold": ["lối cư xử nhã nhặn, thanh lịch"], "direct_prediction": "true", "standard_prediction": "lối cư xử nhã nhặn, thanh lịch"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_24045", "variant": "PNT3", "gold": ["lối cư xử nhã nhặn, thanh lịch"], "direct_prediction": "true", "standard_prediction": "lối cư xử nhã nhặn, thanh lịch"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_24045", "variant": "PNT4", "gold": ["lối cư xử nhã nhặn, thanh lịch"], "direct_prediction": "yes", "standard_prediction": "lối cư xử nhã nhặn, thanh lịch"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_26719", "variant": "PNT2", "gold": ["cao hơn gấp đôi"], "direct_prediction": "gấp đôi", "standard_prediction": "Cao hơn gấp đôi"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_26719", "variant": "PNT3", "gold": ["cao hơn gấp đôi"], "direct_prediction": "gấp đôi", "standard_prediction": "Cao hơn gấp đôi"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_26719", "variant": "PNT4", "gold": ["cao hơn gấp đôi"], "direct_prediction": "lớn hơn", "standard_prediction": "Cao hơn gấp đôi"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_27033", "variant": "PNN", "gold": ["diễu cợt"], "direct_prediction": "praise", "standard_prediction": "diễu cợt"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_27033", "variant": "PNT2", "gold": ["diễu cợt"], "direct_prediction": "yes", "standard_prediction": "diễu cợt"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_27033", "variant": "PNT3", "gold": ["diễu cợt"], "direct_prediction": "yes", "standard_prediction": "diễu cợt"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_27033", "variant": "PNT4", "gold": ["diễu cợt"], "direct_prediction": "diễu cợt ngực", "standard_prediction": "diễu cợt"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_5750", "variant": "PNN", "gold": ["tức giận"], "direct_prediction": "angry", "standard_prediction": "tức giận"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_5750", "variant": "PNT2", "gold": ["tức giận"], "direct_prediction": "angry", "standard_prediction": "tức giận"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_5750", "variant": "PNT3", "gold": ["tức giận"], "direct_prediction": "angry", "standard_prediction": "tức giận"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_7747", "variant": "PNT1", "gold": ["phân liệt giữa các quân phiệt địa phương"], "direct_prediction": "Phân liệt", "standard_prediction": "phân liệt giữa các quân phiệt địa phương"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_7747", "variant": "PNT2", "gold": ["phân liệt giữa các quân phiệt địa phương"], "direct_prediction": "phân liệt", "standard_prediction": "phân liệt giữa các quân phiệt địa phương"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_7747", "variant": "PNT3", "gold": ["phân liệt giữa các quân phiệt địa phương"], "direct_prediction": "Phân liệt", "standard_prediction": "phân liệt giữa các quân phiệt địa phương"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_7747", "variant": "PNT4", "gold": ["phân liệt giữa các quân phiệt địa phương"], "direct_prediction": "true", "standard_prediction": "phân liệt giữa các quân phiệt địa phương"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_9483", "variant": "PNN", "gold": ["hoàng hậu sẩy thai"], "direct_prediction": "1738", "standard_prediction": "hoàng hậu sẩy thai"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_9483", "variant": "PNT3", "gold": ["hoàng hậu sẩy thai"], "direct_prediction": "false", "standard_prediction": "hoàng hậu sẩy thai"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "qa", "id": "QA_9483", "variant": "PNT4", "gold": ["hoàng hậu sẩy thai"], "direct_prediction": "true", "standard_prediction": "hoàng hậu sẩy thai"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_0070", "variant": "PNB", "gold": "Surprise", "direct_prediction": "Enjoyment", "standard_prediction": "Surprise"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_0070", "variant": "PNT1", "gold": "Surprise", "direct_prediction": "Enjoyment", "standard_prediction": "Surprise"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_0070", "variant": "PNT2", "gold": "Surprise", "direct_prediction": "Enjoyment", "standard_prediction": "Surprise"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_0070", "variant": "PNT3", "gold": "Surprise", "direct_prediction": "Enjoyment", "standard_prediction": "Surprise"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_0070", "variant": "PNT4", "gold": "Surprise", "direct_prediction": "Enjoyment", "standard_prediction": "Surprise"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_1161", "variant": "PNB", "gold": "Enjoyment", "direct_prediction": "Sadness", "standard_prediction": "Enjoyment"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_1161", "variant": "PNN", "gold": "Enjoyment", "direct_prediction": "Sadness", "standard_prediction": "Enjoyment"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_1161", "variant": "PNT1", "gold": "Enjoyment", "direct_prediction": "Sadness", "standard_prediction": "Enjoyment"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_1161", "variant": "PNT2", "gold": "Enjoyment", "direct_prediction": "Sadness", "standard_prediction": "Enjoyment"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_1161", "variant": "PNT3", "gold": "Enjoyment", "direct_prediction": "Sadness", "standard_prediction": "Enjoyment"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_1239", "variant": "PNN", "gold": "Sadness", "direct_prediction": "Fear", "standard_prediction": "Sadness"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_1239", "variant": "PNT2", "gold": "Sadness", "direct_prediction": "Fear", "standard_prediction": "Sadness"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_1239", "variant": "PNT3", "gold": "Sadness", "direct_prediction": "Fear", "standard_prediction": "Sadness"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_2507", "variant": "PNT1", "gold": "Enjoyment", "direct_prediction": "Surprise", "standard_prediction": "Enjoyment"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_2507", "variant": "PNT2", "gold": "Enjoyment", "direct_prediction": "Sadness", "standard_prediction": "Enjoyment"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_2507", "variant": "PNT3", "gold": "Enjoyment", "direct_prediction": "Sadness", "standard_prediction": "Enjoyment"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_2816", "variant": "PNN", "gold": "Surprise", "direct_prediction": "Sadness", "standard_prediction": "Surprise"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_2816", "variant": "PNT1", "gold": "Surprise", "direct_prediction": "Other", "standard_prediction": "Surprise"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_2816", "variant": "PNT2", "gold": "Surprise", "direct_prediction": "Fear", "standard_prediction": "Surprise"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_2816", "variant": "PNT3", "gold": "Surprise", "direct_prediction": "Fear", "standard_prediction": "Surprise"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_3273", "variant": "PNB", "gold": "Anger", "direct_prediction": "Sadness", "standard_prediction": "Anger"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_3273", "variant": "PNT3", "gold": "Anger", "direct_prediction": "Sadness", "standard_prediction": "Anger"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_3273", "variant": "PNT4", "gold": "Anger", "direct_prediction": "Fear", "standard_prediction": "Anger"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_3750", "variant": "PNN", "gold": "Enjoyment", "direct_prediction": "Other", "standard_prediction": "Enjoyment"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_3750", "variant": "PNT3", "gold": "Enjoyment", "direct_prediction": "Other", "standard_prediction": "Enjoyment"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_3750", "variant": "PNT4", "gold": "Enjoyment", "direct_prediction": "Sadness", "standard_prediction": "Enjoyment"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_4745", "variant": "PNT1", "gold": "Surprise", "direct_prediction": "Fear", "standard_prediction": "Surprise"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_4745", "variant": "PNT2", "gold": "Surprise", "direct_prediction": "Fear", "standard_prediction": "Surprise"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_4745", "variant": "PNT3", "gold": "Surprise", "direct_prediction": "Fear", "standard_prediction": "Surprise"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_4745", "variant": "PNT4", "gold": "Surprise", "direct_prediction": "Fear", "standard_prediction": "Surprise"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_5521", "variant": "PNT2", "gold": "Fear", "direct_prediction": "Anger", "standard_prediction": "Fear"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_5521", "variant": "PNT3", "gold": "Fear", "direct_prediction": "Anger", "standard_prediction": "Fear"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_5521", "variant": "PNT4", "gold": "Fear", "direct_prediction": "Anger", "standard_prediction": "Fear"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_5531", "variant": "PNT1", "gold": "Other", "direct_prediction": "Enjoyment", "standard_prediction": "Other"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_5531", "variant": "PNT2", "gold": "Other", "direct_prediction": "Surprise", "standard_prediction": "Other"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_5531", "variant": "PNT3", "gold": "Other", "direct_prediction": "Surprise", "standard_prediction": "Other"}
+{"model_slug": "mistral_7b_instruct_v0_3", "task": "sentiment", "id": "SENT_5531", "variant": "PNT4", "gold": "Other", "direct_prediction": "Surprise", "standard_prediction": "Other"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0002_4", "variant": "PNB", "gold": "D", "direct_prediction": "A", "standard_prediction": "D"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0002_4", "variant": "PNT1", "gold": "D", "direct_prediction": "A", "standard_prediction": "D"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0002_4", "variant": "PNT3", "gold": "D", "direct_prediction": "MÙA ĐÔNG", "standard_prediction": "D"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0002_4", "variant": "PNT4", "gold": "D", "direct_prediction": "A", "standard_prediction": "D"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0010_1", "variant": "PNN", "gold": "D", "direct_prediction": "B", "standard_prediction": "D"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0010_1", "variant": "PNT1", "gold": "D", "direct_prediction": "A", "standard_prediction": "D"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0010_1", "variant": "PNT2", "gold": "D", "direct_prediction": "A", "standard_prediction": "D"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0010_1", "variant": "PNT3", "gold": "D", "direct_prediction": "A", "standard_prediction": "D"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0016_0", "variant": "PNB", "gold": "D", "direct_prediction": "A", "standard_prediction": "D"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0016_0", "variant": "PNN", "gold": "D", "direct_prediction": "A", "standard_prediction": "D"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0016_0", "variant": "PNT1", "gold": "D", "direct_prediction": "A", "standard_prediction": "D"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0016_0", "variant": "PNT3", "gold": "D", "direct_prediction": "C", "standard_prediction": "D"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0016_0", "variant": "PNT4", "gold": "D", "direct_prediction": "A", "standard_prediction": "D"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0037_4", "variant": "PNN", "gold": "A", "direct_prediction": "C", "standard_prediction": "A"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0037_4", "variant": "PNT1", "gold": "A", "direct_prediction": "C", "standard_prediction": "A"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0037_4", "variant": "PNT2", "gold": "A", "direct_prediction": "C", "standard_prediction": "A"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0037_4", "variant": "PNT3", "gold": "A", "direct_prediction": "C", "standard_prediction": "A"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0037_4", "variant": "PNT4", "gold": "A", "direct_prediction": "C", "standard_prediction": "A"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0041_5", "variant": "PNB", "gold": "A", "direct_prediction": "B", "standard_prediction": "A"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0041_5", "variant": "PNT1", "gold": "A", "direct_prediction": "B", "standard_prediction": "A"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0041_5", "variant": "PNT2", "gold": "A", "direct_prediction": "B", "standard_prediction": "A"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0041_5", "variant": "PNT3", "gold": "A", "direct_prediction": "B", "standard_prediction": "A"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0042_7", "variant": "PNT1", "gold": "C", "direct_prediction": "```json", "standard_prediction": "C"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0042_7", "variant": "PNT3", "gold": "C", "direct_prediction": "```json", "standard_prediction": "C"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0042_7", "variant": "PNT4", "gold": "C", "direct_prediction": "```json", "standard_prediction": "C"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0048_5", "variant": "PNN", "gold": "A", "direct_prediction": "B", "standard_prediction": "A"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0048_5", "variant": "PNT1", "gold": "A", "direct_prediction": "B", "standard_prediction": "A"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0048_5", "variant": "PNT3", "gold": "A", "direct_prediction": "B", "standard_prediction": "A"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0048_5", "variant": "PNT4", "gold": "A", "direct_prediction": "B", "standard_prediction": "A"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0055_0", "variant": "PNT1", "gold": "C", "direct_prediction": "A", "standard_prediction": "C"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0055_0", "variant": "PNT2", "gold": "C", "direct_prediction": "A", "standard_prediction": "C"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0055_0", "variant": "PNT3", "gold": "C", "direct_prediction": "B", "standard_prediction": "C"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0055_1", "variant": "PNB", "gold": "B", "direct_prediction": "D", "standard_prediction": "B"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0055_1", "variant": "PNN", "gold": "B", "direct_prediction": "D", "standard_prediction": "B"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0055_1", "variant": "PNT3", "gold": "B", "direct_prediction": "D", "standard_prediction": "B"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0055_1", "variant": "PNT4", "gold": "B", "direct_prediction": "D", "standard_prediction": "B"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0091_1", "variant": "PNT1", "gold": "B", "direct_prediction": "C", "standard_prediction": "B"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0091_1", "variant": "PNT2", "gold": "B", "direct_prediction": "C", "standard_prediction": "B"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0091_1", "variant": "PNT3", "gold": "B", "direct_prediction": "C", "standard_prediction": "B"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0091_1", "variant": "PNT4", "gold": "B", "direct_prediction": "C", "standard_prediction": "B"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0126_2", "variant": "PNN", "gold": "B", "direct_prediction": "C", "standard_prediction": "B"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0126_2", "variant": "PNT1", "gold": "B", "direct_prediction": "C", "standard_prediction": "B"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0126_2", "variant": "PNT3", "gold": "B", "direct_prediction": "C", "standard_prediction": "B"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0151_3", "variant": "PNN", "gold": "B", "direct_prediction": "C", "standard_prediction": "B"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0151_3", "variant": "PNT2", "gold": "B", "direct_prediction": "C", "standard_prediction": "B"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "mcqa", "id": "MCQA_0151_3", "variant": "PNT4", "gold": "B", "direct_prediction": "C", "standard_prediction": "B"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "qa", "id": "QA_11800", "variant": "PNB", "gold": ["Washington di chuyển quân của mình ra khỏi New York"], "direct_prediction": "Washington không có phản ứng gì trước sự việc này.", "standard_prediction": "Washington di chuyển quân của mình ra khỏi New York."}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "qa", "id": "QA_11800", "variant": "PNN", "gold": ["Washington di chuyển quân của mình ra khỏi New York"], "direct_prediction": "Washington không phản ứng gì", "standard_prediction": "Washington di chuyển quân của mình ra khỏi New York."}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "qa", "id": "QA_11800", "variant": "PNT1", "gold": ["Washington di chuyển quân của mình ra khỏi New York"], "direct_prediction": "Washington không phản ứng gì", "standard_prediction": "Washington di chuyển quân của mình ra khỏi New York."}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "qa", "id": "QA_11800", "variant": "PNT2", "gold": ["Washington di chuyển quân của mình ra khỏi New York"], "direct_prediction": "Không", "standard_prediction": "Washington di chuyển quân của mình ra khỏi New York."}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "qa", "id": "QA_11800", "variant": "PNT3", "gold": ["Washington di chuyển quân của mình ra khỏi New York"], "direct_prediction": "Không", "standard_prediction": "Washington di chuyển quân của mình ra khỏi New York."}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "qa", "id": "QA_17926", "variant": "PNN", "gold": ["thuyết thần học Kháng Cách"], "direct_prediction": "Kháng Cách", "standard_prediction": "Thuyết thần học Kháng Cách"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "qa", "id": "QA_17926", "variant": "PNT1", "gold": ["thuyết thần học Kháng Cách"], "direct_prediction": "Thuyết mô", "standard_prediction": "Thuyết thần học Kháng Cách"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "qa", "id": "QA_17926", "variant": "PNT2", "gold": ["thuyết thần học Kháng Cách"], "direct_prediction": "Thuyết mô", "standard_prediction": "Thuyết thần học Kháng Cách"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "qa", "id": "QA_17926", "variant": "PNT3", "gold": ["thuyết thần học Kháng Cách"], "direct_prediction": "Thuyết mô", "standard_prediction": "Thuyết thần học Kháng Cách"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "qa", "id": "QA_17926", "variant": "PNT4", "gold": ["thuyết thần học Kháng Cách"], "direct_prediction": "tuyên bố", "standard_prediction": "Thuyết thần học Kháng Cách"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "qa", "id": "QA_26462", "variant": "PNT1", "gold": ["nước Pháp"], "direct_prediction": "Scotland", "standard_prediction": "Nước Pháp"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "qa", "id": "QA_26462", "variant": "PNT2", "gold": ["nước Pháp"], "direct_prediction": "Mary", "standard_prediction": "Nước Pháp"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "qa", "id": "QA_26462", "variant": "PNT3", "gold": ["nước Pháp"], "direct_prediction": "Elizabeth", "standard_prediction": "Nước Pháp"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "qa", "id": "QA_4111", "variant": "PNT1", "gold": ["cởi mở hơn đối với thương mại nước ngoài"], "direct_prediction": "nổi tiếng", "standard_prediction": "Cởi mở hơn đối với thương mại nước ngoài"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "qa", "id": "QA_4111", "variant": "PNT2", "gold": ["cởi mở hơn đối với thương mại nước ngoài"], "direct_prediction": "cởi mở hơn", "standard_prediction": "Cởi mở hơn đối với thương mại nước ngoài"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "qa", "id": "QA_4111", "variant": "PNT3", "gold": ["cởi mở hơn đối với thương mại nước ngoài"], "direct_prediction": "nổi tiếng", "standard_prediction": "Cởi mở hơn đối với thương mại nước ngoài"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "qa", "id": "QA_4111", "variant": "PNT4", "gold": ["cởi mở hơn đối với thương mại nước ngoài"], "direct_prediction": "Dù bị kiểm soát bởi nhà Thanh vào năm 1683, Nhà Thanh vẫn trở nên cởi mở hơn đối với thương mại nước ngoài.", "standard_prediction": "Cởi mở hơn đối với thương mại nước ngoài"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "sentiment", "id": "SENT_1338", "variant": "PNN", "gold": "Surprise", "direct_prediction": "Fear", "standard_prediction": "Surprise"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "sentiment", "id": "SENT_1338", "variant": "PNT1", "gold": "Surprise", "direct_prediction": "Fear", "standard_prediction": "Surprise"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "sentiment", "id": "SENT_1338", "variant": "PNT2", "gold": "Surprise", "direct_prediction": "Fear", "standard_prediction": "Surprise"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "sentiment", "id": "SENT_1338", "variant": "PNT3", "gold": "Surprise", "direct_prediction": "Fear", "standard_prediction": "Surprise"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "sentiment", "id": "SENT_1338", "variant": "PNT4", "gold": "Surprise", "direct_prediction": "Anger", "standard_prediction": "Surprise"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "sentiment", "id": "SENT_1626", "variant": "PNB", "gold": "Enjoyment", "direct_prediction": "Fear", "standard_prediction": "Enjoyment"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "sentiment", "id": "SENT_1626", "variant": "PNN", "gold": "Enjoyment", "direct_prediction": "Fear", "standard_prediction": "Enjoyment"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "sentiment", "id": "SENT_1626", "variant": "PNT3", "gold": "Enjoyment", "direct_prediction": "Fear", "standard_prediction": "Enjoyment"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "sentiment", "id": "SENT_4155", "variant": "PNB", "gold": "Sadness", "direct_prediction": "Surprise", "standard_prediction": "Sadness"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "sentiment", "id": "SENT_4155", "variant": "PNT1", "gold": "Sadness", "direct_prediction": "Surprise", "standard_prediction": "Sadness"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "sentiment", "id": "SENT_4155", "variant": "PNT2", "gold": "Sadness", "direct_prediction": "Surprise", "standard_prediction": "Sadness"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "sentiment", "id": "SENT_4155", "variant": "PNT3", "gold": "Sadness", "direct_prediction": "Surprise", "standard_prediction": "Sadness"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "sentiment", "id": "SENT_4155", "variant": "PNT4", "gold": "Sadness", "direct_prediction": "Surprise", "standard_prediction": "Sadness"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "sentiment", "id": "SENT_4519", "variant": "PNN", "gold": "Anger", "direct_prediction": "Fear", "standard_prediction": "Anger"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "sentiment", "id": "SENT_4519", "variant": "PNT2", "gold": "Anger", "direct_prediction": "Fear", "standard_prediction": "Anger"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "sentiment", "id": "SENT_4519", "variant": "PNT3", "gold": "Anger", "direct_prediction": "Fear", "standard_prediction": "Anger"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "sentiment", "id": "SENT_4964", "variant": "PNN", "gold": "Anger", "direct_prediction": "Fear", "standard_prediction": "Anger"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "sentiment", "id": "SENT_4964", "variant": "PNT1", "gold": "Anger", "direct_prediction": "Fear", "standard_prediction": "Anger"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "sentiment", "id": "SENT_4964", "variant": "PNT2", "gold": "Anger", "direct_prediction": "Fear", "standard_prediction": "Anger"}
+{"model_slug": "qwen_2_5_0_5b_instruct", "task": "sentiment", "id": "SENT_4964", "variant": "PNT4", "gold": "Anger", "direct_prediction": "Fear", "standard_prediction": "Anger"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "mcqa", "id": "MCQA_0018_4", "variant": "PNT1", "gold": "A", "direct_prediction": "B", "standard_prediction": "A"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "mcqa", "id": "MCQA_0018_4", "variant": "PNT2", "gold": "A", "direct_prediction": "B", "standard_prediction": "A"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "mcqa", "id": "MCQA_0018_4", "variant": "PNT3", "gold": "A", "direct_prediction": "B", "standard_prediction": "A"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "mcqa", "id": "MCQA_0042_2", "variant": "PNN", "gold": "B", "direct_prediction": "A", "standard_prediction": "B"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "mcqa", "id": "MCQA_0042_2", "variant": "PNT3", "gold": "B", "direct_prediction": "A", "standard_prediction": "B"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "mcqa", "id": "MCQA_0042_2", "variant": "PNT4", "gold": "B", "direct_prediction": "A", "standard_prediction": "B"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "mcqa", "id": "MCQA_0051_0", "variant": "PNN", "gold": "D", "direct_prediction": "A", "standard_prediction": "D"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "mcqa", "id": "MCQA_0051_0", "variant": "PNT1", "gold": "D", "direct_prediction": "A", "standard_prediction": "D"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "mcqa", "id": "MCQA_0051_0", "variant": "PNT2", "gold": "D", "direct_prediction": "A", "standard_prediction": "D"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "mcqa", "id": "MCQA_0051_0", "variant": "PNT3", "gold": "D", "direct_prediction": "A", "standard_prediction": "D"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "mcqa", "id": "MCQA_0051_0", "variant": "PNT4", "gold": "D", "direct_prediction": "A", "standard_prediction": "D"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "mcqa", "id": "MCQA_0080_0", "variant": "PNT1", "gold": "D", "direct_prediction": "A", "standard_prediction": "D"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "mcqa", "id": "MCQA_0080_0", "variant": "PNT2", "gold": "D", "direct_prediction": "A", "standard_prediction": "D"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "mcqa", "id": "MCQA_0080_0", "variant": "PNT3", "gold": "D", "direct_prediction": "A", "standard_prediction": "D"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "mcqa", "id": "MCQA_0080_0", "variant": "PNT4", "gold": "D", "direct_prediction": "A", "standard_prediction": "D"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "mcqa", "id": "MCQA_0137_1", "variant": "PNN", "gold": "C", "direct_prediction": "B", "standard_prediction": "C"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "mcqa", "id": "MCQA_0137_1", "variant": "PNT1", "gold": "C", "direct_prediction": "B", "standard_prediction": "C"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "mcqa", "id": "MCQA_0137_1", "variant": "PNT3", "gold": "C", "direct_prediction": "A", "standard_prediction": "C"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "mcqa", "id": "MCQA_0137_1", "variant": "PNT4", "gold": "C", "direct_prediction": "A", "standard_prediction": "C"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "nli", "id": "NLI_0521", "variant": "PNN", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "nli", "id": "NLI_0521", "variant": "PNT1", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "nli", "id": "NLI_0521", "variant": "PNT3", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "nli", "id": "NLI_0521", "variant": "PNT4", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "nli", "id": "NLI_5733", "variant": "PNT1", "gold": "neutral", "direct_prediction": "contradiction", "standard_prediction": "neutral"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "nli", "id": "NLI_5733", "variant": "PNT2", "gold": "neutral", "direct_prediction": "contradiction", "standard_prediction": "neutral"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "nli", "id": "NLI_5733", "variant": "PNT3", "gold": "neutral", "direct_prediction": "contradiction", "standard_prediction": "neutral"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "qa", "id": "QA_1521", "variant": "PNT2", "gold": ["gần như bị đóng cửa hoàn toàn"], "direct_prediction": "bị đóng cửa hoàn toàn", "standard_prediction": "gần như bị đóng cửa hoàn toàn"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "qa", "id": "QA_1521", "variant": "PNT3", "gold": ["gần như bị đóng cửa hoàn toàn"], "direct_prediction": "bị đóng cửa hoàn toàn", "standard_prediction": "gần như bị đóng cửa hoàn toàn"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "qa", "id": "QA_1521", "variant": "PNT4", "gold": ["gần như bị đóng cửa hoàn toàn"], "direct_prediction": "bị đóng cửa hoàn toàn", "standard_prediction": "gần như bị đóng cửa hoàn toàn"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "qa", "id": "QA_18828", "variant": "PNT1", "gold": ["khôi phục sinh khí"], "direct_prediction": "khu vực từng chịu tổn thất nặng nề trong chiến loạn", "standard_prediction": "khôi phục sinh khí"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "qa", "id": "QA_18828", "variant": "PNT3", "gold": ["khôi phục sinh khí"], "direct_prediction": "khu vực từng chịu tổn thất nặng nề trong chiến loạn", "standard_prediction": "khôi phục sinh khí"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "qa", "id": "QA_18828", "variant": "PNT4", "gold": ["khôi phục sinh khí"], "direct_prediction": "khu vực từng chịu tổn thất nặng nề trong chiến loạn", "standard_prediction": "khôi phục sinh khí"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "qa", "id": "QA_2325", "variant": "PNT1", "gold": ["quyết định xây dựng một thư viện mới"], "direct_prediction": "xây dựng một thư viện mới", "standard_prediction": "quyết định xây dựng một thư viện mới"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "qa", "id": "QA_2325", "variant": "PNT2", "gold": ["quyết định xây dựng một thư viện mới"], "direct_prediction": "xây dựng một thư viện mới", "standard_prediction": "quyết định xây dựng một thư viện mới"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "qa", "id": "QA_2325", "variant": "PNT3", "gold": ["quyết định xây dựng một thư viện mới"], "direct_prediction": "xây dựng một thư viện mới", "standard_prediction": "quyết định xây dựng một thư viện mới"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "qa", "id": "QA_24045", "variant": "PNB", "gold": ["lối cư xử nhã nhặn, thanh lịch"], "direct_prediction": "văn hóa", "standard_prediction": "lối cư xử nhã nhặn, thanh lịch"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "qa", "id": "QA_24045", "variant": "PNN", "gold": ["lối cư xử nhã nhặn, thanh lịch"], "direct_prediction": "văn hóa", "standard_prediction": "lối cư xử nhã nhặn, thanh lịch"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "qa", "id": "QA_24045", "variant": "PNT1", "gold": ["lối cư xử nhã nhặn, thanh lịch"], "direct_prediction": "văn hóa", "standard_prediction": "lối cư xử nhã nhặn, thanh lịch"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "qa", "id": "QA_24045", "variant": "PNT2", "gold": ["lối cư xử nhã nhặn, thanh lịch"], "direct_prediction": "văn hóa", "standard_prediction": "lối cư xử nhã nhặn, thanh lịch"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "qa", "id": "QA_24045", "variant": "PNT3", "gold": ["lối cư xử nhã nhặn, thanh lịch"], "direct_prediction": "văn hóa", "standard_prediction": "lối cư xử nhã nhặn, thanh lịch"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "qa", "id": "QA_24045", "variant": "PNT4", "gold": ["lối cư xử nhã nhặn, thanh lịch"], "direct_prediction": "sự thiếu văn hóa", "standard_prediction": "lối cư xử nhã nhặn, thanh lịch"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "qa", "id": "QA_4887", "variant": "PNT2", "gold": ["Văn hóa Nhị Lý Đầu"], "direct_prediction": "Nhị Lý Đầu", "standard_prediction": "Văn hóa Nhị Lý Đầu"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "qa", "id": "QA_4887", "variant": "PNT3", "gold": ["Văn hóa Nhị Lý Đầu"], "direct_prediction": "Nhị Lý Đầu", "standard_prediction": "Văn hóa Nhị Lý Đầu"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "qa", "id": "QA_4887", "variant": "PNT4", "gold": ["Văn hóa Nhị Lý Đầu"], "direct_prediction": "Nhị Lý Đầu", "standard_prediction": "Văn hóa Nhị Lý Đầu"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_0572", "variant": "PNN", "gold": "Surprise", "direct_prediction": "Curiosity", "standard_prediction": "Surprise"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_0572", "variant": "PNT1", "gold": "Surprise", "direct_prediction": "Curiosity", "standard_prediction": "Surprise"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_0572", "variant": "PNT4", "gold": "Surprise", "direct_prediction": "Other", "standard_prediction": "Surprise"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_0895", "variant": "PNT2", "gold": "Fear", "direct_prediction": "Anger", "standard_prediction": "Fear"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_0895", "variant": "PNT3", "gold": "Fear", "direct_prediction": "Surprise", "standard_prediction": "Fear"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_0895", "variant": "PNT4", "gold": "Fear", "direct_prediction": "Surprise", "standard_prediction": "Fear"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_1161", "variant": "PNT2", "gold": "Enjoyment", "direct_prediction": "Surprise", "standard_prediction": "Enjoyment"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_1161", "variant": "PNT3", "gold": "Enjoyment", "direct_prediction": "Surprise", "standard_prediction": "Enjoyment"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_1161", "variant": "PNT4", "gold": "Enjoyment", "direct_prediction": "Laugh", "standard_prediction": "Enjoyment"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_1239", "variant": "PNB", "gold": "Sadness", "direct_prediction": "Fear", "standard_prediction": "Sadness"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_1239", "variant": "PNN", "gold": "Sadness", "direct_prediction": "Fear", "standard_prediction": "Sadness"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_1239", "variant": "PNT2", "gold": "Sadness", "direct_prediction": "Fear", "standard_prediction": "Sadness"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_1239", "variant": "PNT3", "gold": "Sadness", "direct_prediction": "Fear", "standard_prediction": "Sadness"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_1626", "variant": "PNB", "gold": "Enjoyment", "direct_prediction": "Sadness", "standard_prediction": "Enjoyment"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_1626", "variant": "PNN", "gold": "Enjoyment", "direct_prediction": "Sadness", "standard_prediction": "Enjoyment"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_1626", "variant": "PNT2", "gold": "Enjoyment", "direct_prediction": "Sadness", "standard_prediction": "Enjoyment"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_1626", "variant": "PNT4", "gold": "Enjoyment", "direct_prediction": "Sadness", "standard_prediction": "Enjoyment"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_1894", "variant": "PNB", "gold": "Anger", "direct_prediction": "Sadness", "standard_prediction": "Anger"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_1894", "variant": "PNT1", "gold": "Anger", "direct_prediction": "Sadness", "standard_prediction": "Anger"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_1894", "variant": "PNT2", "gold": "Anger", "direct_prediction": "Other", "standard_prediction": "Anger"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_1894", "variant": "PNT3", "gold": "Anger", "direct_prediction": "Other", "standard_prediction": "Anger"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_1915", "variant": "PNT2", "gold": "Other", "direct_prediction": "Sadness", "standard_prediction": "Other"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_1915", "variant": "PNT3", "gold": "Other", "direct_prediction": "Sadness", "standard_prediction": "Other"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_1915", "variant": "PNT4", "gold": "Other", "direct_prediction": "Sadness", "standard_prediction": "Other"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_3094", "variant": "PNN", "gold": "Fear", "direct_prediction": "Sadness", "standard_prediction": "Fear"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_3094", "variant": "PNT1", "gold": "Fear", "direct_prediction": "Surprise", "standard_prediction": "Fear"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_3094", "variant": "PNT3", "gold": "Fear", "direct_prediction": "Sadness", "standard_prediction": "Fear"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_3094", "variant": "PNT4", "gold": "Fear", "direct_prediction": "Surprise", "standard_prediction": "Fear"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_3249", "variant": "PNB", "gold": "Enjoyment", "direct_prediction": "Other", "standard_prediction": "Enjoyment"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_3249", "variant": "PNT1", "gold": "Enjoyment", "direct_prediction": "Surprise", "standard_prediction": "Enjoyment"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_3249", "variant": "PNT2", "gold": "Enjoyment", "direct_prediction": "Other", "standard_prediction": "Enjoyment"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_3618", "variant": "PNT2", "gold": "Disgust", "direct_prediction": "Anger", "standard_prediction": "Disgust"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_3618", "variant": "PNT3", "gold": "Disgust", "direct_prediction": "Other", "standard_prediction": "Disgust"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_3618", "variant": "PNT4", "gold": "Disgust", "direct_prediction": "Other", "standard_prediction": "Disgust"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_4160", "variant": "PNN", "gold": "Disgust", "direct_prediction": "Sadness", "standard_prediction": "Disgust"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_4160", "variant": "PNT2", "gold": "Disgust", "direct_prediction": "Surprise", "standard_prediction": "Disgust"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_4160", "variant": "PNT3", "gold": "Disgust", "direct_prediction": "Sadness", "standard_prediction": "Disgust"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_4160", "variant": "PNT4", "gold": "Disgust", "direct_prediction": "Sadness", "standard_prediction": "Disgust"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_5531", "variant": "PNT1", "gold": "Other", "direct_prediction": "Surprise", "standard_prediction": "Other"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_5531", "variant": "PNT3", "gold": "Other", "direct_prediction": "Surprise", "standard_prediction": "Other"}
+{"model_slug": "qwen_2_5_3b_instruct", "task": "sentiment", "id": "SENT_5531", "variant": "PNT4", "gold": "Other", "direct_prediction": "Surprise", "standard_prediction": "Other"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "mcqa", "id": "MCQA_0020_2", "variant": "PNB", "gold": "D", "direct_prediction": "B", "standard_prediction": "D"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "mcqa", "id": "MCQA_0020_2", "variant": "PNT2", "gold": "D", "direct_prediction": "C", "standard_prediction": "D"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "mcqa", "id": "MCQA_0020_2", "variant": "PNT3", "gold": "D", "direct_prediction": "C", "standard_prediction": "D"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "mcqa", "id": "MCQA_0036_5", "variant": "PNT1", "gold": "C", "direct_prediction": "A", "standard_prediction": "C"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "mcqa", "id": "MCQA_0036_5", "variant": "PNT2", "gold": "C", "direct_prediction": "A", "standard_prediction": "C"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "mcqa", "id": "MCQA_0036_5", "variant": "PNT3", "gold": "C", "direct_prediction": "B", "standard_prediction": "C"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "mcqa", "id": "MCQA_0036_5", "variant": "PNT4", "gold": "C", "direct_prediction": "A", "standard_prediction": "C"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "mcqa", "id": "MCQA_0037_2", "variant": "PNT2", "gold": "B", "direct_prediction": "A", "standard_prediction": "B"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "mcqa", "id": "MCQA_0037_2", "variant": "PNT3", "gold": "B", "direct_prediction": "A", "standard_prediction": "B"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "mcqa", "id": "MCQA_0037_2", "variant": "PNT4", "gold": "B", "direct_prediction": "C", "standard_prediction": "B"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "mcqa", "id": "MCQA_0042_2", "variant": "PNN", "gold": "B", "direct_prediction": "C", "standard_prediction": "B"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "mcqa", "id": "MCQA_0042_2", "variant": "PNT2", "gold": "B", "direct_prediction": "C", "standard_prediction": "B"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "mcqa", "id": "MCQA_0042_2", "variant": "PNT3", "gold": "B", "direct_prediction": "C", "standard_prediction": "B"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "mcqa", "id": "MCQA_0137_1", "variant": "PNN", "gold": "C", "direct_prediction": "A", "standard_prediction": "C"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "mcqa", "id": "MCQA_0137_1", "variant": "PNT3", "gold": "C", "direct_prediction": "A", "standard_prediction": "C"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "mcqa", "id": "MCQA_0137_1", "variant": "PNT4", "gold": "C", "direct_prediction": "A", "standard_prediction": "C"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "nli", "id": "NLI_4394", "variant": "PNN", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "nli", "id": "NLI_4394", "variant": "PNT1", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "nli", "id": "NLI_4394", "variant": "PNT3", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "nli", "id": "NLI_4394", "variant": "PNT4", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "nli", "id": "NLI_6155", "variant": "PNT1", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "nli", "id": "NLI_6155", "variant": "PNT3", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "nli", "id": "NLI_6155", "variant": "PNT4", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "nli", "id": "NLI_6323", "variant": "PNB", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "nli", "id": "NLI_6323", "variant": "PNT1", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "nli", "id": "NLI_6323", "variant": "PNT2", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "nli", "id": "NLI_6323", "variant": "PNT3", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_17926", "variant": "PNT1", "gold": ["thuyết thần học Kháng Cách"], "direct_prediction": "神学改革派", "standard_prediction": "thuyết thần học Kháng Cách"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_17926", "variant": "PNT2", "gold": ["thuyết thần học Kháng Cách"], "direct_prediction": "神学改革派", "standard_prediction": "thuyết thần học Kháng Cách"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_17926", "variant": "PNT3", "gold": ["thuyết thần học Kháng Cách"], "direct_prediction": "神学改革派", "standard_prediction": "thuyết thần học Kháng Cách"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_17926", "variant": "PNT4", "gold": ["thuyết thần học Kháng Cách"], "direct_prediction": "nói theo thuyết thần học Kháng Cách", "standard_prediction": "thuyết thần học Kháng Cách"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_18041", "variant": "PNT2", "gold": ["Nhật Bản và phần còn lại của Viễn Đông"], "direct_prediction": "Viễn Đông", "standard_prediction": "Nhật Bản và phần còn lại của Viễn Đông"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_18041", "variant": "PNT3", "gold": ["Nhật Bản và phần còn lại của Viễn Đông"], "direct_prediction": "Viễn Đông", "standard_prediction": "Nhật Bản và phần còn lại của Viễn Đông"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_18041", "variant": "PNT4", "gold": ["Nhật Bản và phần còn lại của Viễn Đông"], "direct_prediction": "Viễn Đông", "standard_prediction": "Nhật Bản và phần còn lại của Viễn Đông"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_18828", "variant": "PNN", "gold": ["khôi phục sinh khí"], "direct_prediction": "các khu vực từng chịu tổn thất nặng nề trong chiến loạn khôi phục sinh khí", "standard_prediction": "khôi phục sinh khí"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_18828", "variant": "PNT1", "gold": ["khôi phục sinh khí"], "direct_prediction": "các khu vực từng chịu tổn thất nặng nề trong chiến loạn", "standard_prediction": "khôi phục sinh khí"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_18828", "variant": "PNT4", "gold": ["khôi phục sinh khí"], "direct_prediction": "các khu vực từng chịu tổn thất nặng nề trong chiến loạn", "standard_prediction": "khôi phục sinh khí"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_22617", "variant": "PNN", "gold": ["nổi loạn và thành lập nên các nhà nước độc lập"], "direct_prediction": "nổi loạn", "standard_prediction": "nổi loạn và thành lập nên các nhà nước độc lập"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_22617", "variant": "PNT1", "gold": ["nổi loạn và thành lập nên các nhà nước độc lập"], "direct_prediction": "nổi loạn", "standard_prediction": "nổi loạn và thành lập nên các nhà nước độc lập"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_22617", "variant": "PNT2", "gold": ["nổi loạn và thành lập nên các nhà nước độc lập"], "direct_prediction": "nổi loạn", "standard_prediction": "nổi loạn và thành lập nên các nhà nước độc lập"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_22617", "variant": "PNT3", "gold": ["nổi loạn và thành lập nên các nhà nước độc lập"], "direct_prediction": "nhiều", "standard_prediction": "nổi loạn và thành lập nên các nhà nước độc lập"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_22617", "variant": "PNT4", "gold": ["nổi loạn và thành lập nên các nhà nước độc lập"], "direct_prediction": "nhiều", "standard_prediction": "nổi loạn và thành lập nên các nhà nước độc lập"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_22620", "variant": "PNT1", "gold": ["Haiti"], "direct_prediction": "như đã xảy ra tại Haiti", "standard_prediction": "Haiti"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_22620", "variant": "PNT2", "gold": ["Haiti"], "direct_prediction": "như đã xảy ra tại Haiti", "standard_prediction": "Haiti"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_22620", "variant": "PNT3", "gold": ["Haiti"], "direct_prediction": "lo ngại về một cuộc nổi loạn nô lệ", "standard_prediction": "Haiti"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_22620", "variant": "PNT4", "gold": ["Haiti"], "direct_prediction": "lo ngại về một cuộc nổi loạn nô lệ", "standard_prediction": "Haiti"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_23978", "variant": "PNB", "gold": ["địa điểm du lịch thu hút của thành phố Hà Nội"], "direct_prediction": "địa điểm du lịch thu hút", "standard_prediction": "địa điểm du lịch thu hút của thành phố Hà Nội"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_23978", "variant": "PNT2", "gold": ["địa điểm du lịch thu hút của thành phố Hà Nội"], "direct_prediction": "địa điểm du lịch", "standard_prediction": "địa điểm du lịch thu hút của thành phố Hà Nội"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_23978", "variant": "PNT4", "gold": ["địa điểm du lịch thu hút của thành phố Hà Nội"], "direct_prediction": "địa điểm du lịch", "standard_prediction": "địa điểm du lịch thu hút của thành phố Hà Nội"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_3410", "variant": "PNB", "gold": ["toàn bộ hệ mặt trời"], "direct_prediction": "tất cả hệ mặt trời", "standard_prediction": "toàn bộ hệ mặt trời"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_3410", "variant": "PNN", "gold": ["toàn bộ hệ mặt trời"], "direct_prediction": "tất cả hệ mặt trời", "standard_prediction": "toàn bộ hệ mặt trời"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_3410", "variant": "PNT2", "gold": ["toàn bộ hệ mặt trời"], "direct_prediction": "tất cả hệ mặt trời", "standard_prediction": "toàn bộ hệ mặt trời"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_3410", "variant": "PNT3", "gold": ["toàn bộ hệ mặt trời"], "direct_prediction": "unanswerable", "standard_prediction": "toàn bộ hệ mặt trời"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_3410", "variant": "PNT4", "gold": ["toàn bộ hệ mặt trời"], "direct_prediction": "tất cả hệ mặt trời", "standard_prediction": "toàn bộ hệ mặt trời"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_7517", "variant": "PNT1", "gold": ["Đến thế kỷ XXI"], "direct_prediction": "thế kỷ XXI", "standard_prediction": "đến thế kỷ XXI"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_7517", "variant": "PNT2", "gold": ["Đến thế kỷ XXI"], "direct_prediction": "tiếng Anh", "standard_prediction": "đến thế kỷ XXI"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_7517", "variant": "PNT3", "gold": ["Đến thế kỷ XXI"], "direct_prediction": "世紀XXI", "standard_prediction": "đến thế kỷ XXI"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_9601", "variant": "PNT2", "gold": ["ngày 10 tháng 2 năm 1763"], "direct_prediction": "Paris ngày 10 tháng 2 năm 1763", "standard_prediction": "ngày 10 tháng 2 năm 1763"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_9601", "variant": "PNT3", "gold": ["ngày 10 tháng 2 năm 1763"], "direct_prediction": "Paris ngày 10 tháng 2 năm 1763", "standard_prediction": "ngày 10 tháng 2 năm 1763"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "qa", "id": "QA_9601", "variant": "PNT4", "gold": ["ngày 10 tháng 2 năm 1763"], "direct_prediction": "Paris ngày 10 tháng 2 năm 1763", "standard_prediction": "ngày 10 tháng 2 năm 1763"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "sentiment", "id": "SENT_0018", "variant": "PNN", "gold": "Fear", "direct_prediction": "Sadness", "standard_prediction": "Fear"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "sentiment", "id": "SENT_0018", "variant": "PNT1", "gold": "Fear", "direct_prediction": "Sadness", "standard_prediction": "Fear"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "sentiment", "id": "SENT_0018", "variant": "PNT2", "gold": "Fear", "direct_prediction": "Sadness", "standard_prediction": "Fear"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "sentiment", "id": "SENT_0018", "variant": "PNT3", "gold": "Fear", "direct_prediction": "Sadness", "standard_prediction": "Fear"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "sentiment", "id": "SENT_0018", "variant": "PNT4", "gold": "Fear", "direct_prediction": "Sadness", "standard_prediction": "Fear"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "sentiment", "id": "SENT_2129", "variant": "PNN", "gold": "Enjoyment", "direct_prediction": "Disgust", "standard_prediction": "Enjoyment"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "sentiment", "id": "SENT_2129", "variant": "PNT2", "gold": "Enjoyment", "direct_prediction": "Disgust", "standard_prediction": "Enjoyment"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "sentiment", "id": "SENT_2129", "variant": "PNT3", "gold": "Enjoyment", "direct_prediction": "Disgust", "standard_prediction": "Enjoyment"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "sentiment", "id": "SENT_2148", "variant": "PNT1", "gold": "Fear", "direct_prediction": "Disgust", "standard_prediction": "Fear"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "sentiment", "id": "SENT_2148", "variant": "PNT2", "gold": "Fear", "direct_prediction": "Anger", "standard_prediction": "Fear"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "sentiment", "id": "SENT_2148", "variant": "PNT3", "gold": "Fear", "direct_prediction": "Anger", "standard_prediction": "Fear"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "sentiment", "id": "SENT_2816", "variant": "PNN", "gold": "Surprise", "direct_prediction": "Disgust", "standard_prediction": "Surprise"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "sentiment", "id": "SENT_2816", "variant": "PNT2", "gold": "Surprise", "direct_prediction": "Fear", "standard_prediction": "Surprise"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "sentiment", "id": "SENT_2816", "variant": "PNT3", "gold": "Surprise", "direct_prediction": "Disgust", "standard_prediction": "Surprise"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "sentiment", "id": "SENT_4084", "variant": "PNN", "gold": "Surprise", "direct_prediction": "Disgust", "standard_prediction": "Surprise"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "sentiment", "id": "SENT_4084", "variant": "PNT1", "gold": "Surprise", "direct_prediction": "Other", "standard_prediction": "Surprise"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "sentiment", "id": "SENT_4084", "variant": "PNT2", "gold": "Surprise", "direct_prediction": "Other", "standard_prediction": "Surprise"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "sentiment", "id": "SENT_4084", "variant": "PNT3", "gold": "Surprise", "direct_prediction": "Enjoyment", "standard_prediction": "Surprise"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "sentiment", "id": "SENT_4084", "variant": "PNT4", "gold": "Surprise", "direct_prediction": "Enjoyment", "standard_prediction": "Surprise"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "sentiment", "id": "SENT_5154", "variant": "PNN", "gold": "Surprise", "direct_prediction": "Disgust", "standard_prediction": "Surprise"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "sentiment", "id": "SENT_5154", "variant": "PNT1", "gold": "Surprise", "direct_prediction": "Other", "standard_prediction": "Surprise"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "sentiment", "id": "SENT_5154", "variant": "PNT2", "gold": "Surprise", "direct_prediction": "Disgust", "standard_prediction": "Surprise"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "sentiment", "id": "SENT_5154", "variant": "PNT3", "gold": "Surprise", "direct_prediction": "Disgust", "standard_prediction": "Surprise"}
+{"model_slug": "qwen_2_5_7b_instruct", "task": "sentiment", "id": "SENT_5154", "variant": "PNT4", "gold": "Surprise", "direct_prediction": "Disgust", "standard_prediction": "Surprise"}
+{"model_slug": "seallm_7b_chat", "task": "mcqa", "id": "MCQA_0069_5", "variant": "PNT1", "gold": "D", "direct_prediction": "C", "standard_prediction": "D"}
+{"model_slug": "seallm_7b_chat", "task": "mcqa", "id": "MCQA_0069_5", "variant": "PNT2", "gold": "D", "direct_prediction": "C", "standard_prediction": "D"}
+{"model_slug": "seallm_7b_chat", "task": "mcqa", "id": "MCQA_0069_5", "variant": "PNT3", "gold": "D", "direct_prediction": "C", "standard_prediction": "D"}
+{"model_slug": "seallm_7b_chat", "task": "mcqa", "id": "MCQA_0069_5", "variant": "PNT4", "gold": "D", "direct_prediction": "C", "standard_prediction": "D"}
+{"model_slug": "seallm_7b_chat", "task": "mcqa", "id": "MCQA_0123_6", "variant": "PNN", "gold": "C", "direct_prediction": "A", "standard_prediction": "C"}
+{"model_slug": "seallm_7b_chat", "task": "mcqa", "id": "MCQA_0123_6", "variant": "PNT1", "gold": "C", "direct_prediction": "A", "standard_prediction": "C"}
+{"model_slug": "seallm_7b_chat", "task": "mcqa", "id": "MCQA_0123_6", "variant": "PNT2", "gold": "C", "direct_prediction": "A", "standard_prediction": "C"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_0028", "variant": "PNN", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_0028", "variant": "PNT1", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_0028", "variant": "PNT2", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_0511", "variant": "PNT1", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_0511", "variant": "PNT2", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_0511", "variant": "PNT3", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_2559", "variant": "PNN", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_2559", "variant": "PNT1", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_2559", "variant": "PNT2", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_2559", "variant": "PNT3", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_2899", "variant": "PNN", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_2899", "variant": "PNT1", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_2899", "variant": "PNT2", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_2899", "variant": "PNT3", "gold": "entailment", "direct_prediction": "contradiction", "standard_prediction": "entailment"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_2899", "variant": "PNT4", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_5143", "variant": "PNN", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_5143", "variant": "PNT1", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_5143", "variant": "PNT3", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_5263", "variant": "PNB", "gold": "contradiction", "direct_prediction": "neutral", "standard_prediction": "contradiction"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_5263", "variant": "PNN", "gold": "contradiction", "direct_prediction": "neutral", "standard_prediction": "contradiction"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_5263", "variant": "PNT2", "gold": "contradiction", "direct_prediction": "neutral", "standard_prediction": "contradiction"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_5263", "variant": "PNT3", "gold": "contradiction", "direct_prediction": "entailment", "standard_prediction": "contradiction"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_5263", "variant": "PNT4", "gold": "contradiction", "direct_prediction": "neutral", "standard_prediction": "contradiction"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_7691", "variant": "PNT1", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_7691", "variant": "PNT2", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "seallm_7b_chat", "task": "nli", "id": "NLI_7691", "variant": "PNT3", "gold": "entailment", "direct_prediction": "neutral", "standard_prediction": "entailment"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_17995", "variant": "PNN", "gold": ["tham nhũng và vi phạm quyền của người da trắng"], "direct_prediction": "những nhóm người này là tham nhũng và vi phạm quyền của người da trắng", "standard_prediction": "tham nhũng và vi phạm quyền của người da trắng"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_17995", "variant": "PNT2", "gold": ["tham nhũng và vi phạm quyền của người da trắng"], "direct_prediction": "những nhóm người mới đến miền Nam từ miền Bắc và người da trắng bản địa miền Nam ủng hộ tái thiết", "standard_prediction": "tham nhũng và vi phạm quyền của người da trắng"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_17995", "variant": "PNT3", "gold": ["tham nhũng và vi phạm quyền của người da trắng"], "direct_prediction": "những nhóm người mới đến miền Nam từ miền Bắc và người da trắng bản địa miền Nam ủng hộ tái thiết", "standard_prediction": "tham nhũng và vi phạm quyền của người da trắng"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_18375", "variant": "PNT1", "gold": ["Long Khánh tân chính và Vạn Lịch trung hưng"], "direct_prediction": "Long Khánh tân chính", "standard_prediction": "Long Khánh tân chính và Vạn Lịch trung hưng"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_18375", "variant": "PNT2", "gold": ["Long Khánh tân chính và Vạn Lịch trung hưng"], "direct_prediction": "Long Khánh tân chính", "standard_prediction": "Long Khánh tân chính và Vạn Lịch trung hưng"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_18375", "variant": "PNT3", "gold": ["Long Khánh tân chính và Vạn Lịch trung hưng"], "direct_prediction": "Long Khánh tân chính", "standard_prediction": "Long Khánh tân chính và Vạn Lịch trung hưng"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_18375", "variant": "PNT4", "gold": ["Long Khánh tân chính và Vạn Lịch trung hưng"], "direct_prediction": "Long Khánh tân chính", "standard_prediction": "Long Khánh tân chính và Vạn Lịch trung hưng"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_18652", "variant": "PNT1", "gold": ["hạ phủ"], "direct_prediction": "trung phủ", "standard_prediction": "hạ phủ"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_18652", "variant": "PNT2", "gold": ["hạ phủ"], "direct_prediction": "trung phủ", "standard_prediction": "hạ phủ"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_18652", "variant": "PNT3", "gold": ["hạ phủ"], "direct_prediction": "trung phủ", "standard_prediction": "hạ phủ"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_18652", "variant": "PNT4", "gold": ["hạ phủ"], "direct_prediction": "trung phủ", "standard_prediction": "hạ phủ"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_19250", "variant": "PNN", "gold": ["nước cộng hòa dân chủ của dân, do dân, vì dân"], "direct_prediction": "nhà nước cộng hòa dân chủ của dân, do dân, vì dân", "standard_prediction": "nước cộng hòa dân chủ của dân, do dân, vì dân"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_19250", "variant": "PNT1", "gold": ["nước cộng hòa dân chủ của dân, do dân, vì dân"], "direct_prediction": "cộng hòa dân chủ", "standard_prediction": "nước cộng hòa dân chủ của dân, do dân, vì dân"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_19250", "variant": "PNT2", "gold": ["nước cộng hòa dân chủ của dân, do dân, vì dân"], "direct_prediction": "cộng hòa dân chủ", "standard_prediction": "nước cộng hòa dân chủ của dân, do dân, vì dân"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_19250", "variant": "PNT3", "gold": ["nước cộng hòa dân chủ của dân, do dân, vì dân"], "direct_prediction": "cộng hòa dân chủ", "standard_prediction": "nước cộng hòa dân chủ của dân, do dân, vì dân"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_19250", "variant": "PNT4", "gold": ["nước cộng hòa dân chủ của dân, do dân, vì dân"], "direct_prediction": "nhà nước kiểu ren", "standard_prediction": "nước cộng hòa dân chủ của dân, do dân, vì dân"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_19329", "variant": "PNT1", "gold": ["viện hạt thị\" đổi sang gọi là \"trực hạt thị"], "direct_prediction": "có", "standard_prediction": "Viện hạt thị đổi sang gọi là trực hạt thị"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_19329", "variant": "PNT2", "gold": ["viện hạt thị\" đổi sang gọi là \"trực hạt thị"], "direct_prediction": "có", "standard_prediction": "Viện hạt thị đổi sang gọi là trực hạt thị"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_19329", "variant": "PNT3", "gold": ["viện hạt thị\" đổi sang gọi là \"trực hạt thị"], "direct_prediction": "có", "standard_prediction": "Viện hạt thị đổi sang gọi là trực hạt thị"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_19329", "variant": "PNT4", "gold": ["viện hạt thị\" đổi sang gọi là \"trực hạt thị"], "direct_prediction": "có", "standard_prediction": "Viện hạt thị đổi sang gọi là trực hạt thị"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_20495", "variant": "PNT1", "gold": ["không mấy thành công và chịu nhiều thiệt hại"], "direct_prediction": "không mấy thành công", "standard_prediction": "không mấy thành công và chịu nhiều thiệt hại"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_20495", "variant": "PNT2", "gold": ["không mấy thành công và chịu nhiều thiệt hại"], "direct_prediction": "không mấy thành công", "standard_prediction": "không mấy thành công và chịu nhiều thiệt hại"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_20495", "variant": "PNT3", "gold": ["không mấy thành công và chịu nhiều thiệt hại"], "direct_prediction": "không mấy thành công", "standard_prediction": "không mấy thành công và chịu nhiều thiệt hại"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_20495", "variant": "PNT4", "gold": ["không mấy thành công và chịu nhiều thiệt hại"], "direct_prediction": "không mấy thành công", "standard_prediction": "không mấy thành công và chịu nhiều thiệt hại"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_22617", "variant": "PNN", "gold": ["nổi loạn và thành lập nên các nhà nước độc lập"], "direct_prediction": "những vùng khác của Đế chế Tây Ban Nha tại Mỹ Latinh", "standard_prediction": "nổi loạn và thành lập nên các nhà nước độc lập"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_22617", "variant": "PNT1", "gold": ["nổi loạn và thành lập nên các nhà nước độc lập"], "direct_prediction": "nổi loạn", "standard_prediction": "nổi loạn và thành lập nên các nhà nước độc lập"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_22617", "variant": "PNT3", "gold": ["nổi loạn và thành lập nên các nhà nước độc lập"], "direct_prediction": "Một số vùng", "standard_prediction": "nổi loạn và thành lập nên các nhà nước độc lập"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_22617", "variant": "PNT4", "gold": ["nổi loạn và thành lập nên các nhà nước độc lập"], "direct_prediction": "Một số khu vực", "standard_prediction": "nổi loạn và thành lập nên các nhà nước độc lập"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_22620", "variant": "PNT1", "gold": ["Haiti"], "direct_prediction": "cuộc nổi loạn nô lệ", "standard_prediction": "Haiti"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_22620", "variant": "PNT2", "gold": ["Haiti"], "direct_prediction": "cuộc nổi loạn nô lệ", "standard_prediction": "Haiti"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_22620", "variant": "PNT3", "gold": ["Haiti"], "direct_prediction": "cuộc nổi loạn nô lệ", "standard_prediction": "Haiti"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_22620", "variant": "PNT4", "gold": ["Haiti"], "direct_prediction": "cuộc nổi loạn nô lệ", "standard_prediction": "Haiti"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_26456", "variant": "PNT2", "gold": ["ký Hiệp ước Nonsuch với Hà Lan"], "direct_prediction": "Hiệp ước Nonsuch", "standard_prediction": "ký Hiệp ước Nonsuch với Hà Lan"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_26456", "variant": "PNT3", "gold": ["ký Hiệp ước Nonsuch với Hà Lan"], "direct_prediction": "Hiệp ước Nonsuch", "standard_prediction": "ký Hiệp ước Nonsuch với Hà Lan"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_26456", "variant": "PNT4", "gold": ["ký Hiệp ước Nonsuch với Hà Lan"], "direct_prediction": "ký Hiệp ước Nonsuch", "standard_prediction": "ký Hiệp ước Nonsuch với Hà Lan"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_7747", "variant": "PNT2", "gold": ["phân liệt giữa các quân phiệt địa phương"], "direct_prediction": "phân liệt", "standard_prediction": "phân liệt giữa các quân phiệt địa phương"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_7747", "variant": "PNT3", "gold": ["phân liệt giữa các quân phiệt địa phương"], "direct_prediction": "phân liệt", "standard_prediction": "phân liệt giữa các quân phiệt địa phương"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_7747", "variant": "PNT4", "gold": ["phân liệt giữa các quân phiệt địa phương"], "direct_prediction": "đã lâm vào tình trạng ra ren", "standard_prediction": "phân liệt giữa các quân phiệt địa phương"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_9637", "variant": "PNT1", "gold": ["Một sinh vật ngu xuất và ngớ ngấn khó tưởng tượng được"], "direct_prediction": "Một sinh vật ngu xuất và ngớ ngẩn", "standard_prediction": "Một sinh vật ngu xuất và ngớ ngấn khó tưởng tượng được"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_9637", "variant": "PNT3", "gold": ["Một sinh vật ngu xuất và ngớ ngấn khó tưởng tượng được"], "direct_prediction": "Một sinh vật ngu xuất và ngớ ngẩn", "standard_prediction": "Một sinh vật ngu xuất và ngớ ngấn khó tưởng tượng được"}
+{"model_slug": "seallm_7b_chat", "task": "qa", "id": "QA_9637", "variant": "PNT4", "gold": ["Một sinh vật ngu xuất và ngớ ngấn khó tưởng tượng được"], "direct_prediction": "ngu xuất và ngớ ngẩn", "standard_prediction": "Một sinh vật ngu xuất và ngớ ngấn khó tưởng tượng được"}
+{"model_slug": "seallm_7b_chat", "task": "sentiment", "id": "SENT_0462", "variant": "PNT1", "gold": "Sadness", "direct_prediction": "Other", "standard_prediction": "Sadness"}
+{"model_slug": "seallm_7b_chat", "task": "sentiment", "id": "SENT_0462", "variant": "PNT2", "gold": "Sadness", "direct_prediction": "Anger", "standard_prediction": "Sadness"}
+{"model_slug": "seallm_7b_chat", "task": "sentiment", "id": "SENT_0462", "variant": "PNT3", "gold": "Sadness", "direct_prediction": "Other", "standard_prediction": "Sadness"}
+{"model_slug": "seallm_7b_chat", "task": "sentiment", "id": "SENT_3427", "variant": "PNT2", "gold": "Anger", "direct_prediction": "Other", "standard_prediction": "Anger"}
+{"model_slug": "seallm_7b_chat", "task": "sentiment", "id": "SENT_3427", "variant": "PNT3", "gold": "Anger", "direct_prediction": "Other", "standard_prediction": "Anger"}
+{"model_slug": "seallm_7b_chat", "task": "sentiment", "id": "SENT_3427", "variant": "PNT4", "gold": "Anger", "direct_prediction": "Other", "standard_prediction": "Anger"}
+{"model_slug": "seallm_7b_chat", "task": "sentiment", "id": "SENT_5360", "variant": "PNT2", "gold": "Anger", "direct_prediction": "Other", "standard_prediction": "Anger"}
+{"model_slug": "seallm_7b_chat", "task": "sentiment", "id": "SENT_5360", "variant": "PNT3", "gold": "Anger", "direct_prediction": "Other", "standard_prediction": "Anger"}
+{"model_slug": "seallm_7b_chat", "task": "sentiment", "id": "SENT_5360", "variant": "PNT4", "gold": "Anger", "direct_prediction": "Other", "standard_prediction": "Anger"}
+{"model_slug": "vistral_7b_chat", "task": "mcqa", "id": "MCQA_0036_5", "variant": "PNT1", "gold": "C", "direct_prediction": "B", "standard_prediction": "C"}
+{"model_slug": "vistral_7b_chat", "task": "mcqa", "id": "MCQA_0036_5", "variant": "PNT2", "gold": "C", "direct_prediction": "B", "standard_prediction": "C"}
+{"model_slug": "vistral_7b_chat", "task": "mcqa", "id": "MCQA_0036_5", "variant": "PNT3", "gold": "C", "direct_prediction": "B", "standard_prediction": "C"}
+{"model_slug": "vistral_7b_chat", "task": "mcqa", "id": "MCQA_0036_5", "variant": "PNT4", "gold": "C", "direct_prediction": "B", "standard_prediction": "C"}
+{"model_slug": "vistral_7b_chat", "task": "nli", "id": "NLI_6155", "variant": "PNT1", "gold": "entailment", "direct_prediction": "{\"nhãn\": \"trung lập\"}", "standard_prediction": "entailment"}
+{"model_slug": "vistral_7b_chat", "task": "nli", "id": "NLI_6155", "variant": "PNT2", "gold": "entailment", "direct_prediction": "{\"nhãn\": \"trung lập\"}", "standard_prediction": "entailment"}
+{"model_slug": "vistral_7b_chat", "task": "nli", "id": "NLI_6155", "variant": "PNT3", "gold": "entailment", "direct_prediction": "{\"nhãn\": \"trung lập\"}", "standard_prediction": "entailment"}
+{"model_slug": "vistral_7b_chat", "task": "nli", "id": "NLI_6155", "variant": "PNT4", "gold": "entailment", "direct_prediction": "{\"nhãn\": \"sự mâu thuẫn\"}", "standard_prediction": "entailment"}
+{"model_slug": "vistral_7b_chat", "task": "qa", "id": "QA_19329", "variant": "PNT1", "gold": ["viện hạt thị\" đổi sang gọi là \"trực hạt thị"], "direct_prediction": "trực hạt thị", "standard_prediction": "viện hạt thị đổi sang gọi là trực hạt thị."}
+{"model_slug": "vistral_7b_chat", "task": "qa", "id": "QA_19329", "variant": "PNT2", "gold": ["viện hạt thị\" đổi sang gọi là \"trực hạt thị"], "direct_prediction": "trực hạt thị", "standard_prediction": "viện hạt thị đổi sang gọi là trực hạt thị."}
+{"model_slug": "vistral_7b_chat", "task": "qa", "id": "QA_19329", "variant": "PNT3", "gold": ["viện hạt thị\" đổi sang gọi là \"trực hạt thị"], "direct_prediction": "trực hạt thị", "standard_prediction": "viện hạt thị đổi sang gọi là trực hạt thị."}
+{"model_slug": "vistral_7b_chat", "task": "qa", "id": "QA_19358", "variant": "PNB", "gold": ["Quân Giải phóng Nhân dân Trung Quốc"], "direct_prediction": "{\"trả lời\":\"Quân Giải phóng Nhân dân Trung Quốc\"}", "standard_prediction": "Quân Giải phóng Nhân dân Trung Quốc"}
+{"model_slug": "vistral_7b_chat", "task": "qa", "id": "QA_19358", "variant": "PNN", "gold": ["Quân Giải phóng Nhân dân Trung Quốc"], "direct_prediction": "{\"trả lời\":\"Quân Giải phóng Nhân dân Trung Quốc\"}", "standard_prediction": "Quân Giải phóng Nhân dân Trung Quốc"}
+{"model_slug": "vistral_7b_chat", "task": "qa", "id": "QA_19358", "variant": "PNT1", "gold": ["Quân Giải phóng Nhân dân Trung Quốc"], "direct_prediction": "{\"trả lời\":\"Quân Giải phóng Nhân dân Trung Quốc\"}", "standard_prediction": "Quân Giải phóng Nhân dân Trung Quốc"}
+{"model_slug": "vistral_7b_chat", "task": "qa", "id": "QA_19358", "variant": "PNT2", "gold": ["Quân Giải phóng Nhân dân Trung Quốc"], "direct_prediction": "{\"trả lời\":\"Quân Giải phóng Nhân dân Trung Quốc\"}", "standard_prediction": "Quân Giải phóng Nhân dân Trung Quốc"}
+{"model_slug": "vistral_7b_chat", "task": "qa", "id": "QA_19358", "variant": "PNT3", "gold": ["Quân Giải phóng Nhân dân Trung Quốc"], "direct_prediction": "{\"trả lời\":\"Quân Giải phóng Nhân dân Trung Quốc\"}", "standard_prediction": "Quân Giải phóng Nhân dân Trung Quốc"}
+{"model_slug": "vistral_7b_chat", "task": "qa", "id": "QA_19358", "variant": "PNT4", "gold": ["Quân Giải phóng Nhân dân Trung Quốc"], "direct_prediction": "{\"trả lời\":\"Quân Giải phóng Nhân dân Trung Quốc\"}", "standard_prediction": "Quân Giải phóng Nhân dân Trung Quốc"}
+{"model_slug": "vistral_7b_chat", "task": "qa", "id": "QA_9520", "variant": "PNB", "gold": ["các lãnh thổ Đức dọc theo sông Rhine"], "direct_prediction": "{\"trả lời\":\"các lãnh thổ Đức dọc theo sông Rhine\"}", "standard_prediction": "các lãnh thổ Đức dọc theo sông Rhine"}
+{"model_slug": "vistral_7b_chat", "task": "qa", "id": "QA_9520", "variant": "PNN", "gold": ["các lãnh thổ Đức dọc theo sông Rhine"], "direct_prediction": "{\"trả lời\": \"2\"}", "standard_prediction": "các lãnh thổ Đức dọc theo sông Rhine"}
+{"model_slug": "vistral_7b_chat", "task": "qa", "id": "QA_9520", "variant": "PNT2", "gold": ["các lãnh thổ Đức dọc theo sông Rhine"], "direct_prediction": "{\"trả lời\":\"các lãnh thổ Đức dọc theo sông Rhine\"}", "standard_prediction": "các lãnh thổ Đức dọc theo sông Rhine"}
+{"model_slug": "vistral_7b_chat", "task": "qa", "id": "QA_9520", "variant": "PNT3", "gold": ["các lãnh thổ Đức dọc theo sông Rhine"], "direct_prediction": "{\"trả lời\":\"các lãnh thổ Đức dọc theo sông Rhine\"}", "standard_prediction": "các lãnh thổ Đức dọc theo sông Rhine"}
+{"model_slug": "vistral_7b_chat", "task": "sentiment", "id": "SENT_0462", "variant": "PNN", "gold": "Sadness", "direct_prediction": "Anger", "standard_prediction": "Sadness"}
+{"model_slug": "vistral_7b_chat", "task": "sentiment", "id": "SENT_0462", "variant": "PNT1", "gold": "Sadness", "direct_prediction": "Anger", "standard_prediction": "Sadness"}
+{"model_slug": "vistral_7b_chat", "task": "sentiment", "id": "SENT_0462", "variant": "PNT3", "gold": "Sadness", "direct_prediction": "Anger", "standard_prediction": "Sadness"}
+{"model_slug": "vistral_7b_chat", "task": "sentiment", "id": "SENT_0462", "variant": "PNT4", "gold": "Sadness", "direct_prediction": "Thư giãn", "standard_prediction": "Sadness"}
+{"model_slug": "vistral_7b_chat", "task": "sentiment", "id": "SENT_3094", "variant": "PNN", "gold": "Fear", "direct_prediction": "Anger", "standard_prediction": "Fear"}
+{"model_slug": "vistral_7b_chat", "task": "sentiment", "id": "SENT_3094", "variant": "PNT1", "gold": "Fear", "direct_prediction": "Anger", "standard_prediction": "Fear"}
+{"model_slug": "vistral_7b_chat", "task": "sentiment", "id": "SENT_3094", "variant": "PNT2", "gold": "Fear", "direct_prediction": "Anger", "standard_prediction": "Fear"}
+{"model_slug": "vistral_7b_chat", "task": "sentiment", "id": "SENT_3094", "variant": "PNT3", "gold": "Fear", "direct_prediction": "Anger", "standard_prediction": "Fear"}
+{"model_slug": "vistral_7b_chat", "task": "sentiment", "id": "SENT_3094", "variant": "PNT4", "gold": "Fear", "direct_prediction": "Anger", "standard_prediction": "Fear"}
+{"model_slug": "vistral_7b_chat", "task": "sentiment", "id": "SENT_4519", "variant": "PNN", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "vistral_7b_chat", "task": "sentiment", "id": "SENT_4519", "variant": "PNT2", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "vistral_7b_chat", "task": "sentiment", "id": "SENT_4519", "variant": "PNT3", "gold": "Anger", "direct_prediction": "Disgust", "standard_prediction": "Anger"}
+{"model_slug": "vistral_7b_chat", "task": "sentiment", "id": "SENT_4550", "variant": "PNT2", "gold": "Enjoyment", "direct_prediction": "Sadness", "standard_prediction": "Enjoyment"}
+{"model_slug": "vistral_7b_chat", "task": "sentiment", "id": "SENT_4550", "variant": "PNT3", "gold": "Enjoyment", "direct_prediction": "Thư giãn", "standard_prediction": "Enjoyment"}
+{"model_slug": "vistral_7b_chat", "task": "sentiment", "id": "SENT_4550", "variant": "PNT4", "gold": "Enjoyment", "direct_prediction": "Thư giãn", "standard_prediction": "Enjoyment"}

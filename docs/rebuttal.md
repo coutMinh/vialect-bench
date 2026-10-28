@@ -17,6 +17,8 @@ có sẵn trong working tree được mang sang nhánh mới và giữ lại.
 | Data audit | `notebooks/probe_dialects_quality_audit.ipynb` | Đối chiếu finalized, probe và mẫu nguồn; kiểm tra cấu trúc MCQA |
 | Normalization tùy chọn | `notebooks/ViDia2std_Normalizer.ipynb` | Giữ một bản phục vụ câu hỏi normalization; cần cấu hình môi trường/path riêng |
 | Kết quả chính | `outputs/direct_prompting/*.jsonl` | 10 model × 2.800 dòng; gồm prediction và raw output, tránh chạy inference lại |
+| Normalizer rescue | `outputs/normalizer_rescue/`, `outputs/normalized_direct_prompting/` | 541 input dialect đã chuẩn hóa và 753 prediction cho hard-failure cohort của 10 model |
+| Normalizer full | `outputs/normalizer_full/`, `outputs/normalized_direct_prompting_full/` | Toàn bộ 2.400 dialect variant, cùng setting 10 model gốc; lưu normalized text, input và raw LLM output |
 | Intrinsic cache | `outputs/finalized_6_complete_six_intrinsic_analysis/` | PPL/NLL cho đủ 400 source × 6 dialect, metadata và summary |
 | Lexical analysis | `outputs/lexical_substitution_analysis/` | Alignment, review sheets đã điền, substitution records, swap NLL, bảng và hình |
 | Code phân tích | `scripts/analyze_vialectbench_data.py`, `scripts/lexical_data_prep.py`, `scripts/lexical_swap_nll.py`, `scripts/lexical_visualize.py`, `scripts/utils.py` | Intrinsic và phân tích biến đổi ngôn ngữ; `utils.py` là dependency của lexical prep |
@@ -25,9 +27,14 @@ có sẵn trong working tree được mang sang nhánh mới và giữ lại.
 | Cài đặt/kiểm chứng | `requirements*.txt`, `.env.example`, `scripts/check_rebuttal_bundle.py`, `docs/rebuttal_manifest.json` | Môi trường phân tích nhẹ và kiểm tra snapshot dữ liệu/kết quả |
 
 `.gitignore` có ngoại lệ rõ ràng cho các nhóm data, outputs và artifact cần chia sẻ.
-Ba tên thư mục normalized output mà EDA hỗ trợ cũng được cho phép sẵn; hiện chưa
-có kết quả normalized trong repo. Không đổi tên hoặc di chuyển các thư mục cache
-hiện tại vì notebook/script đang đọc trực tiếp theo đường dẫn đó.
+EDA đọc kết quả rescue mới từ `outputs/normalized_direct_prompting/`; đây chỉ là
+cohort hard-failure, không phải inference trên đủ 2.400 rewrite. Không đổi tên hoặc
+di chuyển các thư mục cache hiện tại vì notebook/script đang đọc trực tiếp theo
+đường dẫn đó.
+Baseline full được phân tích riêng bằng `scripts/analyze_normalizer_full.py`;
+không trộn mẫu rescue với mẫu full khi viết số liệu rebuttal.
+Ghi chú phương pháp, text audit và case study cho Q3 nằm trong
+`docs/normalizer_full_rebuttal.md`.
 
 ## Những gì bỏ khỏi nhánh chia sẻ
 
@@ -64,7 +71,7 @@ của các file bị sửa, cùng diff và Git status ban đầu, nằm trong
 | QA exact match bên cạnh F1, harmful flips, case study | Raw prediction trong `outputs/direct_prompting/`, probe và EDA | Có thể tính lại từ cache; cần xuất thêm phân tích EM/QA theo yêu cầu reviewer |
 | Rewrite density, nhóm biến đổi từ vựng, lỗi PNT2/PNT3 | Lexical records, alignment/review sheets và swap-NLL cache | NLL là tín hiệu của reference LM, không tự chứng minh nguyên nhân lỗi downstream |
 | Kích thước model và robustness | 3 model Qwen2.5 và các output/bảng hiện có | Có thể so sánh mô tả; không suy ra tỉ lệ dialect trong pretraining hoặc kết luận causal |
-| ViDia2Std/normalization baseline | Notebook normalizer, hard-case exports và phần rescue trong EDA | Chưa có normalized inference outputs; dấu `-` trong rescue table không phải kết quả baseline |
+| ViDia2Std/normalization baseline | `outputs/normalizer_full/README.md`, 10 file `outputs/normalized_direct_prompting_full/`, bảng full trong `paper_artifacts/direct_prompting/`; rescue riêng trong EDA | Baseline full dùng 2.400 rewrite × 10 model, giữ nguyên prompt/config gốc; phân tích cả gains, regressions và semantic drift |
 | Phân tích tỉnh hoặc open-ended generation | Kiểm tra metadata annotation; có thể dùng runner/prompt làm điểm xuất phát | Không coi 6 dialect group là nhãn tỉnh; benchmark hiện tại không cung cấp thí nghiệm generation robustness |
 
 Một điểm cần đối chiếu trước khi trả lời reviewer: paper ghi MCQA từ VIMQA, nhưng
@@ -103,7 +110,7 @@ tạo lại alignment hoặc review sheets. Ưu tiên đọc cache và giữ rev
 Nếu chủ động thay annotation/review, đọc `outputs/lexical_substitution_analysis/README.md`
 và các tùy chọn `--steps` trước khi cập nhật.
 
-`docs/rebuttal_manifest.json` ghi SHA-256 của 119 file dữ liệu/cache/artifact hiện
+`docs/rebuttal_manifest.json` ghi SHA-256 của 126 file dữ liệu/cache/artifact hiện
 có, chuẩn hóa CRLF thành LF cho text để không lỗi do checkout trên Windows/Linux.
 Manifest giúp phát hiện thiếu/thay đổi file khi bàn giao; vì được tạo sau inference,
 nó không chứng minh chính xác input hoặc revision model của lần chạy cũ.
@@ -120,12 +127,12 @@ python scripts/check_rebuttal_bundle.py --update-manifest
 - Chạy toàn bộ 11 code cell audit: 0 coverage issue, 0 format issue, 0 source issue, 0 probe-consistency issue.
 - Conversion v6 qua `src.prepare_annotated_probe_cases` tạo đủ 400 case, không có duplicate sample/dialect.
 - Probe tái tạo khớp hoàn toàn nội dung JSON với probe đang chia sẻ.
-- Không chạy training normalizer hoặc inference mới. Notebook normalizer vẫn cần sửa path theo máy và môi trường riêng.
+- Trong giai đoạn dọn repo ban đầu, không chạy training normalizer hoặc inference mới. Thí nghiệm normalization full bổ sung sau đó được lưu riêng ở `outputs/normalizer_full/`.
 
 ## Commit và chia sẻ
 
-Toàn bộ thay đổi dọn repo được gom thành một commit trên `rebuttal/cleanup`;
-chưa push. Lịch sử `main` được giữ nguyên. Kiểm tra commit rồi push nhánh riêng:
+Giữ các thay đổi rebuttal trên nhánh `rebuttal/cleanup` và không sửa lịch sử
+`main`. Sau khi review các file mới, commit rồi push nhánh riêng:
 
 ```bash
 git status --short

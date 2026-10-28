@@ -1,0 +1,151 @@
+{
+  "experiment": "ViDia2Std hard-failure rescue",
+  "source_commit": "d9314e80bf508b2f533063c2f8f2a1be14f57792",
+  "normalizer_id": "tarudesu/mbart-large-50",
+  "normalizer_revision": "83c5b2a3b5078b54e4357c690f42b0bdaa167d08",
+  "files": [
+    {
+      "path": "outputs/normalizer_rescue/normalized_case_dialects.jsonl",
+      "sha256": "06a6ade3c8fe2dc7d5de1ea6ce0e52c35d5a4a89f9f2b16c623cd311112c18f6",
+      "bytes": 290624,
+      "rows": 541
+    },
+    {
+      "path": "outputs/normalizer_rescue/hard_failure_rows.jsonl",
+      "sha256": "d1879ac74b9d106205d54a93de83f49cf19a24ccf900b407c3e2f4b538c7f3f5",
+      "bytes": 151411,
+      "rows": 753
+    },
+    {
+      "path": "outputs/normalizer_rescue/unique_case_dialects.jsonl",
+      "sha256": "5c6491a38d4fb3f2e63b17ddfd4f9735e572c99032a38364fc6f0712bf865083",
+      "bytes": 30106,
+      "rows": 541
+    },
+    {
+      "path": "outputs/normalizer_rescue/worklist_summary.json",
+      "sha256": "cb84453364d6955effd9e9850a4165cd6eb3a5c1c40306e01c6d82c10bd028c0",
+      "bytes": 1061
+    },
+    {
+      "path": "outputs/normalizer_rescue/model_cases/gemma_2_9b_it.jsonl",
+      "sha256": "2252706f5be65f2060fd8cf88c9a9c6e2174769c69679be3836a76ed1aa41988",
+      "bytes": 35477,
+      "rows": 21
+    },
+    {
+      "path": "outputs/normalizer_rescue/model_cases/gemma_3_4b_it.jsonl",
+      "sha256": "508aa5dd674834dcaff887a43fabd4b2f67e810c4788da49fc5d49ac93a24ec3",
+      "bytes": 29422,
+      "rows": 18
+    },
+    {
+      "path": "outputs/normalizer_rescue/model_cases/gpt_4o.jsonl",
+      "sha256": "1d404d5c41029d79ee89b8312eebb79210486eca2c4d953271a0e228fbec97e4",
+      "bytes": 20165,
+      "rows": 13
+    },
+    {
+      "path": "outputs/normalizer_rescue/model_cases/llama_3_1_8b_instruct.jsonl",
+      "sha256": "b4b8718a3db3978a8ccef48d9a60522c32ce8bd5b28545e70d7aa8a77d81d95e",
+      "bytes": 42760,
+      "rows": 20
+    },
+    {
+      "path": "outputs/normalizer_rescue/model_cases/mistral_7b_instruct_v0_3.jsonl",
+      "sha256": "630327126f311b25431d3f7e7c1bf1c840458dd2e49c065e5a55eb8de4a4007e",
+      "bytes": 66935,
+      "rows": 31
+    },
+    {
+      "path": "outputs/normalizer_rescue/model_cases/qwen_2_5_0_5b_instruct.jsonl",
+      "sha256": "c99fe452eacd7481235fb6ccffa016020969c5c6fc336aae4f0557cc37e59d77",
+      "bytes": 51601,
+      "rows": 21
+    },
+    {
+      "path": "outputs/normalizer_rescue/model_cases/qwen_2_5_3b_instruct.jsonl",
+      "sha256": "bf38d5e279a3e5bfab28400e74c448c6d1781bb0024935022c69b07fac3ee35f",
+      "bytes": 47296,
+      "rows": 24
+    },
+    {
+      "path": "outputs/normalizer_rescue/model_cases/qwen_2_5_7b_instruct.jsonl",
+      "sha256": "02e00bde459f11fbfb02b758042e7dd795d034577806d91a39ee8cd5be32b37b",
+      "bytes": 48800,
+      "rows": 23
+    },
+    {
+      "path": "outputs/normalizer_rescue/model_cases/seallm_7b_chat.jsonl",
+      "sha256": "77d55a39d87e3b78f13937a591ca5d3ff23302126a2977721cab6b537f1cee50",
+      "bytes": 49312,
+      "rows": 23
+    },
+    {
+      "path": "outputs/normalizer_rescue/model_cases/vistral_7b_chat.jsonl",
+      "sha256": "5a68456d182a921dc1b2acc660a8040e0b080c70378e39a3693a04aa1d03997a",
+      "bytes": 17339,
+      "rows": 9
+    },
+    {
+      "path": "outputs/normalized_direct_prompting/gemma_2_9b_it.jsonl",
+      "sha256": "663e7fab2abeb30548e2a2de9778bb2d175c8d5ae5c556d2c610bb8ec5d2aa99",
+      "bytes": 74265,
+      "rows": 80
+    },
+    {
+      "path": "outputs/normalized_direct_prompting/gemma_3_4b_it.jsonl",
+      "sha256": "10cb91a408b93eb58335efe65a8098a6c14c724f4abf965c7fc755ff5d73cc77",
+      "bytes": 69345,
+      "rows": 67
+    },
+    {
+      "path": "outputs/normalized_direct_prompting/gpt_4o.jsonl",
+      "sha256": "f7a3dfde3e70bd474c4e3141c247ef5a86bd54c739a21fd54dc5d77e2c37c75f",
+      "bytes": 30558,
+      "rows": 47
+    },
+    {
+      "path": "outputs/normalized_direct_prompting/llama_3_1_8b_instruct.jsonl",
+      "sha256": "fbeda9530ab4de041eda7501ef0d7cc260f7add25c79f577e345cef924164176",
+      "bytes": 60189,
+      "rows": 72
+    },
+    {
+      "path": "outputs/normalized_direct_prompting/mistral_7b_instruct_v0_3.jsonl",
+      "sha256": "ef4ceea5f2bf6e0ca70486b4bd7a0b49fcbc5977fed1226ceb3c3768ae5ad645",
+      "bytes": 90940,
+      "rows": 116
+    },
+    {
+      "path": "outputs/normalized_direct_prompting/qwen_2_5_0_5b_instruct.jsonl",
+      "sha256": "1a6b56fbbac978741d7c4b8a2cdc994c97d98af0b69d6d649f37c6737b8e1384",
+      "bytes": 70025,
+      "rows": 83
+    },
+    {
+      "path": "outputs/normalized_direct_prompting/qwen_2_5_3b_instruct.jsonl",
+      "sha256": "eddd7598413295d0e74326607ceb7b62129fdf4bb23a10008592ca1e638c27cd",
+      "bytes": 80504,
+      "rows": 85
+    },
+    {
+      "path": "outputs/normalized_direct_prompting/qwen_2_5_7b_instruct.jsonl",
+      "sha256": "954532b36078c15ed591a52abcdd9be61d393e5d85f512e08b8297c6329d644c",
+      "bytes": 66336,
+      "rows": 84
+    },
+    {
+      "path": "outputs/normalized_direct_prompting/seallm_7b_chat.jsonl",
+      "sha256": "ad09166bb92f454c8eb6020a92e8cf3eecf5cd8eb518ec444cf49d3eb1df6450",
+      "bytes": 57916,
+      "rows": 83
+    },
+    {
+      "path": "outputs/normalized_direct_prompting/vistral_7b_chat.jsonl",
+      "sha256": "1071075f13f1e29d3ba68d98f7d4d2a9edc8c2ffaee9bf9f19356715da21c6c9",
+      "bytes": 31448,
+      "rows": 36
+    }
+  ]
+}

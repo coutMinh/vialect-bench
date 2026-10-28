@@ -1,0 +1,6 @@
+Task,Field,Text segments,Source exact standard,Normalized exact standard,Changed segments
+mcqa,options,2400,1507,1525,641
+mcqa,question,600,131,262,411
+nli,hypothesis,600,163,216,348
+qa,question,600,137,255,346
+sentiment,text,600,82,82,492

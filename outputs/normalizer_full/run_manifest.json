@@ -1,0 +1,354 @@
+{
+  "created_utc": "2026-10-28T19:57:45.945322+00:00",
+  "source_commit": "d9314e80bf508b2f533063c2f8f2a1be14f57792",
+  "probe_sha256_lf": "8e1bf191416d99e14418ea6451815303eb527a5b0c9f2b54e468d8fcc0057501",
+  "normalizer_id": "tarudesu/mbart-large-50",
+  "normalizer_revision": "83c5b2a3b5078b54e4357c690f42b0bdaa167d08",
+  "text_hash_normalization": "CRLF to LF; binary files unchanged",
+  "source_cases": 400,
+  "dialect_variants_per_case": 6,
+  "model_count": 10,
+  "raw_model_rows": 24000,
+  "inputs": [
+    {
+      "path": "outputs/normalizer_full/normalized_segments.jsonl",
+      "sha256": "24a3fc199a0cd30b2bb16e05c30152b00affd1202b094d16d8a9adff94d1ad34",
+      "bytes": 734504,
+      "rows": 3294
+    },
+    {
+      "path": "outputs/normalizer_full/normalized_case_dialects.jsonl",
+      "sha256": "185edd8da601e11107372301e84ba33960994ab0c2932186c4c19b9b23a96e6c",
+      "bytes": 1359633,
+      "rows": 2400
+    },
+    {
+      "path": "outputs/normalizer_full/full_normalized_cases.jsonl",
+      "sha256": "c867e0a6fabd2eb1f4d583e69c1e1a638181b468793a1786e0f7cdea8b563911",
+      "bytes": 1017133,
+      "rows": 400
+    },
+    {
+      "path": "outputs/normalizer_full/remote_runner_hashes.json",
+      "sha256": "55534f9943715bc6e7574e6870ab09f6cb1e08950fbffd7829053ca78d87b3ce",
+      "bytes": 1765,
+      "rows": null
+    },
+    {
+      "path": "outputs/normalizer_full/prompt_equivalence_report.json",
+      "sha256": "8300783682e3f1fff674a2bc49068a7f900282235d90e4302170ad7397dd0e4a",
+      "bytes": 124,
+      "rows": null
+    }
+  ],
+  "outputs": [
+    {
+      "path": "outputs/normalized_direct_prompting_full/qwen_2_5_0_5b_instruct.jsonl",
+      "sha256": "af4057c2a271c8d180f572ec633d3a393bd8924e9e6365af3bca36665e4c790d",
+      "bytes": 2038995,
+      "rows": 2400
+    },
+    {
+      "path": "outputs/normalized_direct_prompting_full/qwen_2_5_3b_instruct.jsonl",
+      "sha256": "521d91be69cdf7682e2ff5c6d5de3333c910c692bfcd16ba652ce0f8143f146d",
+      "bytes": 2024235,
+      "rows": 2400
+    },
+    {
+      "path": "outputs/normalized_direct_prompting_full/qwen_2_5_7b_instruct.jsonl",
+      "sha256": "220d38c9ab85aa16fe94f85b4a9e98b739b704a1c4afb648e737cef1f23dedf0",
+      "bytes": 2047885,
+      "rows": 2400
+    },
+    {
+      "path": "outputs/normalized_direct_prompting_full/llama_3_1_8b_instruct.jsonl",
+      "sha256": "4df710327aa998fbd6406cdbb972e5f6bcf8d5746ad0125746fb85dbc4f188e3",
+      "bytes": 2039709,
+      "rows": 2400
+    },
+    {
+      "path": "outputs/normalized_direct_prompting_full/mistral_7b_instruct_v0_3.jsonl",
+      "sha256": "74dcffd6b642e11cb7f085c9f183c1c87e37f7a5039f8f7406d86dac09ba4d5e",
+      "bytes": 2056285,
+      "rows": 2400
+    },
+    {
+      "path": "outputs/normalized_direct_prompting_full/gemma_2_9b_it.jsonl",
+      "sha256": "bcddaac1a8436cdb420178c26f0a1afd3e8a84582f3321d01720fd7120399623",
+      "bytes": 1998805,
+      "rows": 2400
+    },
+    {
+      "path": "outputs/normalized_direct_prompting_full/gemma_3_4b_it.jsonl",
+      "sha256": "28422d8497849abc2aa91d9c7125d56946d7cf20e609a0c2349269c8fd0a4a84",
+      "bytes": 2119618,
+      "rows": 2400
+    },
+    {
+      "path": "outputs/normalized_direct_prompting_full/vistral_7b_chat.jsonl",
+      "sha256": "464e561938413785612e66820ed8e6deb037002ce12e4ef877d97c4ee916d78e",
+      "bytes": 2039271,
+      "rows": 2400
+    },
+    {
+      "path": "outputs/normalized_direct_prompting_full/seallm_7b_chat.jsonl",
+      "sha256": "d3a912b8d0fd99257d17ea20e8d16c3628d5b4607c09277f989342ac56c0571a",
+      "bytes": 2012477,
+      "rows": 2400
+    },
+    {
+      "path": "outputs/normalized_direct_prompting_full/gpt_4o.jsonl",
+      "sha256": "1c6ad967e7dc94bb1e94ae7948278d920a1b9b886a7501f301181bd49c61ccab",
+      "bytes": 1588660,
+      "rows": 2400
+    }
+  ],
+  "direct_comparison_outputs": [
+    {
+      "path": "outputs/direct_prompting/qwen_2_5_0_5b_instruct.jsonl",
+      "sha256": "5aa520afc82a2ea7bf7e5a523a6eb1569eb90bb0fe09112d017ae57ceac43fd3",
+      "bytes": 2344467,
+      "rows": 2800
+    },
+    {
+      "path": "outputs/direct_prompting/qwen_2_5_3b_instruct.jsonl",
+      "sha256": "93aaf5dadb02621f44ada3a953f338042c5f127ebd33a6ec8ed07b7f50245696",
+      "bytes": 2333254,
+      "rows": 2800
+    },
+    {
+      "path": "outputs/direct_prompting/qwen_2_5_7b_instruct.jsonl",
+      "sha256": "ccaf7a85461783132f64490c3fe3a01249f95c72a9f5997120f5796a22003111",
+      "bytes": 2356594,
+      "rows": 2800
+    },
+    {
+      "path": "outputs/direct_prompting/llama_3_1_8b_instruct.jsonl",
+      "sha256": "3668a932d34ac59904f5c465d5163f0fa3ecce631b17850f28631c70762e04eb",
+      "bytes": 2351547,
+      "rows": 2800
+    },
+    {
+      "path": "outputs/direct_prompting/mistral_7b_instruct_v0_3.jsonl",
+      "sha256": "f4b8db797e78ea9fcf23ba5daa9a02866e85ae900010caa20d8eae466349fbfb",
+      "bytes": 2366960,
+      "rows": 2800
+    },
+    {
+      "path": "outputs/direct_prompting/gemma_2_9b_it.jsonl",
+      "sha256": "cd0db6af1033e5323a6755e2ee1e3f9be2d08e9773d3641b68e207976b6ac5f9",
+      "bytes": 2300466,
+      "rows": 2800
+    },
+    {
+      "path": "outputs/direct_prompting/gemma_3_4b_it.jsonl",
+      "sha256": "e20ba56814b35d7cdd2505ca9e4233d6285664c91ea3a8a010d29690fc078760",
+      "bytes": 2444028,
+      "rows": 2800
+    },
+    {
+      "path": "outputs/direct_prompting/vistral_7b_chat.jsonl",
+      "sha256": "b946bc7940896eb168710a3b649de7283f43f50e63609c5e1b316374b4264c82",
+      "bytes": 2352577,
+      "rows": 2800
+    },
+    {
+      "path": "outputs/direct_prompting/seallm_7b_chat.jsonl",
+      "sha256": "656ef6355b0d4fc5039e8c997fcddbf86aed36021621458f4ce5793841afb8dd",
+      "bytes": 2317808,
+      "rows": 2800
+    },
+    {
+      "path": "outputs/direct_prompting/gpt_4o.jsonl",
+      "sha256": "8aa8ed0fccc3842d5cf2c0634fca5095b9bc4135806e03b39372cae28312f946",
+      "bytes": 1825352,
+      "rows": 2800
+    }
+  ],
+  "configs": [
+    {
+      "path": "configs/direct_prompting/qwen_2_5_0_5b_instruct.yaml",
+      "sha256": "9b2312ceaedce7d8f10d7992d0397362d8b6fc71f7d0418e65eac670acc73c48",
+      "bytes": 307,
+      "rows": null
+    },
+    {
+      "path": "configs/direct_prompting/qwen_2_5_3b_instruct.yaml",
+      "sha256": "eb1504ddc7b9873ea0b6c74afb7df4fc63a1840ed2eaf684adfba2b16ed6ca3e",
+      "bytes": 303,
+      "rows": null
+    },
+    {
+      "path": "configs/direct_prompting/qwen_2_5_7b_instruct.yaml",
+      "sha256": "e17ce19660c9a9fdba131685b2efea5211e96db1e28a60872cfa2a381bb65e72",
+      "bytes": 303,
+      "rows": null
+    },
+    {
+      "path": "configs/direct_prompting/llama_3_1_8b_instruct.yaml",
+      "sha256": "382a1fe95cce7acca7739c96caea5b76da46dab7664306d9cc81409827186583",
+      "bytes": 305,
+      "rows": null
+    },
+    {
+      "path": "configs/direct_prompting/mistral_7b_instruct_v0_3.yaml",
+      "sha256": "5c97d33dbd8cbd6870035225d89ff4f81d4007f83aa9cba9b0fd202e64641fe1",
+      "bytes": 311,
+      "rows": null
+    },
+    {
+      "path": "configs/direct_prompting/gemma_2_9b_it.yaml",
+      "sha256": "5fa54e9c343c69d7ca601cdd6c080d978f3bbf077dc5ccbf2b3d66c2d5d8ad31",
+      "bytes": 289,
+      "rows": null
+    },
+    {
+      "path": "configs/direct_prompting/gemma_3_4b_it.yaml",
+      "sha256": "3279f8717a8c8f810c455a5cb3f4041650cbadcc1029596722b62041f79cabb8",
+      "bytes": 289,
+      "rows": null
+    },
+    {
+      "path": "configs/direct_prompting/vistral_7b_chat.yaml",
+      "sha256": "bea0cc45113623aaed59d8660ed75c061c39c0767e37043a4ca690a27cc4bd9d",
+      "bytes": 293,
+      "rows": null
+    },
+    {
+      "path": "configs/direct_prompting/seallm_7b_chat.yaml",
+      "sha256": "c7f1f751e444561e3f5c8a8da4e5326f959a6e59ab92d224c51f540d49727cad",
+      "bytes": 291,
+      "rows": null
+    },
+    {
+      "path": "configs/direct_prompting/gpt_4o.yaml",
+      "sha256": "1df0c1b72137c61b640503896c2aff6678eff4ca06f46caa58319f73e4762fcb",
+      "bytes": 276,
+      "rows": null
+    },
+    {
+      "path": "configs/models.yaml",
+      "sha256": "9a861f902e5898b48db6477e27912a998acafeb6ae1ef83a1150ba0e29313681",
+      "bytes": 1556,
+      "rows": null
+    },
+    {
+      "path": "configs/probe.yaml",
+      "sha256": "eb1504ddc7b9873ea0b6c74afb7df4fc63a1840ed2eaf684adfba2b16ed6ca3e",
+      "bytes": 303,
+      "rows": null
+    }
+  ],
+  "runners": [
+    {
+      "path": "src/probe_models.py",
+      "sha256": "51a0efa330820e24532096de0df74f7d493801edb248420b9609bd92c99ee54c",
+      "bytes": 16893,
+      "rows": null
+    },
+    {
+      "path": "src/probe_gemma3.py",
+      "sha256": "9775ce29ea8ae66d31f509755cfdc435d8ce3d008ab45715196762ee407a39d1",
+      "bytes": 14956,
+      "rows": null
+    },
+    {
+      "path": "src/probe_openai.py",
+      "sha256": "d3a20e232fd77c78ef19d90c2a10873334b5c00b038b21731efc64b773afa461",
+      "bytes": 9339,
+      "rows": null
+    },
+    {
+      "path": "src/prompting.py",
+      "sha256": "21166af6096d40d9c0f5598f0148c662fe3ed9af44004f475193a218d41b2696",
+      "bytes": 6948,
+      "rows": null
+    }
+  ],
+  "execution_logs": {
+    "path": "outputs/normalizer_full/run_logs.tar.gz",
+    "sha256": "bd126a958a5ff40b4c2c8c3ef1c032043aa6fd64140f8c2e12e777dac43b6feb",
+    "bytes": 122924,
+    "rows": null
+  },
+  "derived_analysis": [
+    {
+      "path": "outputs/normalizer_full/text_change_summary.csv",
+      "sha256": "0177df175bf979d41013c3d9b524df3f18c6ebe6ab21f5bea2060337afe05ffe",
+      "bytes": 428,
+      "rows": null
+    },
+    {
+      "path": "outputs/normalizer_full/field_match_summary.csv",
+      "sha256": "319f8aa5f6cd4e587ef708011102b0c53fb08d1651818a4cfcff6fcf4407b77b",
+      "bytes": 240,
+      "rows": null
+    },
+    {
+      "path": "outputs/normalizer_full/case_level_outcomes.csv",
+      "sha256": "8803704831a23d8d22587faf2b17437b8a8f29f8a6d3ee3e7bf506dd99534da3",
+      "bytes": 1542191,
+      "rows": null
+    },
+    {
+      "path": "outputs/normalizer_full/analysis_summary.json",
+      "sha256": "dbe8e30757093b26c9797ae85f3cfacfc34489ca93be3eff3531d6c68947f130",
+      "bytes": 3620,
+      "rows": null
+    },
+    {
+      "path": "outputs/normalizer_full/gpt_usage_summary.json",
+      "sha256": "585f667f96786ed6456c1d19f91dba5ad7fdf1f72dc46984ebc6658b4a8ef4c0",
+      "bytes": 122,
+      "rows": null
+    },
+    {
+      "path": "outputs/normalizer_full/selected_case_studies.jsonl",
+      "sha256": "241866a95323039178386e69e81185fd98569140499ed79a2b1f8ce1c31d1dc1",
+      "bytes": 50189,
+      "rows": 50
+    },
+    {
+      "path": "paper_artifacts/direct_prompting/paper_table_normalizer_full.csv",
+      "sha256": "20670ef4fa61a203639ea7f6a3a9045a131d97e011fc0f27d51396d2208f679d",
+      "bytes": 919,
+      "rows": null
+    },
+    {
+      "path": "paper_artifacts/direct_prompting/paper_table_normalizer_full.tex",
+      "sha256": "484aced7a2ed6d8efe0717c6aacfb85187214313104b4521bbdfe5fcfb97910f",
+      "bytes": 753,
+      "rows": null
+    },
+    {
+      "path": "paper_artifacts/direct_prompting/paper_table_normalizer_full_by_dialect.csv",
+      "sha256": "c0437ac644f1a9613c243276f9ec2e72703d1f7061323c3be552ba4572c81856",
+      "bytes": 338,
+      "rows": null
+    },
+    {
+      "path": "paper_artifacts/direct_prompting/paper_table_normalizer_full_by_task.csv",
+      "sha256": "54dd805046a7f1cf5f7de323adbe6f2b13f763cd43fdb24f9d46aef0418b51c2",
+      "bytes": 259,
+      "rows": null
+    },
+    {
+      "path": "paper_artifacts/direct_prompting/paper_table_normalizer_full_by_task_dialect.csv",
+      "sha256": "1461ac14c5ad7960b6c9e30c7b024a7d88d2de64c06272bb517b3df2a4968157",
+      "bytes": 14980,
+      "rows": null
+    },
+    {
+      "path": "paper_artifacts/direct_prompting/paper_table_normalizer_full_gold_probability.csv",
+      "sha256": "28cdd2c690a5d110f1cec61b2df4b1e7eb27b027698efdcd4bffdb522ec68745",
+      "bytes": 2099,
+      "rows": null
+    },
+    {
+      "path": "paper_artifacts/direct_prompting/paper_table_normalizer_full_gold_probability_by_task.csv",
+      "sha256": "2a380d8d341cdb4bd7fe3cd7f51cbd6838a27143e9ed7eda3476e3713f9446c3",
+      "bytes": 244,
+      "rows": null
+    }
+  ]
+}

@@ -54,6 +54,9 @@ wandb/
 !/outputs/finalized_6_complete_six_intrinsic_analysis/
 !/outputs/lexical_substitution_analysis/
 !/outputs/normalized_direct_prompting/
+!/outputs/normalizer_rescue/
+!/outputs/normalized_direct_prompting_full/
+!/outputs/normalizer_full/
 !/outputs/normalized_direct/
 !/outputs/direct_prompting_normalized/
 

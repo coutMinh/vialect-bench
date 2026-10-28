@@ -1,0 +1,4 @@
+Task,Paired model rows,Direct mean gold probability,Normalized mean gold probability,Change,Rows with increased gold probability
+mcqa,5400,0.5833,0.5907,+0.0074,3049
+nli,5400,0.4303,0.4406,+0.0102,2779
+sentiment,5400,0.2522,0.2587,+0.0065,2914

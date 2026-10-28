@@ -1,0 +1,5 @@
+Task,Model rows,Direct score,Normalized score,Change (pp),Direct EM,Normalized EM,EM change (pp)
+mcqa,6000,84.2,85.1,+0.9,84.2,85.1,+0.9
+nli,6000,48.9,50.5,+1.5,48.9,50.5,+1.5
+qa,6000,65.2,69.1,+3.9,33.5,35.1,+1.6
+sentiment,6000,39.3,40.4,+1.1,39.3,40.4,+1.1

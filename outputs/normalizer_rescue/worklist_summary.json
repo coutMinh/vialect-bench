@@ -1,0 +1,32 @@
+{
+  "input_probe": "data\\Finalized\\probe_dialects.jsonl",
+  "input_predictions": "outputs\\direct_prompting",
+  "selection": "standard exact match correct; >= half of available dialect variants exact match wrong; include only those wrong dialect rows",
+  "prediction_rows_read_by_model": {
+    "gemma_2_9b_it": 2800,
+    "gemma_3_4b_it": 2800,
+    "gpt_4o": 2800,
+    "llama_3_1_8b_instruct": 2800,
+    "mistral_7b_instruct_v0_3": 2800,
+    "qwen_2_5_0_5b_instruct": 2800,
+    "qwen_2_5_3b_instruct": 2800,
+    "qwen_2_5_7b_instruct": 2800,
+    "seallm_7b_chat": 2800,
+    "vistral_7b_chat": 2800
+  },
+  "hard_failure_rows_by_model": {
+    "gemma_2_9b_it": 80,
+    "gemma_3_4b_it": 67,
+    "gpt_4o": 47,
+    "llama_3_1_8b_instruct": 72,
+    "mistral_7b_instruct_v0_3": 116,
+    "qwen_2_5_0_5b_instruct": 83,
+    "qwen_2_5_3b_instruct": 85,
+    "qwen_2_5_7b_instruct": 84,
+    "seallm_7b_chat": 83,
+    "vistral_7b_chat": 36
+  },
+  "hard_failure_rows": 753,
+  "unique_case_dialect_variants": 541,
+  "unique_source_cases": 138
+}
